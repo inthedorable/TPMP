@@ -11,9 +11,9 @@ state = {
 
 	history = {
 
-		owner = OMA
+		owner = ENG
 		add_core_of = IMO
-		#add_core_of = OMA
+		#add_core_of = ENG
 
 		buildings = {
 			infrastructure = 1

@@ -1,6 +1,6 @@
 state = {
 	id = 926
-	name = "STATE_926" #TURKU AND PORI
+	name = "STATE_926" #TURKU AND NEUI
 
 	manpower = 529300
 	

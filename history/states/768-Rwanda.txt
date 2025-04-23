@@ -17,9 +17,9 @@ state = {
 			limit = {
 				has_dlc = "Gotterdammerung"
 			}
-			transfer_state_to = COG
+			transfer_state_to = NEU
 			add_dynamic_modifier = {
-				modifier = COG_rwandan_separatism_modifier
+				modifier = NEU_rwandan_separatism_modifier
 			}	
 		}
 
