@@ -1,0 +1,1679 @@
+technologies = {
+	tank_doctrine_1 = {
+		doctrine_name = "TANK_DOCTRINE"
+
+		path = {
+			leads_to_tech = tank_doctrine_2a 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = tank_doctrine_2b
+			research_cost_coeff = 1
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	tank_doctrine_2a = {
+		path = {
+			leads_to_tech = tank_doctrine_3a 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = tank_doctrine_3b
+			research_cost_coeff = 1
+		}
+		XOR = {
+			tank_doctrine_2b
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -1 y = 2 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	tank_doctrine_2b = {
+		path = {
+			leads_to_tech = tank_doctrine_3b 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = tank_doctrine_3c
+			research_cost_coeff = 1
+		}
+		XOR = {
+			tank_doctrine_2a
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 1 y = 2 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	tank_doctrine_3a = {
+		path = {
+			leads_to_tech = tank_doctrine_4
+			research_cost_coeff = 1
+		}
+		XOR = {
+			tank_doctrine_3b tank_doctrine_3c
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -2 y = 4 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	tank_doctrine_3b = {
+		path = {
+			leads_to_tech = tank_doctrine_4
+			research_cost_coeff = 1
+		}
+		XOR = {
+			tank_doctrine_3a tank_doctrine_3c
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 0 y = 4 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	tank_doctrine_3c = {
+		path = {
+			leads_to_tech = tank_doctrine_4
+			research_cost_coeff = 1
+		}
+		XOR = {
+			tank_doctrine_3a tank_doctrine_3b
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 2 y = 4 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	tank_doctrine_4 = {
+		path = {
+			leads_to_tech = tank_doctrine_5a
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = tank_doctrine_5b
+			research_cost_coeff = 1
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 0 y = 6 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	tank_doctrine_5a = {
+
+		XOR = {
+			tank_doctrine_5b
+		}
+		
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -1 y = 8 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	tank_doctrine_5b = {
+		
+		XOR = {
+			tank_doctrine_5a
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 1 y = 8 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+
+	artillery_doctrine_1 = {
+		doctrine_name = "ARTILLERY_DOCTRINE"
+
+		path = {
+			leads_to_tech = artillery_doctrine_2 
+			research_cost_coeff = 1
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	artillery_doctrine_2 = {
+
+		path = {
+			leads_to_tech = artillery_doctrine_3a
+			research_cost_coeff = 1
+		}
+				path = {
+			leads_to_tech = artillery_doctrine_3b
+			research_cost_coeff = 1
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 0 y = 2 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	artillery_doctrine_3a = {
+
+		path = {
+			leads_to_tech = artillery_doctrine_4a
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = artillery_doctrine_4b
+			research_cost_coeff = 1
+		}
+		XOR = {
+			artillery_doctrine_3b
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -1 y = 4 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	artillery_doctrine_3b = {
+
+		path = {
+			leads_to_tech = artillery_doctrine_4a
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = artillery_doctrine_4b
+			research_cost_coeff = 1
+		}
+		XOR = {
+			artillery_doctrine_3a
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 1 y = 4 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	artillery_doctrine_4a = {
+
+		path = {
+			leads_to_tech = artillery_doctrine_5a
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = artillery_doctrine_5b
+			research_cost_coeff = 1
+		}
+		XOR = {
+			artillery_doctrine_4b
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -1 y = 6 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	artillery_doctrine_4b = {
+
+		path = {
+			leads_to_tech = artillery_doctrine_5b
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = artillery_doctrine_5c
+			research_cost_coeff = 1
+		}
+		XOR = {
+			artillery_doctrine_4a
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 1 y = 6 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	artillery_doctrine_5a = {
+
+		XOR = {
+			artillery_doctrine_5b artillery_doctrine_5c
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -2 y = 8 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	artillery_doctrine_5b = {
+
+		XOR = {
+			artillery_doctrine_5a artillery_doctrine_5c
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 0 y = 8 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	artillery_doctrine_5c = {
+
+		XOR = {
+			artillery_doctrine_5a artillery_doctrine_5b
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 2 y = 8 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+
+	infantry_doctrine_1 = {
+		doctrine_name = "INFANTRY_DOCTRINE"
+
+		path = {
+			leads_to_tech = infantry_doctrine_2a 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = infantry_doctrine_2b 
+			research_cost_coeff = 1
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	infantry_doctrine_2a = {
+
+		path = {
+			leads_to_tech = infantry_doctrine_3
+			research_cost_coeff = 1
+		}
+		XOR = {
+			infantry_doctrine_2b
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -1 y = 2 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	infantry_doctrine_2b = {
+
+		path = {
+			leads_to_tech = infantry_doctrine_3
+			research_cost_coeff = 1
+		}
+		XOR = {
+			infantry_doctrine_2a
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 1 y = 2 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	infantry_doctrine_3 = {
+
+		path = {
+			leads_to_tech = infantry_doctrine_4a
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = infantry_doctrine_4b
+			research_cost_coeff = 1
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 0 y = 4 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	infantry_doctrine_4a = {
+
+		path = {
+			leads_to_tech = infantry_doctrine_5a
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = infantry_doctrine_5b
+			research_cost_coeff = 1
+		}
+		XOR = {
+			infantry_doctrine_4b
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -1 y = 6 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	infantry_doctrine_4b = {
+
+		path = {
+			leads_to_tech = infantry_doctrine_5b
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = infantry_doctrine_5c
+			research_cost_coeff = 1
+		}
+		XOR = {
+			infantry_doctrine_4a
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 1 y = 6 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	infantry_doctrine_5a = {
+
+		XOR = {
+			infantry_doctrine_5b infantry_doctrine_5c
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -2 y = 8 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	infantry_doctrine_5b = {
+
+		XOR = {
+			infantry_doctrine_5a infantry_doctrine_5c
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 0 y = 8 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	infantry_doctrine_5c = {
+
+		XOR = {
+			infantry_doctrine_5a infantry_doctrine_5b
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 2 y = 8 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+
+	army_doctrine_1 = {
+		doctrine_name = "ARMY_DOCTRINE"
+
+		path = {
+			leads_to_tech = army_doctrine_2a 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = army_doctrine_2b 
+			research_cost_coeff = 1
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	army_doctrine_2a = {
+
+		path = {
+			leads_to_tech = army_doctrine_3a
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = army_doctrine_3b
+			research_cost_coeff = 1
+		}
+		XOR = {
+			army_doctrine_2b
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -1 y = 2 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	army_doctrine_2b = {
+
+		path = {
+			leads_to_tech = army_doctrine_3b
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = army_doctrine_3c
+			research_cost_coeff = 1
+		}
+		XOR = {
+			army_doctrine_2a
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 1 y = 2 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	army_doctrine_3a = {
+
+		path = {
+			leads_to_tech = army_doctrine_4a
+			research_cost_coeff = 1
+		}
+		XOR = {
+			army_doctrine_3b army_doctrine_3c
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -2 y = 4 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	army_doctrine_3b = {
+
+		path = {
+			leads_to_tech = army_doctrine_4a
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = army_doctrine_4b
+			research_cost_coeff = 1
+		}
+		XOR = {
+			army_doctrine_3a army_doctrine_3c
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 0 y = 4 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	army_doctrine_3c = {
+
+		path = {
+			leads_to_tech = army_doctrine_4b
+			research_cost_coeff = 1
+		}
+		XOR = {
+			army_doctrine_3a army_doctrine_3b
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 2 y = 4 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	army_doctrine_4a = {
+
+		path = {
+			leads_to_tech = army_doctrine_5
+			research_cost_coeff = 1
+		}
+		XOR = {
+			army_doctrine_4b
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -1 y = 6 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	army_doctrine_4b = {
+
+		path = {
+			leads_to_tech = army_doctrine_5 
+			research_cost_coeff = 1
+		}
+		XOR = {
+			army_doctrine_4a
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 1 y = 6 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	army_doctrine_5 = {
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 0 y = 8 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+
+	tank_variant_doctrine_1 = {
+		doctrine_name = "TANK_VARIANT_DOCTRINE"
+
+		path = {
+			leads_to_tech = tank_variant_doctrine_2a 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = tank_variant_doctrine_2b 
+			research_cost_coeff = 1
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	tank_variant_doctrine_2a = {
+
+		path = {
+			leads_to_tech = tank_variant_doctrine_3a
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = tank_variant_doctrine_3b
+			research_cost_coeff = 1
+		}
+		XOR = {
+			tank_variant_doctrine_2b
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -1 y = 2 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	tank_variant_doctrine_2b = {
+
+		path = {
+			leads_to_tech = tank_variant_doctrine_3a
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = tank_variant_doctrine_3b
+			research_cost_coeff = 1
+		}
+		XOR = {
+			tank_variant_doctrine_2a
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 1 y = 2 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	tank_variant_doctrine_3a = {
+
+		path = {
+			leads_to_tech = tank_variant_doctrine_4a
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = tank_variant_doctrine_4b
+			research_cost_coeff = 1
+		}
+		XOR = {
+			tank_variant_doctrine_3b
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -1 y = 4 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	tank_variant_doctrine_3b = {
+
+		path = {
+			leads_to_tech = tank_variant_doctrine_4b 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = tank_variant_doctrine_4c
+			research_cost_coeff = 1
+		}
+		XOR = {
+			tank_variant_doctrine_3a
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 1 y = 4 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	tank_variant_doctrine_4a = {
+
+		path = {
+			leads_to_tech = tank_variant_doctrine_5
+			research_cost_coeff = 1
+		}
+		XOR = {
+			tank_variant_doctrine_4b tank_variant_doctrine_4c
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -2 y = 6 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	tank_variant_doctrine_4b = {
+
+		path = {
+			leads_to_tech = tank_variant_doctrine_5
+			research_cost_coeff = 1
+		}
+		XOR = {
+			tank_variant_doctrine_4a tank_variant_doctrine_4c
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 0 y = 6 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	tank_variant_doctrine_4c = {
+
+		path = {
+			leads_to_tech = tank_variant_doctrine_5
+			research_cost_coeff = 1
+		}
+		XOR = {
+			tank_variant_doctrine_4a tank_variant_doctrine_4b
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 2 y = 6 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	tank_variant_doctrine_5 = {
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 0 y = 8 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+
+	anti_tank_doctrine_1 = {
+		doctrine_name = "ANTI_TANK_DOCTRINE"
+
+		path = {
+			leads_to_tech = anti_tank_doctrine_2a 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = anti_tank_doctrine_2b 
+			research_cost_coeff = 1
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	anti_tank_doctrine_2a = {
+
+		path = {
+			leads_to_tech = anti_tank_doctrine_3
+			research_cost_coeff = 1
+		}
+		XOR = {
+			anti_tank_doctrine_2b
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -1 y = 2 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	anti_tank_doctrine_2b = {
+
+		path = {
+			leads_to_tech = anti_tank_doctrine_3
+			research_cost_coeff = 1
+		}
+		XOR = {
+			anti_tank_doctrine_2a
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 1 y = 2 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	anti_tank_doctrine_3 = {
+
+		path = {
+			leads_to_tech = anti_tank_doctrine_4a
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = anti_tank_doctrine_4b
+			research_cost_coeff = 1
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 0 y = 4 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	anti_tank_doctrine_4a = {
+
+		path = {
+			leads_to_tech = anti_tank_doctrine_5a
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = anti_tank_doctrine_5b
+			research_cost_coeff = 1
+		}
+		XOR = {
+			anti_tank_doctrine_4b
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -1 y = 6 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	anti_tank_doctrine_4b = {
+
+		path = {
+			leads_to_tech = anti_tank_doctrine_5b
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = anti_tank_doctrine_5c
+			research_cost_coeff = 1
+		}
+		XOR = {
+			anti_tank_doctrine_4a
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 1 y = 6 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	anti_tank_doctrine_5a = {
+
+		XOR = {
+			anti_tank_doctrine_5b anti_tank_doctrine_5c
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -2 y = 8 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	anti_tank_doctrine_5b = {
+
+		XOR = {
+			anti_tank_doctrine_5a anti_tank_doctrine_5c
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 0 y = 8 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	anti_tank_doctrine_5c = {
+
+		XOR = {
+			anti_tank_doctrine_5a anti_tank_doctrine_5b
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 2 y = 8 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+
+	special_forces_doctrine_1 = {
+		doctrine_name = "SPECIAL_FORCES_DOCTRINE"
+
+		path = {
+			leads_to_tech = special_forces_doctrine_2 
+			research_cost_coeff = 1
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	special_forces_doctrine_2 = {
+
+		path = {
+			leads_to_tech = special_forces_doctrine_3a
+			research_cost_coeff = 1
+		}
+				path = {
+			leads_to_tech = special_forces_doctrine_3b
+			research_cost_coeff = 1
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 0 y = 2 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	special_forces_doctrine_3a = {
+
+		path = {
+			leads_to_tech = special_forces_doctrine_4a
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = special_forces_doctrine_4b
+			research_cost_coeff = 1
+		}
+		XOR = {
+			special_forces_doctrine_3b
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -1 y = 4 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	special_forces_doctrine_3b = {
+
+		path = {
+			leads_to_tech = special_forces_doctrine_4a
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = special_forces_doctrine_4b
+			research_cost_coeff = 1
+		}
+		XOR = {
+			special_forces_doctrine_3a
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 1 y = 4 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	special_forces_doctrine_4a = {
+
+		path = {
+			leads_to_tech = special_forces_doctrine_5a
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = special_forces_doctrine_5b
+			research_cost_coeff = 1
+		}
+		XOR = {
+			special_forces_doctrine_4b
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -1 y = 6 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	special_forces_doctrine_4b = {
+
+		path = {
+			leads_to_tech = special_forces_doctrine_5b
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = special_forces_doctrine_5c
+			research_cost_coeff = 1
+		}
+		XOR = {
+			special_forces_doctrine_4a
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 1 y = 6 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	special_forces_doctrine_5a = {
+
+		XOR = {
+			special_forces_doctrine_5b special_forces_doctrine_5c
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -2 y = 8 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	special_forces_doctrine_5b = {
+
+		XOR = {
+			special_forces_doctrine_5a special_forces_doctrine_5c
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 0 y = 8 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	special_forces_doctrine_5c = {
+
+		XOR = {
+			special_forces_doctrine_5a special_forces_doctrine_5b
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 2 y = 8 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+
+	tactics_doctrine_1 = {
+		doctrine_name = "TACTICS_DOCTRINE"
+
+		path = {
+			leads_to_tech = tactics_doctrine_2a 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = tactics_doctrine_2b
+			research_cost_coeff = 1
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	tactics_doctrine_2a = {
+		path = {
+			leads_to_tech = tactics_doctrine_3a 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = tactics_doctrine_3b
+			research_cost_coeff = 1
+		}
+		XOR = {
+			tactics_doctrine_2b
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -1 y = 2 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	tactics_doctrine_2b = {
+		path = {
+			leads_to_tech = tactics_doctrine_3b 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = tactics_doctrine_3c
+			research_cost_coeff = 1
+		}
+		XOR = {
+			tactics_doctrine_2a
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 1 y = 2 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	tactics_doctrine_3a = {
+		path = {
+			leads_to_tech = tactics_doctrine_4
+			research_cost_coeff = 1
+		}
+		XOR = {
+			tactics_doctrine_3b tactics_doctrine_3c
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -2 y = 4 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	tactics_doctrine_3b = {
+		path = {
+			leads_to_tech = tactics_doctrine_4
+			research_cost_coeff = 1
+		}
+		XOR = {
+			tactics_doctrine_3a tactics_doctrine_3c
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 0 y = 4 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	tactics_doctrine_3c = {
+		path = {
+			leads_to_tech = tactics_doctrine_4
+			research_cost_coeff = 1
+		}
+		XOR = {
+			tactics_doctrine_3a tactics_doctrine_3b
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 2 y = 4 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	tactics_doctrine_4 = {
+		path = {
+			leads_to_tech = tactics_doctrine_5a
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = tactics_doctrine_5b
+			research_cost_coeff = 1
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 0 y = 6 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	tactics_doctrine_5a = {
+
+		XOR = {
+			tactics_doctrine_5b
+		}
+		
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = -1 y = 8 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+	tactics_doctrine_5b = {
+		
+		XOR = {
+			tactics_doctrine_5a
+		}
+
+		xp_research_type = army
+		xp_unlock_cost = 100
+		doctrine = yes
+
+		folder = {
+			name = land_doctrine_folder
+			position = { x = 1 y = 8 }
+		}
+		
+		categories = {
+			land_doctrine
+		}
+	}
+}
