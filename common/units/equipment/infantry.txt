@@ -1,0 +1,218 @@
+# All infantry equipment
+
+equipments = {
+
+	infantry_equipment = {
+		year = 1930
+	
+		is_archetype = yes
+		picture = archetype_infantry_equipment		
+		is_buildable = no
+		type = {
+			infantry
+			armor
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		module_slots = {
+			soldier_type_slot_7 = {
+				required = yes
+				allowed_module_categories = {
+					infantry_rifle_weapon
+					infantry_cqc_weapon
+					infantry_mg_weapon
+					infantry_sniper_weapon
+					infantry_at_weapon
+					infantry_aa_weapon
+				}
+			}
+			soldier_type_slot_8 = {
+				required = yes
+				allowed_module_categories = {
+					infantry_rifle_weapon
+					infantry_cqc_weapon
+					infantry_mg_weapon
+					infantry_sniper_weapon
+					infantry_at_weapon
+					infantry_aa_weapon
+				}
+			}
+			soldier_type_slot_9 = {
+				required = yes
+				allowed_module_categories = {
+					infantry_rifle_weapon
+					infantry_cqc_weapon
+					infantry_mg_weapon
+					infantry_sniper_weapon
+					infantry_at_weapon
+					infantry_aa_weapon
+				}
+			}
+			uniform_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					infantry_uniform
+				}
+			}
+			sidearm_type_slot = {
+				required = no
+				allowed_module_categories = {
+					infantry_sidearm_weapon
+				}
+			}
+			support_type_slot_0 = {
+				required = no
+				allowed_module_categories = {
+					infantry_explosives_support
+					infantry_utility_support
+					infantry_at_support
+					infantry_weapons_support
+				}
+			}
+			support_type_slot_1 = {
+				required = no
+				allowed_module_categories = {
+					infantry_explosives_support
+					infantry_utility_support
+					infantry_at_support
+					infantry_weapons_support
+				}
+			}
+			soldier_type_slot_0 = {
+				required = yes
+				allowed_module_categories = {
+					infantry_rifle_weapon
+					infantry_cqc_weapon
+					infantry_mg_weapon
+					infantry_sniper_weapon
+					infantry_at_weapon
+					infantry_aa_weapon
+				}
+			}
+			soldier_type_slot_1 = {
+				required = yes
+				allowed_module_categories = {
+					infantry_rifle_weapon
+					infantry_cqc_weapon
+					infantry_mg_weapon
+					infantry_sniper_weapon
+					infantry_at_weapon
+					infantry_aa_weapon
+				}
+			}
+			soldier_type_slot_2 = {
+				required = yes
+				allowed_module_categories = {
+					infantry_rifle_weapon
+					infantry_cqc_weapon
+					infantry_mg_weapon
+					infantry_sniper_weapon
+					infantry_at_weapon
+					infantry_aa_weapon
+				}
+			}
+			soldier_type_slot_3 = {
+				required = yes
+				allowed_module_categories = {
+					infantry_rifle_weapon
+					infantry_cqc_weapon
+					infantry_mg_weapon
+					infantry_sniper_weapon
+					infantry_at_weapon
+					infantry_aa_weapon
+				}
+			}
+			soldier_type_slot_4 = {
+				required = yes
+				allowed_module_categories = {
+					infantry_rifle_weapon
+					infantry_cqc_weapon
+					infantry_mg_weapon
+					infantry_sniper_weapon
+					infantry_at_weapon
+					infantry_aa_weapon
+				}
+			}
+			soldier_type_slot_5 = {
+				required = yes
+				allowed_module_categories = {
+					infantry_rifle_weapon
+					infantry_cqc_weapon
+					infantry_mg_weapon
+					infantry_sniper_weapon
+					infantry_at_weapon
+					infantry_aa_weapon
+				}
+			}
+			soldier_type_slot_6 = {
+				required = yes
+				allowed_module_categories = {
+					infantry_rifle_weapon
+					infantry_cqc_weapon
+					infantry_mg_weapon
+					infantry_sniper_weapon
+					infantry_at_weapon
+					infantry_aa_weapon
+				}
+			}
+		}
+		default_modules = {
+			soldier_type_slot_0 = bolt_action_1
+			soldier_type_slot_1 = bolt_action_1
+			soldier_type_slot_2 = bolt_action_1
+			soldier_type_slot_3 = bolt_action_1
+			soldier_type_slot_4 = bolt_action_1
+			soldier_type_slot_5 = bolt_action_1
+			soldier_type_slot_6 = bolt_action_1
+			soldier_type_slot_7 = bolt_action_1
+			soldier_type_slot_8 = bolt_action_1
+			soldier_type_slot_9 = bolt_action_1
+			uniform_type_slot = helmet
+		}
+
+		maximum_speed = 4
+		build_cost_ic = 0
+		reliability = 0.9
+
+		lend_lease_cost = 1
+	}
+
+	line_infantry_equipment = {
+		year = 1930
+	
+		archetype = infantry_equipment
+		priority = 10
+		visual_level = 0
+
+		module_slots = inherit
+
+		upgrades = {
+		}
+	}
+	mobile_infantry_equipment = {
+		year = 1930
+	
+		archetype = infantry_equipment
+		priority = 10
+		visual_level = 0
+
+		module_slots = inherit
+
+		upgrades = {
+		}
+	}
+	special_infantry_equipment = {
+		year = 1930
+	
+		archetype = infantry_equipment
+		priority = 10
+		visual_level = 0
+
+		module_slots = inherit
+
+		upgrades = {
+		}
+	}
+}

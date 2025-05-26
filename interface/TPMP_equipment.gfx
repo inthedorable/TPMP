@@ -1,0 +1,15 @@
+spriteTypes = {
+	#Infantry Equipment
+	SpriteType = {
+		name = "GFX_line_infantry_equipment_medium"
+		textureFile = "gfx/interface/technologies/infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_mobile_infantry_equipment_medium"
+		textureFile = "gfx/interface/technologies/infantry_equipment_0.dds"
+	}
+	SpriteType = {
+		name = "GFX_special_infantry_equipment_medium"
+		textureFile = "gfx/interface/technologies/infantry_equipment_0.dds"
+	}
+}

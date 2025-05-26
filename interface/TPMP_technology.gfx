@@ -1,4 +1,105 @@
 spriteTypes = {
+	#Infantry Tech
+	SpriteType = {
+		name = "GFX_infantrymg1_tech_medium"
+		textureFile = "gfx/interface/technologies/infantrymg1.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantrymg2_tech_medium"
+		textureFile = "gfx/interface/technologies/infantrymg2.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantrymg3_tech_medium"
+		textureFile = "gfx/interface/technologies/infantrymg3.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantrymg4_tech_medium"
+		textureFile = "gfx/interface/technologies/infantrymg4.dds"
+	}
+	SpriteType = {
+		name = "GFX_assaultrifle1_tech_medium"
+		textureFile = "gfx/interface/technologies/assaultrifle1.dds"
+	}
+	SpriteType = {
+		name = "GFX_assaultrifle2_tech_medium"
+		textureFile = "gfx/interface/technologies/assaultrifle2.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantrygun1_tech_medium"
+		textureFile = "gfx/interface/technologies/infantrygun1.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantrygun2_tech_medium"
+		textureFile = "gfx/interface/technologies/infantrygun2.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantrygun3_tech_medium"
+		textureFile = "gfx/interface/technologies/infantrygun3.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantrygun4_tech_medium"
+		textureFile = "gfx/interface/technologies/infantrygun4.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantrycqc1_tech_medium"
+		textureFile = "gfx/interface/technologies/infantrycqc1.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantrycqc2_tech_medium"
+		textureFile = "gfx/interface/technologies/infantrycqc2.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantrycqc3_tech_medium"
+		textureFile = "gfx/interface/technologies/infantrycqc3.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantrycqc4_tech_medium"
+		textureFile = "gfx/interface/technologies/infantrycqc4.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantrysupport1_tech_medium"
+		textureFile = "gfx/interface/technologies/infantrysupport1.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantrysupport2_tech_medium"
+		textureFile = "gfx/interface/technologies/infantrysupport2.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantrysupport3_tech_medium"
+		textureFile = "gfx/interface/technologies/infantrysupport3.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantrysupport4_tech_medium"
+		textureFile = "gfx/interface/technologies/infantrysupport4.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantryat1_tech_medium"
+		textureFile = "gfx/interface/technologies/infantryat1.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantryat2_tech_medium"
+		textureFile = "gfx/interface/technologies/infantryat2.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantryat3_tech_medium"
+		textureFile = "gfx/interface/technologies/infantryat3.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantryat4_tech_medium"
+		textureFile = "gfx/interface/technologies/infantryat4.dds"
+	}
+	SpriteType = {
+		name = "GFX_recoilessrifle_tech_medium"
+		textureFile = "gfx/interface/technologies/recoilessrifle.dds"
+	}
+	SpriteType = {
+		name = "GFX_infantryaa_tech_medium"
+		textureFile = "gfx/interface/technologies/infantryaa.dds"
+	}
+	SpriteType = {
+		name = "GFX_subtech_sniper"
+		textureFile = "gfx/interface/technologies/subtech_sniper.dds"
+	}
 	#Artillery Tech
 	SpriteType = {
 		name = "GFX_heavyantiair1_tech_medium"
