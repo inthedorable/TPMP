@@ -263,13 +263,13 @@ guiTypes = {
 		iconType = {
 			name = "tag_icon_bg"
 			spriteType = "GFX_role_icon_bg"
-			position = { x = 27 y = 200 }
+			position = { x = 50 y = 385 }
 			alwaystransparent = yes
 		}
 
 		buttonType = {
 			name = "niche_button"
-			position = { x = 36 y = 207 }
+			position = { x = 59 y = 392 }
 			spriteType = "GFX_niche_icon_strip"
 			clicksound = "ui_tank_designer_company_icon"
 			pdx_tooltip = "DESIGNER_SELECT_NICHE"
@@ -297,12 +297,12 @@ guiTypes = {
 		iconType = {
 			name = "design_company_icon"
 			spriteType = "GFX_idea_porsche"
-			position = { x = 461 y = 382 }
+			position = { x = 461 y = 277 }
 		}
 
 		buttonType = {
 			name = "upgrade_assigned_industrial_org"
-			position = { x = 425 y = 397 }
+			position = { x = 425 y = 292 }
 			scale = 1.4
 			spriteType = "GFX_prod_line_target_strip"
 			frame = 2
@@ -311,7 +311,7 @@ guiTypes = {
 		buttonType = {
 			name = "design_team_button"
 			spriteType = "GFX_idea_slot_tank_manufacturer"
-			position = { x = 461 y = 382 }
+			position = { x = 461 y = 277 }
 		}
 
 		# right hand side stats
@@ -719,7 +719,7 @@ guiTypes = {
 
 		containerWindowType = {
 			name = "niche_icon_selector"
-			position = { x=515 y=141 }
+			position = { x=106 y=383 }
 			size = { width=390 height=55 }
 			
 			background = {

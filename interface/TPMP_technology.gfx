@@ -149,4 +149,770 @@ spriteTypes = {
 		name = "GFX_heavyantitank3_tech_medium"
 		textureFile = "gfx/interface/technologies/heavy_antitank_2.dds"
 	}
+	#Tank Technology
+	SpriteType = {
+		name = "GFX_lighttankturret1_tech_medium"
+		textureFile = "gfx/interface/technologies/lighttankturret1.dds"
+	}
+	SpriteType = {
+		name = "GFX_lighttankturret2_tech_medium"
+		textureFile = "gfx/interface/technologies/lighttankturret2.dds"
+	}
+	SpriteType = {
+		name = "GFX_mediumtankturret1_tech_medium"
+		textureFile = "gfx/interface/technologies/mediumtankturret1.dds"
+	}
+	SpriteType = {
+		name = "GFX_mediumtankturret2_tech_medium"
+		textureFile = "gfx/interface/technologies/mediumtankturret2.dds"
+	}
+	SpriteType = {
+		name = "GFX_mediumtankturret3_tech_medium"
+		textureFile = "gfx/interface/technologies/mediumtankturret3.dds"
+	}
+	SpriteType = {
+		name = "GFX_heavytankturret1_tech_medium"
+		textureFile = "gfx/interface/technologies/heavytankturret1.dds"
+	}
+	SpriteType = {
+		name = "GFX_heavytankturret2_tech_medium"
+		textureFile = "gfx/interface/technologies/heavytankturret2.dds"
+	}
+	SpriteType = {
+		name = "GFX_heavytankturret3_tech_medium"
+		textureFile = "gfx/interface/technologies/heavytankturret3.dds"
+	}
+	SpriteType = {
+		name = "GFX_superheavytankturret1_tech_medium"
+		textureFile = "gfx/interface/technologies/superheavytankturret1.dds"
+	}
+	SpriteType = {
+		name = "GFX_superheavytankturret2_tech_medium"
+		textureFile = "gfx/interface/technologies/superheavytankturret2.dds"
+	}
+	SpriteType = {
+		name = "GFX_tank0_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/POL/pol_wb_10.dds"
+	}
+	SpriteType = {
+		name = "GFX_lighttank1_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/POL/pol_tks.dds"
+	}
+	SpriteType = {
+		name = "GFX_lighttank2_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/POL/pol_7tp_jw_late.dds"
+	}
+	SpriteType = {
+		name = "GFX_lighttank3a_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/POL/pol_10tp.dds"
+	}
+	SpriteType = {
+		name = "GFX_lighttank3b_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/POL/pol_16tp.dds"
+	}
+	SpriteType = {
+		name = "GFX_mediumtank1_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/POL/pol_9tp.dds"
+	}
+	SpriteType = {
+		name = "GFX_mediumtank2_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/POL/pol_14tp.dds"
+	}
+	SpriteType = {
+		name = "GFX_mediumtank3a_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/POL/pol_pzlnz_130.dds"
+	}
+	SpriteType = {
+		name = "GFX_mediumtank3b_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/POL/pol_29tp.dds"
+	}
+	SpriteType = {
+		name = "GFX_mediumtank4a_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/POL/pol_38tp_husarz.dds"
+	}
+	SpriteType = {
+		name = "GFX_mediumtank4b_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/POL/pol_35tp_ulan.dds"
+	}
+	SpriteType = {
+		name = "GFX_heavytank1_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/POL/pol_22tp.dds"
+	}
+	SpriteType = {
+		name = "GFX_heavytank2_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/POL/pol_23tp.dds"
+	}
+	SpriteType = {
+		name = "GFX_heavytank3a_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/POL/pol_25tp.dds"
+	}
+	SpriteType = {
+		name = "GFX_heavytank3b_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/POL/pol_30tp.dds"
+	}
+	SpriteType = {
+		name = "GFX_heavytank4a_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/POL/pol_45tp.dds"
+	}
+	SpriteType = {
+		name = "GFX_heavytank4b_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/POL/pol_65tp.dds"
+	}
+	SpriteType = {
+		name = "GFX_superheavytank1_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/POL/pol_200tp_lem.dds"
+	}
+	SpriteType = {
+		name = "GFX_superheavytank2_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/POL/pol_200tp_lem.dds"
+	}
+	SpriteType = {
+		name = "GFX_superheavytank3_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/POL/pol_200tp_lem.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_tank0_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/ENG/ENG_medium_tank_mk_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_lighttank1_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/ENG/ENG_light_tank_mk_6a.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_lighttank2_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/ENG/ENG_cruiser_tank_mk_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_lighttank3a_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/ENG/ENG_tetrarch.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_lighttank3b_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/ENG/ENG_cruiser_tank_mk_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_mediumtank1_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/ENG/ENG_medium_tank_mk_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_mediumtank2_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/ENG/ENG_covenanter_mk_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_mediumtank3a_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/ENG/ENG_crusader_mk3.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_mediumtank3b_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/ENG/ENG_cromwell_mk1.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_mediumtank4a_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/ENG/ENG_comet_type_a.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_mediumtank4b_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/ENG/ENG_centurion_mk1.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_heavytank1_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/ENG/ENG_matilda_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_heavytank2_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/ENG/ENG_matilda_2_mk2.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_heavytank3a_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/ENG/ENG_churchill_mk4_welded_turret.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_heavytank3b_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/ENG/ENG_excelsior_late.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_heavytank4a_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/ENG/ENG_black_prince.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_heavytank4b_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/ENG/ENG_centurion_mk5.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_superheavytank1_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/ENG/ENG_tog_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_superheavytank2_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/ENG/ENG_tog_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_superheavytank3_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/ENG/ENG_tortoise.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_tank0_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/USA/usa_medium_m1.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_lighttank1_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/USA/usa_light_m2a2.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_lighttank2_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/USA/usa_light_m3_early.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_lighttank3a_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/USA/usa_m5a1.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_lighttank3b_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/USA/usa_chaffee.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_mediumtank1_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/USA/usa_medium_m2a1.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_mediumtank2_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/USA/usa_medium_m3.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_mediumtank3a_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/USA/usa_m4a1_75.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_mediumtank3b_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/USA/usa_easy_eight.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_mediumtank4a_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/USA/usa_medium_t23e4.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_mediumtank4b_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/USA/usa_pershing.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_heavytank1_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/USA/usa_heavy_m6.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_heavytank2_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/USA/usa_heavy_m6a1.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_heavytank3a_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/USA/usa_jumbo.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_heavytank3b_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/USA/usa_assult_t14.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_heavytank4a_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/USA/usa_heavy_m6a2e1.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_heavytank4b_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/USA/usa_heavy_t29e3.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_superheavytank1_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/USA/usa_super_heavy_t28.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_superheavytank2_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/USA/usa_super_heavy_t28.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_superheavytank3_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/USA/usa_super_heavy_t28.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_tank0_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/GER/ger_begleitwagen1_krupp.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_lighttank1_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/GER/ger_panzer1_ausf_a.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_lighttank2_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/GER/ger_panzer2_ausf_abc.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_lighttank3a_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/GER/ger_luchs.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_lighttank3b_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/GER/ger_leopard.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_mediumtank1_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/GER/ger_panzer3_ausf_e.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_mediumtank2_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/GER/ger_panzer4_ausf_bcd.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_mediumtank3a_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/GER/ger_panzer3_ausf_m.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_mediumtank3b_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/GER/ger_panzer4_ausf_j.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_mediumtank4a_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/GER/ger_panther_ausf_d.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_mediumtank4b_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/GER/ger_panther2.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_heavytank1_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/GER/ger_nbfz_ausf_a.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_heavytank2_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/GER/ger_vk3001h.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_heavytank3a_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/GER/ger_tiger_ausf_h1.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_heavytank3b_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/GER/ger_tiger_p.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_heavytank4a_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/GER/ger_lowe.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_heavytank4b_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/GER/ger_king_tiger_h.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_superheavytank1_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/GER/ger_maus.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_superheavytank2_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/GER/ger_maus.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_superheavytank3_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/GER/ger_maus.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_tank0_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/SOV/sov_t24.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_lighttank1_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/SOV/sov_t26_tu_m1933.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_lighttank2_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/SOV/sov_bt7_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_lighttank3a_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/SOV/sov_t50.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_lighttank3b_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/SOV/sov_t80.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_mediumtank1_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/SOV/sov_t28_m1933.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_mediumtank2_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/SOV/sov_a20.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_mediumtank3a_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/SOV/sov_t34_76_m1940_41.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_mediumtank3b_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/SOV/sov_t34_76_m1942_43.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_mediumtank4a_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/SOV/sov_t34_85.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_mediumtank4b_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/SOV/sov_t44.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_heavytank1_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/SOV/sov_t35_tu_m1939.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_heavytank2_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/SOV/sov_smk.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_heavytank3a_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/SOV/sov_kv1_m1939.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_heavytank3b_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/SOV/sov_kv3_object_223.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_heavytank4a_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/SOV/sov_is2.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_heavytank4b_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/SOV/sov_is3.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_superheavytank1_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/SOV/sov_kv4_mikhailovi.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_superheavytank2_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/SOV/sov_kv5.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_superheavytank3_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/SOV/sov_is7.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_tank0_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/FRA/fra_char_d1.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_lighttank1_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/FRA/fra_h35.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_lighttank2_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/FRA/fra_r40.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_lighttank3a_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/FRA/fra_amx13.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_lighttank3b_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/FRA/fra_bat_chatillons_25t.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_mediumtank1_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/FRA/fra_fcm36.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_mediumtank2_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/FRA/fra_s35.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_mediumtank3a_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/FRA/fra_amx40.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_mediumtank3b_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/FRA/fra_sarl42.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_mediumtank4a_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/FRA/fra_amx50_100.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_mediumtank4b_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/FRA/fra_lorraine40t.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_heavytank1_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/FRA/fra_char_b1_bis.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_heavytank2_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/FRA/fra_char_b1_ter.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_heavytank3a_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/FRA/fra_g1b.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_heavytank3b_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/FRA/fra_arl44_90mm.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_heavytank4a_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/FRA/fra_amx_m4_45.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_heavytank4b_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/FRA/fra_amx50_120.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_superheavytank1_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/FRA/fra_fcm_2c.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_superheavytank2_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/FRA/fra_fcm_f1.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_superheavytank3_tech_medium"
+		textureFile = "gfx/interface/technologies/tanks/FRA/fra_amx65t.dds"
+	}
+	#Tank Support Technology
+	SpriteType = {
+		name = "GFX_lightcannon1_tech_medium"
+		textureFile = "gfx/interface/technologies/lightcannon1.dds"
+	}
+	SpriteType = {
+		name = "GFX_lightcannon2_tech_medium"
+		textureFile = "gfx/interface/technologies/lightcannon2.dds"
+	}
+	SpriteType = {
+		name = "GFX_lightcannon3_tech_medium"
+		textureFile = "gfx/interface/technologies/lightcannon3.dds"
+	}
+	SpriteType = {
+		name = "GFX_lighthighvelocity_tech_medium"
+		textureFile = "gfx/interface/technologies/lighthighvelocity.dds"
+	}
+	SpriteType = {
+		name = "GFX_mediumhighvelocity1_tech_medium"
+		textureFile = "gfx/interface/technologies/mediumhighvelocity1.dds"
+	}
+	SpriteType = {
+		name = "GFX_mediumhighvelocity2_tech_medium"
+		textureFile = "gfx/interface/technologies/mediumhighvelocity2.dds"
+	}
+	SpriteType = {
+		name = "GFX_mediumcannon1_tech_medium"
+		textureFile = "gfx/interface/technologies/mediumcannon1.dds"
+	}
+	SpriteType = {
+		name = "GFX_mediumcannon2_tech_medium"
+		textureFile = "gfx/interface/technologies/mediumcannon2.dds"
+	}
+	SpriteType = {
+		name = "GFX_mediumcannon3_tech_medium"
+		textureFile = "gfx/interface/technologies/mediumcannon3.dds"
+	}
+	SpriteType = {
+		name = "GFX_mediumcannon4_tech_medium"
+		textureFile = "gfx/interface/technologies/mediumcannon4.dds"
+	}
+	SpriteType = {
+		name = "GFX_largemediumcannon1_tech_medium"
+		textureFile = "gfx/interface/technologies/largemediumcannon1.dds"
+	}
+	SpriteType = {
+		name = "GFX_largemediumcannon2_tech_medium"
+		textureFile = "gfx/interface/technologies/largemediumcannon2.dds"
+	}
+	SpriteType = {
+		name = "GFX_heavyhighvelocity1_tech_medium"
+		textureFile = "gfx/interface/technologies/heavyhighvelocity1.dds"
+	}
+	SpriteType = {
+		name = "GFX_heavyhighvelocity2_tech_medium"
+		textureFile = "gfx/interface/technologies/heavyhighvelocity2.dds"
+	}
+	SpriteType = {
+		name = "GFX_heavycannon1_tech_medium"
+		textureFile = "gfx/interface/technologies/heavycannon1.dds"
+	}
+	SpriteType = {
+		name = "GFX_heavycannon2_tech_medium"
+		textureFile = "gfx/interface/technologies/heavycannon2.dds"
+	}
+	SpriteType = {
+		name = "GFX_largeheavycannon1_tech_medium"
+		textureFile = "gfx/interface/technologies/largeheavycannon1.dds"
+	}
+	SpriteType = {
+		name = "GFX_largeheavycannon2_tech_medium"
+		textureFile = "gfx/interface/technologies/largeheavycannon2.dds"
+	}
+	SpriteType = {
+		name = "GFX_superheavycannon_tech_medium"
+		textureFile = "gfx/interface/technologies/superheavycannon.dds"
+	}
+	SpriteType = {
+		name = "GFX_lighthowitzer1_tech_medium"
+		textureFile = "gfx/interface/technologies/lighthowitzer1.dds"
+	}
+	SpriteType = {
+		name = "GFX_lighthowitzer2_tech_medium"
+		textureFile = "gfx/interface/technologies/lighthowitzer2.dds"
+	}
+	SpriteType = {
+		name = "GFX_lighthowitzer3_tech_medium"
+		textureFile = "gfx/interface/technologies/lighthowitzer3.dds"
+	}
+	SpriteType = {
+		name = "GFX_lightclosesupportgun1_tech_medium"
+		textureFile = "gfx/interface/technologies/lightclosesupportgun1.dds"
+	}
+	SpriteType = {
+		name = "GFX_lightclosesupportgun2_tech_medium"
+		textureFile = "gfx/interface/technologies/lightclosesupportgun2.dds"
+	}
+	SpriteType = {
+		name = "GFX_mediumclosesupportgun1_tech_medium"
+		textureFile = "gfx/interface/technologies/mediumclosesupportgun1.dds"
+	}
+	SpriteType = {
+		name = "GFX_mediumclosesupportgun2_tech_medium"
+		textureFile = "gfx/interface/technologies/mediumclosesupportgun2.dds"
+	}
+	SpriteType = {
+		name = "GFX_mediumhowitzer1_tech_medium"
+		textureFile = "gfx/interface/technologies/mediumhowitzer1.dds"
+	}
+	SpriteType = {
+		name = "GFX_mediumhowitzer2_tech_medium"
+		textureFile = "gfx/interface/technologies/mediumhowitzer2.dds"
+	}
+	SpriteType = {
+		name = "GFX_heavyclosesupportgun1_tech_medium"
+		textureFile = "gfx/interface/technologies/heavyclosesupportgun1.dds"
+	}
+	SpriteType = {
+		name = "GFX_heavyclosesupportgun2_tech_medium"
+		textureFile = "gfx/interface/technologies/heavyclosesupportgun2.dds"
+	}
+	SpriteType = {
+		name = "GFX_heavyhowitzer1_tech_medium"
+		textureFile = "gfx/interface/technologies/heavyhowitzer1.dds"
+	}
+	SpriteType = {
+		name = "GFX_heavyhowitzer2_tech_medium"
+		textureFile = "gfx/interface/technologies/heavyhowitzer2.dds"
+	}
+	SpriteType = {
+		name = "GFX_superheavyhowitzer_tech_medium"
+		textureFile = "gfx/interface/technologies/superheavyhowitzer.dds"
+	}
+	SpriteType = {
+		name = "GFX_antiaircannon1_tech_medium"
+		textureFile = "gfx/interface/technologies/antiaircannon1.dds"
+	}
+	SpriteType = {
+		name = "GFX_antiaircannon2_tech_medium"
+		textureFile = "gfx/interface/technologies/antiaircannon2.dds"
+	}
+	SpriteType = {
+		name = "GFX_antiaircannon3_tech_medium"
+		textureFile = "gfx/interface/technologies/antiaircannon3.dds"
+	}
+	SpriteType = {
+		name = "GFX_heavyantiaircannon1_tech_medium"
+		textureFile = "gfx/interface/technologies/heavyantiaircannon1.dds"
+	}
+	SpriteType = {
+		name = "GFX_heavyantiaircannon2_tech_medium"
+		textureFile = "gfx/interface/technologies/heavyantiaircannon2.dds"
+	}
+	SpriteType = {
+		name = "GFX_heavyantiaircannon3_tech_medium"
+		textureFile = "gfx/interface/technologies/heavyantiaircannon3.dds"
+	}
+	SpriteType = {
+		name = "GFX_engine1_tech_medium"
+		textureFile = "gfx/interface/technologies/nsb_engine_tech_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_engine2_tech_medium"
+		textureFile = "gfx/interface/technologies/nsb_engine_tech_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_engine3_tech_medium"
+		textureFile = "gfx/interface/technologies/nsb_engine_tech_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_engine4_tech_medium"
+		textureFile = "gfx/interface/technologies/nsb_engine_tech_4.dds"
+	}
+	SpriteType = {
+		name = "GFX_gasturbine_tech_medium"
+		textureFile = "gfx/interface/technologies/gasturbine.dds"
+	}
+	SpriteType = {
+		name = "GFX_engineupgrade1_tech_medium"
+		textureFile = "gfx/interface/technologies/engineupgrade1.dds"
+	}
+	SpriteType = {
+		name = "GFX_engineupgrade2_tech_medium"
+		textureFile = "gfx/interface/technologies/engineupgrade2.dds"
+	}
+	SpriteType = {
+		name = "GFX_engineupgrade3_tech_medium"
+		textureFile = "gfx/interface/technologies/engineupgrade3.dds"
+	}
+	SpriteType = {
+		name = "GFX_armour1_tech_medium"
+		textureFile = "gfx/interface/technologies/armour1.dds"
+	}
+	SpriteType = {
+		name = "GFX_armour2_tech_medium"
+		textureFile = "gfx/interface/technologies/armour2.dds"
+	}
+	SpriteType = {
+		name = "GFX_armour3_tech_medium"
+		textureFile = "gfx/interface/technologies/armour3.dds"
+	}
+	SpriteType = {
+		name = "GFX_armour4_tech_medium"
+		textureFile = "gfx/interface/technologies/armour4.dds"
+	}
+	SpriteType = {
+		name = "GFX_compositearmour_tech_medium"
+		textureFile = "gfx/interface/technologies/compositearmour.dds"
+	}
+	SpriteType = {
+		name = "GFX_armourupgrade1_tech_medium"
+		textureFile = "gfx/interface/technologies/nsb_armor_tech_1.dds"
+	}
+	SpriteType = {
+		name = "GFX_armourupgrade2_tech_medium"
+		textureFile = "gfx/interface/technologies/nsb_armor_tech_2.dds"
+	}
+	SpriteType = {
+		name = "GFX_armourupgrade3_tech_medium"
+		textureFile = "gfx/interface/technologies/nsb_armor_tech_3.dds"
+	}
+	SpriteType = {
+		name = "GFX_tankupgrade1_tech_medium"
+		textureFile = "gfx/interface/technologies/tankupgrade1.dds"
+	}
+	SpriteType = {
+		name = "GFX_stabilizer_tech_medium"
+		textureFile = "gfx/interface/technologies/stabilizer.dds"
+	}
+	SpriteType = {
+		name = "GFX_rangefinder_tech_medium"
+		textureFile = "gfx/interface/technologies/rangefinder.dds"
+	}
+	SpriteType = {
+		name = "GFX_optics1_tech_medium"
+		textureFile = "gfx/interface/technologies/optics1.dds"
+	}
+	SpriteType = {
+		name = "GFX_optics2_tech_medium"
+		textureFile = "gfx/interface/technologies/optics2.dds"
+	}
+	SpriteType = {
+		name = "GFX_firecontrolcomputer_tech_medium"
+		textureFile = "gfx/interface/technologies/firecontrolcomputer.dds"
+	}
 }

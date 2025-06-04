@@ -1,0 +1,1596 @@
+technologies = {
+	@1930 = 0
+	@1936 = 2
+	@1937 = 4
+	@1938 = 6
+	@1939 = 8
+	@1940 = 10
+	@1941 = 12
+	@1942 = 14
+	@1943 = 16
+	@1944 = 18
+	@1945 = 20
+	@1946 = 22
+
+	lightcannon1_tech = {
+		enable_equipment_modules = {
+		}
+
+		path = {
+			leads_to_tech = lightcannon2_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = mediumcannon1_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1930
+
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 0 y = @1930 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	lightcannon2_tech = {
+		enable_equipment_modules = {
+		}
+
+		path = {
+			leads_to_tech = lightcannon3_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = lighthighvelocity_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1936
+
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 0 y = @1936 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	lightcannon3_tech = {
+		enable_equipment_modules = {
+		}
+
+		research_cost = 1.5
+		start_year = 1938
+
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 0 y = @1938 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+
+	lighthighvelocity_tech = {
+		enable_equipment_modules = {
+		}
+
+		path = {
+			leads_to_tech = mediumhighvelocity1_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1938
+
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 2 y = @1938 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	mediumhighvelocity1_tech = {
+		enable_equipment_modules = {
+		}
+
+		path = {
+			leads_to_tech = mediumhighvelocity2_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1941
+
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 2 y = @1941 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	mediumhighvelocity2_tech = {
+		enable_equipment_modules = {
+		}
+
+		research_cost = 1.5
+		start_year = 1944
+
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 2 y = @1944 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+
+	mediumcannon1_tech = {
+		enable_equipment_modules = {
+		}
+
+		path = {
+			leads_to_tech = lighthighvelocity_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = mediumcannon2_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1936
+
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 4 y = @1936 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	mediumcannon2_tech = {
+		enable_equipment_modules = {
+		}
+
+		path = {
+			leads_to_tech = mediumhighvelocity1_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = mediumcannon3_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = heavycannon1_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1938
+
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 4 y = @1938 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	mediumcannon3_tech = {
+		enable_equipment_modules = {
+		}
+
+		path = {
+			leads_to_tech = mediumcannon4_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = largemediumcannon1_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1941
+
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 4 y = @1941 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	mediumcannon4_tech = {
+		enable_equipment_modules = {
+		}
+
+		research_cost = 1.5
+		start_year = 1944
+
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 4 y = @1944 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+
+	largemediumcannon1_tech = {
+		enable_equipment_modules = {
+		}
+
+		path = {
+			leads_to_tech = largemediumcannon2_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1943
+
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 5 y = @1943 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	largemediumcannon2_tech = {
+		enable_equipment_modules = {
+		}
+
+		research_cost = 1.5
+		start_year = 1945
+
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 5 y = @1945 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+
+	heavyhighvelocity1_tech = {
+		enable_equipment_modules = {
+		}
+
+		path = {
+			leads_to_tech = heavyhighvelocity2_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1941
+
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 6 y = @1941 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	heavyhighvelocity2_tech = {
+		enable_equipment_modules = {
+		}
+
+		research_cost = 1.5
+		start_year = 1944
+
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 6 y = @1944 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+
+	heavycannon1_tech = {
+		enable_equipment_modules = {
+		}
+
+		path = {
+			leads_to_tech = heavyhighvelocity1_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = heavycannon2_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = largeheavycannon1_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1940
+
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 8 y = @1940 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	heavycannon2_tech = {
+		enable_equipment_modules = {
+		}
+
+		research_cost = 1.5
+		start_year = 1944
+
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 8 y = @1944 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+
+	largeheavycannon1_tech = {
+		enable_equipment_modules = {
+		}
+
+		path = {
+			leads_to_tech = largeheavycannon2_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = superheavycannon_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1943
+
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 9 y = @1943 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	largeheavycannon2_tech = {
+		enable_equipment_modules = {
+		}
+
+		research_cost = 1.5
+		start_year = 1945
+
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 9 y = @1945 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+
+	superheavycannon_tech = {
+		enable_equipment_modules = {
+		}
+
+		research_cost = 1.5
+		start_year = 1944
+
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 10 y = @1944 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+
+	lighthowitzer1_tech = {
+		enable_equipment_modules = {
+		}
+
+		path = {
+			leads_to_tech = lighthowitzer2_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = lightclosesupportgun1_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = mediumhowitzer1_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = heavyhowitzer1_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1930
+
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 12 y = @1930 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	lighthowitzer2_tech = {
+		enable_equipment_modules = {
+		}
+
+		path = {
+			leads_to_tech = lighthowitzer3_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1938
+
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 12 y = @1938 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	lighthowitzer3_tech = {
+		enable_equipment_modules = {
+		}
+
+		research_cost = 1.5
+		start_year = 1942
+
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 12 y = @1942 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+
+	lightclosesupportgun1_tech = {
+		enable_equipment_modules = {
+		}
+
+		path = {
+			leads_to_tech = lightclosesupportgun2_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = mediumclosesupportgun1_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1936
+
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 14 y = @1936 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	lightclosesupportgun2_tech = {
+		enable_equipment_modules = {
+		}
+
+		research_cost = 1.5
+		start_year = 1940
+
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 13 y = @1940 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+
+	mediumclosesupportgun1_tech = {
+		enable_equipment_modules = {
+		}
+
+		path = {
+			leads_to_tech = mediumclosesupportgun2_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1940
+
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 15 y = @1940 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	mediumclosesupportgun2_tech = {
+		enable_equipment_modules = {
+		}
+
+		research_cost = 1.5
+		start_year = 1944
+
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 15 y = @1944 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+
+	mediumhowitzer1_tech = {
+		enable_equipment_modules = {
+		}
+
+		path = {
+			leads_to_tech = mediumclosesupportgun1_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = mediumhowitzer2_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1936
+
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 16 y = @1936 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	mediumhowitzer2_tech = {
+		enable_equipment_modules = {
+		}
+
+		research_cost = 1.5
+		start_year = 1942
+
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 16 y = @1942 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+
+	heavyclosesupportgun1_tech = {
+		enable_equipment_modules = {
+		}
+
+		path = {
+			leads_to_tech = heavyclosesupportgun2_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1943
+
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 17 y = @1943 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	heavyclosesupportgun2_tech = {
+		enable_equipment_modules = {
+		}
+
+		research_cost = 1.5
+		start_year = 1945
+
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 17 y = @1945 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+
+	heavyhowitzer1_tech = {
+		enable_equipment_modules = {
+		}
+
+		path = {
+			leads_to_tech = heavyhowitzer2_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1936
+
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 18 y = @1936 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	heavyhowitzer2_tech = {
+		enable_equipment_modules = {
+		}
+
+		path = {
+			leads_to_tech = heavyclosesupportgun1_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = superheavyhowitzer_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1942
+
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 18 y = @1942 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+
+	superheavyhowitzer_tech = {
+		enable_equipment_modules = {
+		}
+
+		research_cost = 1.5
+		start_year = 1944
+
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 19 y = @1944 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+
+	antiaircannon1_tech = {
+		enable_equipment_modules = {
+		}
+
+		path = {
+			leads_to_tech = antiaircannon2_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = heavyantiaircannon1_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1930
+
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 21 y = @1930 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	antiaircannon2_tech = {
+		enable_equipment_modules = {
+		}
+
+		path = {
+			leads_to_tech = antiaircannon3_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1939
+
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 21 y = @1939 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	antiaircannon3_tech = {
+		enable_equipment_modules = {
+		}
+
+		research_cost = 1.5
+		start_year = 1943
+
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 21 y = @1943 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+
+	heavyantiaircannon1_tech = {
+		enable_equipment_modules = {
+		}
+
+		path = {
+			leads_to_tech = heavyantiaircannon2_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1937
+
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 22 y = @1937 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	heavyantiaircannon2_tech = {
+		enable_equipment_modules = {
+		}
+
+		path = {
+			leads_to_tech = heavyantiaircannon3_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1941
+
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 22 y = @1941 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	heavyantiaircannon3_tech = {
+		enable_equipment_modules = {
+		}
+
+		research_cost = 1.5
+		start_year = 1945
+
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 22 y = @1945 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+
+	engineupgrade1_tech = {
+		enable_equipment_modules = {
+		}
+
+		path = {
+			leads_to_tech = engineupgrade2_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1938
+
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 24 y = @1938 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	engineupgrade2_tech = {
+		enable_equipment_modules = {
+		}
+
+		path = {
+			leads_to_tech = engineupgrade3_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1941
+
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 24 y = @1941 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	engineupgrade3_tech = {
+		enable_equipment_modules = {
+		}
+
+		research_cost = 1.5
+		start_year = 1944
+
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 24 y = @1944 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	engine1_tech = {
+		enable_equipment_modules = {
+		}
+
+		path = {
+			leads_to_tech = engineupgrade1_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = engine2_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1936
+
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 25 y = @1936 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	engine2_tech = {
+		enable_equipment_modules = {
+		}
+
+		path = {
+			leads_to_tech = engine3_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1939
+
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 25 y = @1939 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	engine3_tech = {
+		enable_equipment_modules = {
+		}
+
+		path = {
+			leads_to_tech = engine4_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1942
+
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 25 y = @1942 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	engine4_tech = {
+		enable_equipment_modules = {
+		}
+
+		path = {
+			leads_to_tech = gasturbine_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1945
+
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 25 y = @1945 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	gasturbine_tech = {
+		enable_equipment_modules = {
+		}
+
+		research_cost = 1.5
+		start_year = 1946
+
+		is_special_project_tech = yes
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 25 y = @1946 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+
+	tankupgrade1_tech = {
+		enable_equipment_modules = {
+		}
+
+		path = {
+			leads_to_tech = engine1_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = optics1_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = armour1_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1930
+
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 28 y = @1930 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	optics1_tech = {
+		enable_equipment_modules = {
+		}
+
+		path = {
+			leads_to_tech = stabilizer_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = optics2_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = rangefinder_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1937
+
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 28 y = @1937 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	stabilizer_tech = {
+		enable_equipment_modules = {
+		}
+
+		research_cost = 1.5
+		start_year = 1940
+
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 27 y = @1940 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	rangefinder_tech = {
+		enable_equipment_modules = {
+		}
+
+		research_cost = 1.5
+		start_year = 1940
+
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 29 y = @1940 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	optics2_tech = {
+		enable_equipment_modules = {
+		}
+
+		path = {
+			leads_to_tech = firecontrolcomputer_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1943
+
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 28 y = @1943 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	firecontrolcomputer_tech = {
+		enable_equipment_modules = {
+		}
+
+		research_cost = 1.5
+		start_year = 1946
+
+		is_special_project_tech = yes
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 28 y = @1946 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+
+	armour1_tech = {
+		enable_equipment_modules = {
+		}
+
+		path = {
+			leads_to_tech = armourupgrade1_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = armour2_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1936
+
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 31 y = @1936 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	armour2_tech = {
+		enable_equipment_modules = {
+		}
+
+		path = {
+			leads_to_tech = armour3_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1939
+
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 31 y = @1939 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	armour3_tech = {
+		enable_equipment_modules = {
+		}
+
+		path = {
+			leads_to_tech = armour4_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1942
+
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 31 y = @1942 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	armour4_tech = {
+		enable_equipment_modules = {
+		}
+
+		path = {
+			leads_to_tech = compositearmour_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1945
+
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 31 y = @1945 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	compositearmour_tech = {
+		enable_equipment_modules = {
+		}
+
+		research_cost = 1.5
+		start_year = 1946
+
+		is_special_project_tech = yes
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 31 y = @1946 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	armourupgrade1_tech = {
+		enable_equipment_modules = {
+		}
+
+		path = {
+			leads_to_tech = armourupgrade2_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1938
+
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 32 y = @1938 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	armourupgrade2_tech = {
+		enable_equipment_modules = {
+		}
+
+		path = {
+			leads_to_tech = armourupgrade3_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.5
+		start_year = 1941
+
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 32 y = @1941 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	armourupgrade3_tech = {
+		enable_equipment_modules = {
+		}
+
+		research_cost = 1.5
+		start_year = 1944
+
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 32 y = @1944 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+}
