@@ -115,8 +115,8 @@ set_technology = {
 	tech_support = 1		
 	tech_engineers = 1
 	tech_mountaineers = 1
-	infantry_weapons = 1
-	infantry_weapons1 = 1
+	infantrygun1_tech = 1
+	infantrygun2_tech = 1
 	tech_trucks = 1
 	interwar_antitank = 1
 	gw_artillery = 1
@@ -137,7 +137,7 @@ if = {
 		has_dlc = "No Step Back"
 	}
 	set_technology = {
-		gwtank_chassis = 1
+		tank0_tech = 1
 	}
 }
 
@@ -272,8 +272,8 @@ if = {
 
 	set_technology = {
 		interwar_artillery = 1
-		infantry_weapons2 = 1
-		support_weapons = 1
+		infantrygun3_tech = 1
+		infantrysupport1_tech = 1
 
 		#doctrines
 		air_superiority = 1

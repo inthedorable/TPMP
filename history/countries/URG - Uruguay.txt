@@ -33,7 +33,7 @@ set_cosmetic_tag = URG_is_unaligned_URG_but_has_normal_URG_flag
 
 # Starting tech
 set_technology = {
-	infantry_weapons = 1
+	infantrygun1_tech = 1
 	tech_trucks = 1
 	gw_artillery = 1
 	interwar_antiair = 1
@@ -209,8 +209,8 @@ set_convoys = 15
 	}
 
 	set_technology = {
-		infantry_weapons1 = 1
-		support_weapons = 1
+		infantrygun2_tech = 1
+		infantrysupport1_tech = 1
 
 		#doctrines
 		air_superiority = 1

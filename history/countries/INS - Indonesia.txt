@@ -7,7 +7,7 @@ set_research_slots = 2
 # Starting tech
 # clone of Holland
 set_technology = {
-	infantry_weapons = 1
+	infantrygun1_tech = 1
 	tech_support = 1		
 	tech_recon = 1
 	
@@ -99,8 +99,8 @@ set_cosmetic_tag = INS_HOL # Netherlands East Indies
 		interwar_artillery = 1
 		interwar_antiair = 1
 		tech_recon = 1
-		infantry_weapons2 = 1
-		support_weapons = 1
+		infantrygun3_tech = 1
+		infantrysupport1_tech = 1
 
 		#doctrines
 		air_superiority = 1
@@ -146,8 +146,8 @@ set_cosmetic_tag = INS_HOL # Netherlands East Indies
 			
 		}
 		set_technology = {
-			gwtank_chassis = 1
-			basic_light_tank_chassis = 1
+			tank0_tech = 1
+			lighttank1_tech = 1
 		}
 	}
 }

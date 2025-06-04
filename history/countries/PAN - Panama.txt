@@ -4,7 +4,7 @@ oob = "PAN_1936"
 
 # Starting tech
 set_technology = {
-	infantry_weapons = 1
+	infantrygun1_tech = 1
 	tech_trucks = 1
 }
 
@@ -53,7 +53,7 @@ set_convoys = 10
 	
 	oob = "PAN_1939"
 	set_technology = {
-		infantry_weapons1 = 1
+		infantrygun2_tech = 1
 
 		#doctrines
 		air_superiority = 1

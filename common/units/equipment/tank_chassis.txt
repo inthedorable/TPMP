@@ -787,6 +787,7 @@ equipments = {
 		archetype = heavy_tank_chassis
 		parent = heavy_tank_chassis_1930
 		priority = 2000
+		module_slots = inherit
 
 		maximum_speed = 4
 
@@ -1401,9 +1402,9 @@ equipments = {
 
 	}
 
-	land_cruiser_chassis_1 = {
+	land_cruiser_chassis_1945 = {
 		abbreviation = "LCR"
-		derived_variant_name = land_cruiser_equipment_1
+		derived_variant_name = land_cruiser_equipment_1945
 		visual_level = 0
 		year = 1945
 		archetype = land_cruiser_chassis

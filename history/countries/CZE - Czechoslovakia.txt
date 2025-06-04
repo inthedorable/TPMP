@@ -38,8 +38,8 @@ if = {
 }
 
 set_technology = {
-	infantry_weapons = 1
-	infantry_weapons1 = 1
+	infantrygun1_tech = 1
+	infantrygun2_tech = 1
 	tech_support = 1
 	tech_recon = 1
 	tech_mountaineers = 1
@@ -94,9 +94,9 @@ if = {
 		has_dlc = "No Step Back"
 	}
 	set_technology = {
-		gwtank_chassis = 1
-		basic_light_tank_chassis = 1
-		improved_light_tank_chassis = 1
+		tank0_tech = 1
+		lighttank1_tech = 1
+		lighttank2_tech = 1
 	}
 }
 
@@ -141,7 +141,7 @@ if = {
 	}
 	create_equipment_variant = {
 		name = "Tancik vz. 33"
-		type = light_tank_chassis_1
+		type = light_tank_chassis_1936
 		parent_version = 0
 		modules = {
 			main_armament_slot = tank_heavy_machine_gun
@@ -158,7 +158,7 @@ if = {
 	}
 	create_equipment_variant = {
 		name = "LT vz. 35"
-		type = light_tank_chassis_1
+		type = light_tank_chassis_1936
 		parent_version = 1
 		modules = {
 			main_armament_slot = tank_high_velocity_cannon
@@ -175,7 +175,7 @@ if = {
 	}
 	create_equipment_variant = {
 		name = "TNH"
-		type = light_tank_chassis_2
+		type = light_tank_chassis_1938
 		parent_version = 0
 		modules = {
 			main_armament_slot = tank_high_velocity_cannon

@@ -72,8 +72,8 @@ IF = {
 
 
 set_technology = {
-	infantry_weapons = 1
-	infantry_weapons1 = 1
+	infantrygun1_tech = 1
+	infantrygun2_tech = 1
 	tech_trucks = 1
 	gw_artillery = 1
 	tech_support = 1
@@ -136,7 +136,7 @@ set_convoys = 10
 		gw_artillery = 1
 		interwar_artillery = 1
 		interwar_antiair = 1
-		support_weapons = 1
+		infantrysupport1_tech = 1
 
 		#doctrines
 		air_superiority = 1

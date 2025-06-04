@@ -210,7 +210,7 @@ script_enum_equipment_bonus_type = {
 
 	# Equipment archetypes & types
 	land_cruiser_chassis
-	land_cruiser_chassis_1
+	land_cruiser_chassis_1945
 	land_cruiser_equipment_1 #(No-NSB version)
 	destroyer
 	infantry_equipment
@@ -257,10 +257,9 @@ script_enum_equipment_bonus_type = {
 	nuclear_missile_equipment_2
 	sam_missile_equipment
 	sam_missile_equipment_1
-	infantry_equipment_0
-	infantry_equipment_1
-	infantry_equipment_2
-	infantry_equipment_3
+	line_infantry_equipment
+	mobile_infantry_equipment
+	special_infantry_equipment
 	mechanized_equipment
 	mechanized_equipment_1
 	mechanized_equipment_2

@@ -33,8 +33,8 @@ set_research_slots = 3
 
 # Starting tech
 set_technology = {
-	infantry_weapons = 1
-	infantry_weapons1 = 1
+	infantrygun1_tech = 1
+	infantrygun2_tech = 1
 	tech_mountaineers = 1
 	tech_trucks = 1
 	tech_support = 1		
@@ -61,7 +61,7 @@ if = {
 		has_dlc = "No Step Back"
 	}
 	set_technology = {
-		gwtank_chassis = 1
+		tank0_tech = 1
 	}
 }
 if = {
@@ -211,7 +211,7 @@ if = {
 
 	set_technology = {
 		motorised_infantry = 1
-		support_weapons = 1
+		infantrysupport1_tech = 1
 		interwar_artillery = 1
 
 		#doctrines
@@ -266,7 +266,7 @@ if = {
 			
 		}
 		set_technology = {
-			basic_light_tank_chassis = 1
+			lighttank1_tech = 1
 		}
 		set_oob = "POL_1939_nsb"
 	}
@@ -554,7 +554,7 @@ if = {
 
 		create_equipment_variant = {
 			name = "TKS"
-			type = light_tank_chassis_0
+			type = light_tank_chassis_1930
 			parent_version = 0
 			modules = {
 				main_armament_slot = tank_heavy_machine_gun
@@ -572,7 +572,7 @@ if = {
 		}
 		create_equipment_variant = {
 			name = "7TP dw"
-			type = light_tank_chassis_0
+			type = light_tank_chassis_1930
 			parent_version = 1
 			modules = {
 				main_armament_slot = tank_heavy_machine_gun
@@ -590,7 +590,7 @@ if = {
 		}
 		create_equipment_variant = {
 			name = "7TP jw"
-			type = light_tank_chassis_0
+			type = light_tank_chassis_1930
 			parent_version = 2
 			modules = {
 				main_armament_slot = tank_high_velocity_cannon
@@ -611,7 +611,7 @@ if = {
 	ELSE = {
 		create_equipment_variant = {
 			name = "TKS"
-			type = light_tank_chassis_0
+			type = light_tank_chassis_1930
 			parent_version = 0
 			modules = {
 				main_armament_slot = tank_heavy_machine_gun
@@ -628,7 +628,7 @@ if = {
 		}
 		create_equipment_variant = {
 			name = "7TP dw"
-			type = light_tank_chassis_0
+			type = light_tank_chassis_1930
 			parent_version = 1
 			modules = {
 				main_armament_slot = tank_heavy_machine_gun
@@ -645,7 +645,7 @@ if = {
 		}
 		create_equipment_variant = {
 			name = "7TP jw"
-			type = light_tank_chassis_0
+			type = light_tank_chassis_1930
 			parent_version = 2
 			modules = {
 				main_armament_slot = tank_high_velocity_cannon
@@ -662,7 +662,7 @@ if = {
 		}
 	}
 #	add_equipment_to_stockpile = {
-#		type = light_tank_chassis_0
+#		type = light_tank_chassis_1930
 #		amount = 550
 #		variant_name = "TKS"
 #	}

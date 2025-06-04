@@ -4,7 +4,7 @@ set_oob = "COG_1936"
 
 # Starting tech
 set_technology = {
-	infantry_weapons = 1
+	infantrygun1_tech = 1
 	tech_support = 1
 	tech_trucks = 1
 	basic_train = 1
@@ -259,8 +259,8 @@ set_popularities = {
 	set_technology = {
 
 		#weaponry and army
-		infantry_weapons1 = 1
-		support_weapons = 1
+		infantrygun2_tech = 1
+		infantrysupport1_tech = 1
 		motorised_infantry = 1
 		tech_recon = 1
 		tech_logistics_company = 1

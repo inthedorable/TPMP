@@ -71,8 +71,8 @@ set_fuel_ratio = 0.8
 
 # Starting tech
 set_technology = {
-	infantry_weapons = 1
-	infantry_weapons1 = 1
+	infantrygun1_tech = 1
+	infantrygun2_tech = 1
 	tech_recon = 1
 	tech_support = 1		
 	tech_engineers = 1
@@ -105,10 +105,10 @@ if = {
 		has_dlc = "No Step Back"
 	}
 	set_technology = {
-		gwtank_chassis = 1
-		basic_light_tank_chassis = 1
-		improved_light_tank_chassis = 1
-		basic_heavy_tank_chassis = 1
+		tank0_tech = 1
+		lighttank1_tech = 1
+		lighttank2_tech = 1
+		heavytank1_tech = 1
 		engine_tech_1 = 1
 	}
 }
@@ -668,10 +668,10 @@ set_war_support = 0.3
 		# Infantry
 		interwar_artillery = 1
 		interwar_antitank = 1
-		infantry_weapons2 = 1
-		improved_infantry_weapons = 1
-		support_weapons = 1
-		support_weapons2 = 1
+		infantrygun3_tech = 1
+		infantrygun2_tech = 1
+		infantrysupport1_tech = 1
+		infantrysupport2_tech = 1
 		paratroopers = 1
 
 		# Doctrines
@@ -737,7 +737,7 @@ set_war_support = 0.3
 			has_dlc = "No Step Back"
 		}
 		set_technology = {
-			basic_medium_tank_chassis = 1 
+			mediumtank1_tech = 1 
 		}
 		set_oob = "GER_1939_nsb"
 	}
@@ -1030,7 +1030,7 @@ if = {
 	}
 	create_equipment_variant = { #Note: There is a copy of this variant in Finnish Scripted Effects file (FIN_purchase_german_equipment_for_cw). Any changes here should also be applied there
 		name = "Leichttraktor"
-		type = light_tank_chassis_0
+		type = light_tank_chassis_1930
 		parent_version = 0
 		modules = {
 			main_armament_slot = tank_small_cannon
@@ -1049,7 +1049,7 @@ if = {
 	}
 	create_equipment_variant = { #Note: There is a copy of this variant in Finnish National Focus file (FIN_bring_foreign_armor_experts). Any changes here should also be applied there
 		name = "Panzer I Ausf. A"
-		type = light_tank_chassis_1
+		type = light_tank_chassis_1936
 		parent_version = 0
 		modules = {
 			main_armament_slot = tank_heavy_machine_gun
@@ -1068,7 +1068,7 @@ if = {
 	}
 	create_equipment_variant = {
 		name = "Neubaufahrzeug"
-		type = heavy_tank_chassis_1
+		type = heavy_tank_chassis_1936
 		parent_version = 0
 		modules = {
 			main_armament_slot = tank_close_support_gun
@@ -1089,7 +1089,7 @@ if = {
 	}
 	create_equipment_variant = {
 		name = "Panzer II Ausf. A"
-		type = light_tank_chassis_2
+		type = light_tank_chassis_1938
 		design_team = mio:GER_daimler_benz_organization
 		parent_version = 0
 		obsolete = yes
@@ -1109,7 +1109,7 @@ if = {
 	}
 	create_equipment_variant = {
 		name = "Panzer II"
-		type = light_tank_chassis_2
+		type = light_tank_chassis_1938
 		design_team = mio:GER_daimler_benz_organization
 		parent_version = 1
 		modules = {
@@ -1595,7 +1595,7 @@ if = {
 		}
 		create_equipment_variant = {
 			name = "Panzer III Ausf. F"
-			type = medium_tank_chassis_1
+			type = medium_tank_chassis_1936
 			parent_version = 0
 			modules = {
 				main_armament_slot = tank_small_cannon_2
@@ -1616,7 +1616,7 @@ if = {
 		}
 		create_equipment_variant = {
 			name = "Panzer IV Ausf. C"
-			type = medium_tank_chassis_1
+			type = medium_tank_chassis_1936
 			parent_version = 1
 			modules = {
 				main_armament_slot = tank_close_support_gun
@@ -1637,7 +1637,7 @@ if = {
 		}
 		create_equipment_variant = {
 			name = "Panzer 35(t)"
-			type = light_tank_chassis_1
+			type = light_tank_chassis_1936
 			parent_version = 1
 			modules = {
 				main_armament_slot = tank_high_velocity_cannon
@@ -1659,7 +1659,7 @@ if = {
 		}
 		create_equipment_variant = {
 			name = "Panzer 38(t)"
-			type = light_tank_chassis_2
+			type = light_tank_chassis_1938
 			parent_version = 1
 			modules = {
 				main_armament_slot = tank_high_velocity_cannon

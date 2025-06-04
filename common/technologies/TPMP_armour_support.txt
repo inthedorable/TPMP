@@ -1100,7 +1100,7 @@ technologies = {
 		ai_will_do = {
 		}
 	}
-	engine1_tech = {
+	engine2_tech = {
 		enable_equipment_modules = {
 		}
 
@@ -1109,42 +1109,16 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = engine2_tech
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.5
-		start_year = 1936
-
-		folder = {
-			name = TPMP_armour_support_folder
-			position = { x = 25 y = @1936 }
-		}
-
-		categories = {
-			armor
-			mio_cat_tech_all_armor_and_modules
-		}
-		special_project_specialization = { specialization_land }
-
-		ai_will_do = {
-		}
-	}
-	engine2_tech = {
-		enable_equipment_modules = {
-		}
-
-		path = {
 			leads_to_tech = engine3_tech
 			research_cost_coeff = 1
 		}
 
 		research_cost = 1.5
-		start_year = 1939
+		start_year = 1937
 
 		folder = {
 			name = TPMP_armour_support_folder
-			position = { x = 25 y = @1939 }
+			position = { x = 25 y = @1937 }
 		}
 
 		categories = {
@@ -1166,11 +1140,11 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1942
+		start_year = 1940
 
 		folder = {
 			name = TPMP_armour_support_folder
-			position = { x = 25 y = @1942 }
+			position = { x = 25 y = @1940 }
 		}
 
 		categories = {
@@ -1192,11 +1166,11 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1945
+		start_year = 1943
 
 		folder = {
 			name = TPMP_armour_support_folder
-			position = { x = 25 y = @1945 }
+			position = { x = 25 y = @1943 }
 		}
 
 		categories = {
@@ -1236,7 +1210,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = engine1_tech
+			leads_to_tech = engine2_tech
 			research_cost_coeff = 1
 		}
 		path = {
@@ -1244,7 +1218,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = armour1_tech
+			leads_to_tech = armour2_tech
 			research_cost_coeff = 1
 		}
 
@@ -1390,7 +1364,7 @@ technologies = {
 		}
 	}
 
-	armour1_tech = {
+	armour2_tech = {
 		enable_equipment_modules = {
 		}
 
@@ -1399,42 +1373,16 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = armour2_tech
-			research_cost_coeff = 1
-		}
-
-		research_cost = 1.5
-		start_year = 1936
-
-		folder = {
-			name = TPMP_armour_support_folder
-			position = { x = 31 y = @1936 }
-		}
-
-		categories = {
-			armor
-			mio_cat_tech_all_armor_and_modules
-		}
-		special_project_specialization = { specialization_land }
-
-		ai_will_do = {
-		}
-	}
-	armour2_tech = {
-		enable_equipment_modules = {
-		}
-
-		path = {
 			leads_to_tech = armour3_tech
 			research_cost_coeff = 1
 		}
 
 		research_cost = 1.5
-		start_year = 1939
+		start_year = 1937
 
 		folder = {
 			name = TPMP_armour_support_folder
-			position = { x = 31 y = @1939 }
+			position = { x = 31 y = @1937 }
 		}
 
 		categories = {
@@ -1456,11 +1404,11 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1942
+		start_year = 1940
 
 		folder = {
 			name = TPMP_armour_support_folder
-			position = { x = 31 y = @1942 }
+			position = { x = 31 y = @1940 }
 		}
 
 		categories = {
@@ -1482,11 +1430,11 @@ technologies = {
 		}
 
 		research_cost = 1.5
-		start_year = 1945
+		start_year = 1943
 
 		folder = {
 			name = TPMP_armour_support_folder
-			position = { x = 31 y = @1945 }
+			position = { x = 31 y = @1943 }
 		}
 
 		categories = {

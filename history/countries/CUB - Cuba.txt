@@ -4,7 +4,7 @@ oob = "CUB_1936"
 
 # Starting tech
 set_technology = {
-	infantry_weapons = 1
+	infantrygun1_tech = 1
 	tech_trucks = 1
 }
 if = {
@@ -64,8 +64,8 @@ set_convoys = 20
 	oob = "CUB_1939"
 	set_technology = {
 		gw_artillery = 1
-		infantry_weapons1 = 1
-		support_weapons = 1
+		infantrygun2_tech = 1
+		infantrysupport1_tech = 1
 
 		#doctrines
 		air_superiority = 1

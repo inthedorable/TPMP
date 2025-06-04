@@ -63,8 +63,8 @@ if = {
 
 
 set_technology = {
-	infantry_weapons = 1
-	infantry_weapons1 = 1
+	infantrygun1_tech = 1
+	infantrygun2_tech = 1
 	tech_trucks = 1
 	gw_artillery = 1
 	interwar_antiair = 1
@@ -89,8 +89,8 @@ if = {
 		has_dlc = "No Step Back"
 	}
 	set_technology = {
-		gwtank_chassis = 1
-		basic_light_tank_chassis = 1
+		tank0_tech = 1
+		lighttank1_tech = 1
 	}
 }
 if = {
@@ -207,8 +207,8 @@ if = {
 	set_technology = {
 		gw_artillery = 1
 		interwar_artillery = 1
-		infantry_weapons2 = 1
-		support_weapons = 1
+		infantrygun3_tech = 1
+		infantrysupport1_tech = 1
 
 		#doctrines
 		air_superiority = 1
@@ -256,8 +256,8 @@ if = {
 		set_technology = {
 			
 			
-			improved_light_tank_chassis = 1
-			basic_medium_tank_chassis = 1
+			lighttank2_tech = 1
+			mediumtank1_tech = 1
 		}
 	}
 	if = {
@@ -370,7 +370,7 @@ if = {
 	}
 	create_equipment_variant = {
 		name = "Stridsvagn m/21"
-		type = light_tank_chassis_0
+		type = light_tank_chassis_1930
 		parent_version = 0
 		modules = {
 			main_armament_slot = tank_heavy_machine_gun
@@ -387,7 +387,7 @@ if = {
 	}
 	create_equipment_variant = { #Note: There is a copy of this variant in Finnish National Focus file (FIN_bring_foreign_armor_experts). Any changes here should also be applied there
 		name = "Stridsvagn m/31"
-		type = light_tank_chassis_1
+		type = light_tank_chassis_1936
 		parent_version = 0
 		modules = {
 			main_armament_slot = tank_small_cannon

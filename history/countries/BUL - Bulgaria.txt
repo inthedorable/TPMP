@@ -324,8 +324,8 @@ if = { #DLC
 }
 
 set_technology = { #VANILLA & DLC
-	infantry_weapons = 1
-	infantry_weapons1 = 1
+	infantrygun1_tech = 1
+	infantrygun2_tech = 1
 	tech_support = 1		
 	tech_engineers = 1
 	tech_trucks = 1
@@ -443,8 +443,8 @@ if = {
 		gw_artillery = 1
 		interwar_artillery = 1
 		tech_recon = 1
-		infantry_weapons2 = 1
-		support_weapons = 1
+		infantrygun3_tech = 1
+		infantrysupport1_tech = 1
 
 		#doctrines
 		#Air
@@ -496,8 +496,8 @@ if = {
 			
 		}
 		set_technology = {
-			gwtank_chassis = 1
-			basic_light_tank_chassis = 1
+			tank0_tech = 1
+			lighttank1_tech = 1
 		}
 		set_oob = "BUL_1939_nsb"
 	}

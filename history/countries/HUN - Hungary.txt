@@ -78,8 +78,8 @@ IF = {
 
 
 set_technology = {
-	infantry_weapons = 1
-	infantry_weapons1 = 1
+	infantrygun1_tech = 1
+	infantrygun2_tech = 1
 	tech_support = 1		
 	tech_recon = 1
 	tech_trucks = 1
@@ -104,7 +104,7 @@ IF = {
 		has_dlc = "No Step Back"
 	}
 	set_technology = {
-		gwtank_chassis = 1
+		tank0_tech = 1
 	}
 }
 
@@ -228,7 +228,7 @@ IF = {
 	}
 	create_equipment_variant = {
 		name = "Straussler V-4"
-		type = light_tank_chassis_0
+		type = light_tank_chassis_1930
 		parent_version = 0
 		obsolete = no
 		modules = {
@@ -247,7 +247,7 @@ IF = {
 	}
 
 	add_equipment_to_stockpile = {
-		type = light_tank_chassis_0
+		type = light_tank_chassis_1930
 		amount = 4
 		variant_name = "Straussler V-4"
 	}
@@ -663,8 +663,8 @@ add_breakthrough_progress = {
 
 	# TECHNOLOGIES
 	set_technology = {
-		infantry_weapons = 1
-		infantry_weapons1 = 1
+		infantrygun1_tech = 1
+		infantrygun2_tech = 1
 		tech_support = 1		
 		tech_recon = 1
 		tech_trucks = 1
@@ -680,8 +680,8 @@ add_breakthrough_progress = {
 		tech_mountaineers = 1
 		paratroopers = 1
 		motorised_infantry = 1
-		infantry_weapons2 = 1
-		support_weapons = 1
+		infantrygun3_tech = 1
+		infantrysupport1_tech = 1
 		tech_logistics_company = 1
 		tech_signal_company = 1
 		tech_maintenance_company = 1
@@ -767,13 +767,13 @@ add_breakthrough_progress = {
 			has_dlc = "No Step Back"
 		}
 		set_technology = {
-			gwtank_chassis = 1
-			basic_light_tank_chassis = 1
+			tank0_tech = 1
+			lighttank1_tech = 1
 		}
 
 		create_equipment_variant = {
 			name = "Toldi 38M"
-			type = light_tank_chassis_1
+			type = light_tank_chassis_1936
 			parent_version = 0
 			modules = {
 				main_armament_slot = tank_small_cannon

@@ -97,8 +97,8 @@ IF = {
 ### Starting Technology ###
 
 set_technology = {
-	infantry_weapons = 1
-	infantry_weapons1 = 1
+	infantrygun1_tech = 1
+	infantrygun2_tech = 1
 	tech_support = 1		
 	tech_recon = 1
 	tech_engineers = 1
@@ -148,8 +148,8 @@ IF = {
 		has_dlc = "No Step Back"
 	}
 	set_technology = {
-		gwtank_chassis = 1
-		basic_light_tank_chassis = 1
+		tank0_tech = 1
+		lighttank1_tech = 1
 	}
 	set_oob = "JAP_1936_nsb"
 }
@@ -436,7 +436,7 @@ create_import = {
 			has_dlc = "No Step Back"
 		}
 		set_technology = {
-			basic_medium_tank_chassis = 1
+			mediumtank1_tech = 1
 		}
 		set_oob = "JAP_1939_nsb"
 		ELSE = {
@@ -567,7 +567,7 @@ IF = {
 	}
 	create_equipment_variant = {
 		name = "Type 94 Tankette"
-		type = light_tank_chassis_0
+		type = light_tank_chassis_1930
 		parent_version = 0
 		modules = {
 			main_armament_slot = tank_heavy_machine_gun
@@ -585,7 +585,7 @@ IF = {
 	}
 	create_equipment_variant = {
 		name = "Type 89 I-Go"
-		type = medium_tank_chassis_0
+		type = medium_tank_chassis_1930
 		parent_version = 0
 		modules = {
 			main_armament_slot = tank_close_support_gun
@@ -602,7 +602,7 @@ IF = {
 	}
 	create_equipment_variant = { #Note: There is a copy of this variant in Finnish National Focus file (FIN_bring_foreign_armor_experts). Any changes here should also be applied there
 		name = "Type 95 Ha-Go"
-		type = light_tank_chassis_1
+		type = light_tank_chassis_1936
 		parent_version = 0
 		modules = {
 			main_armament_slot = tank_small_cannon
@@ -1509,7 +1509,7 @@ IF = {
 			}
 			create_equipment_variant = {
 				name = "Type 97 Chi-Ha"
-				type = medium_tank_chassis_1
+				type = medium_tank_chassis_1936
 				parent_version = 0
 				modules = {
 					main_armament_slot = tank_close_support_gun

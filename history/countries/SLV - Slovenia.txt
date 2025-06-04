@@ -8,8 +8,8 @@ set_technology = {
 	tech_support = 1
 	tech_engineers = 1
 	tech_mountaineers = 1
-	infantry_weapons = 1
-	infantry_weapons1 = 1
+	infantrygun1_tech = 1
+	infantrygun2_tech = 1
 	tech_trucks = 1
 }
 if = {
@@ -45,8 +45,8 @@ if = {
 		has_dlc = "No Step Back"
 	}
 	set_technology = {
-		gwtank_chassis = 1
-		basic_light_tank_chassis = 1
+		tank0_tech = 1
+		lighttank1_tech = 1
 
 	}
 }

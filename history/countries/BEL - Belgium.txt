@@ -60,8 +60,8 @@ set_stability = 0.7
 set_war_support = 0.3 #we see what you are doing there Adolf
 
 set_technology = {
-	infantry_weapons = 1
-	infantry_weapons1 = 1
+	infantrygun1_tech = 1
+	infantrygun2_tech = 1
 	tech_support = 1
 	tech_recon = 1
 	tech_engineers = 1
@@ -82,8 +82,8 @@ IF = {
 		has_dlc = "No Step Back"
 	}
 	set_technology = {
-		gwtank_chassis = 1
-		basic_light_tank_chassis = 1
+		tank0_tech = 1
+		lighttank1_tech = 1
 	}
 	else = {
 		set_technology = {
@@ -374,7 +374,7 @@ IF = {
 	}
 	create_equipment_variant = {
 		name = "T13 B1"
-		type = light_tank_destroyer_chassis_1
+		type = light_tank_destroyer_chassis_1936
 		parent_version = 1
 		design_team = mio:BEL_vickers_armstrong_bel_organization
 		modules = {
@@ -398,7 +398,7 @@ IF = {
 		}
 		create_equipment_variant = {
 			name = "T13 B1"
-			type = light_tank_destroyer_chassis_1
+			type = light_tank_destroyer_chassis_1936
 			parent_version = 1
 			design_team = mio:BEL_vickers_armstrong_bel_organization
 			modules = {
@@ -550,8 +550,8 @@ IF = {
 		interwar_artillery = 1
 		interwar_antitank = 1
 		interwar_antiair = 1
-		infantry_weapons2 = 1
-		support_weapons = 1
+		infantrygun3_tech = 1
+		infantrysupport1_tech = 1
 
 		#doctrines
 		air_superiority = 1

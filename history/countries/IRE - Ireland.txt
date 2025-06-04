@@ -5,8 +5,8 @@ oob = "IRE_1936"
 set_research_slots = 3
 
 set_technology = {
-	infantry_weapons = 1
-	infantry_weapons1 = 1
+	infantrygun1_tech = 1
+	infantrygun2_tech = 1
 	tech_trucks = 1
 	fuel_silos = 1
 	basic_train = 1
@@ -56,7 +56,7 @@ recruit_character = IRE_ernest_walton
 	set_technology = {
 		gw_artillery = 1
 		interwar_antiair = 1
-		infantry_weapons2 = 1
+		infantrygun3_tech = 1
 
 		#doctrines
 		air_superiority = 1
