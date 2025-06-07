@@ -19,6 +19,7 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					tank_light_turret_type
+					tank_light_superstructure_type
 				}
 			}
 			main_armament_slot = {
@@ -52,7 +53,7 @@ equipments = {
 				}
 			}
 			fire_control_type_slot = {
-				required = no
+				required = yes
 				allowed_module_categories = {
 					tank_fire_control_module
 				}
@@ -302,14 +303,14 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					tank_light_turret_type
+					tank_light_superstructure_type
 					tank_medium_turret_type
+					tank_medium_superstructure_type
 				}
 			}
 			main_armament_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_small_main_armament
-					tank_flamethrower
 				}
 			}
 			suspension_type_slot = {
@@ -337,7 +338,7 @@ equipments = {
 				}
 			}
 			fire_control_type_slot = {
-				required = no
+				required = yes
 				allowed_module_categories = {
 					tank_fire_control_module
 				}
@@ -653,15 +654,16 @@ equipments = {
 				required = yes
 				allowed_module_categories = {
 					tank_light_turret_type
+					tank_light_superstructure_type
 					tank_medium_turret_type
+					tank_medium_superstructure_type
 					tank_heavy_turret_type
+					tank_heavy_superstructure_type
 				}
 			}
 			main_armament_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_small_main_armament
-					tank_flamethrower
 				}
 			}
 			suspension_type_slot = {
@@ -682,6 +684,18 @@ equipments = {
 					tank_engine_type
 				}
 			}
+			radio_type_slot = {
+				required = no
+				allowed_module_categories = {
+					tank_radio_module
+				}
+			}
+			fire_control_type_slot = {
+				required = yes
+				allowed_module_categories = {
+					tank_fire_control_module
+				}
+			}
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
@@ -690,7 +704,6 @@ equipments = {
 					tank_secondary_turret
 				}
 			}
-
 			special_type_slot_2 = {
 				required = no
 				allowed_module_categories = {
@@ -988,13 +1001,19 @@ equipments = {
 			turret_type_slot = {
 				required = yes
 				allowed_module_categories = {
+					tank_light_turret_type
+					tank_light_superstructure_type
+					tank_medium_turret_type
+					tank_medium_superstructure_type
+					tank_heavy_turret_type
+					tank_heavy_superstructure_type
 					tank_super_heavy_turret_type
+					tank_super_heavy_superstructure_type
 				}
 			}
 			main_armament_slot = {
 				required = yes
 				allowed_module_categories = {
-					tank_small_main_armament
 				}
 			}
 			suspension_type_slot = {
@@ -1022,7 +1041,7 @@ equipments = {
 				}
 			}
 			fire_control_type_slot = {
-				required = no
+				required = yes
 				allowed_module_categories = {
 					tank_fire_control_module
 				}
@@ -1131,11 +1150,11 @@ equipments = {
 			steel = 1
 		}
 	}
-	super_heavy_tank_chassis_1940 = {
+	super_heavy_tank_chassis_1941 = {
 		abbreviation = "sh40"
-		derived_variant_name = super_heavy_tank_equipment_1940
+		derived_variant_name = super_heavy_tank_equipment_1941
 		visual_level = 1
-		year = 1940
+		year = 1941
 		archetype = super_heavy_tank_chassis
 		parent = super_heavy_tank_chassis_1936
 		priority = 2000
@@ -1178,7 +1197,7 @@ equipments = {
 		visual_level = 2
 		year = 1944
 		archetype = super_heavy_tank_chassis
-		parent = super_heavy_tank_chassis_1940
+		parent = super_heavy_tank_chassis_1941
 		priority = 2000
 		module_slots = inherit
 

@@ -7,7 +7,6 @@ equipment_modules = {
 		abbreviation = "bolt1"
 		category = infantry_rifle_weapon
 		sfx = sfx_ui_sd_module_turret
-		allow_equipment_type = mechanized
 
 		add_stats = {
 			soft_attack = 0.2

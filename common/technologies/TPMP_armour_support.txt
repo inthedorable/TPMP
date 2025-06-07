@@ -14,6 +14,7 @@ technologies = {
 
 	lightcannon1_tech = {
 		enable_equipment_modules = {
+			tank_light_cannon_1
 		}
 
 		path = {
@@ -44,6 +45,7 @@ technologies = {
 	}
 	lightcannon2_tech = {
 		enable_equipment_modules = {
+			tank_light_cannon_2
 		}
 
 		path = {
@@ -74,6 +76,7 @@ technologies = {
 	}
 	lightcannon3_tech = {
 		enable_equipment_modules = {
+			tank_light_cannon_3
 		}
 
 		research_cost = 1.5
@@ -96,6 +99,7 @@ technologies = {
 
 	lighthighvelocity_tech = {
 		enable_equipment_modules = {
+			tank_light_high_velocity_cannon
 		}
 
 		path = {
@@ -122,6 +126,7 @@ technologies = {
 	}
 	mediumhighvelocity1_tech = {
 		enable_equipment_modules = {
+			tank_medium_high_velocity_cannon_1
 		}
 
 		path = {
@@ -148,6 +153,7 @@ technologies = {
 	}
 	mediumhighvelocity2_tech = {
 		enable_equipment_modules = {
+			tank_medium_high_velocity_cannon_2
 		}
 
 		research_cost = 1.5
@@ -170,6 +176,7 @@ technologies = {
 
 	mediumcannon1_tech = {
 		enable_equipment_modules = {
+			tank_medium_cannon_1
 		}
 
 		path = {
@@ -200,6 +207,7 @@ technologies = {
 	}
 	mediumcannon2_tech = {
 		enable_equipment_modules = {
+			tank_medium_cannon_2
 		}
 
 		path = {
@@ -234,6 +242,7 @@ technologies = {
 	}
 	mediumcannon3_tech = {
 		enable_equipment_modules = {
+			tank_medium_cannon_3
 		}
 
 		path = {
@@ -264,6 +273,7 @@ technologies = {
 	}
 	mediumcannon4_tech = {
 		enable_equipment_modules = {
+			tank_medium_cannon_4
 		}
 
 		research_cost = 1.5
@@ -286,6 +296,7 @@ technologies = {
 
 	largemediumcannon1_tech = {
 		enable_equipment_modules = {
+			tank_large_medium_cannon_1
 		}
 
 		path = {
@@ -312,6 +323,7 @@ technologies = {
 	}
 	largemediumcannon2_tech = {
 		enable_equipment_modules = {
+			tank_large_medium_cannon_2
 		}
 
 		research_cost = 1.5
@@ -334,6 +346,7 @@ technologies = {
 
 	heavyhighvelocity1_tech = {
 		enable_equipment_modules = {
+			tank_heavy_high_velocity_cannon_1
 		}
 
 		path = {
@@ -360,6 +373,7 @@ technologies = {
 	}
 	heavyhighvelocity2_tech = {
 		enable_equipment_modules = {
+			tank_heavy_high_velocity_cannon_2
 		}
 
 		research_cost = 1.5
@@ -382,6 +396,7 @@ technologies = {
 
 	heavycannon1_tech = {
 		enable_equipment_modules = {
+			tank_heavy_cannon_1
 		}
 
 		path = {
@@ -416,6 +431,7 @@ technologies = {
 	}
 	heavycannon2_tech = {
 		enable_equipment_modules = {
+			tank_heavy_cannon_2
 		}
 
 		research_cost = 1.5
@@ -438,6 +454,7 @@ technologies = {
 
 	largeheavycannon1_tech = {
 		enable_equipment_modules = {
+			tank_large_heavy_cannon_1
 		}
 
 		path = {
@@ -468,6 +485,7 @@ technologies = {
 	}
 	largeheavycannon2_tech = {
 		enable_equipment_modules = {
+			tank_large_heavy_cannon_2
 		}
 
 		research_cost = 1.5
@@ -490,6 +508,7 @@ technologies = {
 
 	superheavycannon_tech = {
 		enable_equipment_modules = {
+			tank_super_heavy_cannon
 		}
 
 		research_cost = 1.5
@@ -512,6 +531,7 @@ technologies = {
 
 	lighthowitzer1_tech = {
 		enable_equipment_modules = {
+			tank_light_howitzer_1
 		}
 
 		path = {
@@ -550,6 +570,7 @@ technologies = {
 	}
 	lighthowitzer2_tech = {
 		enable_equipment_modules = {
+			tank_light_howitzer_2
 		}
 
 		path = {
@@ -576,6 +597,7 @@ technologies = {
 	}
 	lighthowitzer3_tech = {
 		enable_equipment_modules = {
+			tank_light_howitzer_3
 		}
 
 		research_cost = 1.5
@@ -598,6 +620,7 @@ technologies = {
 
 	lightclosesupportgun1_tech = {
 		enable_equipment_modules = {
+			tank_light_close_support_gun_1
 		}
 
 		path = {
@@ -628,6 +651,7 @@ technologies = {
 	}
 	lightclosesupportgun2_tech = {
 		enable_equipment_modules = {
+			tank_light_close_support_gun_2
 		}
 
 		research_cost = 1.5
@@ -650,6 +674,7 @@ technologies = {
 
 	mediumclosesupportgun1_tech = {
 		enable_equipment_modules = {
+			tank_medium_close_support_gun_1
 		}
 
 		path = {
@@ -676,6 +701,7 @@ technologies = {
 	}
 	mediumclosesupportgun2_tech = {
 		enable_equipment_modules = {
+			tank_medium_close_support_gun_2
 		}
 
 		research_cost = 1.5
@@ -698,6 +724,7 @@ technologies = {
 
 	mediumhowitzer1_tech = {
 		enable_equipment_modules = {
+			tank_medium_howitzer_1
 		}
 
 		path = {
@@ -728,6 +755,7 @@ technologies = {
 	}
 	mediumhowitzer2_tech = {
 		enable_equipment_modules = {
+			tank_medium_howitzer_2
 		}
 
 		research_cost = 1.5
@@ -750,6 +778,7 @@ technologies = {
 
 	heavyclosesupportgun1_tech = {
 		enable_equipment_modules = {
+			tank_heavy_close_support_gun_1
 		}
 
 		path = {
@@ -776,6 +805,7 @@ technologies = {
 	}
 	heavyclosesupportgun2_tech = {
 		enable_equipment_modules = {
+			tank_heavy_close_support_gun_2
 		}
 
 		research_cost = 1.5
@@ -798,6 +828,7 @@ technologies = {
 
 	heavyhowitzer1_tech = {
 		enable_equipment_modules = {
+			tank_heavy_howitzer_1
 		}
 
 		path = {
@@ -824,6 +855,7 @@ technologies = {
 	}
 	heavyhowitzer2_tech = {
 		enable_equipment_modules = {
+			tank_heavy_howitzer_2
 		}
 
 		path = {
@@ -855,6 +887,7 @@ technologies = {
 
 	superheavyhowitzer_tech = {
 		enable_equipment_modules = {
+			tank_super_heavy_howitzer
 		}
 
 		research_cost = 1.5
@@ -877,6 +910,7 @@ technologies = {
 
 	antiaircannon1_tech = {
 		enable_equipment_modules = {
+			tank_anti_air_cannon_1
 		}
 
 		path = {
@@ -907,6 +941,7 @@ technologies = {
 	}
 	antiaircannon2_tech = {
 		enable_equipment_modules = {
+			tank_anti_air_cannon_2
 		}
 
 		path = {
@@ -933,6 +968,7 @@ technologies = {
 	}
 	antiaircannon3_tech = {
 		enable_equipment_modules = {
+			tank_anti_air_cannon_3
 		}
 
 		research_cost = 1.5
@@ -955,6 +991,7 @@ technologies = {
 
 	heavyantiaircannon1_tech = {
 		enable_equipment_modules = {
+			tank_heavy_anti_air_cannon_1
 		}
 
 		path = {
@@ -981,6 +1018,7 @@ technologies = {
 	}
 	heavyantiaircannon2_tech = {
 		enable_equipment_modules = {
+			tank_heavy_anti_air_cannon_2
 		}
 
 		path = {
@@ -1007,6 +1045,7 @@ technologies = {
 	}
 	heavyantiaircannon3_tech = {
 		enable_equipment_modules = {
+			tank_heavy_anti_air_cannon_3
 		}
 
 		research_cost = 1.5
@@ -1102,6 +1141,8 @@ technologies = {
 	}
 	engine2_tech = {
 		enable_equipment_modules = {
+			tank_gasoline_engine_2
+			tank_diesel_engine_2
 		}
 
 		path = {
@@ -1132,6 +1173,9 @@ technologies = {
 	}
 	engine3_tech = {
 		enable_equipment_modules = {
+			tank_gasoline_engine_3
+			tank_diesel_engine_3
+			tank_petrol_electric_engine_2
 		}
 
 		path = {
@@ -1158,6 +1202,8 @@ technologies = {
 	}
 	engine4_tech = {
 		enable_equipment_modules = {
+			tank_gasoline_engine_4
+			tank_diesel_engine_4
 		}
 
 		path = {
@@ -1207,6 +1253,10 @@ technologies = {
 
 	tankupgrade1_tech = {
 		enable_equipment_modules = {
+			tank_gasoline_engine_1
+			tank_diesel_engine_1
+			tank_petrol_electric_engine_1
+			tank_optics_1
 		}
 
 		path = {
@@ -1241,14 +1291,11 @@ technologies = {
 	}
 	optics1_tech = {
 		enable_equipment_modules = {
+			tank_optics_2
 		}
 
 		path = {
 			leads_to_tech = stabilizer_tech
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = optics2_tech
 			research_cost_coeff = 1
 		}
 		path = {
@@ -1273,8 +1320,14 @@ technologies = {
 		ai_will_do = {
 		}
 	}
-	stabilizer_tech = {
+	rangefinder_tech = {
 		enable_equipment_modules = {
+			tank_optics_rangefinder_2
+		}
+
+		path = {
+			leads_to_tech = optics2_tech
+			research_cost_coeff = 1
 		}
 
 		research_cost = 1.5
@@ -1294,8 +1347,14 @@ technologies = {
 		ai_will_do = {
 		}
 	}
-	rangefinder_tech = {
+	stabilizer_tech = {
 		enable_equipment_modules = {
+			tank_optics_stabilizer_2
+		}
+
+		path = {
+			leads_to_tech = optics2_tech
+			research_cost_coeff = 1
 		}
 
 		research_cost = 1.5
@@ -1317,6 +1376,7 @@ technologies = {
 	}
 	optics2_tech = {
 		enable_equipment_modules = {
+			tank_optics_rangefinder_stabilizer_3
 		}
 
 		path = {
@@ -1343,6 +1403,7 @@ technologies = {
 	}
 	firecontrolcomputer_tech = {
 		enable_equipment_modules = {
+			tank_fire_control_computer
 		}
 
 		research_cost = 1.5

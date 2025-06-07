@@ -404,7 +404,7 @@ script_enum_equipment_bonus_type = {
 	heavy_tank_chassis_1944
 	super_heavy_tank_chassis
 	super_heavy_tank_chassis_1936
-	super_heavy_tank_chassis_1940
+	super_heavy_tank_chassis_1941
 	super_heavy_tank_chassis_1944
 	train_equipment
 	train_equipment_1

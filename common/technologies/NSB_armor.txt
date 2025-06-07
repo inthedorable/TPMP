@@ -19,6 +19,25 @@ technologies = {
 			heavy_tank_chassis_1930
 		}
 
+		enable_equipment_modules = {
+			tank_simple_light_turret_1
+			tank_light_turret_1
+			tank_simple_light_superstructure_1
+			tank_light_superstructure_1
+			tank_simple_medium_turret_1
+			tank_medium_turret_1
+			tank_simple_medium_superstructure_1
+			tank_medium_superstructure_1
+			tank_simple_heavy_turret_1
+			tank_heavy_turret_1
+			tank_simple_heavy_superstructure_1
+			tank_heavy_superstructure_1
+			tank_simple_super_heavy_turret_1
+			tank_super_heavy_turret_1
+			tank_simple_super_heavy_superstructure_1
+			tank_super_heavy_superstructure_1
+		}
+
 		path = {
 			leads_to_tech = lighttank1_tech
 			research_cost_coeff = 1
@@ -110,6 +129,12 @@ technologies = {
 		}
 	}
 	lighttankturret1_tech = {
+		enable_equipment_modules = {
+			tank_simple_light_turret_2
+			tank_light_turret_2
+			tank_simple_light_superstructure_2
+			tank_light_superstructure_2
+		}
 
 		path = {
 			leads_to_tech = lighttank3a_tech
@@ -208,6 +233,12 @@ technologies = {
 		}
 	}
 	lighttankturret2_tech = {
+		enable_equipment_modules = {
+			tank_simple_light_turret_3
+			tank_light_turret_3
+			tank_simple_light_superstructure_3
+			tank_light_superstructure_3
+		}
 
 		research_cost = 2.0
 		start_year = 1942
@@ -283,6 +314,12 @@ technologies = {
 		}
 	}
 	mediumtankturret1_tech = {
+		enable_equipment_modules = {
+			tank_simple_medium_turret_2
+			tank_medium_turret_2
+			tank_simple_medium_superstructure_2
+			tank_medium_superstructure_2
+		}
 
 		path = {
 			leads_to_tech = mediumtank3a_tech
@@ -381,6 +418,12 @@ technologies = {
 		}
 	}
 	mediumtankturret2_tech = {
+		enable_equipment_modules = {
+			tank_simple_medium_turret_3
+			tank_medium_turret_3
+			tank_simple_medium_superstructure_3
+			tank_medium_superstructure_3
+		}
 
 		path = {
 			leads_to_tech = mediumtank4a_tech
@@ -479,6 +522,11 @@ technologies = {
 		}
 	}
 	mediumtankturret3_tech = {
+		enable_equipment_modules = {
+			tank_simple_medium_turret_4
+			tank_medium_turret_4
+			tank_simple_medium_superstructure_4
+		}
 
 		research_cost = 2.0
 		start_year = 1945
@@ -554,6 +602,12 @@ technologies = {
 		}
 	}
 	heavytankturret1_tech = {
+		enable_equipment_modules = {
+			tank_simple_heavy_turret_2
+			tank_heavy_turret_2
+			tank_simple_heavy_superstructure_2
+			tank_heavy_superstructure_2
+		}
 
 		path = {
 			leads_to_tech = heavytank3a_tech
@@ -652,6 +706,12 @@ technologies = {
 		}
 	}
 	heavytankturret2_tech = {
+		enable_equipment_modules = {
+			tank_simple_heavy_turret_3
+			tank_heavy_turret_3
+			tank_simple_heavy_superstructure_3
+			tank_heavy_superstructure_3
+		}
 
 		path = {
 			leads_to_tech = heavytank4a_tech
@@ -750,6 +810,11 @@ technologies = {
 		}
 	}
 	heavytankturret3_tech = {
+		enable_equipment_modules = {
+			tank_simple_heavy_turret_4
+			tank_heavy_turret_4
+			tank_simple_heavy_superstructure_4
+		}
 
 		research_cost = 2.0
 		start_year = 1945
@@ -797,6 +862,12 @@ technologies = {
 		}
 	}
 	superheavytankturret1_tech = {
+		enable_equipment_modules = {
+			tank_simple_super_heavy_turret_2
+			tank_super_heavy_turret_2
+			tank_simple_super_heavy_superstructure_2
+			tank_super_heavy_superstructure_2
+		}
 
 		path = {
 			leads_to_tech = superheavytank2_tech
@@ -804,11 +875,11 @@ technologies = {
 		}
 
 		research_cost = 2.0
-		start_year = 1938
+		start_year = 1939
 
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 13 y = @1938 }
+			position = { x = 13 y = @1939 }
 		}
 
 		categories = {
@@ -822,7 +893,7 @@ technologies = {
 	}
 	superheavytank2_tech = {
 		enable_equipments = {
-			super_heavy_tank_chassis_1940
+			super_heavy_tank_chassis_1941
 		}
 
 		path = {
@@ -831,11 +902,11 @@ technologies = {
 		}
 
 		research_cost = 2.0
-		start_year = 1940
+		start_year = 1941
 
 		folder = {
 			name = nsb_armour_folder
-			position = { x = 13 y = @1940 }
+			position = { x = 13 y = @1941 }
 		}
 
 		categories = {
@@ -848,6 +919,11 @@ technologies = {
 		}
 	}
 	superheavytankturret2_tech = {
+		enable_equipment_modules = {
+			tank_simple_super_heavy_turret_3
+			tank_super_heavy_turret_3
+			tank_simple_super_heavy_superstructure_3
+		}
 
 		path = {
 			leads_to_tech = superheavytank3_tech
