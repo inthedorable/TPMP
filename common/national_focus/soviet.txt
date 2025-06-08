@@ -4255,7 +4255,7 @@ focus_tree = {
 				limit = {
 					has_dlc = "No Step Back"
 				}
-				has_tech = improved_medium_tank_chassis
+				has_tech = mediumtank2_tech
 			}
 			else = {
 				has_tech = improved_medium_tank
@@ -7927,7 +7927,7 @@ focus_tree = {
 				limit = {
 					has_dlc = "No Step Back"
 				}
-				has_tech = advanced_heavy_tank_chassis
+				has_tech = heavytank3a_tech
 			}
 			else = {
 				has_tech = advanced_heavy_tank
@@ -17194,7 +17194,7 @@ ai_will_do = {
 				ahead_reduction = 1 # was 2
 				bonus = 1
 				uses = 1
-				technology = super_heavy_tank_chassis
+				technology = superheavytank1_tech
 			}
 			add_ideas = SOV_the_iron_wall_of_russian_resolve
 		}

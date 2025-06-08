@@ -923,7 +923,7 @@ focus_tree = {
 				limit = {
 					has_dlc = "No Step Back"
 				}
-				has_tech = gwtank_chassis
+				has_tech = tank0_tech
 			}
 			IF = {
 				limit = {

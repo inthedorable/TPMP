@@ -2322,7 +2322,7 @@ country_event = { # Norway wants to collaborate on Tanks
 					OR = {
 						AND = {
 							has_DLC = "No Step Back"
-							NOT = {	has_tech = gwtank_chassis }
+							NOT = {	has_tech = tank0_tech }
 						}
 						AND = {
 							NOT = { has_DLC = "No Step Back" }
@@ -2335,7 +2335,7 @@ country_event = { # Norway wants to collaborate on Tanks
 						has_DLC = "No Step Back"
 					}
 					set_technology = {
-						gwtank_chassis = 1
+						tank0_tech = 1
 						popup = yes 
 					} 
 				}
@@ -2538,7 +2538,7 @@ country_event = { # Communist/Fascist Accepted sale of tanks and Kool-Aid
 					has_dlc = "No Step Back"
 				}
 				set_technology = { 
-					gwtank_chassis = 1
+					tank0_tech = 1
 					popup = yes
 				}
 				add_equipment_to_stockpile = { 
@@ -2602,11 +2602,11 @@ country_event = { # Fascist Accepted Research Stuff
 		if = {
 			limit = {
 				NOT = {
-					has_tech = gwtank_chassis
+					has_tech = tank0_tech
 				}
 			}
 			set_technology = {
-				gwtank_chassis = 1
+				tank0_tech = 1
 				popup = yes 
 			} 
 		}

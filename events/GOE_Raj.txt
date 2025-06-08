@@ -3815,12 +3815,12 @@ country_event = {
 
 
 					set_technology = {
-						basic_medium_tank_chassis = 1
+						mediumtank1_tech = 1
 						popup = no
 					}
 
 					set_technology = {
-						improved_medium_tank_chassis = 1
+						mediumtank2_tech = 1
 						popup = no
 					}
 

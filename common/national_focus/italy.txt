@@ -4204,10 +4204,10 @@ focus_tree = {
 					}
 					if = {
 						limit = {
-							has_tech = grand_battle_plan
+							has_tech = infantry_doctrine_1
 						}
 						set_technology = {
-							grand_battle_plan = 0
+							infantry_doctrine_1 = 0
 							delay = 1
 						}
 					}
@@ -4404,7 +4404,7 @@ focus_tree = {
 				}
 				if = {
 					limit = {
-						has_tech = improved_light_tank_chassis
+						has_tech = lighttank2_tech
 					}
 					ITA_add_improved_light_tank_templates = yes
 				}
@@ -4655,7 +4655,7 @@ focus_tree = {
 				limit = {
 					has_dlc = "No Step Back"
 				}
-				has_tech = basic_medium_tank_chassis
+				has_tech = mediumtank1_tech
 			}
 		}
 
@@ -4731,7 +4731,7 @@ focus_tree = {
 				}
 				if = {
 					limit = {
-						has_tech = improved_medium_tank_chassis
+						has_tech = mediumtank2_tech
 					}
 					ITA_add_improved_medium_tank_templates = yes
 				}
@@ -4743,7 +4743,7 @@ focus_tree = {
 				}
 				if = {
 					limit = {
-						has_tech = improved_heavy_tank_chassis
+						has_tech = heavytank2_tech
 					}
 					ITA_add_improved_heavy_tank_templates = yes
 				}
@@ -4830,7 +4830,7 @@ focus_tree = {
 				}
 				if = {
 					limit = {
-						has_tech = improved_medium_tank_chassis
+						has_tech = mediumtank2_tech
 					}
 					ITA_add_improved_medium_tank_templates = yes
 				}
@@ -4842,7 +4842,7 @@ focus_tree = {
 				}
 				if = {
 					limit = {
-						has_tech = improved_heavy_tank_chassis
+						has_tech = heavytank2_tech
 					}
 					ITA_add_improved_heavy_tank_templates = yes
 				}
@@ -4911,7 +4911,7 @@ focus_tree = {
 				}
 				if = {
 					limit = {
-						has_tech = advanced_medium_tank_chassis
+						has_tech = mediumtank3a_tech
 					}
 					ITA_add_advanced_medium_tank_templates = yes
 				}
@@ -4923,7 +4923,7 @@ focus_tree = {
 				}
 				if = {
 					limit = {
-						has_tech = advanced_heavy_tank_chassis
+						has_tech = heavytank3a_tech
 					}
 					ITA_add_advanced_heavy_tank_templates = yes
 				}
@@ -10158,7 +10158,7 @@ focus_tree = {
 				}
 				if = {
 					limit = {
-						has_tech = super_heavy_tank_chassis
+						has_tech = superheavytank1_tech
 					}
 					#SH template
 					ITA_add_il_duce_sh_tank_template_and_production = yes
@@ -10169,7 +10169,7 @@ focus_tree = {
 						ahead_reduction = 2
 						bonus = 1.0
 						uses = 1
-						technology = super_heavy_tank_chassis
+						technology = superheavytank1_tech
 					}
 					custom_effect_tooltip = ITA_focus_sh_tank_template_tt
 					effect_tooltip = {
@@ -13785,7 +13785,7 @@ focus_tree = {
 				ahead_reduction = 2
 				bonus = 1.0
 				uses = 1
-				technology = super_heavy_tank_chassis
+				technology = superheavytank1_tech
 			}
 			add_tech_bonus = { #Changed to require the tech to complete this focus, and give template and production line
 				name = ITA_mare_nostrum_bba
@@ -14071,7 +14071,7 @@ focus_tree = {
 				limit = {
 					has_dlc = "No Step Back"
 				}
-				has_tech = super_heavy_tank_chassis
+				has_tech = superheavytank1_tech
 			}
 		}
 
@@ -14645,7 +14645,7 @@ focus_tree = {
 
 				if = {
 					limit = {
-						has_tech = super_heavy_tank_chassis
+						has_tech = superheavytank1_tech
 					}
 					#SH template
 					ITA_add_hand_of_god_sh_tank_template_and_production = yes

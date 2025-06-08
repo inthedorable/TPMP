@@ -1004,7 +1004,7 @@ technologies = {
 
 
 	### GERMAN TANK NAMES IN COMMENTS SO YOU CAN FIND STUFF MORE EASILY
-	# gwtank_chassis = { #Leichttraktor
+	# tank0_tech = { #Leichttraktor
 
 	# 	show_equipment_icon = yes
 
@@ -1084,17 +1084,17 @@ technologies = {
 	# 	}
 
 	# 	path = {
-	# 		leads_to_tech = basic_light_tank_chassis
+	# 		leads_to_tech = lighttank1_tech
 	# 		research_cost_coeff = 1
 	# 	}
 
 	# 	path = {
-	# 		leads_to_tech = basic_heavy_tank_chassis
+	# 		leads_to_tech = heavytank1_tech
 	# 		research_cost_coeff = 1
 	# 	}
 
 	# 	path = {
-	# 		leads_to_tech = basic_medium_tank_chassis
+	# 		leads_to_tech = mediumtank1_tech
 	# 		research_cost_coeff = 1
 	# 	}
 
@@ -1143,7 +1143,7 @@ technologies = {
 	# 	special_project_specialization = { specialization_land }
 	# }
 
-	# basic_light_tank_chassis = { #Panzer I
+	# lighttank1_tech = { #Panzer I
 
 	# 	enable_equipments = {
 	# 		light_tank_chassis_1
@@ -1190,7 +1190,7 @@ technologies = {
 	# 	}
 
 	# 	path = {
-	# 		leads_to_tech = improved_light_tank_chassis
+	# 		leads_to_tech = lighttank2_tech
 	# 		research_cost_coeff = 1
 	# 	}
 
@@ -1234,7 +1234,7 @@ technologies = {
 	# 	special_project_specialization = { specialization_land }
 	# }
 
-	# improved_light_tank_chassis = { #Panzer II
+	# lighttank2_tech = { #Panzer II
 
 	# 	enable_equipments = {
 	# 		light_tank_chassis_2
@@ -1244,7 +1244,7 @@ technologies = {
 	# 	}
 
 	# 	path = {
-	# 		leads_to_tech = advanced_light_tank_chassis
+	# 		leads_to_tech = lighttank3a_tech
 	# 		research_cost_coeff = 1
 	# 	}
 
@@ -1485,7 +1485,7 @@ technologies = {
 	# 	special_project_specialization = { specialization_land }
 	# }
 
-	# advanced_light_tank_chassis = { #Leopard
+	# lighttank3a_tech = { #Leopard
 
 	# 	enable_equipments = {
 	# 		light_tank_chassis_3
@@ -1540,7 +1540,7 @@ technologies = {
 	# 	special_project_specialization = { specialization_land }
 	# }
 
-	# basic_medium_tank_chassis = { #Panzer III
+	# mediumtank1_tech = { #Panzer III
 
 	# 	enable_equipments = {
 	# 		medium_tank_chassis_1
@@ -1580,7 +1580,7 @@ technologies = {
 	# 	}
 
 	# 	path = {
-	# 		leads_to_tech = improved_medium_tank_chassis
+	# 		leads_to_tech = mediumtank2_tech
 	# 		research_cost_coeff = 1
 	# 	}
 
@@ -1674,7 +1674,7 @@ technologies = {
 	# }
 
 
-	# improved_medium_tank_chassis = { #Panzer IV
+	# mediumtank2_tech = { #Panzer IV
 
 	# 	enable_equipments = {
 	# 		medium_tank_chassis_2
@@ -1684,7 +1684,7 @@ technologies = {
 	# 	}
 
 	# 	path = {
-	# 		leads_to_tech = advanced_medium_tank_chassis
+	# 		leads_to_tech = mediumtank3a_tech
 	# 		research_cost_coeff = 1
 	# 	}
 
@@ -1829,7 +1829,7 @@ technologies = {
 	# 	special_project_specialization = { specialization_land }
 	# }
 
-	# advanced_medium_tank_chassis = { #Panther
+	# mediumtank3a_tech = { #Panther
 
 	# 	enable_equipments = {
 	# 		medium_tank_chassis_3
@@ -2011,7 +2011,7 @@ technologies = {
 	# }
 
 
-	# basic_heavy_tank_chassis = { #Grosstraktor
+	# heavytank1_tech = { #Grosstraktor
 
 	# 	enable_equipments = {
 	# 		heavy_tank_chassis_1
@@ -2051,7 +2051,7 @@ technologies = {
 	# 	}
 
 	# 	path = {
-	# 		leads_to_tech = improved_heavy_tank_chassis
+	# 		leads_to_tech = heavytank2_tech
 	# 		research_cost_coeff = 1
 	# 	}
 
@@ -2104,7 +2104,7 @@ technologies = {
 	# 	special_project_specialization = { specialization_land }
 	# }
 
-	# improved_heavy_tank_chassis = { #Tiger
+	# heavytank2_tech = { #Tiger
 
 	# 	enable_equipments = {
 	# 		heavy_tank_chassis_2
@@ -2114,12 +2114,12 @@ technologies = {
 	# 	}
 
 	# 	path = {
-	# 		leads_to_tech = advanced_heavy_tank_chassis
+	# 		leads_to_tech = heavytank3a_tech
 	# 		research_cost_coeff = 1
 	# 	}
 
 	# 	path = {
-	# 		leads_to_tech = super_heavy_tank_chassis
+	# 		leads_to_tech = superheavytank1_tech
 	# 		research_cost_coeff = 1
 	# 	}
 
@@ -2189,7 +2189,7 @@ technologies = {
 	# }
 
 
-	# advanced_heavy_tank_chassis = { #King Tiger
+	# heavytank3a_tech = { #King Tiger
 
 	# 	enable_equipments = {
 	# 		heavy_tank_chassis_3
@@ -2260,7 +2260,7 @@ technologies = {
 	# 	special_project_specialization = { specialization_land }
 	# }
 
-	# super_heavy_tank_chassis = { #Maus
+	# superheavytank1_tech = { #Maus
 
 	# 	enable_equipments = {
 	# 		super_heavy_tank_chassis_1
@@ -2372,13 +2372,13 @@ technologies = {
 	# 	special_project_specialization = { specialization_land }
 	# }
 
-	# armor_tech_1 = {
+	# tankupgrade1_tech = {
 	# 	enable_equipment_modules = {
 	# 		tank_welded_armor
 	# 	}
 
 	# 	path = {
-	# 		leads_to_tech = armor_tech_2
+	# 		leads_to_tech = armour2_tech
 	# 		research_cost_coeff = 1
 	# 	}
 
@@ -2432,13 +2432,13 @@ technologies = {
 	# 	special_project_specialization = { specialization_land }
 	# }
 
-	# armor_tech_2 = {
+	# armour2_tech = {
 
 	# 	enable_equipment_modules = {
 	# 		armor_skirts
 	# 	}
 	# 	path = {
-	# 		leads_to_tech = armor_tech_3
+	# 		leads_to_tech = armour3_tech
 	# 		research_cost_coeff = 1
 	# 	}
 
@@ -2492,14 +2492,14 @@ technologies = {
 	# 	special_project_specialization = { specialization_land }
 	# }
 
-	# armor_tech_3 = {
+	# armour3_tech = {
 
 	# 	enable_equipment_modules = {
 	# 		lc_armored_skirts #Module for Land Cruiser
 	# 	}
 
 	# 	path = {
-	# 		leads_to_tech = armor_tech_4
+	# 		leads_to_tech = armour4_tech
 	# 		research_cost_coeff = 1
 	# 	}
 
@@ -2553,7 +2553,7 @@ technologies = {
 	# 	special_project_specialization = { specialization_land }
 	# }
 
-	# armor_tech_4 = {
+	# armour4_tech = {
 
 	# 	research_cost = 1
 	# 	start_year = 1944
@@ -2605,11 +2605,11 @@ technologies = {
 	# 	special_project_specialization = { specialization_land }
 	# }
 
-	# engine_tech_1 = {
+	# tankupgrade1_tech = {
 
 
 	# 	path = {
-	# 		leads_to_tech = engine_tech_2
+	# 		leads_to_tech = engine2_tech
 	# 		research_cost_coeff = 1
 	# 	}
 	# 	on_research_complete = {
@@ -2661,11 +2661,11 @@ technologies = {
 	# 	special_project_specialization = { specialization_land }
 	# }
 
-	# engine_tech_2 = {
+	# engine2_tech = {
 
 
 	# 	path = {
-	# 		leads_to_tech = engine_tech_3
+	# 		leads_to_tech = engine3_tech
 	# 		research_cost_coeff = 1
 	# 	}
 
@@ -2719,11 +2719,11 @@ technologies = {
 	# 	special_project_specialization = { specialization_land }
 	# }
 
-	# engine_tech_3 = {
+	# engine3_tech = {
 
 
 	# 	path = {
-	# 		leads_to_tech = engine_tech_4
+	# 		leads_to_tech = engine4_tech
 	# 		research_cost_coeff = 1
 	# 	}
 	# 	on_research_complete = {
@@ -2775,7 +2775,7 @@ technologies = {
 	# 	special_project_specialization = { specialization_land }
 	# }
 
-	# engine_tech_4 = {
+	# engine4_tech = {
 
 	# 	research_cost = 1
 	# 	start_year = 1944

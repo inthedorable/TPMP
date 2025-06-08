@@ -1967,26 +1967,26 @@ shared_focus = {
 			IF = {
 				limit = {
 					NOT = {
-						has_tech = basic_light_tank_chassis
+						has_tech = lighttank1_tech
 					}
 				}
-				set_technology = { basic_light_tank_chassis = 1 }
+				set_technology = { lighttank1_tech = 1 }
 			}
 			ELSE_IF = {
 				limit = {
 					NOT = {
-						has_tech = improved_light_tank_chassis
+						has_tech = lighttank2_tech
 					}
 				}
-				set_technology = { improved_light_tank_chassis = 1 }
+				set_technology = { lighttank2_tech = 1 }
 			}
 			ELSE_IF = {
 				limit = {
 					NOT = {
-						has_tech = advanced_light_tank_chassis
+						has_tech = lighttank3a_tech
 					}
 				}
-				set_technology = { advanced_light_tank_chassis = 1 }
+				set_technology = { lighttank3a_tech = 1 }
 			}
 		}
 		ELSE = {

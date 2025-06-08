@@ -3838,7 +3838,7 @@ country_event = {
 		trigger = {
 			OR = {
 				has_tech = basic_light_tank
-				has_tech = basic_light_tank_chassis
+				has_tech = lighttank1_tech
 			}
 		}
 		add_political_power = 25

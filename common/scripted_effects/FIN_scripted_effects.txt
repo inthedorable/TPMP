@@ -372,10 +372,10 @@ FIN_purchase_soviet_equipment_for_cw = {
 		}
 		if = {
 			limit = {
-				NOT = { has_tech = gwtank_chassis }
+				NOT = { has_tech = tank0_tech }
 			}
 			set_technology = {
-				gwtank_chassis = 1
+				tank0_tech = 1
 				popup = yes
 			}
 		}
@@ -556,10 +556,10 @@ FIN_purchase_german_equipment_for_cw = {
 		}
 		if = {
 			limit = {
-				NOT = { has_tech = gwtank_chassis }
+				NOT = { has_tech = tank0_tech }
 			}
 			set_technology = {
-				gwtank_chassis = 1
+				tank0_tech = 1
 				popup = yes
 			}
 		}

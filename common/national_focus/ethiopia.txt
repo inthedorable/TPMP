@@ -5294,16 +5294,16 @@ focus_tree = {
 				IF = {
 					limit = {
 						OR = {
-							NOT = { has_tech = gwtank_chassis }
-							NOT = { has_tech = basic_light_tank_chassis }
+							NOT = { has_tech = tank0_tech }
+							NOT = { has_tech = lighttank1_tech }
 						}
 					}
 					set_technology = { 
-						gwtank_chassis = 1
+						tank0_tech = 1
 						popup = no
 					}
 					set_technology = { 
-						basic_light_tank_chassis = 1
+						lighttank1_tech = 1
 						popup = no
 					}					
 				}
@@ -5338,7 +5338,7 @@ focus_tree = {
 			ELSE = {
 				IF = {
 					limit = {
-						NOT = { has_tech = basic_light_tank_chassis }
+						NOT = { has_tech = lighttank1_tech }
 					}
 					set_technology = { 
 						gwtank = 1

@@ -551,7 +551,7 @@ give_fascist_tank_licences = { #does not have to take non-dlc into account becau
 	}
 	else_if = {
 		limit = {
-			has_tech = advanced_medium_tank_chassis
+			has_tech = mediumtank3a_tech
 		}
 		if = {
 			limit = { has_dlc = "Death or Dishonor" }
@@ -573,7 +573,7 @@ give_fascist_tank_licences = { #does not have to take non-dlc into account becau
 	}
 	else_if = {
 		limit = {
-			has_tech = improved_medium_tank_chassis
+			has_tech = mediumtank2_tech
 		}
 		if = {
 			limit = { has_dlc = "Death or Dishonor" }
@@ -595,7 +595,7 @@ give_fascist_tank_licences = { #does not have to take non-dlc into account becau
 	}
 	else_if = {
 		limit = {
-			has_tech = basic_medium_tank_chassis
+			has_tech = mediumtank1_tech
 		}
 		if = {
 			limit = { has_dlc = "Death or Dishonor" }

@@ -2276,7 +2276,7 @@ country_event = {
 		trigger = {
 			OR = {
 				has_tech = improved_light_tank
-				has_tech = improved_light_tank_chassis
+				has_tech = lighttank2_tech
 			}
 		}
 		IF = {
@@ -2307,7 +2307,7 @@ country_event = {
 		trigger = {
 			OR = {
 				has_tech = basic_light_tank
-				has_tech = basic_light_tank_chassis
+				has_tech = lighttank1_tech
 			}
 		}
 		IF = {
@@ -2339,7 +2339,7 @@ country_event = {
 		trigger = {
 			OR = {
 				has_tech = gwtank
-				has_tech = gwtank_chassis
+				has_tech = tank0_tech
 			}
 		}
 		IF = {

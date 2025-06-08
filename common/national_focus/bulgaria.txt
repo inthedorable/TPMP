@@ -3693,7 +3693,7 @@ focus_tree = {
 					}
 					if = {
 						limit = {
-							has_tech = advanced_light_tank_chassis
+							has_tech = lighttank3a_tech
 						}
 						create_production_license = {
 							target = BUL
@@ -3705,7 +3705,7 @@ focus_tree = {
 					}
 					else_if = {
 						limit = {
-							has_tech = improved_light_tank_chassis
+							has_tech = lighttank2_tech
 						}
 						create_production_license = {
 							target = BUL
@@ -3717,7 +3717,7 @@ focus_tree = {
 					}
 					else_if = {
 						limit = {
-							has_tech = basic_light_tank_chassis
+							has_tech = lighttank1_tech
 						}
 						create_production_license = {
 							target = BUL
@@ -3730,7 +3730,7 @@ focus_tree = {
 					#Latest Medium Tank license
 					if = {
 						limit = {
-							has_tech = advanced_medium_tank_chassis
+							has_tech = mediumtank3a_tech
 						}
 						create_production_license = {
 							target = BUL
@@ -3742,7 +3742,7 @@ focus_tree = {
 					}
 					else_if = {
 						limit = {
-							has_tech = improved_medium_tank_chassis
+							has_tech = mediumtank2_tech
 						}
 						create_production_license = {
 							target = BUL
@@ -3754,7 +3754,7 @@ focus_tree = {
 					}
 					else_if = {
 						limit = {
-							has_tech = basic_medium_tank_chassis
+							has_tech = mediumtank1_tech
 						}
 						create_production_license = {
 							target = BUL
@@ -3767,7 +3767,7 @@ focus_tree = {
 					#Latest Heavy Tank license
 					if = {
 						limit = {
-							has_tech = advanced_heavy_tank_chassis
+							has_tech = heavytank3a_tech
 						}
 						create_production_license = {
 							target = BUL
@@ -3779,7 +3779,7 @@ focus_tree = {
 					}
 					else_if = {
 						limit = {
-							has_tech = improved_heavy_tank_chassis
+							has_tech = heavytank2_tech
 						}
 						create_production_license = {
 							target = BUL
@@ -3791,7 +3791,7 @@ focus_tree = {
 					}
 					else_if = {
 						limit = {
-							has_tech = basic_heavy_tank_chassis
+							has_tech = heavytank1_tech
 						}
 						create_production_license = {
 							target = BUL

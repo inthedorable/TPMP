@@ -6303,10 +6303,10 @@ country_event = {
 				if = {
 					limit = {
 						NOT = {
-							has_tech = gwtank_chassis
+							has_tech = tank0_tech
 						}
 					}
-					set_technology = { gwtank_chassis = 1 }
+					set_technology = { tank0_tech = 1 }
 					add_equipment_to_stockpile = { 
 						type = light_tank_chassis_1936 
 						amount = 200 producer = SOV 

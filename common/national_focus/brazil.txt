@@ -3231,11 +3231,11 @@ focus_tree = {
 				IF = {
 					limit = {
 						NOT = {
-							has_tech = basic_medium_tank_chassis
+							has_tech = mediumtank1_tech
 						}
 					}
 				}
-				set_technology = { basic_medium_tank_chassis = 1 }
+				set_technology = { mediumtank1_tech = 1 }
 				create_equipment_variant = {
 					name = "Panzer IV Ausf. A"
 					type = medium_tank_chassis_1936

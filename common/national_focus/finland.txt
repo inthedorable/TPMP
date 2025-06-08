@@ -7871,7 +7871,7 @@ focus_tree = {
 				limit = {
 					has_dlc = "No Step Back"
 				}
-				has_tech = basic_light_tank_chassis
+				has_tech = lighttank1_tech
 			}
 		}
 
@@ -12157,7 +12157,7 @@ focus_tree = {
 		}
 
 		available = {
-			has_tech = super_heavy_tank_chassis
+			has_tech = superheavytank1_tech
 		}
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }

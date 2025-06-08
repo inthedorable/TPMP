@@ -1253,9 +1253,9 @@ has_any_tank_tech = {
 			has_dlc = "No Step Back"
 		}
 		OR = {
-			has_tech = basic_light_tank_chassis
-			has_tech = basic_medium_tank_chassis
-			has_tech = basic_heavy_tank_chassis
+			has_tech = lighttank1_tech
+			has_tech = mediumtank1_tech
+			has_tech = heavytank1_tech
 		}
 	}
 	else = {

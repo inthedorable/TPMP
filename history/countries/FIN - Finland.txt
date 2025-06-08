@@ -517,8 +517,8 @@ set_convoys = 5
 			tank0_tech = 1
 			lighttank1_tech = 1
 			lighttank2_tech = 1
-			armor_tech_1 = 1
-			engine_tech_1 = 1
+			tankupgrade1_tech = 1
+			tankupgrade1_tech = 1
 		}
 	}
 

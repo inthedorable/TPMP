@@ -404,7 +404,7 @@ HUN_gyor_program_initiatives_category = {
 				limit = {
 					has_dlc = "No Step Back"
 				}
-				has_tech = basic_heavy_tank_chassis
+				has_tech = heavytank1_tech
 			}
 			ELSE = {
 				has_tech = basic_heavy_tank

@@ -43,15 +43,15 @@ debug_decisions = {
 
 		complete_effect = {
 			set_technology = {
-				gwtank_chassis = 1
+				tank0_tech = 1
 				popup = no
 			}
 			set_technology = {
-				basic_light_tank_chassis = 1
+				lighttank1_tech = 1
 				popup = no
 			}			
 			set_technology = {
-				improved_light_tank_chassis = 1
+				lighttank2_tech = 1
 				popup = no
 			}			
 			set_technology = {
@@ -63,19 +63,19 @@ debug_decisions = {
 				popup = no
 			}			
 			set_technology = {
-				advanced_light_tank_chassis = 1
+				lighttank3a_tech = 1
 				popup = no
 			}			
 			set_technology = {
-				basic_medium_tank_chassis = 1
+				mediumtank1_tech = 1
 				popup = no
 			}			
 			set_technology = {
-				improved_medium_tank_chassis = 1
+				mediumtank2_tech = 1
 				popup = no
 			}			
 			set_technology = {
-				advanced_medium_tank_chassis = 1
+				mediumtank3a_tech = 1
 				popup = no
 			}			
 			set_technology = {
@@ -83,51 +83,51 @@ debug_decisions = {
 				popup = no
 			}			
 			set_technology = {
-				basic_heavy_tank_chassis = 1
+				heavytank1_tech = 1
 				popup = no
 			}			
 			set_technology = {
-				improved_heavy_tank_chassis = 1
+				heavytank2_tech = 1
 				popup = no
 			}			
 			set_technology = {
-				advanced_heavy_tank_chassis = 1
+				heavytank3a_tech = 1
 				popup = no
 			}			
 			set_technology = {
-				super_heavy_tank_chassis = 1
+				superheavytank1_tech = 1
 				popup = no
 			}			
 			set_technology = {
-				armor_tech_1 = 1
+				tankupgrade1_tech = 1
 				popup = no
 			}			
 			set_technology = {
-				armor_tech_2 = 1
+				armour2_tech = 1
 				popup = no
 			}			
 			set_technology = {
-				armor_tech_3 = 1
+				armour3_tech = 1
 				popup = no
 			}			
 			set_technology = {
-				armor_tech_4 = 1
+				armour4_tech = 1
 				popup = no
 			}			
 			set_technology = {
-				engine_tech_1 = 1
+				tankupgrade1_tech = 1
 				popup = no
 			}			
 			set_technology = {
-				engine_tech_2 = 1
+				engine2_tech = 1
 				popup = no
 			}			
 			set_technology = {
-				engine_tech_3 = 1
+				engine3_tech = 1
 				popup = no
 			}			
 			set_technology = {
-				engine_tech_4 = 1
+				engine4_tech = 1
 				popup = no
 			}
 			set_technology = {

@@ -1703,14 +1703,14 @@ NOR_rikstanken_creation_effect = { # Moving it here so it's cleaner
 			limit = { has_dlc = "No Step Back" }
 			if = {
 				limit = {
-					NOT = { has_tech = basic_light_tank_chassis }
+					NOT = { has_tech = lighttank1_tech }
 				}
 				set_technology = {
-					gwtank_chassis = 1 
+					tank0_tech = 1 
 					popup = yes 
 				}
 				set_technology = {
-					basic_light_tank_chassis = 1
+					lighttank1_tech = 1
 					popup = no
 				}
 				set_country_flag = NOR_added_basic_tank_tech
@@ -1805,7 +1805,7 @@ NOR_rikstanken_creation_effect = { # Moving it here so it's cleaner
 					has_dlc = "No Step Back"
 				}
 				set_technology = {
-					basic_light_tank_chassis = 0
+					lighttank1_tech = 0
 					popup = no
 				}
 			}

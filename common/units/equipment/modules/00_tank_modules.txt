@@ -2629,7 +2629,7 @@ equipment_modules = {
 		abbreviation = "op2"
 		category = tank_fire_control_module
 		sfx = sfx_ui_sd_module_turret
-		parent = tank_optics1
+		parent = tank_optics_1
 
 		add_stats = {
 			soft_attack = 10

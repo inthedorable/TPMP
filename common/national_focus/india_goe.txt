@@ -770,7 +770,7 @@ focus_tree = {
                             has_dlc = "No Step Back"
                         }
                         set_technology = {
-                            basic_light_tank_chassis = 1
+                            lighttank1_tech = 1
                             popup = no
                         }
                         add_equipment_to_stockpile = {
@@ -931,7 +931,7 @@ focus_tree = {
                                 has_dlc = "No Step Back"
                             }
                             set_technology = {
-                                basic_light_tank_chassis = 1
+                                lighttank1_tech = 1
                                 popup = no
                             }
                             add_equipment_to_stockpile = {
@@ -3258,7 +3258,7 @@ focus_tree = {
                 ahead_reduction = 1 # was 2
                 bonus = 1
                 uses = 1
-                technology = super_heavy_tank_chassis
+                technology = superheavytank1_tech
             }
         }
     }
@@ -4965,7 +4965,7 @@ focus_tree = {
                 limit = {
                     has_dlc = "No Step Back"
                 }
-                has_tech = armor_tech_3
+                has_tech = armour3_tech
             }
             else = {
                 has_tech = improved_heavy_tank
@@ -11876,7 +11876,7 @@ focus_tree = {
                         if = {  
                             limit = { has_dlc = "No Step Back"}
                             set_technology = {
-                                basic_medium_tank_chassis = 1
+                                mediumtank1_tech = 1
                                 popup = no
                             }
                             create_equipment_variant = {

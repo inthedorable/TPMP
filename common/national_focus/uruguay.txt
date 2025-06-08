@@ -217,10 +217,10 @@ focus_tree = {
 				if = {
 					limit = {
 						not = {
-							has_tech = gwtank_chassis
+							has_tech = tank0_tech
 						}
 					}
-					set_technology = { gwtank_chassis = 1 }
+					set_technology = { tank0_tech = 1 }
 				}
 
 				add_equipment_to_stockpile = { type = light_tank_chassis_1930 amount = 100 producer = ITA variant_name = "Fiat 3000B" }
@@ -530,10 +530,10 @@ focus_tree = {
 			if  ={
 				limit = {
 					has_dlc = "No Step Back"
-					NOT = { has_tech = gwtank_chassis }
+					NOT = { has_tech = tank0_tech }
 				}
 				set_technology = {
-					gwtank_chassis = 1
+					tank0_tech = 1
 					popup = no
 				}
 			}

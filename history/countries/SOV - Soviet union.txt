@@ -812,8 +812,8 @@ if = {
 		tank0_tech = 1
 		lighttank1_tech = 1
 		lighttank2_tech = 1
-		engine_tech_1 = 1
-		engine_tech_2 = 1
+		tankupgrade1_tech = 1
+		engine2_tech = 1
 	}
 }
 if = {

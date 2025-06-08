@@ -19606,7 +19606,7 @@ focus_tree = {
 			#Create 2 Panzer Units and Unlock the Template
 			if = { 
 				limit = {
-					NOT = { has_tech = basic_medium_tank_chassis }
+					NOT = { has_tech = mediumtank1_tech }
 				}
 				division_template = {
 					name = "Waffen-SS Leicht Panzer Division"

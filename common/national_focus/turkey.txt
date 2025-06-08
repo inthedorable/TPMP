@@ -5154,10 +5154,10 @@ focus_tree = {
 				if = {
 					limit = {
 						NOT = {
-							has_tech = basic_medium_tank_chassis
+							has_tech = mediumtank1_tech
 						}
 					}
-					hidden_effect = { set_technology = { basic_medium_tank_chassis = 1 } }
+					hidden_effect = { set_technology = { mediumtank1_tech = 1 } }
 					custom_effect_tooltip = TUR_add_medium_tank_technology_tt
 				}
 				#TODO Gabriel give them a free design?
@@ -6969,7 +6969,7 @@ focus_tree = {
 					limit = {
 						has_dlc = "Death or Dishonor"
 						TUR = { is_in_faction_with = GER }
-						GER = { has_tech = advanced_medium_tank_chassis }
+						GER = { has_tech = mediumtank3a_tech }
 					}
 					GER = { 
 						create_production_license = {
@@ -6985,7 +6985,7 @@ focus_tree = {
 					limit = {
 						has_dlc = "Death or Dishonor"
 						TUR = { is_in_faction_with = GER }
-						GER = { has_tech = improved_medium_tank_chassis }
+						GER = { has_tech = mediumtank2_tech }
 					}
 					GER = { 
 						create_production_license = {
@@ -7001,7 +7001,7 @@ focus_tree = {
 					limit = {
 						has_dlc = "Death or Dishonor"
 						TUR = { is_in_faction_with = GER }
-						GER = { has_tech = basic_medium_tank_chassis }
+						GER = { has_tech = mediumtank1_tech }
 					}
 					GER = { 
 						create_production_license = {
