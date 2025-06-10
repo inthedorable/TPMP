@@ -76,7 +76,7 @@ set_technology = {
 	infantrygun1_tech = 1
 	infantrygun2_tech = 1
 	tech_trucks = 1
-	gw_artillery = 1
+	artillery0_tech = 1
 	tech_support = 1
 	basic_train = 1
 }
@@ -161,8 +161,8 @@ set_convoys = 10
 
 	set_technology = {	
 		tech_engineers = 1
-		interwar_artillery = 1
-		interwar_antiair = 1
+		artillery1_tech = 1
+		antiair0_tech = 1
 		infantrysupport1_tech = 1
 
 		#doctrines

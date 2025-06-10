@@ -1683,7 +1683,7 @@ focus_tree = {
 				has_government = neutrality  
 			}
 			USA = { has_government = democratic }
-			has_tech = interwar_antiair
+			has_tech = antiair0_tech
 		}
 
 		search_filters = {}

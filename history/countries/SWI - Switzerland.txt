@@ -334,9 +334,9 @@ if = { #########   By Blood Alone Stuff
 		}
 	}
 	set_technology = {
-		gw_artillery = 1
-		interwar_artillery = 1
-		interwar_antiair = 1
+		artillery0_tech = 1
+		artillery1_tech = 1
+		antiair0_tech = 1
 		infantrygun3_tech = 1
 		infantrysupport1_tech = 1
 

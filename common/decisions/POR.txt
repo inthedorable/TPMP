@@ -171,7 +171,7 @@ POR_arms_purchases = {
 					target = ROOT
 					value > 0
 				}
-				has_tech = interwar_antiair
+				has_tech = antiair0_tech
 			}
 		}
 
@@ -261,7 +261,7 @@ POR_arms_purchases = {
 					target = ROOT
 					value > 0
 				}
-				has_tech = interwar_antitank
+				has_tech = antitank0_tech
 			}
 		}
 

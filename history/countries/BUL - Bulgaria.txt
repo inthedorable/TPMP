@@ -440,8 +440,8 @@ if = {
 
 	#TECHNOLOGY
 	set_technology = {
-		gw_artillery = 1
-		interwar_artillery = 1
+		artillery0_tech = 1
+		artillery1_tech = 1
 		tech_recon = 1
 		infantrygun3_tech = 1
 		infantrysupport1_tech = 1

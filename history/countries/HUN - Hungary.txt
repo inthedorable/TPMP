@@ -83,7 +83,7 @@ set_technology = {
 	tech_support = 1		
 	tech_recon = 1
 	tech_trucks = 1
-	gw_artillery = 1
+	artillery0_tech = 1
 
 	fuel_silos = 1
 	basic_train = 1
@@ -232,11 +232,11 @@ IF = {
 		parent_version = 0
 		obsolete = no
 		modules = {
-			main_armament_slot = tank_small_cannon
-			turret_type_slot = tank_light_one_man_tank_turret
+			main_armament_slot = tank_light_cannon_1
+			turret_type_slot = tank_simple_light_turret_1
 			suspension_type_slot = tank_bogie_suspension
 			armor_type_slot = tank_riveted_armor
-			engine_type_slot = tank_gasoline_engine
+			engine_type_slot = tank_gasoline_engine_1
 			special_type_slot_1 = secondary_turret_hmg
 		}
 		upgrades = {
@@ -668,14 +668,14 @@ add_breakthrough_progress = {
 		tech_support = 1		
 		tech_recon = 1
 		tech_trucks = 1
-		gw_artillery = 1
+		artillery0_tech = 1
 
 		fuel_silos = 1
 		basic_train = 1
 		
-		interwar_artillery = 1
-		interwar_antitank = 1
-		interwar_antiair = 1
+		artillery1_tech = 1
+		antitank0_tech = 1
+		antiair0_tech = 1
 		tech_engineers = 1
 		tech_mountaineers = 1
 		paratroopers = 1
@@ -776,11 +776,11 @@ add_breakthrough_progress = {
 			type = light_tank_chassis_1936
 			parent_version = 0
 			modules = {
-				main_armament_slot = tank_small_cannon
-				turret_type_slot = tank_light_two_man_tank_turret
+				main_armament_slot = tank_light_cannon_1
+				turret_type_slot = tank_simple_light_turret_1
 				suspension_type_slot = tank_torsion_bar_suspension
 				armor_type_slot = tank_riveted_armor
-				engine_type_slot = tank_diesel_engine
+				engine_type_slot = tank_diesel_engine_1
 			}
 			upgrades = {
 				tank_nsb_engine_upgrade = 3

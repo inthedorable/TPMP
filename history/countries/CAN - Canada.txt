@@ -97,7 +97,7 @@ set_technology = {
 	tech_engineers = 1
 	tech_recon = 1
 	tech_trucks = 1
-	gw_artillery = 1
+	artillery0_tech = 1
 	
 	fleet_in_being = 1
 	basic_train = 1
@@ -233,8 +233,8 @@ if = {
 		}
 	}
 	set_technology = {
-		interwar_artillery = 1
-		interwar_antitank = 1
+		artillery1_tech = 1
+		antitank0_tech = 1
 		infantrygun3_tech = 1
 		infantrysupport1_tech = 1
 		infantrysupport2_tech = 1

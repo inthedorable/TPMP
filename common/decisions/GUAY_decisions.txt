@@ -518,7 +518,7 @@ GUAY_laissez_faire_cat = {
 						}
 
 						modifier = {
-							ROOT = { NOT = {  has_tech = interwar_antiair } }
+							ROOT = { NOT = {  has_tech = antiair0_tech } }
 							factor = 0
 						}
 						add_building_construction = {

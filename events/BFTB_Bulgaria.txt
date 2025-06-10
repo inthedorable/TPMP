@@ -5082,7 +5082,7 @@ country_event = {
 
 		trigger = {
 			var:BUL_artillery_seller = {
-				has_tech = interwar_antiair
+				has_tech = antiair0_tech
 			}
 		}
 
@@ -5106,7 +5106,7 @@ country_event = {
 
 		trigger = {
 			var:BUL_artillery_seller = {
-				has_tech = interwar_antitank
+				has_tech = antitank0_tech
 			}
 		}
 

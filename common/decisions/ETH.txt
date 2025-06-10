@@ -761,7 +761,7 @@ ETH_second_italo_ethiopian_war_category = {
 
 		available = {
 			IF = {
-				limit = { has_tech = gw_artillery }
+				limit = { has_tech = artillery0_tech }
 				NOT = { has_decision = ETH_buy_artillery }
 			}
 			IF = {
@@ -769,7 +769,7 @@ ETH_second_italo_ethiopian_war_category = {
 				NOT = { has_decision = ETH_buy_support_equipment }
 			}
 			IF = {
-				limit = { has_tech = interwar_antitank SWE = { has_tech = interwar_antitank }  }
+				limit = { has_tech = antitank0_tech SWE = { has_tech = antitank0_tech }  }
 				NOT = { has_decision = ETH_buy_anti_tank_guns }
 			}
 			has_global_flag = second_italo_ethiopian_war_flag
@@ -818,7 +818,7 @@ ETH_second_italo_ethiopian_war_category = {
 				NOT = { has_decision = ETH_buy_support_equipment }
 			}
 			IF = {
-				limit = { has_tech = interwar_antitank SWE = { has_tech = interwar_antitank } }
+				limit = { has_tech = antitank0_tech SWE = { has_tech = antitank0_tech } }
 				NOT = { has_decision = ETH_buy_anti_tank_guns }
 			}
 			has_global_flag = second_italo_ethiopian_war_flag
@@ -827,7 +827,7 @@ ETH_second_italo_ethiopian_war_category = {
 
 		visible = {
 			has_completed_focus = ETH_arms_purchases
-			has_tech = gw_artillery
+			has_tech = artillery0_tech
 			has_global_flag = second_italo_ethiopian_war_flag
 			league_of_nations_is_active = yes 
 		}
@@ -864,11 +864,11 @@ ETH_second_italo_ethiopian_war_category = {
 		available = {
 			NOT = { has_decision = ETH_buy_rifles }
 			IF = {
-				limit = { has_tech = gw_artillery }
+				limit = { has_tech = artillery0_tech }
 				NOT = { has_decision = ETH_buy_artillery }
 			}
 			IF = {
-				limit = { has_tech = interwar_antitank SWE = { has_tech = interwar_antitank } }
+				limit = { has_tech = antitank0_tech SWE = { has_tech = antitank0_tech } }
 				NOT = { has_decision = ETH_buy_anti_tank_guns }
 			}
 			has_global_flag = second_italo_ethiopian_war_flag
@@ -913,7 +913,7 @@ ETH_second_italo_ethiopian_war_category = {
 		available = {
 			NOT = { has_decision = ETH_buy_rifles }
 			IF = {
-				limit = { has_tech = gw_artillery }
+				limit = { has_tech = artillery0_tech }
 				NOT = { has_decision = ETH_buy_artillery }
 			}
 			IF = {
@@ -926,8 +926,8 @@ ETH_second_italo_ethiopian_war_category = {
 
 		visible = {
 			has_completed_focus = ETH_arms_purchases
-			has_tech = interwar_antitank 
-			SWE = { has_tech = interwar_antitank }
+			has_tech = antitank0_tech 
+			SWE = { has_tech = antitank0_tech }
 			has_global_flag = second_italo_ethiopian_war_flag
 			league_of_nations_is_active = yes 
 		}

@@ -20,7 +20,7 @@ set_technology = {
 	infantrygun2_tech = 1
 	#tech_mountaineers = 1
 	tech_trucks = 1
-	gw_artillery = 1
+	artillery0_tech = 1
 	fuel_silos = 1
 }
 
@@ -321,7 +321,7 @@ IF = {
 		tech_recon = 1
 		infantrygun3_tech = 1
 		infantrysupport1_tech = 1
-		gw_artillery = 1
+		artillery0_tech = 1
 
 		#doctrines
 		air_superiority = 1

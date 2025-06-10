@@ -563,9 +563,9 @@ focus_tree = {
                        tank_nsb_armor_upgrade = 2 
                    }
                     modules={
-                        main_armament_slot=tank_small_cannon_2
-                        engine_type_slot=tank_gasoline_engine
-                        turret_type_slot=tank_light_two_man_tank_turret
+                        main_armament_slot=tank_light_cannon_1
+                        engine_type_slot=tank_gasoline_engine_1
+                        turret_type_slot=tank_simple_light_turret_1
                         suspension_type_slot=tank_christie_suspension
                         armor_type_slot=tank_welded_armor
                     }
@@ -11889,10 +11889,10 @@ focus_tree = {
                                 }
                                 
                                 modules = {      
-                                    main_armament_slot = tank_small_cannon_2
-                                    engine_type_slot = tank_gasoline_engine
+                                    main_armament_slot = tank_light_cannon_1
+                                    engine_type_slot = tank_gasoline_engine_1
                                     special_type_slot_1 = tank_radio_1
-                                    turret_type_slot = tank_medium_three_man_tank_turret
+                                    turret_type_slot = tank_medium_turret_1
                                     suspension_type_slot = tank_christie_suspension
                                     armor_type_slot = tank_riveted_armor
                                 }
@@ -19330,7 +19330,7 @@ focus = {
 	available = {
 		NOT = { has_idea = RAJ_mobilization_of_the_indian_army }
 		has_war = yes
-		has_tech = interwar_antiair
+		has_tech = antiair0_tech
 		if = {
 			limit = {
 				has_dlc = "Man the Guns"
@@ -19731,7 +19731,7 @@ focus = {
 			#AA
 			if = {
 				limit = {
-					ROOT = { has_tech = interwar_antiair }
+					ROOT = { has_tech = antiair0_tech }
 				}
 				add_building_construction = {
 					type = anti_air_building
@@ -19870,7 +19870,7 @@ focus = {
 			#AA
 			if = {
 				limit = {
-					ROOT = { has_tech = interwar_antiair }
+					ROOT = { has_tech = antiair0_tech }
 				}
 				add_building_construction = {
 					type = anti_air_building
@@ -20110,7 +20110,7 @@ focus = {
 			#AA
 			if = {
 				limit = {
-					ROOT = { has_tech = interwar_antiair }
+					ROOT = { has_tech = antiair0_tech }
 				}
 				add_building_construction = {
 					type = anti_air_building
@@ -20207,7 +20207,7 @@ focus = {
 			#AA
 			if = {
 				limit = {
-					ROOT = { has_tech = interwar_antiair }
+					ROOT = { has_tech = antiair0_tech }
 				}
 				add_building_construction = {
 					type = anti_air_building
@@ -20476,7 +20476,7 @@ focus = {
 			#AA
 			if = {
 				limit = {
-					ROOT = { has_tech = interwar_antiair }
+					ROOT = { has_tech = antiair0_tech }
 				}
 				add_building_construction = {
 					type = anti_air_building
@@ -20830,7 +20830,7 @@ focus = {
 			#AA
 			if = {
 				limit = {
-					ROOT = { has_tech = interwar_antiair }
+					ROOT = { has_tech = antiair0_tech }
 				}
 				add_building_construction = {
 					type = anti_air_building

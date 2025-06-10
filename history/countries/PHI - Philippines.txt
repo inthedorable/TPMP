@@ -19,7 +19,7 @@ set_technology = {
 	infantrygun2_tech = 1
 	tech_support = 1		
 	tech_engineers = 1
-	gw_artillery = 1
+	artillery0_tech = 1
 }
 
 set_convoys = 5
@@ -70,8 +70,8 @@ recruit_character = PHI_sergio_osmena
 		}
 	}
 	set_technology = {
-		interwar_artillery = 1
-		interwar_antiair = 1
+		artillery1_tech = 1
+		antiair0_tech = 1
 		tech_recon = 1
 		infantrygun3_tech = 1
 		infantrysupport1_tech = 1

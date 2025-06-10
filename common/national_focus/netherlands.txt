@@ -3249,7 +3249,7 @@ focus_tree = {
 			effect_tooltip = {
 				set_technology = {
 					basic_ship_hull_heavy = 1
-					antiair2 = 1
+					antiair0_tech = 1
 					improved_fire_control_system = 1
 					improved_dp_light_battery = 1
 				}

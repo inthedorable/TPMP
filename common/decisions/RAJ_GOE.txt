@@ -328,7 +328,7 @@ RAJ_GOE_sikh_recruitment_cat = {
 					}
 				}
 			}
-			has_tech = gw_artillery
+			has_tech = artillery0_tech
 		}
 		
 		target_root_trigger = {
@@ -6338,7 +6338,7 @@ RAJ_work_with_local_leaders_cat = {
 								# AA
 								if = {
 									limit = {
-										ROOT = { has_tech = interwar_antiair }
+										ROOT = { has_tech = antiair0_tech }
 										anti_air_building < 5
 									}
 									add_building_construction = {
@@ -6395,7 +6395,7 @@ RAJ_work_with_local_leaders_cat = {
 								# AA
 								if = {
 									limit = {
-										ROOT = { has_tech = interwar_antiair }
+										ROOT = { has_tech = antiair0_tech }
 										anti_air_building < 5
 									}
 									add_building_construction = {

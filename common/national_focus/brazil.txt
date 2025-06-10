@@ -3241,11 +3241,11 @@ focus_tree = {
 					type = medium_tank_chassis_1936
 					parent_version = 1
 					modules = {
-						main_armament_slot = tank_close_support_gun
-						turret_type_slot = tank_medium_three_man_tank_turret
+						main_armament_slot = tank_light_cannon_1
+						turret_type_slot = tank_medium_turret_1
 						suspension_type_slot = tank_bogie_suspension
 						armor_type_slot = tank_welded_armor
-						engine_type_slot = tank_gasoline_engine
+						engine_type_slot = tank_gasoline_engine_1
 						special_type_slot_1 = tank_radio_1
 						special_type_slot_2 = smoke_launchers
 					}

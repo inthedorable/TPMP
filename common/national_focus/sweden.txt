@@ -2829,10 +2829,10 @@ focus_tree = {
 				    parent_version = 1
 				    modules = {
 				        main_armament_slot = tank_anti_air_cannon_2
-						turret_type_slot = tank_light_three_man_tank_turret
+						turret_type_slot = tank_light_turret_1
 						suspension_type_slot = tank_torsion_bar_suspension
 						armor_type_slot = tank_welded_armor
-						engine_type_slot = tank_diesel_engine
+						engine_type_slot = tank_diesel_engine_1
 				    }
 				    upgrades = {
 				        tank_nsb_engine_upgrade = 3
@@ -2868,7 +2868,7 @@ focus_tree = {
 			}
 
 			set_technology = {
-				antiair2 = 1
+				antiair0_tech = 1
 				popup = no
 			}
 
@@ -8971,12 +8971,12 @@ focus_tree = {
 				    parent_version = 1
 				    modules = {
 						main_armament_slot=tank_heavy_cannon_2
-						engine_type_slot=tank_diesel_engine
+						engine_type_slot=tank_diesel_engine_1
 						special_type_slot_1=tank_radio_3
 						special_type_slot_2=armor_skirts
 						special_type_slot_3=easy_maintenance
 						special_type_slot_4=extra_ammo_storage
-						turret_type_slot=tank_heavy_three_man_tank_turret
+						turret_type_slot=tank_heavy_turret_1
 						suspension_type_slot=tank_christie_suspension
 						armor_type_slot=tank_welded_armor
 				    }

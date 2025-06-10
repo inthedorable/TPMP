@@ -4,7 +4,7 @@ oob = "MAN_1936"
 
 set_technology = {
 	infantrygun1_tech = 1
-	gw_artillery = 1
+	artillery0_tech = 1
 	tech_trucks = 1
 }
 

@@ -79,8 +79,8 @@ set_technology = {
 	motorised_infantry = 1
 	infantrygun1_tech = 1
 	infantrygun2_tech = 1
-	gw_artillery = 1
-	interwar_antiair = 1
+	artillery0_tech = 1
+	antiair0_tech = 1
 	basic_train = 1
 }
 
@@ -197,8 +197,8 @@ set_convoys = 10
 	add_command_power = 100
 
 	set_technology = {
-		interwar_artillery = 1
-		interwar_antitank = 1
+		artillery1_tech = 1
+		antitank0_tech = 1
 		tech_recon = 1
 		infantrygun3_tech = 1
 		infantrysupport1_tech = 1

@@ -1069,7 +1069,7 @@
 		}
 	
 		available = {
-			has_tech = interwar_antiair	
+			has_tech = antiair0_tech	
 			power_balance_value = {
 				id = SWI_centralization_bop
 				value > 0
@@ -1102,7 +1102,7 @@
 			}
 			if = {
 				limit = {
-					NOT = { has_tech = interwar_antiair }
+					NOT = { has_tech = antiair0_tech }
 				}
 				effect_tooltip = {
 					every_owned_state = {
@@ -3101,7 +3101,7 @@
 
 		available = {
 			is_special_project_completed = sp:sp_air_radar
-			has_tech = interwar_antiair
+			has_tech = antiair0_tech
 			power_balance_value = {
 				id = SWI_centralization_bop
 				value > 0

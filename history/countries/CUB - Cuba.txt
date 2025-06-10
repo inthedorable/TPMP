@@ -63,7 +63,7 @@ set_convoys = 20
 	
 	oob = "CUB_1939"
 	set_technology = {
-		gw_artillery = 1
+		artillery0_tech = 1
 		infantrygun2_tech = 1
 		infantrysupport1_tech = 1
 

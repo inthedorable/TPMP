@@ -3723,17 +3723,17 @@ country_event = {
 					}
 					inherit_technology = RAJ
 					if = {
-						limit = { NOT = { has_tech = gw_artillery } }
+						limit = { NOT = { has_tech = artillery0_tech } }
 						set_technology = {
-							gw_artillery = 1
+							artillery0_tech = 1
 							popup = no
 						}
 					}
 
 					if = {
-						limit = { NOT = { has_tech = interwar_antiair } }
+						limit = { NOT = { has_tech = antiair0_tech } }
 						set_technology = {
-							interwar_antiair = 1
+							antiair0_tech = 1
 							popup = no
 						}
 					}
@@ -3829,12 +3829,12 @@ country_event = {
 					    type = medium_tank_chassis_1938
 					    parent_version = 1
 					    modules = {
-							main_armament_slot=tank_medium_cannon
-							engine_type_slot=tank_gasoline_engine
+							main_armament_slot=tank_light_cannon_1
+							engine_type_slot=tank_gasoline_engine_1
 							special_type_slot_1=tank_radio_3
 							special_type_slot_2=stabilizer
 							special_type_slot_3=sloped_armor
-							turret_type_slot=tank_medium_three_man_tank_turret
+							turret_type_slot=tank_medium_turret_1
 							suspension_type_slot=tank_bogie_suspension
 							armor_type_slot=tank_welded_armor
 					    }

@@ -509,6 +509,7 @@ equipment_modules = {
 				tank_very_light_main_armament
 			}
 		}
+		forbid_equipment_type = anti_air
 
 		add_stats = {
 			soft_attack = 10
@@ -534,6 +535,7 @@ equipment_modules = {
 				tank_light_main_armament
 			}
 		}
+		forbid_equipment_type = anti_air
 
 		add_stats = {
 			soft_attack = 10
@@ -560,6 +562,7 @@ equipment_modules = {
 				tank_medium_main_armament
 			}
 		}
+		forbid_equipment_type = anti_air
 
 		add_stats = {
 			soft_attack = 10
@@ -887,6 +890,7 @@ equipment_modules = {
 				tank_light_main_armament
 			}
 		}
+		forbid_equipment_type = anti_air
 
 		add_stats = {
 			soft_attack = 10
@@ -913,6 +917,7 @@ equipment_modules = {
 				tank_medium_main_armament
 			}
 		}
+		forbid_equipment_type = anti_air
 
 		add_stats = {
 			soft_attack = 10
@@ -940,6 +945,7 @@ equipment_modules = {
 				tank_heavy_main_armament
 			}
 		}
+		forbid_equipment_type = anti_air
 
 		add_stats = {
 			soft_attack = 10
@@ -968,6 +974,7 @@ equipment_modules = {
 				tank_very_heavy_main_armament
 			}
 		}
+		forbid_equipment_type = anti_air
 
 		add_stats = {
 			soft_attack = 10
@@ -1307,6 +1314,7 @@ equipment_modules = {
 				tank_medium_main_armament
 			}
 		}
+		forbid_equipment_type = anti_air
 
 		add_stats = {
 			soft_attack = 10
@@ -1334,6 +1342,7 @@ equipment_modules = {
 				tank_heavy_main_armament
 			}
 		}
+		forbid_equipment_type = anti_air
 
 		add_stats = {
 			soft_attack = 10
@@ -1362,6 +1371,7 @@ equipment_modules = {
 				tank_very_heavy_main_armament
 			}
 		}
+		forbid_equipment_type = anti_air
 
 		add_stats = {
 			soft_attack = 10
@@ -1391,6 +1401,7 @@ equipment_modules = {
 				tank_super_heavy_main_armament
 			}
 		}
+		forbid_equipment_type = anti_air
 
 		add_stats = {
 			soft_attack = 10
@@ -1682,6 +1693,7 @@ equipment_modules = {
 				tank_heavy_main_armament
 			}
 		}
+		forbid_equipment_type = anti_air
 
 		add_stats = {
 			soft_attack = 10
@@ -1710,6 +1722,7 @@ equipment_modules = {
 				tank_very_heavy_main_armament
 			}
 		}
+		forbid_equipment_type = anti_air
 
 		add_stats = {
 			soft_attack = 10
@@ -1739,6 +1752,7 @@ equipment_modules = {
 				tank_super_heavy_main_armament
 			}
 		}
+		forbid_equipment_type = anti_air
 
 		add_stats = {
 			soft_attack = 10
@@ -1866,6 +1880,8 @@ equipment_modules = {
 		category = tank_very_light_main_armament
 		sfx = sfx_ui_sd_module_turret
 
+		allow_equipment_type = anti_tank
+
 		add_stats = {
 			soft_attack = 10
 			hard_attack = 6
@@ -1883,6 +1899,8 @@ equipment_modules = {
 		category = tank_very_light_main_armament
 		sfx = sfx_ui_sd_module_turret
 		parent = tank_light_cannon_1
+
+		allow_equipment_type = anti_tank
 
 		add_stats = {
 			soft_attack = 10
@@ -1902,6 +1920,8 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		parent = tank_light_cannon_2
 
+		allow_equipment_type = anti_tank
+
 		add_stats = {
 			soft_attack = 10
 			hard_attack = 6
@@ -1920,6 +1940,8 @@ equipment_modules = {
 		category = tank_light_main_armament
 		sfx = sfx_ui_sd_module_turret
 
+		allow_equipment_type = anti_tank
+
 		add_stats = {
 			soft_attack = 10
 			hard_attack = 6
@@ -1936,6 +1958,8 @@ equipment_modules = {
 		abbreviation = "mhvc1"
 		category = tank_medium_main_armament
 		sfx = sfx_ui_sd_module_turret
+
+		allow_equipment_type = anti_tank
 
 		add_stats = {
 			soft_attack = 10
@@ -1955,6 +1979,8 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		parent = tank_medium_high_velocity_cannon_1
 
+		allow_equipment_type = anti_tank
+
 		add_stats = {
 			soft_attack = 10
 			hard_attack = 6
@@ -1972,6 +1998,8 @@ equipment_modules = {
 		abbreviation = "mc1"
 		category = tank_light_main_armament
 		sfx = sfx_ui_sd_module_turret
+
+		allow_equipment_type = anti_tank
 
 		add_stats = {
 			soft_attack = 10
@@ -1991,6 +2019,8 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		parent = tank_medium_cannon_1
 
+		allow_equipment_type = anti_tank
+
 		add_stats = {
 			soft_attack = 10
 			hard_attack = 6
@@ -2008,6 +2038,8 @@ equipment_modules = {
 		category = tank_medium_main_armament
 		sfx = sfx_ui_sd_module_turret
 		parent = tank_medium_cannon_2
+
+		allow_equipment_type = anti_tank
 
 		add_stats = {
 			soft_attack = 10
@@ -2027,6 +2059,8 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		parent = tank_medium_cannon_3
 
+		allow_equipment_type = anti_tank
+
 		add_stats = {
 			soft_attack = 10
 			hard_attack = 6
@@ -2044,6 +2078,8 @@ equipment_modules = {
 		abbreviation = "lmc1"
 		category = tank_heavy_main_armament
 		sfx = sfx_ui_sd_module_turret
+
+		allow_equipment_type = anti_tank
 
 		add_stats = {
 			soft_attack = 10
@@ -2063,6 +2099,8 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		parent = tank_large_medium_cannon_1
 
+		allow_equipment_type = anti_tank
+
 		add_stats = {
 			soft_attack = 10
 			hard_attack = 6
@@ -2080,6 +2118,8 @@ equipment_modules = {
 		abbreviation = "hhvc1"
 		category = tank_heavy_main_armament
 		sfx = sfx_ui_sd_module_turret
+
+		allow_equipment_type = anti_tank
 
 		add_stats = {
 			soft_attack = 10
@@ -2099,6 +2139,8 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		parent = tank_heavy_high_velocity_cannon_1
 
+		allow_equipment_type = anti_tank
+
 		add_stats = {
 			soft_attack = 10
 			hard_attack = 6
@@ -2116,6 +2158,8 @@ equipment_modules = {
 		abbreviation = "hc1"
 		category = tank_heavy_main_armament
 		sfx = sfx_ui_sd_module_turret
+
+		allow_equipment_type = anti_tank
 
 		add_stats = {
 			soft_attack = 10
@@ -2135,6 +2179,8 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		parent = tank_heavy_cannon_1
 
+		allow_equipment_type = anti_tank
+
 		add_stats = {
 			soft_attack = 10
 			hard_attack = 6
@@ -2152,6 +2198,8 @@ equipment_modules = {
 		abbreviation = "lhc1"
 		category = tank_very_heavy_main_armament
 		sfx = sfx_ui_sd_module_turret
+
+		allow_equipment_type = anti_tank
 
 		add_stats = {
 			soft_attack = 10
@@ -2171,6 +2219,8 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		parent = tank_large_heavy_cannon_1
 
+		allow_equipment_type = anti_tank
+
 		add_stats = {
 			soft_attack = 10
 			hard_attack = 6
@@ -2188,6 +2238,8 @@ equipment_modules = {
 		abbreviation = "shc"
 		category = tank_super_heavy_main_armament
 		sfx = sfx_ui_sd_module_turret
+
+		allow_equipment_type = anti_tank
 
 		add_stats = {
 			soft_attack = 10
@@ -2207,6 +2259,9 @@ equipment_modules = {
 		category = tank_very_light_main_armament
 		sfx = sfx_ui_sd_module_turret
 
+		allow_equipment_type = artillery
+		forbid_equipment_type = armor
+
 		add_stats = {
 			soft_attack = 10
 			hard_attack = 6
@@ -2225,6 +2280,9 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		parent = tank_light_howitzer_1
 
+		allow_equipment_type = artillery
+		forbid_equipment_type = armor
+
 		add_stats = {
 			soft_attack = 10
 			hard_attack = 6
@@ -2242,6 +2300,9 @@ equipment_modules = {
 		category = tank_medium_main_armament
 		sfx = sfx_ui_sd_module_turret
 		parent = tank_light_howitzer_2
+
+		allow_equipment_type = artillery
+		forbid_equipment_type = armor
 
 		add_stats = {
 			soft_attack = 10
@@ -2333,6 +2394,9 @@ equipment_modules = {
 		category = tank_medium_main_armament
 		sfx = sfx_ui_sd_module_turret
 
+		allow_equipment_type = artillery
+		forbid_equipment_type = armor
+
 		add_stats = {
 			soft_attack = 10
 			hard_attack = 6
@@ -2350,6 +2414,9 @@ equipment_modules = {
 		category = tank_heavy_main_armament
 		sfx = sfx_ui_sd_module_turret
 		parent = tank_medium_howitzer_1
+
+		allow_equipment_type = artillery
+		forbid_equipment_type = armor
 
 		add_stats = {
 			soft_attack = 10
@@ -2405,6 +2472,9 @@ equipment_modules = {
 		category = tank_heavy_main_armament
 		sfx = sfx_ui_sd_module_turret
 
+		allow_equipment_type = artillery
+		forbid_equipment_type = armor
+
 		add_stats = {
 			soft_attack = 10
 			hard_attack = 6
@@ -2422,6 +2492,9 @@ equipment_modules = {
 		category = tank_very_heavy_main_armament
 		sfx = sfx_ui_sd_module_turret
 		parent = tank_heavy_howitzer_1
+
+		allow_equipment_type = artillery
+		forbid_equipment_type = armor
 
 		add_stats = {
 			soft_attack = 10
@@ -2441,6 +2514,9 @@ equipment_modules = {
 		category = tank_very_heavy_main_armament
 		sfx = sfx_ui_sd_module_turret
 
+		allow_equipment_type = artillery
+		forbid_equipment_type = armor
+
 		add_stats = {
 			soft_attack = 10
 			hard_attack = 6
@@ -2458,6 +2534,9 @@ equipment_modules = {
 		abbreviation = "aac1"
 		category = tank_very_light_main_armament
 		sfx = sfx_ui_sd_module_turret
+
+		allow_equipment_type = anti_air
+		forbid_equipment_type = armor
 
 		add_stats = {
 			soft_attack = 10
@@ -2477,6 +2556,9 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		parent = tank_anti_air_cannon_1
 
+		allow_equipment_type = anti_air
+		forbid_equipment_type = armor
+
 		add_stats = {
 			soft_attack = 10
 			hard_attack = 6
@@ -2494,6 +2576,9 @@ equipment_modules = {
 		category = tank_medium_main_armament
 		sfx = sfx_ui_sd_module_turret
 		parent = tank_anti_air_cannon_2
+
+		allow_equipment_type = anti_air
+		forbid_equipment_type = armor
 
 		add_stats = {
 			soft_attack = 10
@@ -2513,6 +2598,9 @@ equipment_modules = {
 		category = tank_medium_main_armament
 		sfx = sfx_ui_sd_module_turret
 
+		allow_equipment_type = anti_air
+		forbid_equipment_type = armor
+
 		add_stats = {
 			soft_attack = 10
 			hard_attack = 6
@@ -2531,6 +2619,9 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		parent = tank_heavy_anti_air_cannon_1
 
+		allow_equipment_type = anti_air
+		forbid_equipment_type = armor
+
 		add_stats = {
 			soft_attack = 10
 			hard_attack = 6
@@ -2548,6 +2639,9 @@ equipment_modules = {
 		category = tank_very_heavy_main_armament
 		sfx = sfx_ui_sd_module_turret
 		parent = tank_heavy_anti_air_cannon_2
+
+		allow_equipment_type = anti_air
+		forbid_equipment_type = armor
 
 		add_stats = {
 			soft_attack = 10

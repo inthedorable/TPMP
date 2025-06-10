@@ -144,6 +144,11 @@ technologies = {
 			leads_to_tech = lighttank3b_tech
 			research_cost_coeff = 1
 		}
+		path = {
+			leads_to_tech = mediumtankturret1_tech
+			research_cost_coeff = 0.1
+		}
+		
 
 		research_cost = 2.0
 		start_year = 1939
@@ -240,6 +245,11 @@ technologies = {
 			tank_light_superstructure_3
 		}
 
+		path = {
+			leads_to_tech = mediumtankturret2_tech
+			research_cost_coeff = 1
+		}
+
 		research_cost = 2.0
 		start_year = 1942
 
@@ -328,6 +338,14 @@ technologies = {
 		path = {
 			leads_to_tech = mediumtank3b_tech
 			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = lighttankturret1_tech
+			research_cost_coeff = 0.1
+		}
+		path = {
+			leads_to_tech = heavytankturret1_tech
+			research_cost_coeff = 0.1
 		}
 
 		research_cost = 2.0
@@ -432,6 +450,14 @@ technologies = {
 		path = {
 			leads_to_tech = mediumtank4b_tech
 			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = lighttankturret2_tech
+			research_cost_coeff = 0.1
+		}
+		path = {
+			leads_to_tech = heavytankturret2_tech
+			research_cost_coeff = 0.1
 		}
 
 		research_cost = 2.0
@@ -617,6 +643,14 @@ technologies = {
 			leads_to_tech = heavytank3b_tech
 			research_cost_coeff = 1
 		}
+		path = {
+			leads_to_tech = mediumtankturret1_tech
+			research_cost_coeff = 0.1
+		}
+		path = {
+			leads_to_tech = superheavytankturret1_tech
+			research_cost_coeff = 0.1
+		}
 
 		research_cost = 2.0
 		start_year = 1939
@@ -720,6 +754,14 @@ technologies = {
 		path = {
 			leads_to_tech = heavytank4b_tech
 			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = superheavytankturret2_tech
+			research_cost_coeff = 0.1
+		}
+		path = {
+			leads_to_tech = mediumtankturret2_tech
+			research_cost_coeff = 0.1
 		}
 
 		research_cost = 2.0
@@ -873,6 +915,10 @@ technologies = {
 			leads_to_tech = superheavytank2_tech
 			research_cost_coeff = 1
 		}
+		path = {
+			leads_to_tech = heavytankturret1_tech
+			research_cost_coeff = 0.1
+		}
 
 		research_cost = 2.0
 		start_year = 1939
@@ -928,6 +974,10 @@ technologies = {
 		path = {
 			leads_to_tech = superheavytank3_tech
 			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = heavytankturret2_tech
+			research_cost_coeff = 0.1
 		}
 
 		research_cost = 2.0
@@ -1025,26 +1075,26 @@ technologies = {
 	# 	enable_equipment_modules = {
 	# 		tank_torsion_bar_suspension
 	# 		tank_riveted_armor
-	# 		tank_gasoline_engine
-	# 		tank_diesel_engine
+	# 		tank_gasoline_engine_1
+	# 		tank_diesel_engine_1
 	# 		tank_petrol_electric_engine
 	# 		tank_cast_armor
 	# 		tank_christie_suspension
 	# 		tank_bogie_suspension
 	# 		tank_interleaved_suspension
-	# 		tank_light_one_man_tank_turret
-	# 		tank_light_two_man_tank_turret
-	# 		tank_light_three_man_tank_turret
-	# 		tank_light_fixed_superstructure_turret
-	# 		tank_medium_one_man_tank_turret
-	# 		tank_medium_two_man_tank_turret
-	# 		tank_medium_three_man_tank_turret
-	# 		tank_medium_fixed_superstructure_turret
-	# 		tank_heavy_two_man_tank_turret
-	# 		tank_heavy_three_man_tank_turret
-	# 		tank_heavy_fixed_superstructure_turret
-	# 		tank_super_heavy_four_man_tank_turret
-	# 		tank_super_heavy_three_man_tank_turret
+	# 		tank_simple_light_turret_1
+	# 		tank_simple_light_turret_1
+	# 		tank_light_turret_1
+	# 		tank_light_superstructure_1
+	# 		tank_simple_medium_turret_1
+	# 		tank_simple_medium_turret_1
+	# 		tank_medium_turret_1
+	# 		tank_medium_superstructure_1
+	# 		tank_simple_heavy_turret_1
+	# 		tank_heavy_turret_1
+	# 		tank_heavy_superstructure_1
+	# 		tank_super_heavy_turret_1
+	# 		tank_simple_super_heavy_turret_1
 	# 		tank_modern_tank_turret
 	# 		sloped_armor
 	# 		extra_ammo_storage
@@ -1332,11 +1382,11 @@ technologies = {
 	# 				type = light_tank_chassis_2
 	# 				parent_version = 0
 	# 				modules = {
-	# 					main_armament_slot = tank_small_cannon_2
-	# 					turret_type_slot = tank_light_fixed_superstructure_turret
+	# 					main_armament_slot = tank_light_cannon_1
+	# 					turret_type_slot = tank_light_superstructure_1
 	# 					suspension_type_slot = tank_torsion_bar_suspension
 	# 					armor_type_slot = tank_riveted_armor
-	# 					engine_type_slot = tank_gasoline_engine
+	# 					engine_type_slot = tank_gasoline_engine_1
 	# 					special_type_slot_2 = tank_radio_1
 	# 				}
 	# 				upgrades = {
@@ -1719,10 +1769,10 @@ technologies = {
 	# 				parent_version = 0
 	# 				modules = {
 	# 					main_armament_slot = tank_medium_cannon_2
-	# 					turret_type_slot = tank_medium_two_man_tank_turret
+	# 					turret_type_slot = tank_simple_medium_turret_1
 	# 					suspension_type_slot = tank_bogie_suspension
 	# 					armor_type_slot = tank_welded_armor
-	# 					engine_type_slot = tank_gasoline_engine
+	# 					engine_type_slot = tank_gasoline_engine_1
 	# 					special_type_slot_1 = additional_machine_guns
 	# 					special_type_slot_2 = additional_machine_guns
 	# 				}
@@ -1745,10 +1795,10 @@ technologies = {
 	# 				parent_version = 0
 	# 				modules = {
 	# 					main_armament_slot = tank_anti_air_cannon_2
-	# 					turret_type_slot = tank_medium_two_man_tank_turret
+	# 					turret_type_slot = tank_simple_medium_turret_1
 	# 					suspension_type_slot = tank_torsion_bar_suspension
 	# 					armor_type_slot = tank_riveted_armor
-	# 					engine_type_slot = tank_gasoline_engine
+	# 					engine_type_slot = tank_gasoline_engine_1
 	# 					special_type_slot_1 = auto_loader
 	# 					special_type_slot_2 = secondary_turret_small_cannon
 	# 				}
@@ -1871,10 +1921,10 @@ technologies = {
 	# 				parent_version = 0
 	# 				modules = {
 	# 					main_armament_slot = tank_medium_cannon_2
-	# 					turret_type_slot = tank_medium_three_man_tank_turret
+	# 					turret_type_slot = tank_medium_turret_1
 	# 					suspension_type_slot = tank_bogie_suspension
 	# 					armor_type_slot = tank_welded_armor
-	# 					engine_type_slot = tank_gasoline_engine
+	# 					engine_type_slot = tank_gasoline_engine_1
 	# 					special_type_slot_1 = secondary_turret_hmg
 	# 					special_type_slot_2 = additional_machine_guns
 	# 				}
@@ -1897,10 +1947,10 @@ technologies = {
 	# 				parent_version = 0
 	# 				modules = {
 	# 					main_armament_slot = tank_medium_howitzer_2
-	# 					turret_type_slot = tank_medium_one_man_tank_turret
+	# 					turret_type_slot = tank_simple_medium_turret_1
 	# 					suspension_type_slot = tank_torsion_bar_suspension
 	# 					armor_type_slot = tank_riveted_armor
-	# 					engine_type_slot = tank_gasoline_engine
+	# 					engine_type_slot = tank_gasoline_engine_1
 	# 				}
 	# 				upgrades = {
 	# 					tank_nsb_engine_upgrade = 3
@@ -2830,8 +2880,8 @@ technologies = {
 	# 	allow = { always = no } #Only obtained through Rikstanken Event
 
 	# 	enable_equipment_modules = {
-	# 		NOR_rikstanken_turret
-	# 		NOR_tank_rikstanken_armor
+	# 		tank_light_turret_1
+	# 		tank_riveted_armor
 	# 	}
 
 	# 	path = {

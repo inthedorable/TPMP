@@ -11554,7 +11554,7 @@ focus_tree = {
 		}
 
 		completion_reward = {
-			set_technology = { interwar_antiair = 1 }
+			set_technology = { antiair0_tech = 1 }
 			every_owned_state = {
 				limit = {
 					is_fully_controlled_by = ROOT

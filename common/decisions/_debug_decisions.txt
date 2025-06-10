@@ -131,11 +131,11 @@ debug_decisions = {
 				popup = no
 			}
 			set_technology = {
-				gw_artillery = 1
+				artillery0_tech = 1
 				popup = no
 			}
 			set_technology = {
-				interwar_artillery = 1
+				artillery1_tech = 1
 				popup = no
 			}
 			set_technology = {
@@ -179,7 +179,7 @@ debug_decisions = {
 				popup = no
 			}
 			set_technology = {
-				interwar_antiair = 1
+				antiair0_tech = 1
 				popup = no
 			}
 			set_technology = {
@@ -187,7 +187,7 @@ debug_decisions = {
 				popup = no
 			}
 			set_technology = {
-				antiair2 = 1
+				antiair0_tech = 1
 				popup = no
 			}
 			set_technology = {
@@ -203,7 +203,7 @@ debug_decisions = {
 				popup = no
 			}
 			set_technology = {
-				interwar_antitank = 1
+				antitank0_tech = 1
 				popup = no
 			}
 			set_technology = {
