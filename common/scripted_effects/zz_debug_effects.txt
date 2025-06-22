@@ -110,13 +110,13 @@ d_retire_country_leader = {
 }
 
 d_clear_tech = {
-	set_technology = { improved_infantry_weapons = 0 popup = no }
-	log = "tech reset: improved_infantry_weapons"
+	set_technology = { infantrygun3_tech = 0 popup = no }
+	log = "tech reset: infantrygun3_tech"
 }
 
 d_add_tech = {
-	set_technology = { improved_infantry_weapons = 1 popup = no }
-	log = "tech researched: improved_infantry_weapons"
+	set_technology = { infantrygun3_tech = 1 popup = no }
+	log = "tech researched: infantrygun3_tech"
 }
 
 d_spawn_3D_models = {

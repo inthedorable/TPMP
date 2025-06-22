@@ -1,0 +1,29 @@
+﻿l_english:
+ bold_attack_spirit_tt: ""
+ tenacious_defense_spirit_tt: ""
+ meticulous_preparation_spirit_tt: ""
+
+ best_of_the_best_spirit_tt: "New Officers: Begin with §G+1§! max trait."
+ best_of_the_best_spirit_desc: "Few people have what it takes to lead soldiers into battle. Fewer still have what it takes to win that battle.\n\n§GThis spirit is available due to our ideology.§!"
+ academy_scholarships_spirit_tt: "New Officers: Begin with §Y"Academy Scholar"§! trait."
+ political_loyalty_spirit_tt: ""
+
+ inventive_leadership_spirit_tt: ""
+
+ mobile_warfare_academy_spirit_tt: ""
+ mobile_warfare_academy_spirit_desc: "Wherever future battles are fought, armored troops will play the decisive role."
+ superior_firepower_academy_spirit_tt: ""
+ superior_firepower_academy_spirit_desc: "There is a lot of science involved in digging a proper ditch."
+ theatre_training_academy_spirit_tt: ""
+ theatre_training_spirit_desc: "Some officers may 'go native', but natives are very good at fighting on their chosen terrain."
+ mass_assault_academy_spirit_tt: ""
+ mass_assault_academy_spirit_desc: "Infantry is the Queen of Battle, and the Queen goes wherever she pleases."
+
+ mobile_warfare_army_spirit: "Motorization Drive"
+ mobile_warfare_army_spirit_desc: "Strike faster, go further, win harder!"
+ superior_firepower_army_spirit: "Overwhelming Firepower"
+ superior_firepower_army_spirit_desc: "If artillery doesn't win you battles, you're not using enough of it."
+ grand_battleplan_army_spirit: "Tip of the Spear"
+ grand_battleplan_army_spirit_desc: "The dagger in the night is often more effective than the longsword in the day."
+ mass_assault_army_spirit: "Bayonet Strength"
+ mass_assault_army_spirit_desc: "When all is said and done, a tank or airplane can't hold a patch of ground."

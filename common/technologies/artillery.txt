@@ -27,13 +27,13 @@ technologies = {
 
 		folder = {
 			name = artillery_folder
-			position = { x = -9 y = @1936 }
+			position = { x = -10 y = @1936 }
 		}
 
 		categories = {
-			artillery
-			cat_anti_air
-			mio_cat_all_artillery_equipment
+			cat_artillery_tech
+			cat_anti_air_tech
+			cat_heavy_anti_air_tech
 		}
 		special_project_specialization = { specialization_land }
 
@@ -52,13 +52,13 @@ technologies = {
 
 		folder = {
 			name = artillery_folder
-			position = { x = -9 y = @1938 }
+			position = { x = -10 y = @1938 }
 		}
 
 		categories = {
-			artillery
-			cat_anti_air
-			mio_cat_all_artillery_equipment
+			cat_artillery_tech
+			cat_anti_air_tech
+			cat_heavy_anti_air_tech
 		}
 		special_project_specialization = { specialization_land }
 
@@ -80,13 +80,13 @@ technologies = {
 
 		folder = {
 			name = artillery_folder
-			position = { x = -9 y = @1940 }
+			position = { x = -10 y = @1940 }
 		}
 
 		categories = {
-			artillery
-			cat_anti_air
-			mio_cat_all_artillery_equipment
+			cat_artillery_tech
+			cat_anti_air_tech
+			cat_heavy_anti_air_tech
 		}
 		special_project_specialization = { specialization_land }
 
@@ -96,7 +96,7 @@ technologies = {
 	heavyantiair4_tech = {
 
 		path = {
-			leads_to_tech = antiair5_tech
+			leads_to_tech = heavyantiair5_tech
 			research_cost_coeff = 1
 		}
 
@@ -105,13 +105,36 @@ technologies = {
 
 		folder = {
 			name = artillery_folder
-			position = { x = -9 y = @1942 }
+			position = { x = -10 y = @1942 }
 		}
 
 		categories = {
-			artillery
-			cat_anti_air
-			mio_cat_all_artillery_equipment
+			cat_artillery_tech
+			cat_anti_air_tech
+			cat_heavy_anti_air_tech
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	heavyantiair5_tech = {
+		enable_equipments = {
+			artillery_equipment_1
+		}
+
+		research_cost = 2.0
+		start_year = 1944
+
+		folder = {
+			name = artillery_folder
+			position = { x = -10 y = @1944 }
+		}
+
+		categories = {
+			cat_artillery_tech
+			cat_anti_air_tech
+			cat_heavy_anti_air_tech
 		}
 		special_project_specialization = { specialization_land }
 
@@ -142,9 +165,9 @@ technologies = {
 		}
 
 		categories = {
-			artillery
-			cat_anti_air
-			mio_cat_all_artillery_equipment
+			cat_artillery_tech
+			cat_anti_air_tech
+			cat_light_anti_air_tech
 		}
 		special_project_specialization = { specialization_land }
 
@@ -163,13 +186,13 @@ technologies = {
 
 		folder = {
 			name = artillery_folder
-			position = { x = -5 y = @1936 }
+			position = { x = -7 y = @1936 }
 		}
 
 		categories = {
-			artillery
-			cat_anti_air
-			mio_cat_all_artillery_equipment
+			cat_artillery_tech
+			cat_anti_air_tech
+			cat_light_anti_air_tech
 		}
 		special_project_specialization = { specialization_land }
 
@@ -191,13 +214,13 @@ technologies = {
 
 		folder = {
 			name = artillery_folder
-			position = { x = -5 y = @1938 }
+			position = { x = -7 y = @1938 }
 		}
 
 		categories = {
-			artillery
-			cat_anti_air
-			mio_cat_all_artillery_equipment
+			cat_artillery_tech
+			cat_anti_air_tech
+			cat_light_anti_air_tech
 		}
 		special_project_specialization = { specialization_land }
 
@@ -216,13 +239,13 @@ technologies = {
 
 		folder = {
 			name = artillery_folder
-			position = { x = -5 y = @1940 }
+			position = { x = -7 y = @1940 }
 		}
 
 		categories = {
-			artillery
-			cat_anti_air
-			mio_cat_all_artillery_equipment
+			cat_artillery_tech
+			cat_anti_air_tech
+			cat_light_anti_air_tech
 		}
 		special_project_specialization = { specialization_land }
 
@@ -244,13 +267,13 @@ technologies = {
 
 		folder = {
 			name = artillery_folder
-			position = { x = -5 y = @1942 }
+			position = { x = -7 y = @1942 }
 		}
 
 		categories = {
-			artillery
-			cat_anti_air
-			mio_cat_all_artillery_equipment
+			cat_artillery_tech
+			cat_anti_air_tech
+			cat_light_anti_air_tech
 		}
 		special_project_specialization = { specialization_land }
 
@@ -258,6 +281,11 @@ technologies = {
 		}
 	}
 	antiair5_tech = {
+
+		path = {
+			leads_to_tech = antiair6_tech
+			research_cost_coeff = 1
+		}
 
 		research_cost = 2.0
 		start_year = 1944
@@ -268,9 +296,32 @@ technologies = {
 		}
 
 		categories = {
-			artillery
-			cat_anti_air
-			mio_cat_all_artillery_equipment
+			cat_artillery_tech
+			cat_anti_air_tech
+			cat_light_anti_air_tech
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	antiair6_tech = {
+		enable_equipments = {
+			artillery_equipment_1
+		}
+
+		research_cost = 2.0
+		start_year = 1946
+
+		folder = {
+			name = artillery_folder
+			position = { x = -7 y = @1946 }
+		}
+
+		categories = {
+			cat_artillery_tech
+			cat_anti_air_tech
+			cat_light_anti_air_tech
 		}
 		special_project_specialization = { specialization_land }
 
@@ -293,13 +344,13 @@ technologies = {
 
 		folder = {
 			name = artillery_folder
-			position = { x = -2 y = @1936 }
+			position = { x = -7 y = @1936 }
 		}
 
 		categories = {
-			artillery
-			mio_cat_all_artillery_equipment
-			mio_cat_artillery #Only Artillery
+			cat_artillery_tech
+			cat_howitzer_tech
+			cat_heavy_howitzer_tech
 		}
 		special_project_specialization = { specialization_land }
 
@@ -318,13 +369,13 @@ technologies = {
 
 		folder = {
 			name = artillery_folder
-			position = { x = -2 y = @1938 }
+			position = { x = -7 y = @1938 }
 		}
 
 		categories = {
-			artillery
-			mio_cat_all_artillery_equipment
-			mio_cat_artillery #Only Artillery
+			cat_artillery_tech
+			cat_howitzer_tech
+			cat_heavy_howitzer_tech
 		}
 		special_project_specialization = { specialization_land }
 
@@ -346,13 +397,13 @@ technologies = {
 
 		folder = {
 			name = artillery_folder
-			position = { x = -2 y = @1940 }
+			position = { x = -7 y = @1940 }
 		}
 
 		categories = {
-			artillery
-			mio_cat_all_artillery_equipment
-			mio_cat_artillery #Only Artillery
+			cat_artillery_tech
+			cat_howitzer_tech
+			cat_heavy_howitzer_tech
 		}
 		special_project_specialization = { specialization_land }
 
@@ -371,13 +422,13 @@ technologies = {
 
 		folder = {
 			name = artillery_folder
-			position = { x = -2 y = @1942 }
+			position = { x = -7 y = @1942 }
 		}
 
 		categories = {
-			artillery
-			mio_cat_all_artillery_equipment
-			mio_cat_artillery #Only Artillery
+			cat_artillery_tech
+			cat_howitzer_tech
+			cat_heavy_howitzer_tech
 		}
 		special_project_specialization = { specialization_land }
 
@@ -394,13 +445,13 @@ technologies = {
 
 		folder = {
 			name = artillery_folder
-			position = { x = -2 y = @1944 }
+			position = { x = -7 y = @1944 }
 		}
 
 		categories = {
-			artillery
-			mio_cat_all_artillery_equipment
-			mio_cat_artillery #Only Artillery
+			cat_artillery_tech
+			cat_howitzer_tech
+			cat_heavy_howitzer_tech
 		}
 		special_project_specialization = { specialization_land }
 
@@ -423,13 +474,12 @@ technologies = {
 
 		folder = {
 			name = artillery_folder
-			position = { x = 1 y = @1940 }
+			position = { x = -4 y = @1940 }
 		}
 
 		categories = {
-			artillery
-			rocketry
-			mio_cat_all_artillery_equipment
+			cat_artillery_tech
+			cat_rocketry_tech
 		}
 		special_project_specialization = { specialization_land }
 
@@ -448,13 +498,12 @@ technologies = {
 
 		folder = {
 			name = artillery_folder
-			position = { x = 1 y = @1942 }
+			position = { x = -4 y = @1942 }
 		}
 
 		categories = {
-			artillery
-			rocketry
-			mio_cat_all_artillery_equipment
+			cat_artillery_tech
+			cat_rocketry_tech
 		}
 		special_project_specialization = { specialization_land }
 
@@ -476,13 +525,34 @@ technologies = {
 
 		folder = {
 			name = artillery_folder
-			position = { x = 1 y = @1944 }
+			position = { x = -4 y = @1944 }
 		}
 
 		categories = {
-			artillery
-			rocketry
-			mio_cat_all_artillery_equipment
+			cat_artillery_tech
+			cat_rocketry_tech
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	rocketartillery4_tech = {
+		enable_equipments = {
+			artillery_equipment_1
+		}
+
+		research_cost = 2.0
+		start_year = 1946
+
+		folder = {
+			name = artillery_folder
+			position = { x = -4 y = @1946 }
+		}
+
+		categories = {
+			cat_artillery_tech
+			cat_rocketry_tech
 		}
 		special_project_specialization = { specialization_land }
 
@@ -513,13 +583,13 @@ technologies = {
 
 		folder = {
 			name = artillery_folder
-			position = { x = 1 y = @1930 }
+			position = { x = -4 y = @1930 }
 		}
 
 		categories = {
-			artillery
-			mio_cat_all_artillery_equipment
-			mio_cat_artillery #Only Artillery
+			cat_artillery_tech
+			cat_howitzer_tech
+			cat_light_howitzer_tech
 		}
 		special_project_specialization = { specialization_land }
 
@@ -537,13 +607,13 @@ technologies = {
 
 		folder = {
 			name = artillery_folder
-			position = { x = 6 y = @1936 }
+			position = { x = 1 y = @1936 }
 		}
 
 		categories = {
-			artillery
-			mio_cat_all_artillery_equipment
-			mio_cat_artillery #Only Artillery
+			cat_artillery_tech
+			cat_howitzer_tech
+			cat_light_howitzer_tech
 		}
 		special_project_specialization = { specialization_land }
 
@@ -565,13 +635,13 @@ technologies = {
 
 		folder = {
 			name = artillery_folder
-			position = { x = 6 y = @1938 }
+			position = { x = 1 y = @1938 }
 		}
 
 		categories = {
-			artillery
-			mio_cat_all_artillery_equipment
-			mio_cat_artillery #Only Artillery
+			cat_artillery_tech
+			cat_howitzer_tech
+			cat_light_howitzer_tech
 		}
 		special_project_specialization = { specialization_land }
 
@@ -594,13 +664,13 @@ technologies = {
 
 		folder = {
 			name = artillery_folder
-			position = { x = 6 y = @1940 }
+			position = { x = 1 y = @1940 }
 		}
 
 		categories = {
-			artillery
-			mio_cat_all_artillery_equipment
-			mio_cat_artillery #Only Artillery
+			cat_artillery_tech
+			cat_howitzer_tech
+			cat_light_howitzer_tech
 		}
 		special_project_specialization = { specialization_land }
 
@@ -630,13 +700,13 @@ technologies = {
 
 		folder = {
 			name = artillery_folder
-			position = { x = 4 y = @1942 }
+			position = { x = -1 y = @1942 }
 		}
 
 		categories = {
-			artillery
-			mio_cat_all_artillery_equipment
-			mio_cat_artillery #Only Artillery
+			cat_artillery_tech
+			cat_howitzer_tech
+			cat_light_howitzer_tech
 		}
 		special_project_specialization = { specialization_land }
 
@@ -663,13 +733,13 @@ technologies = {
 
 		folder = {
 			name = artillery_folder
-			position = { x = 8 y = @1942 }
+			position = { x = 3 y = @1942 }
 		}
 
 		categories = {
-			artillery
-			mio_cat_all_artillery_equipment
-			mio_cat_artillery #Only Artillery
+			cat_artillery_tech
+			cat_howitzer_tech
+			cat_light_howitzer_tech
 		}
 		special_project_specialization = { specialization_land }
 
@@ -683,95 +753,13 @@ technologies = {
 
 		folder = {
 			name = artillery_folder
-			position = { x = 6 y = @1944 }
+			position = { x = 1 y = @1944 }
 		}
 
 		categories = {
-			artillery
-			mio_cat_all_artillery_equipment
-			mio_cat_artillery #Only Artillery
-		}
-		special_project_specialization = { specialization_land }
-
-		ai_will_do = {
-		}
-	}
-
-	heavyantitank1_tech = {
-		enable_equipments = {
-			artillery_equipment_1
-		}
-
-		path = {
-			leads_to_tech = heavyantitank2_tech
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2.0
-		start_year = 1940
-
-		folder = {
-			name = artillery_folder
-			position = { x = 13 y = @1940 }
-		}
-
-		categories = {
-			artillery
-			cat_anti_tank
-			mio_cat_all_artillery_equipment
-		}
-		special_project_specialization = { specialization_land }
-
-		ai_will_do = {
-		}
-	}
-	heavyantitank2_tech = {
-
-		path = {
-			leads_to_tech = heavyantitank3_tech
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2.0
-		start_year = 1942
-
-		folder = {
-			name = artillery_folder
-			position = { x = 13 y = @1942 }
-		}
-
-		categories = {
-			artillery
-			cat_anti_tank
-			mio_cat_all_artillery_equipment
-		}
-		special_project_specialization = { specialization_land }
-
-		ai_will_do = {
-		}
-	}
-	heavyantitank3_tech = {
-		enable_equipments = {
-			artillery_equipment_1
-		}
-
-		path = {
-			leads_to_tech = antitank6_tech
-			research_cost_coeff = 1
-		}
-
-		research_cost = 2.0
-		start_year = 1944
-
-		folder = {
-			name = artillery_folder
-			position = { x = 13 y = @1944 }
-		}
-
-		categories = {
-			artillery
-			cat_anti_tank
-			mio_cat_all_artillery_equipment
+			cat_artillery_tech
+			cat_howitzer_tech
+			cat_light_howitzer_tech
 		}
 		special_project_specialization = { specialization_land }
 
@@ -794,13 +782,13 @@ technologies = {
 
 		folder = {
 			name = artillery_folder
-			position = { x = 15 y = @1930 }
+			position = { x = 8 y = @1930 }
 		}
 
 		categories = {
-			artillery
-			cat_anti_tank
-			mio_cat_all_artillery_equipment
+			cat_artillery_tech
+			cat_anti_tank_tech
+			cat_light_anti_tank_tech
 		}
 		special_project_specialization = { specialization_land }
 
@@ -808,9 +796,6 @@ technologies = {
 		}
 	}
 	antitank1_tech = {
-		enable_equipments = {
-			artillery_equipment_1
-		}
 
 		path = {
 			leads_to_tech = antitank2_tech
@@ -822,13 +807,13 @@ technologies = {
 
 		folder = {
 			name = artillery_folder
-			position = { x = 15 y = @1936 }
+			position = { x = 8 y = @1936 }
 		}
 
 		categories = {
-			artillery
-			cat_anti_tank
-			mio_cat_all_artillery_equipment
+			cat_artillery_tech
+			cat_anti_tank_tech
+			cat_light_anti_tank_tech
 		}
 		special_project_specialization = { specialization_land }
 
@@ -836,6 +821,9 @@ technologies = {
 		}
 	}
 	antitank2_tech = {
+		enable_equipments = {
+			artillery_equipment_1
+		}
 
 		path = {
 			leads_to_tech = heavyantitank1_tech
@@ -851,13 +839,13 @@ technologies = {
 
 		folder = {
 			name = artillery_folder
-			position = { x = 15 y = @1938 }
+			position = { x = 8 y = @1938 }
 		}
 
 		categories = {
-			artillery
-			cat_anti_tank
-			mio_cat_all_artillery_equipment
+			cat_artillery_tech
+			cat_anti_tank_tech
+			cat_light_anti_tank_tech
 		}
 		special_project_specialization = { specialization_land }
 
@@ -865,9 +853,6 @@ technologies = {
 		}
 	}
 	antitank3_tech = {
-		enable_equipments = {
-			artillery_equipment_1
-		}
 
 		path = {
 			leads_to_tech = antitank4_tech
@@ -879,13 +864,13 @@ technologies = {
 
 		folder = {
 			name = artillery_folder
-			position = { x = 17 y = @1940 }
+			position = { x = 8 y = @1940 }
 		}
 
 		categories = {
-			artillery
-			cat_anti_tank
-			mio_cat_all_artillery_equipment
+			cat_artillery_tech
+			cat_anti_tank_tech
+			cat_light_anti_tank_tech
 		}
 		special_project_specialization = { specialization_land }
 
@@ -893,6 +878,9 @@ technologies = {
 		}
 	}
 	antitank4_tech = {
+		enable_equipments = {
+			artillery_equipment_1
+		}
 
 		path = {
 			leads_to_tech = antitank5_tech
@@ -904,13 +892,13 @@ technologies = {
 
 		folder = {
 			name = artillery_folder
-			position = { x = 17 y = @1942 }
+			position = { x = 8 y = @1942 }
 		}
 
 		categories = {
-			artillery
-			cat_anti_tank
-			mio_cat_all_artillery_equipment
+			cat_artillery_tech
+			cat_anti_tank_tech
+			cat_light_anti_tank_tech
 		}
 		special_project_specialization = { specialization_land }
 
@@ -918,8 +906,10 @@ technologies = {
 		}
 	}
 	antitank5_tech = {
-		enable_equipments = {
-			artillery_equipment_1
+
+		path = {
+			leads_to_tech = antitank6_tech
+			research_cost_coeff = 1
 		}
 
 		research_cost = 2.0
@@ -927,13 +917,799 @@ technologies = {
 
 		folder = {
 			name = artillery_folder
-			position = { x = 17 y = @1944 }
+			position = { x = 8 y = @1944 }
 		}
 
 		categories = {
-			artillery
-			cat_anti_tank
-			mio_cat_all_artillery_equipment
+			cat_artillery_tech
+			cat_anti_tank_tech
+			cat_light_anti_tank_tech
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	antitank6_tech = {
+		enable_equipments = {
+			artillery_equipment_1
+		}
+
+		research_cost = 2.0
+		start_year = 1946
+
+		folder = {
+			name = artillery_folder
+			position = { x = 8 y = @1946 }
+		}
+
+		categories = {
+			cat_artillery_tech
+			cat_anti_tank_tech
+			cat_light_anti_tank_tech
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+
+	heavyantitank1_tech = {
+		enable_equipments = {
+			artillery_equipment_1
+		}
+
+		path = {
+			leads_to_tech = heavyantitank2_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.0
+		start_year = 1940
+
+		folder = {
+			name = artillery_folder
+			position = { x = 11 y = @1940 }
+		}
+
+		categories = {
+			cat_artillery_tech
+			cat_anti_tank_tech
+			cat_heavy_anti_tank_tech
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	heavyantitank2_tech = {
+
+		path = {
+			leads_to_tech = heavyantitank3_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.0
+		start_year = 1942
+
+		folder = {
+			name = artillery_folder
+			position = { x = 11 y = @1942 }
+		}
+
+		categories = {
+			cat_artillery_tech
+			cat_anti_tank_tech
+			cat_heavy_anti_tank_tech
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	heavyantitank3_tech = {
+		enable_equipments = {
+			artillery_equipment_1
+		}
+
+		path = {
+			leads_to_tech = heavyantitank4_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.0
+		start_year = 1944
+
+		folder = {
+			name = artillery_folder
+			position = { x = 11 y = @1944 }
+		}
+
+		categories = {
+			cat_artillery_tech
+			cat_anti_tank_tech
+			cat_heavy_anti_tank_tech
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	heavyantitank4_tech = {
+
+		research_cost = 2.0
+		start_year = 1946
+
+		folder = {
+			name = artillery_folder
+			position = { x = 11 y = @1946 }
+		}
+
+		categories = {
+			cat_artillery_tech
+			cat_anti_tank_tech
+			cat_heavy_anti_tank_tech
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+
+	heshells_tech = {
+		category_army = {
+			soft_attack = 0.03
+		}
+
+		path = {
+			leads_to_tech = shrapshells_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = fireshells_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = heshshells_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = smokeshells_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = heatshells_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = chemshells_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.0
+		start_year = 1930
+
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = @1930 }
+		}
+
+		categories = {
+			cat_shells_tech
+			cat_he_shells_tech
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	shrapshells_tech = {
+		category_anti_air = {
+			soft_attack = 0.10
+		}
+		category_spaa = {
+			soft_attack = 0.10
+		}
+
+		path = {
+			leads_to_tech = flakshells_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.0
+		start_year = 1930
+
+		folder = {
+			name = artillery_folder
+			position = { x = -3 y = @1930 }
+		}
+
+		categories = {
+			cat_shells_tech
+			cat_he_shells_tech
+		}
+		special_project_specialization = { specialization_land specialization_air }
+
+		ai_will_do = {
+		}
+	}
+	flakshells_tech = {
+		category_anti_air = {
+			air_attack = 0.05
+		}
+		category_spaa = {
+			air_attack = 0.05
+		}
+		static_anti_air_damage_factor = 0.05
+
+		path = {
+			leads_to_tech = vtflakshells_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = beeshells_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.0
+		start_year = 1936
+
+		folder = {
+			name = artillery_folder
+			position = { x = -3 y = @1936 }
+		}
+
+		categories = {
+			cat_shells_tech
+			cat_he_shells_tech
+		}
+		special_project_specialization = { specialization_land specialization_air }
+
+		ai_will_do = {
+		}
+	}
+	vtflakshells_tech = {
+		category_anti_air = {
+			air_attack = 0.10
+		}
+		category_spaa = {
+			air_attack = 0.10
+		}
+		static_anti_air_hit_chance_factor = 0.10
+
+		path = {
+			leads_to_tech = vtheshells_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.0
+		start_year = 1942
+
+		is_special_project_tech = yes
+		folder = {
+			name = artillery_folder
+			position = { x = -3 y = @1942 }
+		}
+
+		categories = {
+			cat_shells_tech
+			cat_he_shells_tech
+		}
+		special_project_specialization = { specialization_land specialization_air }
+
+		ai_will_do = {
+		}
+	}
+	fireshells_tech = {
+		category_frontline_artillery = {
+			forest = {
+				attack = 0.05
+			}
+			jungle = {
+				attack = 0.05
+			}
+			urban = {
+				attack = 0.05
+			}
+		}
+		category_spg = {
+			forest = {
+				attack = 0.05
+			}
+			jungle = {
+				attack = 0.05
+			}
+			urban = {
+				attack = 0.05
+			}
+		}
+
+		path = {
+			leads_to_tech = beeshells_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.0
+		start_year = 1937
+
+		folder = {
+			name = artillery_folder
+			position = { x = -1 y = @1937 }
+		}
+
+		categories = {
+			cat_shells_tech
+			cat_he_shells_tech
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	beeshells_tech = {
+		battleship = {
+			air_attack = 0.10
+		}
+		battle_cruiser = {
+			air_attack = 0.10
+		}
+
+		dependencies = {
+    		fireshells_tech = 1
+			flakshells_tech = 1
+		}
+
+		research_cost = 1.0
+		start_year = 1940
+
+		folder = {
+			name = artillery_folder
+			position = { x = -2 y = @1940 }
+		}
+
+		categories = {
+			cat_shells_tech
+			cat_he_shells_tech
+		}
+		special_project_specialization = { specialization_air specialization_naval }
+
+		ai_will_do = {
+		}
+	}
+	heshshells_tech = {
+		enable_equipment_modules = {
+		}
+
+		category_frontline_artillery = {
+			fort = {
+				attack = 0.05
+			}
+		}
+		category_spg = {
+			fort = {
+				attack = 0.05
+			}
+		}
+		category_artillery = {
+			ap_attack = 0.10
+			hard_attack = 0.05
+		}
+
+		path = {
+			leads_to_tech = vtheshells_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.0
+		start_year = 1940
+
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = @1940 }
+		}
+
+		categories = {
+			cat_shells_tech
+			cat_he_shells_tech
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	vtheshells_tech = {
+		category_artillery = {
+			soft_attack = 0.05
+		}
+		category_spg = {
+			soft_attack = 0.05
+		}
+
+		path = {
+			leads_to_tech = heshshells_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.0
+		start_year = 1944
+
+		is_special_project_tech = yes
+		folder = {
+			name = artillery_folder
+			position = { x = 0 y = @1944 }
+		}
+
+		categories = {
+			cat_shells_tech
+			cat_he_shells_tech
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	smokeshells_tech = {
+		category_artillery = {
+			max_strength = 3
+		}
+
+		path = {
+			leads_to_tech = flareshells_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.0
+		start_year = 1936
+
+		folder = {
+			name = artillery_folder
+			position = { x = 1 y = @1936 }
+		}
+
+		categories = {
+			cat_shells_tech
+			cat_he_shells_tech
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	flareshells_tech = {
+		category_frontline_artillery = {
+			night = {
+				attack = 0.05
+			}
+		}
+		category_spg = {
+			night = {
+				attack = 0.05
+			}
+		}
+
+		research_cost = 1.0
+		start_year = 1938
+
+		folder = {
+			name = artillery_folder
+			position = { x = 1 y = @1938 }
+		}
+
+		categories = {
+			cat_shells_tech
+			cat_he_shells_tech
+		}
+		special_project_specialization = { specialization_land specialization_naval }
+
+		ai_will_do = {
+		}
+	}
+	chemshells_tech = {
+
+		research_cost = 1.0
+		start_year = 1930
+
+		folder = {
+			name = artillery_folder
+			position = { x = 2 y = @1930 }
+		}
+
+		categories = {
+			cat_shells_tech
+			cat_he_shells_tech
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	heatshells_tech = {
+		enable_equipment_modules = {
+		}
+
+		category_artillery = {
+			ap_attack = 0.20
+			hard_attack = 0.10
+		}
+
+		path = {
+			leads_to_tech = heatfsshells_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.0
+		start_year = 1940
+
+		folder = {
+			name = artillery_folder
+			position = { x = 2 y = @1940 }
+		}
+
+		categories = {
+			cat_shells_tech
+			cat_he_shells_tech
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	heatfsshells_tech = {
+		enable_equipment_modules = {
+		}
+
+		category_artillery = {
+			ap_attack = 0.20
+			hard_attack = 0.10
+		}
+
+		path = {
+			leads_to_tech = atgm_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.0
+		start_year = 1944
+
+		folder = {
+			name = artillery_folder
+			position = { x = 2 y = @1944 }
+		}
+
+		categories = {
+			cat_shells_tech
+			cat_he_shells_tech
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	atgm_tech = {
+		enable_equipment_modules = {
+		}
+
+		research_cost = 1.0
+		start_year = 1946
+
+		is_special_project_tech = yes
+		folder = {
+			name = artillery_folder
+			position = { x = 2 y = @1946 }
+		}
+
+		categories = {
+			cat_rocketry_tech
+			cat_shells_tech
+			cat_he_shells_tech
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	apshells_tech = {
+		category_army = {
+			hard_attack = 0.03
+		}
+
+		path = {
+			leads_to_tech = apheshells_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = apbcshells_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.0
+		start_year = 1930
+
+		folder = {
+			name = artillery_folder
+			position = { x = 4 y = @1930 }
+		}
+
+		categories = {
+			cat_shells_tech
+			cat_ap_shells_tech
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	apheshells_tech = {
+		category_anti_tank = {
+			hard_attack = 0.03
+		}
+		category_all_armor = {
+			hard_attack = 0.03
+		}
+
+		path = {
+			leads_to_tech = aphebcshells_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.0
+		start_year = 1936
+
+		folder = {
+			name = artillery_folder
+			position = { x = 3 y = @1936 }
+		}
+
+		categories = {
+			cat_shells_tech
+			cat_ap_shells_tech
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	apbcshells_tech = {
+		category_anti_tank = {
+			ap_attack = 0.03
+		}
+		category_all_armor = {
+			ap_attack = 0.03
+		}
+
+		path = {
+			leads_to_tech = aphebcshells_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.0
+		start_year = 1936
+
+		folder = {
+			name = artillery_folder
+			position = { x = 5 y = @1936 }
+		}
+
+		categories = {
+			cat_shells_tech
+			cat_ap_shells_tech
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	aphebcshells_tech = {
+		category_anti_tank = {
+			ap_attack = 0.02
+			hard_attack = 0.02
+		}
+		category_all_armor = {
+			ap_attack = 0.02
+			hard_attack = 0.02
+		}
+
+		path = {
+			leads_to_tech = apdsshells_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = apcrshells_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.0
+		start_year = 1938
+
+		folder = {
+			name = artillery_folder
+			position = { x = 4 y = @1938 }
+		}
+
+		categories = {
+			cat_shells_tech
+			cat_ap_shells_tech
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	apdsshells_tech = {
+		enable_equipment_modules = {
+		}
+
+		category_anti_tank = {
+			ap_attack = 0.10
+		}
+
+		path = {
+			leads_to_tech = apfsdsshells_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.0
+		start_year = 1943
+
+		folder = {
+			name = artillery_folder
+			position = { x = 4 y = @1943 }
+		}
+
+		categories = {
+			cat_shells_tech
+			cat_ap_shells_tech
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	apfsdsshells_tech = {
+		enable_equipment_modules = {
+		}
+
+		category_anti_tank = {
+			ap_attack = 0.05
+		}
+
+		research_cost = 1.0
+		start_year = 1946
+
+		folder = {
+			name = artillery_folder
+			position = { x = 4 y = @1946 }
+		}
+
+		categories = {
+			cat_shells_tech
+			cat_ap_shells_tech
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	apcrshells_tech = {
+		enable_equipment_modules = {
+		}
+
+		category_anti_tank = {
+			ap_attack = 0.05
+			hard_attack = -0.05
+		}
+
+		research_cost = 1.0
+		start_year = 1940
+
+		folder = {
+			name = artillery_folder
+			position = { x = 5 y = @1940 }
+		}
+
+		categories = {
+			cat_shells_tech
+			cat_ap_shells_tech
 		}
 		special_project_specialization = { specialization_land }
 

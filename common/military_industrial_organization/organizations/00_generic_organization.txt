@@ -903,7 +903,7 @@ generic_assault_guns_organization = {
 
 		available = {
 			owner = {
-				has_tech = rocket_artillery
+				has_tech = rocketartillery1_tech
 			}
 		}
 

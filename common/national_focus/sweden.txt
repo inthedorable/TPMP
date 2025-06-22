@@ -2793,7 +2793,7 @@ focus_tree = {
 			else = {
 				has_tech = basic_light_tank
 			}
-			has_tech = antiair1
+			has_tech = antiair1_tech
 			
 			capital_scope = { is_controlled_by = SWE }
 		}
@@ -2959,13 +2959,6 @@ focus_tree = {
 				uses = 2
 				category = cat_anti_tank	# optional 
 				# tecnology  = technology_id # optional
-			}
-			custom_effect_tooltip = SWE_bofors_anti_tank_gun_tt
-			hidden_effect = {
-				set_technology = {
-					SWE_bofors_antitank_gun = 1
-					popup = no
-				}
 			}
 			SWE_folkhemmet_big_swap = yes
 
@@ -10387,23 +10380,6 @@ focus_tree = {
 						}
 						set_technology = { mtg_tank_landing_craft = 1 }
 					}
-					IF = {
-						limit = { 
-							has_dlc = "No Step Back" 
-						}
-						IF = {
-							limit = {
-								NOT = { has_tech = amphibious_tank_chassis }
-							}
-						set_technology = { amphibious_tank_chassis = 1}
-						}
-						ELSE_IF = {
-							limit = {
-								NOT = { has_tech = amphibious_drive }
-							}
-							set_technology = { amphibious_drive = 1}
-						}
-					}
 					ELSE = {
 						IF = {
 							limit = {
@@ -10449,22 +10425,6 @@ focus_tree = {
 			ELSE_IF = {
 				limit = {
 					has_country_flag = SWE_has_rangers
-				}
-				IF = {
-					limit = { NOT = { has_tech = infantry_at }}
-					set_technology = { infantry_at = 1 }
-				}
-				ELSE_IF = {
-					limit = { NOT = { has_tech = infantry_at2 }}
-					set_technology = { infantry_at2 = 1 }
-				}		
-				IF = {
-					limit = { NOT = { has_tech = night_vision }}
-					set_technology = { night_vision = 1 }
-				}
-				ELSE_IF = {
-					limit = { NOT = { has_tech = night_vision2 }}
-					set_technology = { night_vision2 = 1 }
 				}		
 				army_experience = 50
 			}

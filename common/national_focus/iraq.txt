@@ -2124,15 +2124,6 @@ focus_tree = {
 		available_if_capitulated = no
 
 		completion_reward = {
-
-			custom_effect_tooltip = mountain_guns_tt
-			hidden_effect = {
-			    set_technology = {
-			        mountain_gun = 1
-			        popup = no
-			    }
-			}
-
 			IF = {
 				limit = {
 					has_dlc = "Arms Against Tyranny"
@@ -9985,15 +9976,6 @@ focus_tree = {
 					uses = 2
 					category = cat_mountaineers_doctrine
 				}
-			}
-			
-
-			custom_effect_tooltip = ROM_mountain_artillery_tech_tt
-			hidden_effect = { 
-				set_technology = { 
-					mountain_gun = 1 
-					popup = no
-				} 
 			}
 
 			custom_effect_tooltip = generic_skip_one_line_tt

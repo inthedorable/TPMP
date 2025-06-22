@@ -13774,14 +13774,6 @@ focus_tree = {
 				}
 			}
 
-			custom_effect_tooltip = ROM_mountain_artillery_tech_tt
-			hidden_effect = { 
-				set_technology = { 
-					mountain_gun = 1 
-					popup = no
-				} 
-			}
-
 			custom_effect_tooltip = generic_skip_one_line_tt
 
 			custom_effect_tooltip = AUS_osterreichische_gebirgsjager_tt

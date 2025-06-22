@@ -270,13 +270,6 @@ guiTypes = {
 			}
 
 			gridboxtype = {
-				name = "night_vision_tree"
-				position = { x = 140 y = 210 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-
-			gridboxtype = {
 				name = "infantrygun1_tech_tree"
 				position = { x = 140 y = 325 }
 				slotsize = { width = 70 height = 70 }
@@ -1435,7 +1428,7 @@ guiTypes = {
 				name = "techtree_stripes"
 				position = { x= 0 y= 0 }
 				size = {
-					width = 2410 height = 1030
+					width = 2570 height = 1150
 					min = { width = 100%% height = 100%% }
 				}
 				clipping = no
@@ -1460,8 +1453,21 @@ guiTypes = {
 				origo = center_up
 
 				instantTextBoxType = {
+					name = "artillery_subtitle_shells"
+					position = { x = 1005 y = 55 }
+					textureFile = ""
+					font = "hoi_33"
+					borderSize = {x = 0 y = 4}
+					text = "ARTILLERY_TITLE_SHELLS"
+					maxWidth = 290
+					maxHeight = 62
+					format = center
+					Orientation = "UPPER_LEFT"
+				}
+
+				instantTextBoxType = {
 					name = "artillery_subtitle_anti_tank"
-					position = { x = 940 y = 55 }
+					position = { x = 375 y = 55 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -1474,7 +1480,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "artillery_subtitle_artillery"
-					position = { x = 115 y = 55 }
+					position = { x = -310 y = 55 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -1487,7 +1493,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "artillery_subtitle_anti_air"
-					position = { x = -555 y = 55  }
+					position = { x = -630 y = 55  }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -1697,13 +1703,6 @@ guiTypes = {
 			}
 
 			gridboxtype = {
-				name = "gw_artillery_tree"
-				position = { x = 10% y = 172 }
-				size = { width = 80% height = 80% }
-				slotsize = { width = 70 height = 70 }
-				format = "UP"
-			}
-			gridboxtype = {
 				name = "antiair0_tech_tree"
 				position = { x = 10% y = 172 }
 				size = { width = 80% height = 80% }
@@ -1721,6 +1720,18 @@ guiTypes = {
 				name = "antitank0_tech_tree"
 				position = { x = 10% y = 172 }
 				size = { width = 80% height = 80% }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+			gridboxtype = {
+				name = "heshells_tech_tree"
+				position = { x = 2070 y = 172 }
+				slotsize = { width = 70 height = 70 }
+				format = "UP"
+			}
+			gridboxtype = {
+				name = "apshells_tech_tree"
+				position = { x = 2070 y = 172 }
 				slotsize = { width = 70 height = 70 }
 				format = "UP"
 			}

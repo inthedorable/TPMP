@@ -2118,12 +2118,6 @@ shared_focus = {
 				}
 				set_technology = { amphibious_tank = 1}
 			}
-			ELSE_IF = {
-				limit = {
-					NOT = { has_tech = amphibious_drive }
-				}
-				set_technology = { amphibious_drive = 1}
-			}
 		}
 		ELSE = {
 			IF = {
@@ -2183,21 +2177,6 @@ shared_focus = {
 	completion_reward = {
 
 		IF = {
-			limit = { 
-				NOT = { has_tech = night_vision }
-				date > 1940.1.1
-			}
-			set_technology = { night_vision = 1 }
-		}
-		ELSE_IF = {
-			limit = { 
-				NOT = { has_tech = night_vision2 }
-				date > 1941.1.1
-			}
-			set_technology = { night_vision2 = 1 }
-		}	
-
-		IF = {
 			limit = {
 				original_tag = CHL
 			}
@@ -2253,9 +2232,6 @@ shared_focus = {
 	cost = 5
 
 	available = {
-		NOT = {
-			has_tech = mountain_gun
-		}
 	}
 
 	bypass = {
@@ -2271,17 +2247,6 @@ shared_focus = {
 		} 
 
 	completion_reward = {
-		
-		IF = {
-			limit = {
-				NOT = {
-					has_tech = mountain_gun
-				}
-			}
-			custom_effect_tooltip = mountain_guns_tt
-			hidden_effect = { set_technology = { mountain_gun = 1 } }
-		}
-
 	}
 }
 

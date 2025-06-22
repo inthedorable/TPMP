@@ -745,9 +745,6 @@ GER_alkett_organization = {
 		}
 
 		available = {
-			FROM = {
-				has_tech = antitank2
-			}
 		}
 
 		mutually_exclusive = { generic_mio_medium_assault_gun_rocket_tubes }
@@ -1039,9 +1036,6 @@ GER_daimler_benz_organization = {
 		position = { x=0 y=1 }  
 
 		available = {
-            FROM = {
-                has_tech = antitank2
-            }
         }
 		
 		equipment_bonus = {
@@ -3090,9 +3084,6 @@ GER_rheinmetall_organization = {
 		}
 
 		available = {
-			FROM = {
-				has_tech = artillery3
-			}
 		}
 
 		limit_to_equipment_type = { 
@@ -3263,7 +3254,7 @@ GER_mauser_organization = {
 
 		available = {
 			FROM = {
-				has_tech = advanced_infantry_weapons
+				has_tech = infantrygun4_tech
 			}
 		}
 

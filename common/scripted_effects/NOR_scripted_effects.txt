@@ -1715,10 +1715,6 @@ NOR_rikstanken_creation_effect = { # Moving it here so it's cleaner
 				}
 				set_country_flag = NOR_added_basic_tank_tech
 			}
-			set_technology = {
-				NOR_rikstanken_tech = 1
-				popup = no
-			}
 		}
 		else = {
 			if = {

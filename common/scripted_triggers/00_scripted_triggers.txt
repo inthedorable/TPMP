@@ -333,23 +333,9 @@ ai_air_doctrine_tier_3_trigger = {
 }
 
 ai_land_doctrine_tier_1_trigger = {
-	OR = {
-		has_tech = elastic_defence
-		has_tech = mobile_defence
-		has_tech = grand_assault
-		has_tech = defence_in_depth
-	}
 }
 
 ai_land_doctrine_tier_2_trigger = {
-	OR = {
-		has_tech = kampfgruppe
-		has_tech = mechanised_offensive
-		has_tech = branch_interoperation
-		has_tech = infiltration_assault
-		has_tech = vast_offensives
-		has_tech = large_front_offensive
-	}
 }
 
 CHI_is_on_historical_plan_trigger = {
@@ -1415,16 +1401,6 @@ FROM_is_twice_as_weak = {
 
 ai_has_completed_army_doctrine = {
 	is_ai = yes
-	OR = {
-		has_tech = werwolf_guerillas
-		has_tech = modern_blitzkrieg
-		has_tech = air_land_battle
-		has_tech = shock_and_awe
-		has_tech = c3i_theory
-		has_tech = infiltration_in_depth
-		has_tech = continuous_offensive
-		has_tech = guerilla_warfare
-	}
 }
 
 ai_has_completed_air_doctrine = {

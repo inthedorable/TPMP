@@ -149,6 +149,91 @@ spriteTypes = {
 		name = "GFX_heavyantitank3_tech_medium"
 		textureFile = "gfx/interface/technologies/heavy_antitank_2.dds"
 	}
+	#Shell Tech
+	SpriteType = {
+		name = "GFX_heshells_tech_medium"
+		textureFile = "gfx/interface/technologies/shells/he.dds"
+	}
+	SpriteType = {
+		name = "GFX_shrapshells_tech_medium"
+		textureFile = "gfx/interface/technologies/shells/shrap.dds"
+	}
+	SpriteType = {
+		name = "GFX_flakshells_tech_medium"
+		textureFile = "gfx/interface/technologies/shells/flak.dds"
+	}
+	SpriteType = {
+		name = "GFX_vtflakshells_tech_medium"
+		textureFile = "gfx/interface/technologies/shells/vtflak.dds"
+	}
+	SpriteType = {
+		name = "GFX_beeshells_tech_medium"
+		textureFile = "gfx/interface/technologies/shells/bee.dds"
+	}
+	SpriteType = {
+		name = "GFX_fireshells_tech_medium"
+		textureFile = "gfx/interface/technologies/shells/fire.dds"
+	}
+	SpriteType = {
+		name = "GFX_heshshells_tech_medium"
+		textureFile = "gfx/interface/technologies/shells/hesh.dds"
+	}
+	SpriteType = {
+		name = "GFX_vtheshells_tech_medium"
+		textureFile = "gfx/interface/technologies/shells/vthe.dds"
+	}
+	SpriteType = {
+		name = "GFX_smokeshells_tech_medium"
+		textureFile = "gfx/interface/technologies/shells/smoke.dds"
+	}
+	SpriteType = {
+		name = "GFX_flareshells_tech_medium"
+		textureFile = "gfx/interface/technologies/shells/flare.dds"
+	}
+	SpriteType = {
+		name = "GFX_chemshells_tech_medium"
+		textureFile = "gfx/interface/technologies/shells/chem.dds"
+	}
+	SpriteType = {
+		name = "GFX_heatshells_tech_medium"
+		textureFile = "gfx/interface/technologies/shells/heat.dds"
+	}
+	SpriteType = {
+		name = "GFX_heatfsshells_tech_medium"
+		textureFile = "gfx/interface/technologies/shells/heatfs.dds"
+	}
+	SpriteType = {
+		name = "GFX_atgm_tech_medium"
+		textureFile = "gfx/interface/technologies/shells/atgm.dds"
+	}
+	SpriteType = {
+		name = "GFX_apshells_tech_medium"
+		textureFile = "gfx/interface/technologies/shells/ap.dds"
+	}
+	SpriteType = {
+		name = "GFX_apheshells_tech_medium"
+		textureFile = "gfx/interface/technologies/shells/aphe.dds"
+	}
+	SpriteType = {
+		name = "GFX_apbcshells_tech_medium"
+		textureFile = "gfx/interface/technologies/shells/apbc.dds"
+	}
+	SpriteType = {
+		name = "GFX_aphebcshells_tech_medium"
+		textureFile = "gfx/interface/technologies/shells/aphebc.dds"
+	}
+	SpriteType = {
+		name = "GFX_apdsshells_tech_medium"
+		textureFile = "gfx/interface/technologies/shells/apds.dds"
+	}
+	SpriteType = {
+		name = "GFX_apfsdsshells_tech_medium"
+		textureFile = "gfx/interface/technologies/shells/apfsds.dds"
+	}
+	SpriteType = {
+		name = "GFX_apcrshells_tech_medium"
+		textureFile = "gfx/interface/technologies/shells/apcr.dds"
+	}
 	#Tank Technology
 	SpriteType = {
 		name = "GFX_lighttankturret1_tech_medium"

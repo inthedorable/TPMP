@@ -1,0 +1,72 @@
+equipments = {
+	heavy_anti_tank_equipment = {
+		year = 1011
+
+		is_archetype = yes
+		picture = archetype_anti_tank_equipment		
+		type = { 
+			anti_tank
+			infantry
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+
+		#Misc Abilities
+		reliability = 0.8
+		maximum_speed = 3
+
+		#Space taken in convoy
+		lend_lease_cost = 4
+	}
+
+	heavy_anti_tank_equipment_1 = {
+		year = 1011
+
+		archetype = heavy_anti_tank_equipment
+		priority = 50
+		visual_level = 0
+		
+
+		#Defensive Abilities
+		defense = 20
+
+		#Offensive Abilities
+		soft_attack = 10
+		hard_attack = 32
+		ap_attack = 100
+
+		build_cost_ic = 12
+		resources = {
+			tungsten = 12
+			steel = 30
+			chromium = 8
+		}
+	}
+
+	heavy_anti_tank_equipment_2 = {
+		year = 1014
+
+		archetype = heavy_anti_tank_equipment
+		parent = heavy_anti_tank_equipment_1
+		priority = 50
+		visual_level = 0
+		
+		
+
+		#Defensive Abilities
+		defense = 24
+
+		#Offensive Abilities
+		soft_attack = 10
+		hard_attack = 39
+		ap_attack = 120
+
+		build_cost_ic = 15
+		resources = {
+			tungsten = 14
+			steel = 35
+			chromium = 10
+		}
+	}
+}

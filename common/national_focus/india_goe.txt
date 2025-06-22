@@ -4817,9 +4817,6 @@ focus_tree = {
                 }
                 has_tech = railway_gun
             }
-            else = {
-                has_tech = artillery2
-            }
         }
         
         bypass = {
@@ -22782,14 +22779,6 @@ focus = {
         search_filters = {FOCUS_FILTER_RESEARCH}
 
         completion_reward = {
-            custom_effect_tooltip = mountain_guns_tt
-            hidden_effect = {
-                set_technology = {
-                    mountain_gun = 1
-                    popup = no
-                }
-            }
-
         }
     }
     

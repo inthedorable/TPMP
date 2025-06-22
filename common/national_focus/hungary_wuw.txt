@@ -19773,17 +19773,6 @@ focus_tree = {
 			}
 
 			custom_effect_tooltip = generic_skip_one_line_tt
-
-			IF = {
-				limit = {
-					NOT = {
-						has_tech = mountain_gun
-					}
-				}
-				custom_effect_tooltip = ROM_mountain_artillery_tech_tt
-				hidden_effect = { set_technology = { mountain_gun = 1 } }
-			}
-
 		}
 	}
 

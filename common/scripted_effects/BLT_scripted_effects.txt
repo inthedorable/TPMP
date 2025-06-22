@@ -529,7 +529,7 @@ remove_all_temp_boosts_baltic = {
 give_fascist_tank_licences = { #does not have to take non-dlc into account because everyone who gets the Baltic trees also has the tank designer!
 	if = {
 		limit = {
-			has_tech = main_battle_tank_chassis
+			has_tech = mediumtank4b_tech
 		}
 		if = {
 			limit = { has_dlc = "Death or Dishonor" }
@@ -776,7 +776,7 @@ give_aircraft_and_licences = {
 baltic_give_allied_equipment = {
 	if = {
 		limit = {
-			has_tech = advanced_infantry_weapons
+			has_tech = infantrygun4_tech
 		}
 		create_production_license = {
 			target = ROOT
@@ -795,7 +795,7 @@ baltic_give_allied_equipment = {
 	}
 	else_if = {
 		limit = {
-			has_tech = improved_infantry_weapons
+			has_tech = infantrygun3_tech
 		}
 		create_production_license = {
 			target = ROOT
@@ -814,7 +814,7 @@ baltic_give_allied_equipment = {
 	}
 	else_if = {
 		limit = {
-			has_tech = infantry_weapons1
+			has_tech = infantrygun2_tech
 		}
 		create_production_license = {
 			target = ROOT

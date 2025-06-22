@@ -157,3 +157,36 @@ AFG_kabul_conference_category = {
 		
 	}
 }
+
+AFG_turkestan_legion_cat = {
+	icon = GFX_decision_category_ger_reichskommissariats
+	priority = 20
+	#picture = GFX_decision_cat_picture_NOR_preparedness
+	visible_when_empty = no	
+	allowed = {
+		original_tag = AFG
+		OR = {
+			has_government = fascism
+			has_government = neutrality
+		}
+	}
+
+	visible = {
+		
+	}
+}
+
+AFG_sikh_recruitment_cat = {
+	icon = GFX_decision_category_army_reform
+
+	priority = 5
+
+	allowed = {
+		original_tag = AFG
+		has_dlc = "Graveyard of Empires"
+	}
+
+	visible = {
+		has_completed_focus = AFG_ally_the_sikhs
+	}
+}

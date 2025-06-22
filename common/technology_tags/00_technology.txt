@@ -69,7 +69,6 @@ technology_categories = {
 	cat_strategic_destruction
 	cat_battlefield_support
 	cat_operational_integrity
-	night_vision
 	base_strike_main
 	mot_rockets
 	support_tech
@@ -114,6 +113,22 @@ technology_categories = {
 	helicopter_tech
 	pykrete_tech
 	transport_planes_cat
+
+	#TPMP Categories
+	cat_rocketry_tech
+	cat_artillery_tech
+	cat_howitzer_tech
+	cat_light_howitzer_tech
+	cat_heavy_howitzer_tech
+	cat_anti_air_tech
+	cat_light_anti_air_tech
+	cat_heavy_anti_air_tech
+	cat_anti_tank_tech
+	cat_light_anti_tank_tech
+	cat_heavy_anti_tank_tech
+	cat_shells_tech
+	cat_ap_shells_tech
+	cat_he_shells_tech
 
 	mio_cat_tech_all_armor_and_modules #Includes modules and chassis (DOES NOT INCLUDE ARMORED CARS)
 	mio_cat_tech_light_armor_and_modules #Includes modules and stand-alone Amphibious Chassis

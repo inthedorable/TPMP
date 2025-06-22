@@ -249,36 +249,6 @@ country_event = {
 	
 	option = {
 		name = "Cry Havoc!"
-		every_country = { #setup techs 
-			set_technology = {
-				artillery0_tech = 1
-				tech_support = 1
-				fighter1 = 1
-				CAS1 = 1
-				artillery1_tech = 1
-				antitank0_tech = 1
-				antiair0_tech = 1
-				artillery1 = 1
-				artillery2 = 1
-				artillery3 = 1
-				artillery4 = 1
-				infantry_weapons1 = 1
-				infantry_weapons2 = 1
-				improved_infantry_weapons = 1
-				improved_infantry_weapons_2 = 1
-				infantry_at = 1
-				support_weapons = 1
-				support_weapons2 = 1
-				support_weapons3 = 1
-				support_weapons4 = 1
-				tech_engineers = 1
-				tech_engineers2 = 1
-				tech_engineers3 = 1
-				tech_recon = 1
-				tech_recon2 = 1
-				tech_recon3 = 1
-			}
-		}
 		ITA = {
 			annex_country = { target = ETH }
 		}

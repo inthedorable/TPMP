@@ -9,9 +9,8 @@ state=
 	resources={
 		chromium=2 # was: 3
 	}
-	history=
-	{
-		owner = USA
+	history={
+		owner = NEU
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
@@ -21,7 +20,7 @@ state=
 				naval_base = 3
 			}
 		}
-		add_core_of = USA
+		add_core_of = NEU
 		victory_points = {
 			4641 5 
 		}

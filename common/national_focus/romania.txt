@@ -4093,8 +4093,6 @@ focus_tree = {
 		available_if_capitulated = yes
 
 		completion_reward = {
-			custom_effect_tooltip = mountain_guns_tt
-			hidden_effect = { set_technology = { mountain_gun = 1 } }
 		}
 	}
 

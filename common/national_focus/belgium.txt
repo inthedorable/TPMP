@@ -1221,13 +1221,6 @@ focus_tree = {
 				category = cat_anti_tank	# optional 
 				# tecnology  = technology_id # optional
 			}
-			custom_effect_tooltip = BEL_anti_tank_guns_tt
-			hidden_effect = {
-				set_technology = {
-					SWE_bofors_antitank_gun = 1
-					popup = no
-				}
-			}
 		}
 
 	}

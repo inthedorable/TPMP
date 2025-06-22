@@ -11306,7 +11306,7 @@ focus_tree = {
 							is_military_industrial_organization = FIN_sisu_auto_organization
 						}
 					}
-					add_mio_design_team_assign_cost = -0.5
+					# add_mio_design_team_assign_cost = -0.5
 					complete_mio_trait = FIN_mio_trait_salvaged_and_retooled
 				}
 			}
@@ -13315,7 +13315,7 @@ focus_tree = {
 					add_mio_size = 1
 					add_mio_funds_gain_factor = 0.35
 					add_mio_research_bonus = 0.1
-					add_mio_design_team_assign_cost = -0.5
+					# add_mio_design_team_assign_cost = -0.5
 				}
 			}
 			else = {
@@ -15411,7 +15411,7 @@ focus_tree = {
 				mio:FIN_crichton_vulcan_organization = {
 					add_mio_size = 1
 					add_mio_research_bonus = 0.1
-					add_mio_design_team_assign_cost = -0.5
+					# add_mio_design_team_assign_cost = -0.5
 				}
 			}
 

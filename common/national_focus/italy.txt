@@ -4191,57 +4191,6 @@ focus_tree = {
 			else = {
 				add_ideas = ITA_bandits_war_no_lar
 			}
-
-			# AI will never swap to another doctrine tree once they have started one, regardless of the AI weights, so AI needs to have it replaced manually
-			hidden_effect = {
-				if = {
-					limit = {
-						is_ai = yes
-					}
-					set_technology = {
-						trench_warfare = 0
-						mobile_warfare = 1
-					}
-					if = {
-						limit = {
-							has_tech = infantry_doctrine_1
-						}
-						set_technology = {
-							infantry_doctrine_1 = 0
-							delay = 1
-						}
-					}
-					if = {
-						limit = {
-							has_tech = prepared_defense
-						}
-						set_technology = {
-							prepared_defense = 0
-							elastic_defence = 1
-						}
-					}
-					if = {
-						limit = {
-							has_tech = grand_assault
-						}
-						set_technology = {
-							grand_assault = 0
-							infantry_offensive = 0
-							armored_operations = 0
-							infiltration_assault = 0
-							night_assault_tactics = 0
-							attritional_containment = 0
-							infiltration_in_depth = 0
-							grand_mechanized_offensive = 0
-							assault_concentration = 0
-							branch_interoperation = 0
-							assault_breakthrough = 0
-							central_planning = 0
-							c3i_theory = 0
-						}
-					}
-				}
-			}
 		}
 	}
 
@@ -6492,7 +6441,7 @@ focus_tree = {
 				hidden_effect = {
 					if = {
 						limit = {
-							has_tech = improved_infantry_weapons
+							has_tech = infantrygun3_tech
 						}
 						division_template = {
 							name = "Ascari di Marina"
@@ -6547,7 +6496,7 @@ focus_tree = {
 				hidden_effect = {
 					if = {
 						limit = {
-							has_tech = improved_infantry_weapons
+							has_tech = infantrygun3_tech
 						}
 						division_template = {
 							name = "Ascari di Marina"
