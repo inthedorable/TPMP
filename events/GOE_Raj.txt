@@ -3779,7 +3779,7 @@ country_event = {
 					}
 
 					add_equipment_to_stockpile = { 
-						type = artillery_equipment_1
+						type = artillery_equipment_0
 						amount = 530
 						producer = ENG
 					}

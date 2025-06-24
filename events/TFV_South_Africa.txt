@@ -510,7 +510,7 @@ country_event = {
 						line_infantry_equipment > 199
 					}
 					has_equipment = {
-						artillery_equipment_1 > 9
+						artillery_equipment_0 > 9
 					}
 				}
 			}
@@ -553,7 +553,7 @@ country_event = {
 				NOT = {
 					OR = {
 						has_equipment = {
-							artillery_equipment_1 > 9
+							artillery_equipment_0 > 9
 						}
 						has_equipment = {
 							line_infantry_equipment > 199
@@ -691,7 +691,7 @@ country_event = {
 						line_infantry_equipment > 199
 					}
 					has_equipment = {
-						artillery_equipment_1 > 9
+						artillery_equipment_0 > 9
 					}
 				}
 			}
@@ -735,7 +735,7 @@ country_event = {
 				NOT = {
 					OR = {
 						has_equipment = {
-							artillery_equipment_1 > 9
+							artillery_equipment_0 > 9
 						}
 						has_equipment = {
 							line_infantry_equipment > 199

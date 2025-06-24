@@ -3258,7 +3258,7 @@ country_event = {
 					producer = ROOT
 				}
 				add_equipment_to_stockpile = { 
-					type = artillery_equipment_1
+					type = artillery_equipment_0
 					amount = 50
 					producer = ROOT
 				}
@@ -3422,7 +3422,7 @@ country_event = {
 				producer = FROM
 			}
 			add_equipment_to_stockpile = { 
-				type = artillery_equipment_1
+				type = artillery_equipment_0
 				amount = 50
 				producer = FROM
 			}

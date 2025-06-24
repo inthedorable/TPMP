@@ -14,7 +14,7 @@ technologies = {
 
 	heavyantiair1_tech = {
 		enable_equipments = {
-			artillery_equipment_1
+			heavy_anti_air_equipment_1
 		}
 
 		path = {
@@ -67,7 +67,7 @@ technologies = {
 	}
 	heavyantiair3_tech = {
 		enable_equipments = {
-			artillery_equipment_1
+			heavy_anti_air_equipment_2
 		}
 
 		path = {
@@ -120,7 +120,7 @@ technologies = {
 	}
 	heavyantiair5_tech = {
 		enable_equipments = {
-			artillery_equipment_1
+			heavy_anti_air_equipment_3
 		}
 
 		research_cost = 2.0
@@ -144,7 +144,7 @@ technologies = {
 
 	antiair0_tech = {
 		enable_equipments = {
-			artillery_equipment_1
+			anti_air_equipment_0
 		}
 
 		path = {
@@ -201,7 +201,7 @@ technologies = {
 	}
 	antiair2_tech = {
 		enable_equipments = {
-			artillery_equipment_1
+			anti_air_equipment_1
 		}
 
 		path = {
@@ -254,7 +254,7 @@ technologies = {
 	}
 	antiair4_tech = {
 		enable_equipments = {
-			artillery_equipment_1
+			anti_air_equipment_2
 		}
 
 		path = {
@@ -307,7 +307,7 @@ technologies = {
 	}
 	antiair6_tech = {
 		enable_equipments = {
-			artillery_equipment_1
+			anti_air_equipment_3
 		}
 
 		research_cost = 2.0
@@ -331,7 +331,7 @@ technologies = {
 
 	heavyartillery1_tech = {
 		enable_equipments = {
-			artillery_equipment_1
+			heavy_artillery_equipment_1
 		}
 
 		path = {
@@ -384,7 +384,7 @@ technologies = {
 	}
 	heavyartillery3_tech = {
 		enable_equipments = {
-			artillery_equipment_1
+			heavy_artillery_equipment_2
 		}
 
 		path = {
@@ -437,7 +437,7 @@ technologies = {
 	}
 	heavyartillery5_tech = {
 		enable_equipments = {
-			artillery_equipment_1
+			heavy_artillery_equipment_3
 		}
 
 		research_cost = 2.0
@@ -461,7 +461,7 @@ technologies = {
 
 	rocketartillery1_tech = {
 		enable_equipments = {
-			artillery_equipment_1
+			rocket_artillery_equipment_1
 		}
 
 		path = {
@@ -512,7 +512,7 @@ technologies = {
 	}
 	rocketartillery3_tech = {
 		enable_equipments = {
-			artillery_equipment_1
+			rocket_artillery_equipment_2
 		}
 
 		path = {
@@ -538,9 +538,6 @@ technologies = {
 		}
 	}
 	rocketartillery4_tech = {
-		enable_equipments = {
-			artillery_equipment_1
-		}
 
 		research_cost = 2.0
 		start_year = 1946
@@ -562,7 +559,7 @@ technologies = {
 
 	artillery0_tech = {
 		enable_equipments = {
-			artillery_equipment_1
+			artillery_equipment_0
 		}
 
 		path = {
@@ -679,7 +676,7 @@ technologies = {
 	}
 	artillery4_tech = {
 		enable_equipments = {
-			artillery_equipment_1
+			artillery_equipment_2
 		}
 
 		path = {
@@ -769,7 +766,7 @@ technologies = {
 
 	antitank0_tech = {
 		enable_equipments = {
-			artillery_equipment_1
+			anti_tank_equipment_0
 		}
 
 		path = {
@@ -822,7 +819,7 @@ technologies = {
 	}
 	antitank2_tech = {
 		enable_equipments = {
-			artillery_equipment_1
+			anti_tank_equipment_1
 		}
 
 		path = {
@@ -879,7 +876,7 @@ technologies = {
 	}
 	antitank4_tech = {
 		enable_equipments = {
-			artillery_equipment_1
+			anti_tank_equipment_2
 		}
 
 		path = {
@@ -932,7 +929,7 @@ technologies = {
 	}
 	antitank6_tech = {
 		enable_equipments = {
-			artillery_equipment_1
+			anti_tank_equipment_3
 		}
 
 		research_cost = 2.0
@@ -956,7 +953,7 @@ technologies = {
 
 	heavyantitank1_tech = {
 		enable_equipments = {
-			artillery_equipment_1
+			heavy_anti_tank_equipment_1
 		}
 
 		path = {
@@ -1009,7 +1006,7 @@ technologies = {
 	}
 	heavyantitank3_tech = {
 		enable_equipments = {
-			artillery_equipment_1
+			heavy_anti_tank_equipment_2
 		}
 
 		path = {

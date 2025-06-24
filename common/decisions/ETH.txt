@@ -846,7 +846,7 @@ ETH_second_italo_ethiopian_war_category = {
 
 		remove_effect = {
 			add_equipment_to_stockpile = {
-				type = artillery_equipment_1
+				type = artillery_equipment_0
 				amount = 500
 				producer = GER
 			}

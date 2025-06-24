@@ -38,11 +38,18 @@ equipments = {
 
 		
 	}
+	anti_air_equipment_0 = {
+		year = 1936
 
+		archetype = anti_air_equipment
+		priority = 80
+		visual_level = 0
+	}
 	anti_air_equipment_1 = {
 		year = 1936
 
 		archetype = anti_air_equipment
+		parent = anti_air_equipment_0
 		priority = 80
 		visual_level = 0
 	}

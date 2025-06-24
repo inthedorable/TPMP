@@ -8665,7 +8665,7 @@ focus_tree = {
 					has_dlc = "No Step Back"
 				}
 				add_equipment_to_stockpile = {
-					type = light_tank_chassis_1
+					type = light_tank_chassis_1936
 					amount = 100
 					producer = GER
 				}

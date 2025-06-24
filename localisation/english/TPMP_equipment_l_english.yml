@@ -1,0 +1,50 @@
+﻿l_english:
+ heavy_anti_air_equipment: "Heavy Anti-Air Equipment"
+ heavy_anti_air_equipment_desc: "Large, high-velocity guns designed to fire explosive shells into the air to destroy enemy aircraft. Their power and range make them also effective against armoured ground targets."
+ heavy_anti_air_equipment_1: "Basic Heavy Anti-Air Equipment"
+ heavy_anti_air_equipment_2: "Improved Heavy Anti-Air Equipment"
+ heavy_anti_air_equipment_3: "Advanced Heavy Anti-Air Equipment"
+
+ heavy_artillery_equipment: "Heavy Artillery Equipment"
+ heavy_artillery_equipment_desc: "Artillery pieces of large calibre designed to outrange and outgun standard artillery. They are effective as counter-battery tools, against fortifications or for devestating enemy positions with high explosive shells."
+ heavy_artillery_equipment_1: "Basic Heavy Artillery Equipment"
+ heavy_artillery_equipment_2: "Improved Heavy Artillery Equipment"
+ heavy_artillery_equipment_3: "Advanced Heavy Artillery Equipment"
+
+ heavy_anti_tank_equipment: "Heavy Anti-Tank Equipment"
+ heavy_anti_tank_equipment_desc: "Guns specifically designed to destroy the heaviest enemy armour, despite their low mobility, their armour-piercing firepower is unmatched."
+ heavy_anti_tank_equipment_1: "Basic Heavy Anti-Tank Equipment"
+ heavy_anti_tank_equipment_2: "Improved Heavy Anti-Tank Equipment"
+
+ GER_heavy_anti_air_equipment_1: "8.8 cm Flak 36"
+ GER_heavy_anti_air_equipment_2: "10.5 cm Flak 38"
+ GER_heavy_anti_air_equipment_3: "8.8 cm Flak 41"
+
+ GER_heavy_artillery_equipment_1: "21 cm Mörser 18"
+ GER_heavy_artillery_equipment_2: "17 cm Kanone 18"
+ GER_heavy_artillery_equipment_3: "24 cm Kanone 3"
+
+ GER_heavy_anti_tank_equipment_1: "8.8 cm Pak 43"
+ GER_heavy_anti_tank_equipment_2: "12.8 cm Pak 44"
+
+ SOV_heavy_anti_air_equipment_1: "76 mm 3-K"
+ SOV_heavy_anti_air_equipment_2: "85 mm 52-K"
+ SOV_heavy_anti_air_equipment_3: "100 mm KS-19"
+
+ SOV_heavy_artillery_equipment_1: "152 mm Br-2"
+ SOV_heavy_artillery_equipment_2: "203 mm B-4"
+ SOV_heavy_artillery_equipment_3: "280 mm Br-5"
+
+ SOV_heavy_anti_tank_equipment_1: "107 mm M-60"
+ SOV_heavy_anti_tank_equipment_2: "100 mm BS-3"
+
+ ENG_heavy_anti_air_equipment_1: "QF 3-inch 20 cwt"
+ ENG_heavy_anti_air_equipment_2: "QF 3.7-inch AA"
+ ENG_heavy_anti_air_equipment_3: "QF 4.5-inch AA"
+
+ ENG_heavy_artillery_equipment_1: "BL 8-inch"
+ ENG_heavy_artillery_equipment_2: "BL 7.2-inch Mk I"
+ ENG_heavy_artillery_equipment_3: "BL 7.2-inch Mk VI"
+
+ ENG_heavy_anti_tank_equipment_1: "QF 17/25-pounder"
+ ENG_heavy_anti_tank_equipment_2: "QF 32-pounder"

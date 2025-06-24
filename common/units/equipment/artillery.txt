@@ -39,7 +39,7 @@ equipments = {
 		}
 	}
 
-	artillery_equipment_1 = {
+	artillery_equipment_0 = {
 		year = 1934
 
 		archetype = artillery_equipment
@@ -47,11 +47,11 @@ equipments = {
 		visual_level = 0
 	}
 	
-	artillery_equipment_2 = {
+	artillery_equipment_1 = {
 		year = 1939
 
 		archetype = artillery_equipment
-		parent = artillery_equipment_1
+		parent = artillery_equipment_0
 		priority = 50
 		visual_level = 1
 
@@ -66,11 +66,11 @@ equipments = {
 		}
 	}
 	
-	artillery_equipment_3 = {
+	artillery_equipment_2 = {
 		year = 1942
 
 		archetype = artillery_equipment
-		parent = artillery_equipment_2
+		parent = artillery_equipment_1
 		priority = 50
 		visual_level = 2
 		

@@ -37,11 +37,20 @@ equipments = {
 			steel = 2
 		}
 	}
+	anti_tank_equipment_0 = {
+		year = 1936
+
+		archetype = anti_tank_equipment
+		priority = 90
+		visual_level = 0
+	}
+
 
 	anti_tank_equipment_1 = {
 		year = 1936
 
 		archetype = anti_tank_equipment
+		parent = anti_tank_equipment_0
 		priority = 90
 		visual_level = 0
 	}
