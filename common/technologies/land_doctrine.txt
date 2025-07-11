@@ -1,6 +1,11 @@
 technologies = {
 	tank_doctrine_1 = {
 		doctrine_name = "TANK_DOCTRINE"
+		category_tanks = {
+			max_organisation = 3
+			soft_attack = 0.03
+			breakthrough = 0.05
+		}
 
 		path = {
 			leads_to_tech = tank_doctrine_2a 
@@ -12,7 +17,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 50
 		doctrine = yes
 
 		folder = {
@@ -21,10 +26,16 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_tank_doctrine
 		}
 	}
 	tank_doctrine_2a = {
+		category_tanks = {
+			max_organisation = 3
+			default_morale = 0.1
+		}
+
 		path = {
 			leads_to_tech = tank_doctrine_3a 
 			research_cost_coeff = 1
@@ -38,7 +49,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 75
 		doctrine = yes
 
 		folder = {
@@ -47,10 +58,16 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_tank_doctrine
 		}
 	}
 	tank_doctrine_2b = {
+		category_tanks = {
+			max_strength = 1
+			breakthrough = 0.05
+		}
+
 		path = {
 			leads_to_tech = tank_doctrine_3b 
 			research_cost_coeff = 1
@@ -64,7 +81,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 75
 		doctrine = yes
 
 		folder = {
@@ -73,10 +90,17 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_tank_doctrine
 		}
 	}
 	tank_doctrine_3a = {
+		category_tanks = {
+			max_organisation = -3
+			soft_attack = 0.12
+			hard_attack = 0.12
+		}
+
 		path = {
 			leads_to_tech = tank_doctrine_4
 			research_cost_coeff = 1
@@ -95,10 +119,16 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_tank_doctrine
 		}
 	}
 	tank_doctrine_3b = {
+		category_tanks = {
+			max_organisation = 3
+			breakthrough = 0.15
+		}
+
 		path = {
 			leads_to_tech = tank_doctrine_4
 			research_cost_coeff = 1
@@ -117,10 +147,50 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_tank_doctrine
 		}
 	}
 	tank_doctrine_3c = {
+		category_frontline_tanks = {
+			supply_consumption = -0.1 #CHANGE THIS VALUE
+		}
+		light_armor = {
+			need = {
+				light_tank_chassis = -6
+			}		
+		}
+		medium_armor = {
+			need = {
+				medium_tank_chassis = -6
+			}		
+		}
+		heavy_armor = {
+			need = {
+				heavy_tank_chassis = -6
+			}		
+		}
+		super_heavy_armor = {
+			need = {
+				super_heavy_tank_chassis = -6
+			}		
+		}
+		amphibious_light_armor = {
+			need = {
+				light_tank_amphibious_chassis = -6
+			}		
+		}
+		amphibious_medium_armor = {
+			need = {
+				medium_tank_amphibious_chassis = -6
+			}		
+		}
+		amphibious_heavy_armor = {
+			need = {
+				heavy_tank_amphibious_chassis = -6
+			}		
+		}
+
 		path = {
 			leads_to_tech = tank_doctrine_4
 			research_cost_coeff = 1
@@ -139,10 +209,16 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_tank_doctrine
 		}
 	}
 	tank_doctrine_4 = {
+		category_tanks = {
+			max_organisation = 2
+			defense = 0.1
+		}
+
 		path = {
 			leads_to_tech = tank_doctrine_5a
 			research_cost_coeff = 1
@@ -153,7 +229,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 125
 		doctrine = yes
 
 		folder = {
@@ -162,17 +238,24 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_tank_doctrine
 		}
 	}
 	tank_doctrine_5a = {
+		category_tanks = {
+			maximum_speed = 0.1
+			default_morale = 0.1
+			hard_attack = 0.03
+		}
+
 
 		XOR = {
 			tank_doctrine_5b
 		}
 		
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 150
 		doctrine = yes
 
 		folder = {
@@ -181,17 +264,42 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_tank_doctrine
 		}
 	}
 	tank_doctrine_5b = {
+		category_tanks = {
+			defense = 0.15
+		}
+		category_frontline_tanks = {
+			forest = {
+				defence = 0.05
+			}
+			jungle = {
+				defence = 0.05
+			}
+			hills = {
+				defence = 0.05
+			}
+			mountain = {
+				defence = 0.05
+			}
+			marsh = {
+				defence = 0.05
+			}
+			urban = {
+				defence = 0.05
+			}
+		}
+
 		
 		XOR = {
 			tank_doctrine_5a
 		}
 
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 150
 		doctrine = yes
 
 		folder = {
@@ -200,12 +308,16 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_tank_doctrine
 		}
 	}
 
 	artillery_doctrine_1 = {
 		doctrine_name = "ARTILLERY_DOCTRINE"
+		category_artillery = {
+			soft_attack = 0.05
+		}
 
 		path = {
 			leads_to_tech = artillery_doctrine_2 
@@ -213,7 +325,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 50
 		doctrine = yes
 
 		folder = {
@@ -222,22 +334,27 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_artillery_doctrine
 		}
 	}
 	artillery_doctrine_2 = {
+		category_artillery = {
+			max_strength = 1
+			defense = 0.1
+		}
 
 		path = {
 			leads_to_tech = artillery_doctrine_3a
 			research_cost_coeff = 1
 		}
-				path = {
+		path = {
 			leads_to_tech = artillery_doctrine_3b
 			research_cost_coeff = 1
 		}
 
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 75
 		doctrine = yes
 
 		folder = {
@@ -246,10 +363,15 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_artillery_doctrine
 		}
 	}
 	artillery_doctrine_3a = {
+		category_artillery = {
+			soft_attack = 0.03
+			breakthrough = 0.1
+		}
 
 		path = {
 			leads_to_tech = artillery_doctrine_4a
@@ -273,10 +395,16 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_artillery_doctrine
 		}
 	}
 	artillery_doctrine_3b = {
+		category_artillery = {
+			ap_attack = 2
+			hard_attack = 0.15
+		}
+
 
 		path = {
 			leads_to_tech = artillery_doctrine_4a
@@ -300,10 +428,15 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_artillery_doctrine
 		}
 	}
 	artillery_doctrine_4a = {
+		category_support_artillery = {
+			max_organisation = 5
+			soft_attack = 0.1
+		}
 
 		path = {
 			leads_to_tech = artillery_doctrine_5a
@@ -318,7 +451,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 125
 		doctrine = yes
 
 		folder = {
@@ -327,10 +460,15 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_artillery_doctrine
 		}
 	}
 	artillery_doctrine_4b = {
+		category_frontline_artillery = {
+			max_organisation = 3
+			default_morale = 0.1
+		}
 
 		path = {
 			leads_to_tech = artillery_doctrine_5b
@@ -345,7 +483,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 125
 		doctrine = yes
 
 		folder = {
@@ -354,17 +492,42 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_artillery_doctrine
 		}
 	}
 	artillery_doctrine_5a = {
+		category_light_artillery = {
+			max_organisation = 5
+			default_morale = 0.1
+		}
+		artillery_brigade = {
+			need = {
+				artillery_equipment = -3
+			}
+		}
+		mot_artillery_brigade = {
+			need = {
+				artillery_equipment = -3
+			}
+		}
+		rocket_artillery_brigade = {
+			need = {
+				rocket_artillery_equipment = -3
+			}
+		}
+		mot_rocket_artillery_brigade = {
+			need = {
+				motorized_rocket_equipment = -3
+			}
+		}
 
 		XOR = {
 			artillery_doctrine_5b artillery_doctrine_5c
 		}
 
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 150
 		doctrine = yes
 
 		folder = {
@@ -373,17 +536,41 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_artillery_doctrine
 		}
 	}
 	artillery_doctrine_5b = {
+		category_artillery = {
+			breakthrough = 0.1
+		}
+		category_frontline_artillery = {
+			forest = {
+				attack = 0.03
+			}
+			jungle = {
+				attack = 0.03
+			}
+			hills = {
+				attack = 0.03
+			}
+			mountain = {
+				attack = 0.03
+			}
+			marsh = {
+				attack = 0.03
+			}
+			urban = {
+				attack = 0.03
+			}
+		}
 
 		XOR = {
 			artillery_doctrine_5a artillery_doctrine_5c
 		}
 
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 150
 		doctrine = yes
 
 		folder = {
@@ -392,17 +579,23 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_artillery_doctrine
 		}
 	}
 	artillery_doctrine_5c = {
+		max_dig_in = 2
+		category_heavy_artillery = {
+			soft_attack = 0.05
+			defense = 0.1
+		}
 
 		XOR = {
 			artillery_doctrine_5a artillery_doctrine_5b
 		}
 
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 150
 		doctrine = yes
 
 		folder = {
@@ -411,12 +604,18 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_artillery_doctrine
 		}
 	}
 
 	infantry_doctrine_1 = {
 		doctrine_name = "INFANTRY_DOCTRINE"
+		category_infantry = {
+			max_organisation = 7
+			defense = 0.05
+		}
+
 
 		path = {
 			leads_to_tech = infantry_doctrine_2a 
@@ -428,7 +627,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 50
 		doctrine = yes
 
 		folder = {
@@ -437,10 +636,17 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_infantry_doctrine
 		}
 	}
 	infantry_doctrine_2a = {
+		max_dig_in = 2
+		category_infantry = {
+			max_organisation = 3
+			maximum_speed = -0.1
+			defense = 0.1
+		}
 
 		path = {
 			leads_to_tech = infantry_doctrine_3
@@ -451,7 +657,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 75
 		doctrine = yes
 
 		folder = {
@@ -460,10 +666,16 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_infantry_doctrine
 		}
 	}
 	infantry_doctrine_2b = {
+		category_infantry = {
+			max_organisation = 3
+			maximum_speed = 0.1
+			soft_attack = 0.1
+		}
 
 		path = {
 			leads_to_tech = infantry_doctrine_3
@@ -474,7 +686,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 75
 		doctrine = yes
 
 		folder = {
@@ -483,10 +695,15 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_infantry_doctrine
 		}
 	}
 	infantry_doctrine_3 = {
+		category_infantry = {
+			max_organisation = 5
+			breakthrough = 0.05
+		}
 
 		path = {
 			leads_to_tech = infantry_doctrine_4a
@@ -507,10 +724,15 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_infantry_doctrine
 		}
 	}
 	infantry_doctrine_4a = {
+		category_infantry = {
+			max_organisation = 10
+			default_morale = 0.1
+		}
 
 		path = {
 			leads_to_tech = infantry_doctrine_5a
@@ -525,7 +747,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 125
 		doctrine = yes
 
 		folder = {
@@ -534,10 +756,15 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_infantry_doctrine
 		}
 	}
 	infantry_doctrine_4b = {
+		category_infantry = {
+			max_strength = 3
+			supply_consumption = -0.1 #CHANGE THIS VALUE
+		}
 
 		path = {
 			leads_to_tech = infantry_doctrine_5b
@@ -552,7 +779,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 125
 		doctrine = yes
 
 		folder = {
@@ -561,17 +788,24 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_infantry_doctrine
 		}
 	}
 	infantry_doctrine_5a = {
+		category_mobile_infantry = {
+			max_organisation = 5
+			soft_attack = 0.1
+			hard_attack = 0.1
+			breakthrough = 0.15
+		}
 
 		XOR = {
 			infantry_doctrine_5b infantry_doctrine_5c
 		}
 
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 150
 		doctrine = yes
 
 		folder = {
@@ -580,17 +814,22 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_infantry_doctrine
 		}
 	}
 	infantry_doctrine_5b = {
+		category_infantry = {
+			max_organisation = 5
+			soft_attack = 0.15
+		}
 
 		XOR = {
 			infantry_doctrine_5a infantry_doctrine_5c
 		}
 
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 150
 		doctrine = yes
 
 		folder = {
@@ -599,17 +838,29 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_infantry_doctrine
 		}
 	}
 	infantry_doctrine_5c = {
+		land_reinforce_rate = 0.02
+		category_leg_infantry = {
+			default_morale = 0.2
+		}
+		infantry = {
+			combat_width = -0.2
+			need = {
+				infantry_equipment = -10
+			}		
+		}
+
 
 		XOR = {
 			infantry_doctrine_5a infantry_doctrine_5b
 		}
 
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 150
 		doctrine = yes
 
 		folder = {
@@ -618,12 +869,15 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_infantry_doctrine
 		}
 	}
 
 	army_doctrine_1 = {
 		doctrine_name = "ARMY_DOCTRINE"
+		max_dig_in = 5
+		max_command_power = 20
 
 		path = {
 			leads_to_tech = army_doctrine_2a 
@@ -635,7 +889,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 50
 		doctrine = yes
 
 		folder = {
@@ -644,10 +898,13 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_army_doctrine
 		}
 	}
 	army_doctrine_2a = {
+		max_planning = 0.05
+		land_night_attack = 0.15
 
 		path = {
 			leads_to_tech = army_doctrine_3a
@@ -662,7 +919,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 75
 		doctrine = yes
 
 		folder = {
@@ -671,10 +928,14 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_army_doctrine
 		}
 	}
 	army_doctrine_2b = {
+		army_core_attack_factor = 0.075
+		supply_combat_penalties_on_core_factor = -0.15
+		no_supply_grace = 24
 
 		path = {
 			leads_to_tech = army_doctrine_3b
@@ -689,7 +950,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 75
 		doctrine = yes
 
 		folder = {
@@ -698,10 +959,14 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_army_doctrine
 		}
 	}
 	army_doctrine_3a = {
+		max_planning = 0.05
+		planning_speed = 0.25
+		coordination_bonus = 0.25
 
 		path = {
 			leads_to_tech = army_doctrine_4a
@@ -721,10 +986,13 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_army_doctrine
 		}
 	}
 	army_doctrine_3b = {
+		max_planning = 0.15
+		#NO STAFF OFFICE PLAN
 
 		path = {
 			leads_to_tech = army_doctrine_4a
@@ -748,10 +1016,15 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_army_doctrine
 		}
 	}
 	army_doctrine_3c = {
+		supply_consumption_factor = -0.1
+		land_reinforce_rate = 0.05
+		conscription = 0.03
+		pocket_penalty = -0.1
 
 		path = {
 			leads_to_tech = army_doctrine_4b
@@ -771,10 +1044,13 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_army_doctrine
 		}
 	}
 	army_doctrine_4a = {
+		army_bonus_air_superiority_factor = 0.15
+		air_cas_present_factor = 0.15
 
 		path = {
 			leads_to_tech = army_doctrine_5
@@ -785,7 +1061,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 125
 		doctrine = yes
 
 		folder = {
@@ -794,10 +1070,14 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_army_doctrine
 		}
 	}
 	army_doctrine_4b = {
+		max_dig_in = 2
+		enemy_army_bonus_air_superiority_factor = -0.1
+		cas_damage_reduction = 0.1
 
 		path = {
 			leads_to_tech = army_doctrine_5 
@@ -808,7 +1088,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 125
 		doctrine = yes
 
 		folder = {
@@ -817,13 +1097,19 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_army_doctrine
 		}
 	}
 	army_doctrine_5 = {
+		category_support = {
+			max_organisation = 10
+			soft_attack = 0.05
+			hard_attack = 0.05
+		}
 
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 150
 		doctrine = yes
 
 		folder = {
@@ -832,12 +1118,17 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_army_doctrine
 		}
 	}
 
 	tank_variant_doctrine_1 = {
 		doctrine_name = "TANK_VARIANT_DOCTRINE"
+		category_tank_variants = {
+			max_organisation = 3
+			breakthrough = 0.05
+		}
 
 		path = {
 			leads_to_tech = tank_variant_doctrine_2a 
@@ -849,7 +1140,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 50
 		doctrine = yes
 
 		folder = {
@@ -858,10 +1149,15 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_tank_variant_doctrine
 		}
 	}
 	tank_variant_doctrine_2a = {
+		category_tds = {
+			ap_attack = 0.1
+			hard_attack = 0.05
+		}
 
 		path = {
 			leads_to_tech = tank_variant_doctrine_3a
@@ -876,7 +1172,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 75
 		doctrine = yes
 
 		folder = {
@@ -885,10 +1181,17 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_tank_variant_doctrine
 		}
 	}
 	tank_variant_doctrine_2b = {
+		category_tds = {
+			soft_attack = 0.15
+		}
+		category_spgs = {
+			soft_attack = 0.05
+		}
 
 		path = {
 			leads_to_tech = tank_variant_doctrine_3a
@@ -903,7 +1206,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 75
 		doctrine = yes
 
 		folder = {
@@ -912,10 +1215,23 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_tank_variant_doctrine
 		}
 	}
 	tank_variant_doctrine_3a = {
+		category_tank_variants = {
+			max_organisation = 2
+		}
+		category_tds = {
+			hard_attack = 0.05
+		}
+		category_spgs = {
+			soft_attack = 0.05
+		}
+		category_spaa = {
+			air_attack = 0.1
+		}
 
 		path = {
 			leads_to_tech = tank_variant_doctrine_4a
@@ -939,10 +1255,15 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_tank_variant_doctrine
 		}
 	}
 	tank_variant_doctrine_3b = {
+		category_tank_variants = {
+			max_organisation = 5
+			defense = 0.15
+		}
 
 		path = {
 			leads_to_tech = tank_variant_doctrine_4b 
@@ -966,10 +1287,56 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_tank_variant_doctrine
 		}
 	}
 	tank_variant_doctrine_4a = {
+		category_tds = {
+			forest = {
+				defence = 0.05
+			}
+			jungle = {
+				defence = 0.05
+			}
+			hills = {
+				defence = 0.05
+			}
+			mountain = {
+				defence = 0.05
+			}
+			marsh = {
+				defence = 0.05
+			}
+			urban = {
+				defence = 0.05
+			}
+		}
+		category_spgs = {
+			forest = {
+				attack = 0.05
+			}
+			jungle = {
+				attack = 0.05
+			}
+			hills = {
+				attack = 0.05
+			}
+			mountain = {
+				attack = 0.05
+			}
+			marsh = {
+				attack = 0.05
+			}
+			urban = {
+				attack = 0.05
+			}
+		}
+		category_amphibious_tanks = {
+			amphibious = {
+				attack = 0.05
+			}
+		}
 
 		path = {
 			leads_to_tech = tank_variant_doctrine_5
@@ -980,7 +1347,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 125
 		doctrine = yes
 
 		folder = {
@@ -989,10 +1356,19 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_tank_variant_doctrine
 		}
 	}
 	tank_variant_doctrine_4b = {
+		category_light_tanks = {
+			max_organisation = 3
+			breakthrough = 0.1
+		}
+		category_heavy_tanks = {
+			max_organisation = 3
+			armor_value = 0.1
+		}
 
 		path = {
 			leads_to_tech = tank_variant_doctrine_5
@@ -1003,7 +1379,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 125
 		doctrine = yes
 
 		folder = {
@@ -1012,10 +1388,15 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_tank_variant_doctrine
 		}
 	}
 	tank_variant_doctrine_4c = {
+		category_tank_variants = {
+			max_organisation = 3
+			breakthrough = 0.15
+		}
 
 		path = {
 			leads_to_tech = tank_variant_doctrine_5
@@ -1026,7 +1407,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 125
 		doctrine = yes
 
 		folder = {
@@ -1035,13 +1416,19 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_tank_variant_doctrine
 		}
 	}
 	tank_variant_doctrine_5 = {
+		category_super_heavy_tanks = {
+			max_organisation = 3
+			soft_attack = 0.08
+			hard_attack = 0.08
+		}
 
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 150
 		doctrine = yes
 
 		folder = {
@@ -1050,12 +1437,21 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_tank_variant_doctrine
 		}
 	}
 
 	anti_tank_doctrine_1 = {
 		doctrine_name = "ANTI_TANK_DOCTRINE"
+		category_anti_tank = {
+			ap_attack = 0.05
+			soft_attack = 0.05
+		}
+		category_anti_air = {
+			air_attack = 0.03
+			soft_attack = 0.05
+		}
 
 		path = {
 			leads_to_tech = anti_tank_doctrine_2a 
@@ -1067,7 +1463,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 50
 		doctrine = yes
 
 		folder = {
@@ -1076,10 +1472,55 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_anti_tank_doctrine
 		}
 	}
 	anti_tank_doctrine_2a = {
+		category_anti_tank = {
+			max_strength = 1
+			maximum_speed = 0.1
+			forest = {
+				defence = 0.05
+			}
+			jungle = {
+				defence = 0.05
+			}
+			hills = {
+				defence = 0.05
+			}
+			mountain = {
+				defence = 0.05
+			}
+			marsh = {
+				defence = 0.05
+			}
+			urban = {
+				defence = 0.05
+			}
+		}
+		category_anti_air = {
+			max_strength = 1
+			maximum_speed = 0.1
+			forest = {
+				defence = 0.05
+			}
+			jungle = {
+				defence = 0.05
+			}
+			hills = {
+				defence = 0.05
+			}
+			mountain = {
+				defence = 0.05
+			}
+			marsh = {
+				defence = 0.05
+			}
+			urban = {
+				defence = 0.05
+			}
+		}
 
 		path = {
 			leads_to_tech = anti_tank_doctrine_3
@@ -1090,7 +1531,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 75
 		doctrine = yes
 
 		folder = {
@@ -1099,10 +1540,37 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_anti_tank_doctrine
 		}
 	}
 	anti_tank_doctrine_2b = {
+		category_anti_tank = {
+			max_organisation = 2
+		}
+		category_anti_air = {
+			max_organisation = 2
+		}
+		anti_tank_brigade = {
+			need = {
+				anti_tank_equipment = -3
+			}
+		}
+		mot_anti_tank_brigade = {
+			need = {
+				anti_tank_equipment = -3
+			}
+		}
+		anti_air_brigade = {
+			need = {
+				anti_air_equipment = -3
+			}
+		}
+		mot_anti_air_brigade = {
+			need = {
+				anti_air_equipment = -3
+			}
+		}
 
 		path = {
 			leads_to_tech = anti_tank_doctrine_3
@@ -1113,7 +1581,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 75
 		doctrine = yes
 
 		folder = {
@@ -1122,10 +1590,19 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_anti_tank_doctrine
 		}
 	}
 	anti_tank_doctrine_3 = {
+		category_anti_tank = {
+			ap_attack = 0.05
+			hard_attack = 0.05
+		}
+		category_anti_air = {
+			air_attack = 0.05
+			hard_attack = 0.05
+		}
 
 		path = {
 			leads_to_tech = anti_tank_doctrine_4a
@@ -1146,10 +1623,19 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_anti_tank_doctrine
 		}
 	}
 	anti_tank_doctrine_4a = {
+		category_support_anti_tank = {
+			max_organisation = 5
+			ap_attack = 0.1
+		}
+		category_support_anti_air = {
+			max_organisation = 5
+			air_attack = 0.1
+		}
 
 		path = {
 			leads_to_tech = anti_tank_doctrine_5a
@@ -1164,7 +1650,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 125
 		doctrine = yes
 
 		folder = {
@@ -1173,10 +1659,21 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_anti_tank_doctrine
 		}
 	}
 	anti_tank_doctrine_4b = {
+		category_frontline_anti_tank = {
+			max_organisation = 3
+			maximum_speed = 0.1
+			defense = 0.1
+		}
+		category_frontline_anti_air = {
+			max_organisation = 3
+			maximum_speed = 0.1
+			defense = 0.1
+		}
 
 		path = {
 			leads_to_tech = anti_tank_doctrine_5b
@@ -1191,7 +1688,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 125
 		doctrine = yes
 
 		folder = {
@@ -1200,17 +1697,23 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_anti_tank_doctrine
 		}
 	}
 	anti_tank_doctrine_5a = {
+		enemy_army_bonus_air_superiority_factor = -0.05
+		cas_damage_reduction = 0.05
+		category_anti_air = {
+			air_attack = 0.1
+		}
 
 		XOR = {
 			anti_tank_doctrine_5b anti_tank_doctrine_5c
 		}
 
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 150
 		doctrine = yes
 
 		folder = {
@@ -1219,10 +1722,17 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_anti_tank_doctrine
 		}
 	}
 	anti_tank_doctrine_5b = {
+		category_light_anti_tank = {
+			hard_attack = 0.1
+		}
+		category_heavy_anti_tank = {
+			ap_attack = 0.1
+		}
 
 		XOR = {
 			anti_tank_doctrine_5a anti_tank_doctrine_5c
@@ -1238,17 +1748,23 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
 		}
 	}
 	anti_tank_doctrine_5c = {
+		category_heavy_anti_tank = {
+			maximum_speed = -0.1
+			ap_attack = 0.1
+			hard_attack = 0.1
+			defense = 0.1
+		}
 
 		XOR = {
 			anti_tank_doctrine_5a anti_tank_doctrine_5b
 		}
 
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 150
 		doctrine = yes
 
 		folder = {
@@ -1257,12 +1773,17 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_anti_tank_doctrine
 		}
 	}
 
 	special_forces_doctrine_1 = {
 		doctrine_name = "SPECIAL_FORCES_DOCTRINE"
+		special_forces_training_time_factor = 0.2
+		category_special_forces = {
+			max_organisation = 5
+		}
 
 		path = {
 			leads_to_tech = special_forces_doctrine_2 
@@ -1270,7 +1791,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 50
 		doctrine = yes
 
 		folder = {
@@ -1279,10 +1800,14 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_special_forces_doctrine
 		}
 	}
 	special_forces_doctrine_2 = {
+		category_special_forces = {
+			soft_attack = 0.05
+		}
 
 		path = {
 			leads_to_tech = special_forces_doctrine_3a
@@ -1294,7 +1819,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 75
 		doctrine = yes
 
 		folder = {
@@ -1303,10 +1828,19 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_special_forces_doctrine
 		}
 	}
 	special_forces_doctrine_3a = {
+		category_recon = {
+			recon = 1
+		}
+		commandos = {
+			max_organisation = 10
+			soft_attack = 0.25
+			hard_attack = 0.25
+		}
 
 		path = {
 			leads_to_tech = special_forces_doctrine_4a
@@ -1330,10 +1864,15 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_special_forces_doctrine
 		}
 	}
 	special_forces_doctrine_3b = {
+		special_forces_cap_flat = 48
+		category_special_forces = {
+			max_organisation = 3
+		}
 
 		path = {
 			leads_to_tech = special_forces_doctrine_4a
@@ -1357,10 +1896,46 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_special_forces_doctrine
 		}
 	}
 	special_forces_doctrine_4a = {
+		marine = {
+			amphibious = {
+				attack = 0.05
+			}
+		}
+		mountaineer = {
+			hills = {
+				attack = 0.03
+				defence = 0.03
+			}
+			mountain = {
+				attack = 0.03
+				defence = 0.03		
+			}
+		}
+		ranger = {
+			forest = {
+				attack = 0.03
+				defence = 0.03
+			}
+			jungle = {
+				attack = 0.03
+				defence = 0.03		
+			}
+		}
+		paratrooper = {
+			urban = {
+				attack = 0.05
+				defence = 0.05
+			}
+			fort = {
+				attack = 0.05
+				defence = 0.05				
+			}
+		}
 
 		path = {
 			leads_to_tech = special_forces_doctrine_5a
@@ -1375,7 +1950,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 125
 		doctrine = yes
 
 		folder = {
@@ -1384,10 +1959,15 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_special_forces_doctrine
 		}
 	}
 	special_forces_doctrine_4b = {
+		category_special_forces = {
+			soft_attack = 0.05
+			breakthrough = 0.1
+		}
 
 		path = {
 			leads_to_tech = special_forces_doctrine_5b
@@ -1402,7 +1982,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 125
 		doctrine = yes
 
 		folder = {
@@ -1411,17 +1991,21 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_special_forces_doctrine
 		}
 	}
 	special_forces_doctrine_5a = {
+		naval_invasion_planning_bonus_speed = 0.5
+		naval_invasion_capacity = 10
+		amphibious_invasion_defence = 0.15
 
 		XOR = {
 			special_forces_doctrine_5b special_forces_doctrine_5c
 		}
 
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 150
 		doctrine = yes
 
 		folder = {
@@ -1430,17 +2014,24 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_special_forces_doctrine
 		}
 	}
 	special_forces_doctrine_5b = {
+		special_forces_attack_factor = 0.05
+		special_forces_defence_factor = 0.05
+		special_forces_training_time_factor = -0.2
+		category_special_forces = {
+			max_organisation = 3
+		}
 
 		XOR = {
 			special_forces_doctrine_5a special_forces_doctrine_5c
 		}
 
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 150
 		doctrine = yes
 
 		folder = {
@@ -1449,17 +2040,20 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_special_forces_doctrine
 		}
 	}
 	special_forces_doctrine_5c = {
+		#ADD PARATROOPER MECHANICS
+		extra_paratrooper_supply_grace = 72
 
 		XOR = {
 			special_forces_doctrine_5a special_forces_doctrine_5b
 		}
 
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 150
 		doctrine = yes
 
 		folder = {
@@ -1468,7 +2062,8 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_special_forces_doctrine
 		}
 	}
 
@@ -1485,7 +2080,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 50
 		doctrine = yes
 
 		folder = {
@@ -1494,10 +2089,13 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_tactics_doctrine
 		}
 	}
 	tactics_doctrine_2a = {
+		enable_tactic = tactic_elastic_defense
+
 		path = {
 			leads_to_tech = tactics_doctrine_3a 
 			research_cost_coeff = 1
@@ -1511,7 +2109,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 75
 		doctrine = yes
 
 		folder = {
@@ -1520,10 +2118,13 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_tactics_doctrine
 		}
 	}
 	tactics_doctrine_2b = {
+		enable_tactic = tactic_blitz
+
 		path = {
 			leads_to_tech = tactics_doctrine_3b 
 			research_cost_coeff = 1
@@ -1537,7 +2138,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 75
 		doctrine = yes
 
 		folder = {
@@ -1546,10 +2147,13 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_tactics_doctrine
 		}
 	}
 	tactics_doctrine_3a = {
+		enable_tactic = tactic_guerrilla_tactics
+
 		path = {
 			leads_to_tech = tactics_doctrine_4
 			research_cost_coeff = 1
@@ -1568,10 +2172,13 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_tactics_doctrine
 		}
 	}
 	tactics_doctrine_3b = {
+		enable_tactic = tactic_infantry_charge
+
 		path = {
 			leads_to_tech = tactics_doctrine_4
 			research_cost_coeff = 1
@@ -1590,10 +2197,13 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_tactics_doctrine
 		}
 	}
 	tactics_doctrine_3c = {
+		enable_tactic = tactic_breakthrough
+
 		path = {
 			leads_to_tech = tactics_doctrine_4
 			research_cost_coeff = 1
@@ -1612,10 +2222,13 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_tactics_doctrine
 		}
 	}
 	tactics_doctrine_4 = {
+		enable_tactic = tactic_tactical_withdrawal
+
 		path = {
 			leads_to_tech = tactics_doctrine_5a
 			research_cost_coeff = 1
@@ -1626,7 +2239,7 @@ technologies = {
 		}
 
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 125
 		doctrine = yes
 
 		folder = {
@@ -1635,17 +2248,19 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_tactics_doctrine
 		}
 	}
 	tactics_doctrine_5a = {
+		enable_tactic = tactic_backhand_blow
 
 		XOR = {
 			tactics_doctrine_5b
 		}
 		
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 150
 		doctrine = yes
 
 		folder = {
@@ -1654,17 +2269,19 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_tactics_doctrine
 		}
 	}
 	tactics_doctrine_5b = {
+		enable_tactic = tactic_masterful_blitz
 		
 		XOR = {
 			tactics_doctrine_5a
 		}
 
 		xp_research_type = army
-		xp_unlock_cost = 100
+		xp_unlock_cost = 150
 		doctrine = yes
 
 		folder = {
@@ -1673,7 +2290,8 @@ technologies = {
 		}
 		
 		categories = {
-			land_doctrine
+			cat_land_doctrine
+			cat_tactics_doctrine
 		}
 	}
 }

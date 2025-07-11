@@ -115,6 +115,7 @@ technology_categories = {
 	transport_planes_cat
 
 	#TPMP Categories
+	cat_motorized_tech
 	cat_rocketry_tech
 	cat_artillery_tech
 	cat_howitzer_tech
@@ -129,6 +130,16 @@ technology_categories = {
 	cat_shells_tech
 	cat_ap_shells_tech
 	cat_he_shells_tech
+
+	cat_land_doctrine
+	cat_tank_doctrine
+	cat_artillery_doctrine
+	cat_infantry_doctrine
+	cat_army_doctrine
+	cat_tank_variant_doctrine
+	cat_anti_tank_doctrine
+	cat_special_forces_doctrine
+	cat_tactics_doctrine
 
 	mio_cat_tech_all_armor_and_modules #Includes modules and chassis (DOES NOT INCLUDE ARMORED CARS)
 	mio_cat_tech_light_armor_and_modules #Includes modules and stand-alone Amphibious Chassis
@@ -222,13 +233,6 @@ technology_folders = {
 	}
 	air_doctrine_folder = {
 		ledger = air
-		doctrine = yes
-	}
-	special_forces_doctrine_folder = {
-		available = {
-			has_dlc = "Arms Against Tyranny"
-		}
-		ledger = hidden #For now
 		doctrine = yes
 	}
 	electronics_folder = {
