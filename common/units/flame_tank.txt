@@ -5,7 +5,9 @@ sub_units = {
 		map_icon_category = armored
 		priority = 0
 		ai_priority = 0
+
 		active = no
+		can_be_parachuted = yes
 
 		type = {
 			armor
@@ -16,73 +18,39 @@ sub_units = {
 		group = support
 
 		categories = {
-			category_front_line
-			category_support_battalions
-			category_tanks
-			category_all_armor
 			category_army
+			category_support
+			category_tanks
+			category_support_tanks
+			category_flame_tanks
+			category_light_tanks
 		}
-
-		combat_width = 0
 
 		#Size Definitions
+		combat_width = 0
 		max_strength = 2
-		max_organisation = 20
-		default_morale = 0.3
+		max_organisation = 10
+		default_morale = 0.1
 		manpower = 300
-		training_time = 120
+		training_time = 150
+
+		#Combat
+		soft_attack = 0
+		hard_attack = 0
+		breakthrough = 0
+		defense = 0
+		ap_attack = 0
+		armor_value = 0
+		air_attack = 0
 
 		#Misc Abilities
-		weight = 0.1
-		supply_consumption = 0.02
-		can_be_parachuted = yes
-
-		battalion_mult = {
-			category = category_all_infantry
-			breakthrough = 0.05
-		}
-
-		# Support nerfs to combat abilities
-		soft_attack = -0.5 #Was -0.75
-		breakthrough = -0.5 #Was -0.75
-		hard_attack = -0.75
-		defense = -0.75
-		armor_value = -0.75
+		weight = 0.5
+		supply_consumption = 0.15
+		same_support_type = flame
 
 		need = {
-			light_tank_flame_chassis = 15
+			light_tank_flame_chassis = 20
 		}
-
-		forest = {
-			attack = 0.05
-		}
-		mountain = {
-			attack = 0.05
-		}
-		hills = {
-			attack = 0.05
-		}
-		jungle = {
-			attack = 0.1
-		}
-		marsh = {
-			attack = 0.05
-		}
-		urban = {
-			attack = 0.1
-		}
-		fort = {
-			attack = 0.1
-			movement = 0.1
-		}
-		river = {
-			attack = 0.1
-		}
-		amphibious = {
-			attack = 0.1
-		}
-
-		same_support_type = flame
 	}
 
 	medium_flame_tank = {
@@ -91,6 +59,7 @@ sub_units = {
 		map_icon_category = armored
 		priority = 0
 		ai_priority = 0
+
 		active = no
 
 		type = {
@@ -102,73 +71,39 @@ sub_units = {
 		group = support
 
 		categories = {
-			category_front_line
-			category_support_battalions
-			category_tanks
-			category_all_armor
 			category_army
+			category_support
+			category_tanks
+			category_support_tanks
+			category_flame_tanks
+			category_medium_tanks
 		}
 
-		combat_width = 0
-		
-		battalion_mult = {
-			category = category_all_infantry
-			breakthrough = 0.05
-		}
-		
 		#Size Definitions
+		combat_width = 0
 		max_strength = 2
-		max_organisation = 20
-		default_morale = 0.3
+		max_organisation = 10
+		default_morale = 0.1
 		manpower = 300
-		training_time = 120
+		training_time = 150
+
+		#Combat
+		soft_attack = 0
+		hard_attack = 0
+		breakthrough = 0
+		defense = 0
+		ap_attack = 0
+		armor_value = 0
+		air_attack = 0
 
 		#Misc Abilities
-		weight = 0.1
-		supply_consumption = 0.025
-		can_be_parachuted = no
-
-		# Support nerfs to combat abilities
-		soft_attack = -0.45 #Was -0.7
-		breakthrough = -0.45 #Was -0.7
-		hard_attack = -0.7
-		defense = -0.7
-		armor_value = -0.7
+		weight = 0.5
+		supply_consumption = 0.2
+		same_support_type = flame
 
 		need = {
-			medium_tank_flame_chassis = 15
+			medium_tank_flame_chassis = 20
 		}
-
-		forest = {
-			attack = 0.1
-		}
-		mountain = {
-			attack = 0.05
-		}
-		hills = {
-			attack = 0.05
-		}
-		jungle = {
-			attack = 0.15
-		}
-		marsh = {
-			attack = 0.05
-		}
-		urban = {
-			attack = 0.15
-		}
-		fort = {
-			attack = 0.2
-			movement = 0.1
-		}
-		river = {
-			attack = 0.1
-		}
-		amphibious = {
-			attack = 0.1
-		}
-
-		same_support_type = flame
 	}
 
 	heavy_flame_tank = {
@@ -177,6 +112,7 @@ sub_units = {
 		map_icon_category = armored
 		priority = 0
 		ai_priority = 0
+
 		active = no
 
 		type = {
@@ -187,71 +123,39 @@ sub_units = {
 
 		group = support
 		
-		battalion_mult = {
-			category = category_all_infantry
-			breakthrough = 0.05
-		}
-		
 		categories = {
-			category_front_line
-			category_support_battalions
-			category_tanks
-			category_all_armor
 			category_army
+			category_support
+			category_tanks
+			category_support_tanks
+			category_flame_tanks
+			category_heavy_tanks
 		}
-
-		combat_width = 0
 
 		#Size Definitions
+		combat_width = 0
 		max_strength = 2
-		max_organisation = 20
-		default_morale = 0.3
+		max_organisation = 10
+		default_morale = 0.1
 		manpower = 300
-		training_time = 120
+		training_time = 150
+
+		#Combat
+		soft_attack = 0
+		hard_attack = 0
+		breakthrough = 0
+		defense = 0
+		ap_attack = 0
+		armor_value = 0
+		air_attack = 0
 
 		#Misc Abilities
-		weight = 0.1
-		supply_consumption = 0.03
-		can_be_parachuted = no
-
-		# Support nerfs to combat abilities
-		breakthrough = -0.4 #Was -0.625
-		soft_attack = -0.4 #Was -0.625
-		hard_attack = -0.625
-		defense = -0.625
-		armor_value = -0.625
-
+		weight = 0.5
+		supply_consumption = 0.25
+		same_support_type = flame
 
 		need = {
-			heavy_tank_flame_chassis = 15
+			heavy_tank_flame_chassis = 20
 		}
-
-		forest = {
-			attack = 0.1
-		}
-		hills = {
-			attack = 0.05
-		}
-		jungle = {
-			attack = 0.1
-		}
-		marsh = {
-			attack = 0.05
-		}
-		urban = {
-			attack = 0.1
-		}
-		fort = {
-			attack = 0.25
-			movement = 0.1
-		}
-		river = {
-			attack = 0.05
-		}
-		amphibious = {
-			attack = 0.05
-		}
-
-		same_support_type = flame
 	}
 }

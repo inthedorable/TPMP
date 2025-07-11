@@ -1,0 +1,852 @@
+sub_units = {
+	commandos = {
+		abbreviation = "ASEC"
+		sprite = assault_engineer
+		map_icon_category = armored
+		priority = 0
+		ai_priority = 0
+		
+		active = no
+		can_be_parachuted = yes
+		affects_speed = no
+
+		type = {
+			infantry
+			support
+		}
+		
+		group = support
+		
+		categories = {
+			category_army
+			category_support
+		}
+
+		#Size Definitions
+		combat_width = 0
+		max_strength = 5
+		max_organisation = 60
+		default_morale = 0.1
+		manpower = 300
+		training_time = 180
+
+		#Combat
+		soft_attack = 0
+		hard_attack = 0
+		breakthrough = 0
+		defense = 0
+		ap_attack = 0
+		armor_value = 0
+		air_attack = 0
+
+		#Misc Abilities
+		weight = 0.5
+		supply_consumption = 0.1
+
+		essential = {
+			special_equipment
+			infantry_equipment
+		}
+		
+		need = {
+			special_equipment = 50
+			infantry_equipment = 50
+		}
+	}
+
+	engineer = {
+		abbreviation = "ENG"
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		ai_priority = 0
+		
+		active = no
+		can_be_parachuted = yes
+		affects_speed = no
+
+		type = {
+			infantry
+			support
+		}
+		
+		group = support
+		
+		categories = {
+			category_army
+			category_support
+		}
+
+		#Size Definitions
+		combat_width = 0
+		max_strength = 5
+		max_organisation = 30
+		default_morale = 0.1
+		manpower = 300
+		training_time = 120
+
+		#Combat
+		soft_attack = -0.5
+		hard_attack = -0.5
+		breakthrough = -0.5
+		defense = -0.5
+		ap_attack = 0
+		armor_value = 0
+		air_attack = 0
+
+		#Misc Abilities
+		weight = 0.5
+		supply_consumption = 0.1
+		entrenchment = 5
+		same_support_type = engineer
+
+		essential = {
+			support_equipment
+			infantry_equipment
+		}
+		
+		need = {
+			support_equipment = 30
+			infantry_equipment = 30
+		}
+	}
+	assault_engineer = {
+		abbreviation = "ASEC"
+		sprite = assault_engineer
+		map_icon_category = armored
+		priority = 0
+		ai_priority = 0
+		
+		active = no
+		can_be_parachuted = yes
+		affects_speed = no
+
+		type = {
+			infantry
+			support
+		}
+		
+		group = support
+		
+		categories = {
+			category_army
+			category_support
+		}
+
+		#Size Definitions
+		combat_width = 0
+		max_strength = 5
+		max_organisation = 30
+		default_morale = 0.1
+		manpower = 300
+		training_time = 150
+
+		#Combat
+		soft_attack = -0.5
+		hard_attack = -0.5
+		breakthrough = -0.5
+		defense = -0.5
+		ap_attack = 0
+		armor_value = 0
+		air_attack = 0
+
+		#Misc Abilities
+		weight = 0.5
+		supply_consumption = 0.1
+		entrenchment = 5
+		same_support_type = engineer
+
+		essential = {
+			support_equipment
+			infantry_equipment
+		}
+		
+		need = {
+			support_equipment = 50
+			infantry_equipment = 50
+		}
+	}
+	armored_engineer = {
+		abbreviation = "AREC"
+		sprite = armored_engineer
+		map_icon_category = armored
+		priority = 0
+		ai_priority = 0
+				
+		active = no
+		affects_speed = no
+
+		type = {
+			armor
+			support
+		}
+		
+		group = support
+		
+		categories = {
+			category_army
+			category_support
+		}
+
+		#Size Definitions
+		combat_width = 0
+		max_strength = 5
+		max_organisation = 30
+		default_morale = 0.1
+		manpower = 300
+		training_time = 120
+
+		#Combat
+		soft_attack = -0.5
+		hard_attack = -0.5
+		breakthrough = -0.5
+		defense = -0.5
+		ap_attack = 0
+		armor_value = 0
+		air_attack = 0
+
+		#Misc Abilities
+		weight = 0.5
+		supply_consumption = 0.1
+		entrenchment = 5
+		same_support_type = engineer
+
+		essential = {
+			armored_support_vehicle
+			support_equipment
+			infantry_equipment
+		}
+		
+		need = {
+			armored_support_vehicle = 20
+			support_equipment = 30
+			infantry_equipment = 30
+		}
+	}
+
+	field_hospital = {
+		abbreviation = "HOS"
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		ai_priority = 0
+		
+		active = no
+		can_be_parachuted = yes
+		affects_speed = no
+
+		type = {
+			infantry
+			support
+		}
+		
+		group = support
+		
+		categories = {
+			category_army
+			category_support
+		}
+
+		#Size Definitions
+		combat_width = 0
+		max_strength = 0
+		max_organisation = 30
+		default_morale = 0.1
+		manpower = 300
+		training_time = 120
+
+		#Combat
+		soft_attack = -1.0
+		hard_attack = -1.0
+		breakthrough = -1.0
+		defense = -1.0
+		ap_attack = 0
+		armor_value = 0
+		air_attack = 0
+
+		#Misc Abilities
+		weight = 0.5
+		supply_consumption = 0.1
+		casualty_trickleback = 0.2
+		experience_loss_factor = -0.2
+		own_equipment_fuel_consumption_mult = 0
+		same_support_type = field_hospital
+
+		essential = {
+			support_equipment
+			motorized_equipment
+		}
+		
+		need = {
+			support_equipment = 30
+			motorized_equipment = 30
+		}
+	}
+	helicopter_field_hospital = {
+		abbreviation = "HELF"
+		sprite = helicopter_brigade
+		map_icon_category = infantry
+		priority = 0
+		ai_priority = 0
+		
+		active = no
+		can_be_parachuted = yes
+		affects_speed = no
+
+		group = support
+		
+		categories = {
+			category_army
+			category_support
+		}
+
+		#Size Definitions
+		combat_width = 0
+		max_strength = 0
+		max_organisation = 30
+		default_morale = 0.1
+		manpower = 300
+		training_time = 120
+
+		#Combat
+		soft_attack = -1.0
+		hard_attack = -1.0
+		breakthrough = -1.0
+		defense = -1.0
+		ap_attack = 0
+		armor_value = 0
+		air_attack = 0
+
+		#Misc Abilities
+		weight = 0.5
+		supply_consumption = 0.1
+		casualty_trickleback = 0.2
+		experience_loss_factor = -0.2
+		own_equipment_fuel_consumption_mult = 0
+		same_support_type = field_hospital
+		
+		essential = {
+			support_equipment
+			helicopter_equipment
+		}
+		
+		need = {
+			support_equipment = 30
+			helicopter_equipment = 30
+		}
+	}
+
+	headquarters = {
+		abbreviation = "HQ"
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		ai_priority = 0
+		
+		active = no
+		can_be_parachuted = yes
+		affects_speed = no
+
+		type = {
+			infantry
+			support
+		}
+		
+		group = support
+		
+		categories = {
+			category_army
+			category_support
+		}
+
+		#Size Definitions
+		combat_width = 0
+		max_strength = 0
+		max_organisation = 60
+		default_morale = 0.1
+		manpower = 300
+		training_time = 120
+
+		#Combat
+		soft_attack = -1.0
+		hard_attack = -1.0
+		breakthrough = -1.0
+		defense = -1.0
+		ap_attack = 0
+		armor_value = 0
+		air_attack = 0
+
+		#Misc Abilities
+		weight = 0.5
+		supply_consumption = 0.1
+		own_equipment_fuel_consumption_mult = 0
+		same_support_type = headquarters
+
+		essential = {
+			support_equipment
+			motorized_equipment
+		}
+		
+		need = {
+			support_equipment = 50
+			motorized_equipment = 30
+		}
+	}
+	armored_headquarters = {
+		abbreviation = "HQ"
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		ai_priority = 0
+
+		active = no
+		affects_speed = no
+
+		type = {
+			armor
+			support
+		}
+		
+		group = support
+		
+		categories = {
+			category_army
+			category_support
+		}
+
+		#Size Definitions
+		combat_width = 0
+		max_strength = 0
+		max_organisation = 60
+		default_morale = 0.1
+		manpower = 300
+		training_time = 120
+
+		#Combat
+		soft_attack = -1.0
+		hard_attack = -1.0
+		breakthrough = -1.0
+		defense = -1.0
+		ap_attack = 0
+		armor_value = 0
+		air_attack = 0
+
+		#Misc Abilities
+		weight = 0.5
+		supply_consumption = 0.1
+		own_equipment_fuel_consumption_mult = 0
+		same_support_type = headquarters
+
+		essential = {
+			armored_support_vehicle
+			support_equipment
+			motorized_equipment
+		}
+		
+		need = {
+			armored_support_vehicle = 20
+			support_equipment = 50
+			motorized_equipment = 30
+		}
+	}
+
+	logistics_company = {
+		abbreviation = "LOG"
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		ai_priority = 0
+		
+		active = no
+		can_be_parachuted = yes
+		affects_speed = no
+
+		type = {
+			infantry
+			support
+		}
+		
+		group = support
+		
+		categories = {
+			category_army
+			category_support
+		}
+
+		#Size Definitions
+		combat_width = 0
+		max_strength = 0
+		max_organisation = 30
+		default_morale = 0.1
+		manpower = 300
+		training_time = 120
+
+		#Combat
+		soft_attack = -1.0
+		hard_attack = -1.0
+		breakthrough = -1.0
+		defense = -1.0
+		ap_attack = 0
+		armor_value = 0
+		air_attack = 0
+
+		#Misc Abilities
+		weight = 0.5
+		supply_consumption = 0.1
+		own_equipment_fuel_consumption_mult = 0
+		supply_consumption_factor = 0 
+		fuel_consumption_factor = 0
+		same_support_type = logistics_company
+
+		essential = {
+			support_equipment
+			motorized_equipment
+		}
+		
+		need = {
+			support_equipment = 30
+			motorized_equipment = 50
+		}
+	}
+	helicopter_transport = {
+		abbreviation = "HELT"
+		sprite = helicopter_brigade
+		map_icon_category = infantry
+		priority = 0
+		ai_priority = 0
+			
+		active = no
+		can_be_parachuted = yes
+		affects_speed = no
+
+		type = {
+			infantry
+			support
+		}
+		
+		group = support
+		
+		categories = {
+			category_army
+			category_support
+		}
+
+		#Size Definitions
+		combat_width = 0
+		max_strength = 0
+		max_organisation = 30
+		default_morale = 0.1
+		manpower = 300
+		training_time = 120
+
+		#Combat
+		soft_attack = -1.0
+		hard_attack = -1.0
+		breakthrough = -1.0
+		defense = -1.0
+		ap_attack = 0
+		armor_value = 0
+		air_attack = 0
+
+		#Misc Abilities
+		weight = 0.5
+		supply_consumption = 0.1
+		own_equipment_fuel_consumption_mult = 0
+		supply_consumption_factor = 0 
+		fuel_consumption_factor = 0
+		same_support_type = logistics_company
+
+		essential = {
+			helicopter_transport
+			support_equipment
+		}
+		
+		need = {
+			support_equipment = 30
+			helicopter_transport = 50
+		}
+	}
+
+	maintenance_company = {
+		abbreviation = "MAIN"
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		ai_priority = 0
+			
+		active = no
+		can_be_parachuted = yes
+		affects_speed = no
+
+		type = {
+			infantry
+			support
+		}
+		
+		group = support
+		
+		categories = {
+			category_army
+			category_support
+		}
+
+		#Size Definitions
+		combat_width = 0
+		max_strength = 0
+		max_organisation = 30
+		default_morale = 0.1
+		manpower = 300
+		training_time = 120
+
+		#Combat
+		soft_attack = -1.0
+		hard_attack = -1.0
+		breakthrough = -1.0
+		defense = -1.0
+		ap_attack = 0
+		armor_value = 0
+		air_attack = 0
+
+		#Misc Abilities
+		weight = 0.5
+		supply_consumption = 0.1
+		reliability_factor = 0 
+		equipment_capture_factor = 0
+		same_support_type = maintenance_company
+
+		essential = {
+			support_equipment
+		}
+		
+		need = {
+			support_equipment = 50
+		}
+	}
+	armored_maintenance = {
+		abbreviation = "AMC"
+		sprite = armored_maintenance
+		map_icon_category = armored
+		priority = 0
+		ai_priority = 0
+			
+		active = no
+		affects_speed = no
+
+		type = {
+			armor
+			support
+		}
+		
+		group = support
+		
+		categories = {
+			category_army
+			category_support
+		}
+
+		#Size Definitions
+		combat_width = 0
+		max_strength = 0
+		max_organisation = 30
+		default_morale = 0.1
+		manpower = 300
+		training_time = 120
+
+		#Combat
+		soft_attack = -1.0
+		hard_attack = -1.0
+		breakthrough = -1.0
+		defense = -1.0
+		ap_attack = 0
+		armor_value = 0
+		air_attack = 0
+
+		#Misc Abilities
+		weight = 0.5
+		supply_consumption = 0.1
+		own_equipment_fuel_consumption_mult = 0
+		reliability_factor = 0 
+		equipment_capture_factor = 0
+		same_support_type = maintenance_company
+
+		essential = {
+			armored_support_vehicle
+			support_equipment
+		}
+		
+		need = {
+			armored_support_vehicle = 30
+			support_equipment = 50
+		}
+	}
+
+	military_police = {
+		abbreviation = "MP"
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		ai_priority = 0
+			
+		active = no
+		can_be_parachuted = yes
+		affects_speed = no
+
+		type = {
+			infantry
+			support
+		}
+		
+		group = support
+		
+		categories = {
+			category_army
+			category_support
+		}
+
+		#Size Definitions
+		combat_width = 0
+		max_strength = 5
+		max_organisation = 30
+		default_morale = 0.1
+		manpower = 300
+		training_time = 120
+
+		#Combat
+		soft_attack = -0.5
+		hard_attack = -0.5
+		breakthrough = -0.5
+		defense = -0.5
+		ap_attack = 0
+		armor_value = 0
+		air_attack = 0
+
+		#Misc Abilities
+		weight = 0.5
+		supply_consumption = 0.1
+		suppression_factor = 0
+
+		essential = {
+			infantry_equipment
+		}
+		
+		need = {
+			infantry_equipment = 50
+		}
+	}	
+
+	signal_company = {
+		abbreviation = "SIG"
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		ai_priority = 0
+			
+		active = no
+		can_be_parachuted = yes
+		affects_speed = no
+
+		type = {
+			infantry
+			support
+		}
+		
+		group = support
+		
+		categories = {
+			category_army
+			category_support
+		}
+
+		#Size Definitions
+		combat_width = 0
+		max_strength = 0
+		max_organisation = 60
+		default_morale = 0.1
+		manpower = 300
+		training_time = 120
+
+		#Combat
+		soft_attack = -1.0
+		hard_attack = -1.0
+		breakthrough = -1.0
+		defense = -1.0
+		ap_attack = 0
+		armor_value = 0
+		air_attack = 0
+
+		#Misc Abilities
+		weight = 0.5
+		supply_consumption = 0.1
+		own_equipment_fuel_consumption_mult = 0
+		initiative = 0
+		same_support_type = signal_company
+
+		essential = {
+			support_equipment
+			motorized_equipment
+		}
+		
+		need = {
+			support_equipment = 50
+			motorized_equipment = 30
+		}
+	}
+	armored_signal = {
+		abbreviation = "ASC"
+		sprite = armored_signal
+		map_icon_category = armored
+		priority = 0
+		ai_priority = 0
+			
+		active = no
+		affects_speed = no
+
+		type = {
+			armor
+			support
+		}
+		
+		group = support
+		
+		categories = {
+			category_army
+			category_support
+		}
+
+		#Size Definitions
+		combat_width = 0
+		max_strength = 0
+		max_organisation = 60
+		default_morale = 0.1
+		manpower = 300
+		training_time = 120
+
+		#Combat
+		soft_attack = -1.0
+		hard_attack = -1.0
+		breakthrough = -1.0
+		defense = -1.0
+		ap_attack = 0
+		armor_value = 0
+		air_attack = 0
+
+		#Misc Abilities
+		weight = 0.5
+		supply_consumption = 0.1
+		own_equipment_fuel_consumption_mult = 0
+		initiative = 0
+		same_support_type = signal_company
+
+		essential = {
+			armored_support_vehicle
+			support_equipment
+			motorized_equipment
+		}
+		
+		need = {
+			armored_support_vehicle = 20
+			support_equipment = 50
+			motorized_equipment = 30
+		}
+	}
+}

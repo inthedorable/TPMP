@@ -46,12 +46,15 @@ sub_unit_categories = {
 
 	category_tanks
 	category_frontline_tanks
+	category_support_tanks
 	category_tank_variants
 	category_tds
 	category_spgs
 	category_spaa
 	category_amphibious_tanks
+	category_flame_tanks
 	category_light_tanks
+	category_medium_tanks
 	category_heavy_tanks
 	category_super_heavy_tanks
 	
@@ -68,9 +71,12 @@ sub_unit_categories = {
 	category_frontline_anti_tank
 	category_frontline_anti_air
 	category_light_anti_tank
-	category_heavy_anti_tank	
+	category_heavy_anti_tank
+	category_light_anti_air
+	category_heavy_anti_air
 
 	category_infantry
+	category_frontline_infantry
 	category_mobile_infantry
 	category_leg_infantry
 	category_special_forces

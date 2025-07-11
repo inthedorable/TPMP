@@ -1724,9 +1724,6 @@ technologies = {
 			position = { x = 7 y = 9 }
 		}
 
-		sub_technologies = {
-			motorized_rocket_unit
-		}
 
 		categories = {
 			motorized_equipment
@@ -1757,36 +1754,6 @@ technologies = {
 				factor = 0.5
 			}
 		}
-	}
-	motorized_rocket_unit = {
-
-		enable_subunits = {
-			motorized_rocket_brigade
-		}
-		enable_equipments = {
-			motorized_rocket_equipment_1
-		}
-		dependencies = {
-			rocketartillery1_tech = 1
-		}
-
-		research_cost = 1.5
-		start_year = 1939
-
-		ai_will_do = {
-			factor = 1
-
-			modifier = {
-				factor = 2
-				tag = SOV
-			}
-		}
-
-		categories = {
-			mot_rockets
-			mio_cat_tech_all_motorized_mechanized
-		}
-		special_project_specialization = { specialization_land }
 	}
 
 	armored_car1 = {
@@ -2281,7 +2248,7 @@ technologies = {
 		}
 	}
 
-	camelry = {
+	cavalry = {
 
 		allow = {
 			always = no
@@ -2291,11 +2258,11 @@ technologies = {
 		start_year = 1936
 
 		enable_subunits = {
-			camelry
+			cavalry
 		}
 	}
 
-	elephantry = {
+	cavalry = {
 
 		allow = {
 			always = no
@@ -2305,7 +2272,7 @@ technologies = {
 		start_year = 1936
 
 		enable_subunits = {
-			elephantry
+			cavalry
 		}
 	}
 
@@ -2367,9 +2334,6 @@ technologies = {
 		# only from focus!!! #####
 		allow = {
 			always = no
-		}
-		irregular_infantry = {
-			max_organisation = 10
 		}
 	}
 

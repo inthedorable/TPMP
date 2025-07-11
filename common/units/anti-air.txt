@@ -3,54 +3,107 @@
 # For sea units: ship,transport,uboat
 
 sub_units = {
-
 	anti_air = {
 		abbreviation = "AA"
 		sprite = infantry
 		map_icon_category = infantry
 		priority = 0
 		ai_priority = 0
+
+		active = yes
+		can_be_parachuted = yes
+		affects_speed = no
+
+		type = {
+			infantry
+			support
+			anti_air
+		}
+		
+		group = support
+		
+		categories = {
+			category_army
+			category_support
+			category_anti_air
+			category_support_anti_air
+			category_light_anti_air
+		}		
+		
+		#Size Definitions
+		combat_width = 1
+		max_strength = 5
+		max_organisation = 30
+		default_morale = 0.1
+		manpower = 500
+		training_time = 120
+
+		#Combat
+		soft_attack = 0
+		hard_attack = 0
+		breakthrough = 0
+		defense = 0
+		ap_attack = 0
+		armor_value = 0
+		air_attack = 0
+
+		#Misc Abilities
+		weight = 0.5
+		supply_consumption = 0.1
+
+		need = {
+			anti_air_equipment = 15
+		}
+	}
+	heavy_anti_air = {
+		abbreviation = "HAA"
+		sprite = infantry
+		map_icon_category = infantry
+		priority = 0
+		ai_priority = 0
+
 		active = yes
 		affects_speed = no
 
 		type = {
 			infantry
 			support
+			anti_air
 		}
-
-		group = support
-
-		categories = {
-			category_support_battalions
-			category_army
-			category_anti_air
-		}
-
 		
-		combat_width = 0
-		training_time = 120
-
-		need = {
-			anti_air_equipment = 20
-		}
-
-		can_be_parachuted = yes
+		group = support
+		
+		categories = {
+			category_army
+			category_support
+			category_anti_air
+			category_support_anti_air
+			category_heavy_anti_air
+		}		
 		
 		#Size Definitions
-		max_strength = 0.2
-		max_organisation = 0
+		combat_width = 1
+		max_strength = 5
+		max_organisation = 30
 		default_morale = 0.1
-		manpower = 300
-		weight = 0.1
-		
-        supply_consumption = 0.1
+		manpower = 500
+		training_time = 120
 
-		# Support nerfs to combat abilities
-		defense = -0.4
-		breakthrough = -0.4
-		soft_attack = -0.4
-		hard_attack = -0.4
-		air_attack = -0.2
+		#Combat
+		soft_attack = 0
+		hard_attack = 0
+		breakthrough = 0
+		defense = 0
+		ap_attack = 0
+		armor_value = 0
+		air_attack = 0
 
+		#Misc Abilities
+		weight = 0.5
+		supply_consumption = 0.15
+
+		need = {
+			heavy_anti_air_equipment = 15
+		}
 	}
 }
