@@ -246,10 +246,10 @@ division_template = {
 	template_counter = 66
 	# Note: Represents irregular infantry from the colonies (daskalian, dubats and other "bands")
 	regiments = {
-		irregular_infantry = { x = 0 y = 0 }
-		irregular_infantry = { x = 0 y = 1 }
-		irregular_infantry = { x = 1 y = 0 }
-		irregular_infantry = { x = 1 y = 1 }
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
 	}
 	priority = 0 
 }
@@ -282,10 +282,10 @@ division_template = {
 	is_locked = yes
 	# Note: Represents irregular infantry from the colonies (daskalian, dubats and other "bands")
 	regiments = {
-		irregular_infantry = { x = 0 y = 0 }
-		irregular_infantry = { x = 0 y = 1 }
-		irregular_infantry = { x = 1 y = 0 }
-		irregular_infantry = { x = 1 y = 1 }
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
 	}
 	priority = 0 
 }
@@ -301,10 +301,10 @@ division_template = {
 	is_locked = yes
 	# Note: Represents irregular infantry from the colonies (daskalian, dubats and other "bands")
 	regiments = {
-		irregular_infantry = { x = 0 y = 0 }
-		irregular_infantry = { x = 0 y = 1 }
-		irregular_infantry = { x = 1 y = 0 }
-		irregular_infantry = { x = 1 y = 1 }
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
 	}
 	priority = 0 
 }
@@ -320,10 +320,10 @@ division_template = {
 	is_locked = yes
 	# Note: Represents irregular infantry from the colonies (daskalian, dubats and other "bands")
 	regiments = {
-		irregular_infantry = { x = 0 y = 0 }
-		irregular_infantry = { x = 0 y = 1 }
-		irregular_infantry = { x = 1 y = 0 }
-		irregular_infantry = { x = 1 y = 1 }
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
 	}
 	priority = 0 
 }

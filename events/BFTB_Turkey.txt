@@ -2151,7 +2151,7 @@ country_event = {
 			transfer_state = 453
 		}
 		custom_effect_tooltip = TUR_unlock_camelry_effect_tt
-		hidden_effect = { set_technology = { camelry = 1 } } 
+		hidden_effect = { set_technology = { cavalry = 1 } } 
 	}
 }
 
@@ -2236,10 +2236,10 @@ country_event = {
 		transfer_state = 906 # Socotra
 		if = {
 			limit = {
-				NOT = { has_tech = camelry }
+				NOT = { has_tech = cavalry }
 			}
 			custom_effect_tooltip = TUR_unlock_camelry_effect_tt
-			hidden_effect = { set_technology = { camelry = 1 } } 
+			hidden_effect = { set_technology = { cavalry = 1 } } 
 		}
 	}
 }

@@ -2930,7 +2930,7 @@ hoofin_it = {
 			owns_state = 1016 
 			owns_state = 992 
 			check_variable = { num_equipment_in_armies@infantry_equipment > 4499 }
-			check_variable = { num_battalions_with_type@camelry > 29 }
+			check_variable = { num_battalions_with_type@cavalry > 29 }
 		}
 	}
 }
@@ -7183,7 +7183,7 @@ i_shall_either_find_a_way_or_make_one = {
 			2 = {
 				is_fully_controlled_by = RAJ
 				any_state_division  = {
-					division_has_battalion_in_template = elephantry
+					division_has_battalion_in_template = cavalry
 				}
 			}
 		}

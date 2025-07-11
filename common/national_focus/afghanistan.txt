@@ -1984,7 +1984,7 @@ focus_tree = {
 			custom_effect_tooltip = TUR_unlock_camelry_effect_tt
 			hidden_effect = { 
 				set_technology = { 
-					camelry = 1 
+					cavalry = 1 
 					popup = no
 				} 
 			} 
@@ -1995,10 +1995,10 @@ focus_tree = {
 				division_names_group = AFG_CAV_01
 
 				regiments = {
-					camelry = { x = 0 y = 0 } 
-					camelry = { x = 0 y = 1 } 
-					camelry = { x = 1 y = 0 } 
-					camelry = { x = 1 y = 1 }
+					cavalry = { x = 0 y = 0 } 
+					cavalry = { x = 0 y = 1 } 
+					cavalry = { x = 1 y = 0 } 
+					cavalry = { x = 1 y = 1 }
 				}
 			}
 			random_owned_controlled_state = {
@@ -4373,7 +4373,7 @@ focus_tree = {
 		completion_reward = {
 
 			set_technology = {
-	            elephantry = 1
+	            cavalry = 1
 	            popup = no
 	        }
 
@@ -4384,14 +4384,14 @@ focus_tree = {
 	            priority = 1 # optional 
 	            template_counter = 108 # optional
 	            regiments = {
-	                elephantry = { x = 0 y = 0 }
-	                elephantry = { x = 0 y = 1 }
-	                elephantry = { x = 0 y = 2 }
-	                elephantry = { x = 0 y = 3 }
-	                elephantry = { x = 1 y = 0 }
-	                elephantry = { x = 1 y = 1 }
-	                elephantry = { x = 1 y = 2 }
-	                elephantry = { x = 1 y = 3 }
+	                cavalry = { x = 0 y = 0 }
+	                cavalry = { x = 0 y = 1 }
+	                cavalry = { x = 0 y = 2 }
+	                cavalry = { x = 0 y = 3 }
+	                cavalry = { x = 1 y = 0 }
+	                cavalry = { x = 1 y = 1 }
+	                cavalry = { x = 1 y = 2 }
+	                cavalry = { x = 1 y = 3 }
 	            }
 	        }
 	        capital_scope = {

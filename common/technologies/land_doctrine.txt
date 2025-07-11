@@ -1906,7 +1906,7 @@ technologies = {
 				attack = 0.05
 			}
 		}
-		mountaineer = {
+		mountaineers = {
 			hills = {
 				attack = 0.03
 				defence = 0.03
@@ -1916,7 +1916,7 @@ technologies = {
 				defence = 0.03		
 			}
 		}
-		ranger = {
+		rangers = {
 			forest = {
 				attack = 0.03
 				defence = 0.03

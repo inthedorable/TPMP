@@ -3914,10 +3914,10 @@ ITA_colonial_management_dec_cat = {
 						division_names_group = ITA_CAM_02
 						is_locked = yes
 						regiments = {
-							camelry = { x = 0 y = 0 }
-							camelry = { x = 0 y = 1 }
-							camelry = { x = 1 y = 0 }
-							camelry = { x = 1 y = 1 }
+							cavalry = { x = 0 y = 0 }
+							cavalry = { x = 0 y = 1 }
+							cavalry = { x = 1 y = 0 }
+							cavalry = { x = 1 y = 1 }
 						}
 						priority = 0
 					}
@@ -3928,12 +3928,12 @@ ITA_colonial_management_dec_cat = {
 						division_names_group = ITA_CAM_02
 						is_locked = yes
 						regiments = {
-							camelry = { x = 0 y = 0 }
-							camelry = { x = 0 y = 1 }
-							camelry = { x = 1 y = 0 }
-							camelry = { x = 1 y = 1 }
-							camelry = { x = 2 y = 0 }
-							camelry = { x = 2 y = 1 }
+							cavalry = { x = 0 y = 0 }
+							cavalry = { x = 0 y = 1 }
+							cavalry = { x = 1 y = 0 }
+							cavalry = { x = 1 y = 1 }
+							cavalry = { x = 2 y = 0 }
+							cavalry = { x = 2 y = 1 }
 						}
 						support = {
 							recon = { x = 0 y = 0 }
@@ -4083,7 +4083,7 @@ ITA_colonial_management_dec_cat = {
 		available = {
 			NOT = { has_global_flag = second_italo_ethiopian_war_flag }
 			any_country_division = {
-				division_has_majority_template = irregular_infantry
+				division_has_majority_template = militia
 			}
 		}
 
@@ -4172,8 +4172,8 @@ ITA_colonial_management_dec_cat = {
 				add_units_to_division_template = {
 					template_name = "Banda Indigena Irregolare"
 					regiments = {
-						irregular_infantry = 0
-						irregular_infantry = 1
+						militia = 0
+						militia = 1
 
 					}
 					support = {
@@ -4195,8 +4195,8 @@ ITA_colonial_management_dec_cat = {
 				add_units_to_division_template = {
 					template_name = "Truppe Irregolari di Cammelli"
 					regiments = {
-						camelry = 0
-						camelry = 1
+						cavalry = 0
+						cavalry = 1
 					}
 					support = {
 						recon = 0
@@ -4206,8 +4206,8 @@ ITA_colonial_management_dec_cat = {
 				add_units_to_division_template = {
 					template_name = "Banda Irregolare Eritrea"
 					regiments = {
-						irregular_infantry = 0
-						irregular_infantry = 1
+						militia = 0
+						militia = 1
 					}
 					support = {
 						recon = 0
@@ -4217,8 +4217,8 @@ ITA_colonial_management_dec_cat = {
 				add_units_to_division_template = {
 					template_name = "Banda Irregolare Libica"
 					regiments = {
-						irregular_infantry = 0
-						irregular_infantry = 1
+						militia = 0
+						militia = 1
 					}
 					support = {
 						recon = 0
@@ -4228,8 +4228,8 @@ ITA_colonial_management_dec_cat = {
 				add_units_to_division_template = {
 					template_name = "Banda Irregolare Somala"
 					regiments = {
-						irregular_infantry = 0
-						irregular_infantry = 1
+						militia = 0
+						militia = 1
 					}
 					support = {
 						recon = 0
@@ -4372,18 +4372,18 @@ ITA_colonial_management_dec_cat = {
 						division_names_group = ITA_CAM_01
 						override_model = ITA_camelry_alt_1_entity
 						regiments = {
-							camelry = { x = 0 y = 0 }
-							camelry = { x = 0 y = 1 }
-							camelry = { x = 1 y = 0 }
-							camelry = { x = 1 y = 1 }
+							cavalry = { x = 0 y = 0 }
+							cavalry = { x = 0 y = 1 }
+							cavalry = { x = 1 y = 0 }
+							cavalry = { x = 1 y = 1 }
 						}
 					}
 				}
 				add_units_to_division_template = {
 					template_name = "Reggimento Meharista"
 					regiments = {
-						camelry = 0
-						camelry = 1
+						cavalry = 0
+						cavalry = 1
 					}
 					support = {
 						recon = 0

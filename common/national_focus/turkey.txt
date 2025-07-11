@@ -3004,7 +3004,7 @@ focus_tree = {
 
 		completion_reward = {
 			custom_effect_tooltip = TUR_unlock_camelry_effect_tt
-			hidden_effect = { set_technology = { camelry = 1 } } 
+			hidden_effect = { set_technology = { cavalry = 1 } } 
 		}
 	}
 
@@ -6712,7 +6712,7 @@ focus_tree = {
 		completion_reward = {
 			add_ideas = TUR_tuz_golu_training_facility
 			custom_effect_tooltip = TUR_unlock_camelry_effect_tt
-			hidden_effect = { set_technology = { camelry = 1 } } 
+			hidden_effect = { set_technology = { cavalry = 1 } } 
 		}
 	}
 

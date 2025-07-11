@@ -1829,10 +1829,10 @@ focus_tree = {
 						division_names_group = ITA_CAM_01 
 						override_model = ITA_camelry_alt_2_entity
 						regiments = { 
-							camelry = { x = 0 y = 0 } 
-							camelry = { x = 0 y = 1 } 
-							camelry = { x = 1 y = 0 } 
-							camelry = { x = 1 y = 1 } 
+							cavalry = { x = 0 y = 0 } 
+							cavalry = { x = 0 y = 1 } 
+							cavalry = { x = 1 y = 0 } 
+							cavalry = { x = 1 y = 1 } 
 						} 
 					}
 				}
@@ -2411,10 +2411,10 @@ focus_tree = {
 							division_names_group = ITA_CAM_02
 							is_locked = yes
 							regiments = {
-								camelry = { x = 0 y = 0 }
-								camelry = { x = 0 y = 1 }
-								camelry = { x = 1 y = 0 }
-								camelry = { x = 1 y = 1 }
+								cavalry = { x = 0 y = 0 }
+								cavalry = { x = 0 y = 1 }
+								cavalry = { x = 1 y = 0 }
+								cavalry = { x = 1 y = 1 }
 							}
 							priority = 0
 						}
@@ -2425,12 +2425,12 @@ focus_tree = {
 							division_names_group = ITA_CAM_02
 							is_locked = yes
 							regiments = {
-								camelry = { x = 0 y = 0 }
-								camelry = { x = 0 y = 1 }
-								camelry = { x = 0 y = 2 }
-								camelry = { x = 1 y = 0 }
-								camelry = { x = 1 y = 1 }
-								camelry = { x = 1 y = 2 }
+								cavalry = { x = 0 y = 0 }
+								cavalry = { x = 0 y = 1 }
+								cavalry = { x = 0 y = 2 }
+								cavalry = { x = 1 y = 0 }
+								cavalry = { x = 1 y = 1 }
+								cavalry = { x = 1 y = 2 }
 							}
 							support = { 
 								recon = { x = 0 y = 0 } 
@@ -17798,10 +17798,10 @@ focus_tree = {
 						division_names_group = ITA_CAM_01 
 						override_model = ITA_camelry_alt_2_entity
 						regiments = { 
-							camelry = { x = 0 y = 0 } 
-							camelry = { x = 0 y = 1 } 
-							camelry = { x = 1 y = 0 } 
-							camelry = { x = 1 y = 1 } 
+							cavalry = { x = 0 y = 0 } 
+							cavalry = { x = 0 y = 1 } 
+							cavalry = { x = 1 y = 0 } 
+							cavalry = { x = 1 y = 1 } 
 						} 
 					}
 				}
@@ -22078,10 +22078,10 @@ focus_tree = {
 							division_names_group = ITA_CAM_02
 							is_locked = yes
 							regiments = {
-								camelry = { x = 0 y = 0 }
-								camelry = { x = 0 y = 1 }
-								camelry = { x = 1 y = 0 }
-								camelry = { x = 1 y = 1 }
+								cavalry = { x = 0 y = 0 }
+								cavalry = { x = 0 y = 1 }
+								cavalry = { x = 1 y = 0 }
+								cavalry = { x = 1 y = 1 }
 							}
 							priority = 0
 						}
@@ -22092,12 +22092,12 @@ focus_tree = {
 							division_names_group = ITA_CAM_02
 							is_locked = yes
 							regiments = {
-								camelry = { x = 0 y = 0 }
-								camelry = { x = 0 y = 1 }
-								camelry = { x = 0 y = 2 }
-								camelry = { x = 1 y = 0 }
-								camelry = { x = 1 y = 1 }
-								camelry = { x = 1 y = 2 }
+								cavalry = { x = 0 y = 0 }
+								cavalry = { x = 0 y = 1 }
+								cavalry = { x = 0 y = 2 }
+								cavalry = { x = 1 y = 0 }
+								cavalry = { x = 1 y = 1 }
+								cavalry = { x = 1 y = 2 }
 							}
 							support = { 
 								recon = { x = 0 y = 0 } 
@@ -22492,10 +22492,10 @@ focus_tree = {
 							division_names_group = ITA_CAM_01 
 							override_model = ITA_camelry_alt_1_entity
 							regiments = { 
-								camelry = { x = 0 y = 0 } 
-								camelry = { x = 0 y = 1 } 
-								camelry = { x = 1 y = 0 } 
-								camelry = { x = 1 y = 1 } 
+								cavalry = { x = 0 y = 0 } 
+								cavalry = { x = 0 y = 1 } 
+								cavalry = { x = 1 y = 0 } 
+								cavalry = { x = 1 y = 1 } 
 							} 
 						}
 					}
@@ -22505,12 +22505,12 @@ focus_tree = {
 							division_names_group = ITA_CAM_01 
 							override_model = ITA_camelry_alt_1_entity
 							regiments = {
-								camelry = { x = 0 y = 0 }
-								camelry = { x = 0 y = 1 }
-								camelry = { x = 0 y = 2 }
-								camelry = { x = 1 y = 0 }
-								camelry = { x = 1 y = 1 }
-								camelry = { x = 1 y = 2 }
+								cavalry = { x = 0 y = 0 }
+								cavalry = { x = 0 y = 1 }
+								cavalry = { x = 0 y = 2 }
+								cavalry = { x = 1 y = 0 }
+								cavalry = { x = 1 y = 1 }
+								cavalry = { x = 1 y = 2 }
 							}
 
 							support = {

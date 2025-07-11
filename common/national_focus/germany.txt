@@ -9309,15 +9309,15 @@ focus_tree = {
 					division_cap = 12
 
 					regiments = {
-						penal_battalion = { x = 0 y = 0 }
-						penal_battalion = { x = 0 y = 1 }
-						penal_battalion = { x = 0 y = 2 }
-						penal_battalion = { x = 1 y = 0 }
-						penal_battalion = { x = 1 y = 1 }
-						penal_battalion = { x = 1 y = 2 }
-						penal_battalion = { x = 2 y = 0 }
-						penal_battalion = { x = 2 y = 1 }
-						penal_battalion = { x = 2 y = 2 }
+						militia = { x = 0 y = 0 }
+						militia = { x = 0 y = 1 }
+						militia = { x = 0 y = 2 }
+						militia = { x = 1 y = 0 }
+						militia = { x = 1 y = 1 }
+						militia = { x = 1 y = 2 }
+						militia = { x = 2 y = 0 }
+						militia = { x = 2 y = 1 }
+						militia = { x = 2 y = 2 }
 					}
 					support = {
 						artillery = { x = 0 y = 0 }
@@ -9336,7 +9336,7 @@ focus_tree = {
 					}
 					random_country_division = {
 						limit = {
-							division_has_battalion_in_template = penal_battalion
+							division_has_battalion_in_template = militia
 						}
 						add_divisional_commander_xp = 2300
 					}
@@ -32500,7 +32500,7 @@ focus_tree = {
 						has_dlc = "Battle for the Bosporus"
 					}
 					set_technology = { 
-						camelry = 1 
+						cavalry = 1 
 						popup = no
 					}
 				}

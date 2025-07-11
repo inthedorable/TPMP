@@ -195,8 +195,6 @@ script_enum_equipment_bonus_type = {
 	land_cruiser
 	super_heavy_artillery_equipment
 	super_heavy_artillery_equipment_1
-	self_propelled_super_heavy_artillery_equipment
-	self_propelled_super_heavy_artillery_equipment_1
 	armored_support_vehicle
 	armored_support_vehicle_1
 	helicopter_equipment
@@ -215,30 +213,45 @@ script_enum_equipment_bonus_type = {
 	destroyer
 	infantry_equipment
 	artillery_equipment
-	anti_tank_equipment
 	amphibious_mechanized_equipment
 	amphibious_mechanized_equipment_1
 	amphibious_mechanized_equipment_2
 	anti_air_equipment
+	anti_air_equipment_0
 	anti_air_equipment_1
 	anti_air_equipment_2
 	anti_air_equipment_3
+	anti_tank_equipment
+	anti_tank_equipment_0
 	anti_tank_equipment_1
 	anti_tank_equipment_2
 	anti_tank_equipment_3
+	heavy_anti_air_equipment
+	heavy_anti_air_equipment_1
+	heavy_anti_air_equipment_2
+	heavy_anti_air_equipment_3
+	heavy_anti_tank_equipment
+	heavy_anti_tank_equipment_1
+	heavy_anti_tank_equipment_2
+	heavy_anti_tank_equipment_3
+	heavy_artillery_equipment
+	heavy_artillery_equipment_1
+	heavy_artillery_equipment_2
+	heavy_artillery_equipment_3
 	armored_car_equipment
 	gw_armored_car_equipment
 	armored_car_equipment_1
 	armored_car_equipment_2
 	armored_car_at_equipment
+	artillery_equipment_0
 	artillery_equipment_1
 	artillery_equipment_2
-	artillery_equipment_3
 	rocket_artillery_equipment
 	rocket_artillery_equipment_1
 	rocket_artillery_equipment_2
 	motorized_rocket_equipment
 	motorized_rocket_equipment_1
+	motorized_rocket_equipment_2
 	convoy_1
 	floating_harbor_equipment
 	floating_harbor_equipment_1

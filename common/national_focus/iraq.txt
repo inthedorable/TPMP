@@ -1868,10 +1868,10 @@ focus_tree = {
 				division_names_group = IRQ_CAV_01
 
 				regiments = {
-					camelry = { x = 0 y = 0 } 
-					camelry = { x = 0 y = 1 } 
-					camelry = { x = 1 y = 0 } 
-					camelry = { x = 1 y = 1 }
+					cavalry = { x = 0 y = 0 } 
+					cavalry = { x = 0 y = 1 } 
+					cavalry = { x = 1 y = 0 } 
+					cavalry = { x = 1 y = 1 }
 				}
 			}
 			random_owned_controlled_state = {

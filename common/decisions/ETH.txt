@@ -654,7 +654,7 @@ ETH_chitet_category = {
 				has_war = no 
 				custom_trigger_tooltip = {
 					tooltip = ETH_number_levy_units_less_than_five
-					check_variable = { num_armies_with_type@irregular_infantry < 5 }
+					check_variable = { num_armies_with_type@militia < 5 }
 				}
 			}
 		}

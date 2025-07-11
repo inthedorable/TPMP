@@ -151,10 +151,10 @@ d_spawn_3D_models = {
 			division_names_group = ITA_CAM_01 
 			override_model = ITA_camelry_alt_2_entity
 			regiments = { 
-				camelry = { x = 0 y = 0 } 
-				camelry = { x = 0 y = 1 } 
-				camelry = { x = 1 y = 0 } 
-				camelry = { x = 1 y = 1 } 
+				cavalry = { x = 0 y = 0 } 
+				cavalry = { x = 0 y = 1 } 
+				cavalry = { x = 1 y = 0 } 
+				cavalry = { x = 1 y = 1 } 
 			} 
 		}
 	}
@@ -170,8 +170,8 @@ d_spawn_3D_models = {
 			is_locked = yes
 			# Note: Represents irregular cavalry from the colonies (ascari, dubats and other "bands")
 			regiments = {
-				camelry = { x = 0 y = 0 }
-				camelry = { x = 0 y = 1 }
+				cavalry = { x = 0 y = 0 }
+				cavalry = { x = 0 y = 1 }
 			}
 			priority = 0
 		}

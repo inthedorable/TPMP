@@ -256,8 +256,8 @@ focus_tree = {
 			add_units_to_division_template = {
 				template_name = "Chitet Sefari" 
 				regiments = {
-					irregular_infantry = 0 
-					irregular_infantry = 1 
+					militia = 0 
+					militia = 1 
 				}
 			}
 			ETH_BOP_decentralization_large_effect = yes 	
@@ -562,9 +562,9 @@ focus_tree = {
 				is_locked = yes
 				force_allow_recruiting = yes
 				regiments = {
-					camelry = { x = 0 y = 0 }
-					camelry = { x = 0 y = 1 }
-					camelry = { x = 1 y = 0 }
+					cavalry = { x = 0 y = 0 }
+					cavalry = { x = 0 y = 1 }
+					cavalry = { x = 1 y = 0 }
 				}
 			} 
 			hidden_effect = {
@@ -917,9 +917,9 @@ focus_tree = {
 				add_units_to_division_template = {
 					template_name = "Chitet Sefari" 
 					regiments = {
-						irregular_infantry = 2 
-						irregular_infantry = 2 
-						irregular_infantry = 2 
+						militia = 2 
+						militia = 2 
+						militia = 2 
 					}
 				}
 				IF = {
@@ -2432,7 +2432,7 @@ focus_tree = {
 			add_stability = 0.1
 			add_ideas = ETH_national_studs_idea
 			set_technology = {
-				camelry = 1
+				cavalry = 1
 				popup = no
 			}	
 		}

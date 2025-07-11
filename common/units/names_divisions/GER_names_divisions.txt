@@ -379,7 +379,7 @@ GER_PEN_01 = {
 
 	can_use = { has_completed_focus = GER_strafbataillon }
 
-	division_types = { "penal_battalion" "infantry" } 
+	division_types = { "militia" "infantry" } 
 
 	fallback_name = "%d. Straf-Division"
 }

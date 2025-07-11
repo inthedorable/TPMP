@@ -321,7 +321,7 @@ FIN_PEN_01 = {
 
 	can_use = { has_dlc = "Arms Against Tyranny" } #MM: Broken
 
-	division_types = { "penal_battalion" "infantry" } 
+	division_types = { "militia" "infantry" } 
 
 	fallback_name = "%d. Rangaistusdivisioona"
 }
