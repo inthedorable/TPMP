@@ -44,13 +44,40 @@
  infantryat2_tech: "Improved Anti-Tank Weapons"
  infantryat2_tech_desc: ""
  infantryat3_tech: "Basic Anti-Tank Launchers"
- infantryat3_tech_desc: ""`
+ infantryat3_tech_desc: ""
  infantryat4_tech: "improved Anti-Tank Weapons"
 
  recoilessrifle_tech: "Recoilless Rifles"
  recoilessrifle_tech_desc: ""
  infantryaa_tech: "Anti-Aircraft Launchers"
  infantryaa_tech_desc: ""
+
+ tank0_tech: "Chassis 1930"
+ tank0_tech_desc: "During the interwar period, tanks developed rapidly, with many nations producing their first tank designs. These early tanks were often lightly armoured and armed, but they laid the foundation for future tank development."
+
+ lighttankturret1_tech: "Basic Light Tank Turrets"
+ lighttankturret1_tech_desc: ""
+ lighttankturret2_tech: "Improved Light Tank Turrets"
+ lighttankturret2_tech_desc: ""
+
+ mediumtankturret1_tech: "Basic Medium Tank Turrets"
+ mediumtankturret1_tech_desc: ""
+ mediumtankturret2_tech: "Improved Medium Tank Turrets"
+ mediumtankturret2_tech_desc: ""
+ mediumtankturret3_tech: "Advanced Medium Tank Turrets"
+ mediumtankturret3_tech_desc: ""
+
+ heavytankturret1_tech: "Basic Heavy Tank Turrets"
+ heavytankturret1_tech_desc: ""
+ heavytankturret2_tech: "Improved Heavy Tank Turrets"
+ heavytankturret2_tech_desc: ""
+ heavytankturret3_tech: "Advanced Heavy Tank Turrets"
+ heavytankturret3_tech_desc: ""
+
+ superheavytankturret1_tech: "Basic Super-Heavy Tank Turrets"
+ superheavytankturret1_tech_desc: ""
+ superheavytankturret2_tech: "Improved Super-Heavy Tank Turrets"
+ superheavytankturret2_tech_desc: ""
 
  ARMOUR_TITLE_SUPERHEAVY: "SUPERHEAVY"
  ARTILLERY_TITLE_SHELLS: "SHELLS"

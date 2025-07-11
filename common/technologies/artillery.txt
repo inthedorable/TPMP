@@ -468,6 +468,9 @@ technologies = {
 			leads_to_tech = rocketartillery2_tech
 			research_cost_coeff = 1
 		}
+		sub_technologies = {
+			motorizedrocketartillery1_tech
+		}
 
 		research_cost = 2.0
 		start_year = 1940
@@ -519,6 +522,9 @@ technologies = {
 			leads_to_tech = rocketartillery4_tech
 			research_cost_coeff = 1
 		}
+		sub_technologies = {
+			motorizedrocketartillery2_tech
+		}
 
 		research_cost = 2.0
 		start_year = 1944
@@ -550,6 +556,42 @@ technologies = {
 		categories = {
 			cat_artillery_tech
 			cat_rocketry_tech
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	motorizedrocketartillery1_tech = {
+		enable_equipments = {
+			motorized_rocket_equipment_1
+		}
+
+		research_cost = 1.0
+		start_year = 1940
+
+		categories = {
+			cat_artillery_tech
+			cat_rocketry_tech
+			cat_motorized_tech
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	motorizedrocketartillery2_tech = {
+		enable_equipments = {
+			motorized_rocket_equipment_2
+		}
+
+		research_cost = 1.0
+		start_year = 1944
+
+		categories = {
+			cat_artillery_tech
+			cat_rocketry_tech
+			cat_motorized_tech
 		}
 		special_project_specialization = { specialization_land }
 
@@ -1209,7 +1251,7 @@ technologies = {
 				attack = 0.05
 			}
 		}
-		category_spg = {
+		category_spgs = {
 			forest = {
 				attack = 0.05
 			}
@@ -1282,7 +1324,7 @@ technologies = {
 				attack = 0.05
 			}
 		}
-		category_spg = {
+		category_spgs = {
 			fort = {
 				attack = 0.05
 			}
@@ -1318,7 +1360,7 @@ technologies = {
 		category_artillery = {
 			soft_attack = 0.05
 		}
-		category_spg = {
+		category_spgs = {
 			soft_attack = 0.05
 		}
 
@@ -1378,7 +1420,7 @@ technologies = {
 				attack = 0.05
 			}
 		}
-		category_spg = {
+		category_spgs = {
 			night = {
 				attack = 0.05
 			}
@@ -1540,7 +1582,7 @@ technologies = {
 		category_anti_tank = {
 			hard_attack = 0.03
 		}
-		category_all_armor = {
+		category_tanks = {
 			hard_attack = 0.03
 		}
 
@@ -1570,7 +1612,7 @@ technologies = {
 		category_anti_tank = {
 			ap_attack = 0.03
 		}
-		category_all_armor = {
+		category_tanks = {
 			ap_attack = 0.03
 		}
 
@@ -1601,7 +1643,7 @@ technologies = {
 			ap_attack = 0.02
 			hard_attack = 0.02
 		}
-		category_all_armor = {
+		category_tanks = {
 			ap_attack = 0.02
 			hard_attack = 0.02
 		}

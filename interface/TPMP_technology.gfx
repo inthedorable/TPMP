@@ -930,7 +930,7 @@ spriteTypes = {
 		name = "GFX_SIA_heavyantitank3_tech_medium"
 		textureFile = "gfx/interface/technologies/artillery/HAT2_axis.dds"
 	}
-		SpriteType = {
+	SpriteType = {
 		name = "GFX_FIN_heavyantiair1_tech_medium"
 		textureFile = "gfx/interface/technologies/artillery/HAA1_axis.dds"
 	}
@@ -1015,6 +1015,34 @@ spriteTypes = {
 		textureFile = "gfx/interface/technologies/artillery/HAT2_axis.dds"
 	}
 	SpriteType = {
+		name = "GFX_SOV_heavyantiair1_tech_medium"
+		textureFile = "gfx/interface/technologies/artillery/HAA1_comintern.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_heavyantiair3_tech_medium"
+		textureFile = "gfx/interface/technologies/artillery/HAA2_comintern.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_heavyantiair5_tech_medium"
+		textureFile = "gfx/interface/technologies/artillery/HAA3_comintern.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_antiair0_tech_medium"
+		textureFile = "gfx/interface/technologies/artillery/AA0_comintern.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_antiair2_tech_medium"
+		textureFile = "gfx/interface/technologies/artillery/AA1_comintern.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_antiair4_tech_medium"
+		textureFile = "gfx/interface/technologies/artillery/AA2_comintern.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_antiair6_tech_medium"
+		textureFile = "gfx/interface/technologies/artillery/AA3_comintern.dds"
+	}
+	SpriteType = {
 		name = "GFX_SOV_heavyartillery1_tech_medium"
 		textureFile = "gfx/interface/technologies/artillery/HARTY1_comintern.dds"
 	}
@@ -1025,6 +1053,50 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_SOV_heavyartillery5_tech_medium"
 		textureFile = "gfx/interface/technologies/artillery/HARTY3_comintern.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_artillery0_tech_medium"
+		textureFile = "gfx/interface/technologies/artillery/ARTY0_comintern.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_artillery2_tech_medium"
+		textureFile = "gfx/interface/technologies/artillery/ARTY1_comintern.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_artillery4_tech_medium"
+		textureFile = "gfx/interface/technologies/artillery/ARTY2_comintern.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_rocketartillery1_tech_medium"
+		textureFile = "gfx/interface/technologies/artillery/RARTY1_comintern.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_rocketartillery3_tech_medium"
+		textureFile = "gfx/interface/technologies/artillery/RARTY2_comintern.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_antitank0_tech_medium"
+		textureFile = "gfx/interface/technologies/artillery/AT0_comintern.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_antitank2_tech_medium"
+		textureFile = "gfx/interface/technologies/artillery/AT1_comintern.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_antitank4_tech_medium"
+		textureFile = "gfx/interface/technologies/artillery/AT2_comintern.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_antitank6_tech_medium"
+		textureFile = "gfx/interface/technologies/artillery/AT3_comintern.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_heavyantitank1_tech_medium"
+		textureFile = "gfx/interface/technologies/artillery/HAT1_comintern.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_heavyantitank3_tech_medium"
+		textureFile = "gfx/interface/technologies/artillery/HAT2_comintern.dds"
 	}
 	SpriteType = {
 		name = "GFX_ENG_heavyantiair1_tech_medium"
@@ -2538,12 +2610,16 @@ spriteTypes = {
 		textureFile = "gfx/interface/technologies/rangefinder.dds"
 	}
 	SpriteType = {
-		name = "GFX_optics1_tech_medium"
-		textureFile = "gfx/interface/technologies/optics1.dds"
-	}
-	SpriteType = {
 		name = "GFX_optics2_tech_medium"
 		textureFile = "gfx/interface/technologies/optics2.dds"
+	}
+	SpriteType = {
+		name = "GFX_optics3_tech_medium"
+		textureFile = "gfx/interface/technologies/optics3.dds"
+	}
+	SpriteType = {
+		name = "GFX_optics4_tech_medium"
+		textureFile = "gfx/interface/technologies/optics4.dds"
 	}
 	SpriteType = {
 		name = "GFX_firecontrolcomputer_tech_medium"
