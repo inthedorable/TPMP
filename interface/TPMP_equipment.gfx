@@ -12,4 +12,256 @@ spriteTypes = {
 		name = "GFX_special_infantry_equipment_medium"
 		textureFile = "gfx/interface/technologies/infantry_equipment_0.dds"
 	}
+	SpriteType = {
+		name = "GFX_motorized_rocket_equipment_1_medium"
+		textureFile = "gfx/interface/technologies/artillery/MRARTY1_allies.dds"
+	}
+	SpriteType = {
+		name = "GFX_motorized_rocket_equipment_2_medium"
+		textureFile = "gfx/interface/technologies/artillery/MRARTY2_allies.dds"
+	}
+	SpriteType = {
+		name = "GFX_super_heavy_artillery_equipment_1_medium"
+		textureFile = "gfx/interface/technologies/SHARTY1_allies.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_motorized_rocket_equipment_1_medium"
+		textureFile = "gfx/interface/technologies/artillery/MRARTY1_axis.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_motorized_rocket_equipment_2_medium"
+		textureFile = "gfx/interface/technologies/artillery/MRARTY2_axis.dds"
+	}
+	SpriteType = {
+		name = "GFX_GER_super_heavy_artillery_equipment_1_medium"
+		textureFile = "gfx/interface/technologies/SHARTY1_axis.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_motorized_rocket_equipment_1_medium"
+		textureFile = "gfx/interface/technologies/artillery/MRARTY1_axis.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_motorized_rocket_equipment_2_medium"
+		textureFile = "gfx/interface/technologies/artillery/MRARTY2_axis.dds"
+	}
+	SpriteType = {
+		name = "GFX_ITA_super_heavy_artillery_equipment_1_medium"
+		textureFile = "gfx/interface/technologies/SHARTY1_axis.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_motorized_rocket_equipment_1_medium"
+		textureFile = "gfx/interface/technologies/artillery/MRARTY1_axis.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_motorized_rocket_equipment_2_medium"
+		textureFile = "gfx/interface/technologies/artillery/MRARTY2_axis.dds"
+	}
+	SpriteType = {
+		name = "GFX_JAP_super_heavy_artillery_equipment_1_medium"
+		textureFile = "gfx/interface/technologies/SHARTY1_axis.dds"
+	}
+	SpriteType = {
+		name = "GFX_ROM_motorized_rocket_equipment_1_medium"
+		textureFile = "gfx/interface/technologies/artillery/MRARTY1_axis.dds"
+	}
+	SpriteType = {
+		name = "GFX_ROM_motorized_rocket_equipment_2_medium"
+		textureFile = "gfx/interface/technologies/artillery/MRARTY2_axis.dds"
+	}
+	SpriteType = {
+		name = "GFX_ROM_super_heavy_artillery_equipment_1_medium"
+		textureFile = "gfx/interface/technologies/SHARTY1_axis.dds"
+	}
+	SpriteType = {
+		name = "GFX_SPR_motorized_rocket_equipment_1_medium"
+		textureFile = "gfx/interface/technologies/artillery/MRARTY1_axis.dds"
+	}
+	SpriteType = {
+		name = "GFX_SPR_motorized_rocket_equipment_2_medium"
+		textureFile = "gfx/interface/technologies/artillery/MRARTY2_axis.dds"
+	}
+	SpriteType = {
+		name = "GFX_SPR_super_heavy_artillery_equipment_1_medium"
+		textureFile = "gfx/interface/technologies/SHARTY1_axis.dds"
+	}
+	SpriteType = {
+		name = "GFX_HUN_motorized_rocket_equipment_1_medium"
+		textureFile = "gfx/interface/technologies/artillery/MRARTY1_axis.dds"
+	}
+	SpriteType = {
+		name = "GFX_HUN_motorized_rocket_equipment_2_medium"
+		textureFile = "gfx/interface/technologies/artillery/MRARTY2_axis.dds"
+	}
+	SpriteType = {
+		name = "GFX_HUN_super_heavy_artillery_equipment_1_medium"
+		textureFile = "gfx/interface/technologies/SHARTY1_axis.dds"
+	}
+	SpriteType = {
+		name = "GFX_BUL_motorized_rocket_equipment_1_medium"
+		textureFile = "gfx/interface/technologies/artillery/MRARTY1_axis.dds"
+	}
+	SpriteType = {
+		name = "GFX_BUL_motorized_rocket_equipment_2_medium"
+		textureFile = "gfx/interface/technologies/artillery/MRARTY2_axis.dds"
+	}
+	SpriteType = {
+		name = "GFX_BUL_super_heavy_artillery_equipment_1_medium"
+		textureFile = "gfx/interface/technologies/SHARTY1_axis.dds"
+	}
+	SpriteType = {
+		name = "GFX_MAN_motorized_rocket_equipment_1_medium"
+		textureFile = "gfx/interface/technologies/artillery/MRARTY1_axis.dds"
+	}
+	SpriteType = {
+		name = "GFX_MAN_motorized_rocket_equipment_2_medium"
+		textureFile = "gfx/interface/technologies/artillery/MRARTY2_axis.dds"
+	}
+	SpriteType = {
+		name = "GFX_MAN_super_heavy_artillery_equipment_1_medium"
+		textureFile = "gfx/interface/technologies/SHARTY1_axis.dds"
+	}
+	SpriteType = {
+		name = "GFX_SIA_motorized_rocket_equipment_1_medium"
+		textureFile = "gfx/interface/technologies/artillery/MRARTY1_axis.dds"
+	}
+	SpriteType = {
+		name = "GFX_SIA_motorized_rocket_equipment_2_medium"
+		textureFile = "gfx/interface/technologies/artillery/MRARTY2_axis.dds"
+	}
+	SpriteType = {
+		name = "GFX_SIA_super_heavy_artillery_equipment_1_medium"
+		textureFile = "gfx/interface/technologies/SHARTY1_axis.dds"
+	}
+	SpriteType = {
+		name = "GFX_FIN_motorized_rocket_equipment_1_medium"
+		textureFile = "gfx/interface/technologies/artillery/MRARTY1_axis.dds"
+	}
+	SpriteType = {
+		name = "GFX_FIN_motorized_rocket_equipment_2_medium"
+		textureFile = "gfx/interface/technologies/artillery/MRARTY2_axis.dds"
+	}
+	SpriteType = {
+		name = "GFX_FIN_super_heavy_artillery_equipment_1_medium"
+		textureFile = "gfx/interface/technologies/SHARTY1_axis.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_motorized_rocket_equipment_1_medium"
+		textureFile = "gfx/interface/technologies/artillery/MRARTY1_comintern.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_motorized_rocket_equipment_2_medium"
+		textureFile = "gfx/interface/technologies/artillery/MRARTY2_comintern.dds"
+	}
+	SpriteType = {
+		name = "GFX_SOV_super_heavy_artillery_equipment_1_medium"
+		textureFile = "gfx/interface/technologies/SHARTY1_comintern.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_motorized_rocket_equipment_1_medium"
+		textureFile = "gfx/interface/technologies/artillery/MRARTY1_comintern.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_motorized_rocket_equipment_2_medium"
+		textureFile = "gfx/interface/technologies/artillery/MRARTY2_comintern.dds"
+	}
+	SpriteType = {
+		name = "GFX_UKR_super_heavy_artillery_equipment_1_medium"
+		textureFile = "gfx/interface/technologies/SHARTY1_comintern.dds"
+	}
+	SpriteType = {
+		name = "GFX_MON_motorized_rocket_equipment_1_medium"
+		textureFile = "gfx/interface/technologies/artillery/MRARTY1_comintern.dds"
+	}
+	SpriteType = {
+		name = "GFX_MON_motorized_rocket_equipment_2_medium"
+		textureFile = "gfx/interface/technologies/artillery/MRARTY2_comintern.dds"
+	}
+	SpriteType = {
+		name = "GFX_MON_super_heavy_artillery_equipment_1_medium"
+		textureFile = "gfx/interface/technologies/SHARTY1_comintern.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_motorized_rocket_equipment_1_medium"
+		textureFile = "gfx/interface/technologies/artillery/MRARTY1_allies.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_motorized_rocket_equipment_2_medium"
+		textureFile = "gfx/interface/technologies/artillery/MRARTY2_allies.dds"
+	}
+	SpriteType = {
+		name = "GFX_ENG_super_heavy_artillery_equipment_1_medium"
+		textureFile = "gfx/interface/technologies/SHARTY1_allies.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_motorized_rocket_equipment_1_medium"
+		textureFile = "gfx/interface/technologies/artillery/MRARTY1_allies.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_motorized_rocket_equipment_2_medium"
+		textureFile = "gfx/interface/technologies/artillery/MRARTY2_allies.dds"
+	}
+	SpriteType = {
+		name = "GFX_USA_super_heavy_artillery_equipment_1_medium"
+		textureFile = "gfx/interface/technologies/SHARTY1_allies.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_motorized_rocket_equipment_1_medium"
+		textureFile = "gfx/interface/technologies/artillery/MRARTY1_allies.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_motorized_rocket_equipment_2_medium"
+		textureFile = "gfx/interface/technologies/artillery/MRARTY2_allies.dds"
+	}
+	SpriteType = {
+		name = "GFX_FRA_super_heavy_artillery_equipment_1_medium"
+		textureFile = "gfx/interface/technologies/SHARTY1_allies.dds"
+	}
+	SpriteType = {
+		name = "GFX_CAN_motorized_rocket_equipment_1_medium"
+		textureFile = "gfx/interface/technologies/artillery/MRARTY1_allies.dds"
+	}
+	SpriteType = {
+		name = "GFX_CAN_motorized_rocket_equipment_2_medium"
+		textureFile = "gfx/interface/technologies/artillery/MRARTY2_allies.dds"
+	}
+	SpriteType = {
+		name = "GFX_CAN_super_heavy_artillery_equipment_1_medium"
+		textureFile = "gfx/interface/technologies/SHARTY1_allies.dds"
+	}
+	SpriteType = {
+		name = "GFX_AST_motorized_rocket_equipment_1_medium"
+		textureFile = "gfx/interface/technologies/artillery/MRARTY1_allies.dds"
+	}
+	SpriteType = {
+		name = "GFX_AST_motorized_rocket_equipment_2_medium"
+		textureFile = "gfx/interface/technologies/artillery/MRARTY2_allies.dds"
+	}
+	SpriteType = {
+		name = "GFX_AST_super_heavy_artillery_equipment_1_medium"
+		textureFile = "gfx/interface/technologies/SHARTY1_allies.dds"
+	}
+	SpriteType = {
+		name = "GFX_RAJ_motorized_rocket_equipment_1_medium"
+		textureFile = "gfx/interface/technologies/artillery/MRARTY1_allies.dds"
+	}
+	SpriteType = {
+		name = "GFX_RAJ_motorized_rocket_equipment_2_medium"
+		textureFile = "gfx/interface/technologies/artillery/MRARTY2_allies.dds"
+	}
+	SpriteType = {
+		name = "GFX_RAJ_super_heavy_artillery_equipment_1_medium"
+		textureFile = "gfx/interface/technologies/SHARTY1_allies.dds"
+	}
+	SpriteType = {
+		name = "GFX_SAF_motorized_rocket_equipment_1_medium"
+		textureFile = "gfx/interface/technologies/artillery/MRARTY1_allies.dds"
+	}
+	SpriteType = {
+		name = "GFX_SAF_motorized_rocket_equipment_2_medium"
+		textureFile = "gfx/interface/technologies/artillery/MRARTY2_allies.dds"
+	}
+	SpriteType = {
+		name = "GFX_SAF_super_heavy_artillery_equipment_1_medium"
+		textureFile = "gfx/interface/technologies/SHARTY1_allies.dds"
+	}
 }

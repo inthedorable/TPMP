@@ -72,8 +72,14 @@
  GER_heavy_artillery_equipment_2: "17 cm Kanone 18"
  GER_heavy_artillery_equipment_3: "24 cm Kanone 3"
 
+ GER_super_heavy_artillery_equipment_1: "35.5 cm Haubitze M1"
+
+ GER_motorized_rocket_equipment_1: "Wurfrahmen 40"
+ GER_motorized_rocket_equipment_2: "Panzerwerfer 42"
+
  GER_heavy_anti_tank_equipment_1: "8.8 cm Pak 43"
  GER_heavy_anti_tank_equipment_2: "12.8 cm Pak 44"
+
 
  SOV_heavy_anti_air_equipment_1: "76 mm 3-K"
  SOV_heavy_anti_air_equipment_2: "85 mm 52-K"
@@ -82,6 +88,11 @@
  SOV_heavy_artillery_equipment_1: "152 mm Br-2"
  SOV_heavy_artillery_equipment_2: "203 mm B-4"
  SOV_heavy_artillery_equipment_3: "280 mm Br-5"
+
+ SOV_super_heavy_artillery_equipment_1: "305 mm Br-18"
+
+ SOV_motorized_rocket_equipment_1: "BM-13 Katyusha"
+ SOV_motorized_rocket_equipment_2: "BM-14 Katyusha"
 
  SOV_heavy_anti_tank_equipment_1: "107 mm M-60"
  SOV_heavy_anti_tank_equipment_2: "100 mm BS-3"
@@ -94,6 +105,11 @@
  ENG_heavy_artillery_equipment_2: "BL 7.2-inch Mk I"
  ENG_heavy_artillery_equipment_3: "BL 7.2-inch Mk VI"
 
+ ENG_super_heavy_artillery_equipment_1: "BL 12-inch"
+
+ ENG_motorized_rocket_equipment_1: "Proj. Rkt. 3-inch, No. 2"
+ ENG_motorized_rocket_equipment_2: "Proj. Rkt. 3-inch, No. 4"
+
  ENG_heavy_anti_tank_equipment_1: "QF 17/25-pounder"
  ENG_heavy_anti_tank_equipment_2: "QF 32-pounder"
 
@@ -104,6 +120,11 @@
  USA_heavy_artillery_equipment_1: "240 mm Howitzer M1918"
  USA_heavy_artillery_equipment_2: "8-inch Gun M1"
  USA_heavy_artillery_equipment_3: "240 mm Howitzer M1"
+
+ USA_super_heavy_artillery_equipment_1: "280 mm M65"
+
+ USA_motorized_rocket_equipment_1: "T27 Xylophone"
+ USA_motorized_rocket_equipment_2: "T66 Honeycomb"
 
  USA_heavy_anti_tank_equipment_1: "90 mm Gun T25"
  USA_heavy_anti_tank_equipment_2: "105 mm Gun T8"

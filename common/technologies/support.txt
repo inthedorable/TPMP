@@ -1,16 +1,17 @@
 technologies = {
 
-	@1918 = 0
+	@1930 = 0
 	@1936 = 2
-	@1938 = 4
-	@1939 = 6
-	@1940 = 8
-	@1941 = 10
-	@1942 = 12
-	@1943 = 14
-	@1944 = 16
-	@1945 = 18
-	@1946 = 20
+	@1937 = 4
+	@1938 = 6
+	@1939 = 8
+	@1940 = 10
+	@1941 = 12
+	@1942 = 14
+	@1943 = 16
+	@1944 = 18
+	@1945 = 20
+	@1946 = 22
 
 	@field_hospital_x = 9 #it is actually Y :D
 	@logistic_x = 11 #it is actually Y :D
@@ -54,11 +55,15 @@ technologies = {
 			leads_to_tech = tech_maintenance_company
 			research_cost_coeff = 1
 		}
+		path = {
+			leads_to_tech = headquarters1_tech
+			research_cost_coeff = 1
+		}
 		research_cost = 1.0
-		start_year = 1918
+		start_year = 1930
 		folder = {
 			name = support_folder
-			position = { x = 0 y = @1918 }
+			position = { x = 0 y = @1930 }
 		}
 
 		categories = {
@@ -520,6 +525,10 @@ technologies = {
 			leads_to_tech = tech_recon3
 			research_cost_coeff = 1
 		}
+		path = {
+			leads_to_tech = mediumtankrecon_tech
+			research_cost_coeff = 1
+		}
 
 		research_cost = 1.5
 		start_year = 1939
@@ -644,6 +653,29 @@ technologies = {
 			}
 		}
 	}
+
+	#TPMP Changes
+	mediumtankrecon_tech = {
+		enable_subunits = {
+			medium_tank_recon
+		}
+
+		research_cost = 2.0
+		start_year = 1938
+
+		folder = {
+			name = support_folder
+			position = { x = 3 y = @1941 }
+		}
+
+		categories = {
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	#TPMP Changes
 
 	tech_military_police = {
 
@@ -1741,6 +1773,153 @@ technologies = {
 			}
 		}
 	}
+	#TPMP Changes
+	headquarters1_tech = {
+
+		enable_subunits = {
+			headquarters
+		}
+
+		path = {
+			leads_to_tech = headquarters2_tech
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = armoredheadquarters_tech
+			research_cost_coeff = 1
+		}
+
+		dependencies = {
+			radio = 1
+			motorised_infantry = 1
+		}
+
+		research_cost = 2.0
+		start_year = 1936
+
+		folder = {
+			name = support_folder
+			position = { x = 16 y = @1936 }
+		}
+
+		categories = {
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	headquarters2_tech = {
+
+		headquarters = {
+			battalion_mult = {
+				category = category_army
+				max_organisation = 1
+				add = yes
+			}
+		}
+
+		path = {
+			leads_to_tech = headquarters3_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.0
+		start_year = 1939
+
+		folder = {
+			name = support_folder
+			position = { x = 16 y = @1939 }
+		}
+
+		categories = {
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	headquarters3_tech = {
+
+		headquarters = {
+			battalion_mult = {
+				category = category_army
+				max_organisation = 1
+				add = yes
+			}
+		}
+
+		path = {
+			leads_to_tech = headquarters4_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.0
+		start_year = 1942
+
+		folder = {
+			name = support_folder
+			position = { x = 16 y = @1942 }
+		}
+
+		categories = {
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	headquarters4_tech = {
+
+		headquarters = {
+			battalion_mult = {
+				category = category_army
+				max_organisation = 1
+				add = yes
+			}
+		}
+
+		research_cost = 2.0
+		start_year = 1945
+
+		folder = {
+			name = support_folder
+			position = { x = 16 y = @1945 }
+		}
+
+		categories = {
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	armoredheadquarters_tech = {
+
+		enable_subunits = {
+			armored_headquarters
+		}
+
+		research_cost = 2.0
+		start_year = 1938
+
+		is_special_project_tech = yes
+		folder = {
+			name = support_folder
+			position = { x = 17 y = @1938 }
+		}
+
+		categories = {
+			cat_artillery_tech
+			cat_anti_air_tech
+			cat_heavy_anti_air_tech
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	#TPMP Changes
 
 	basic_train = {
 		enable_equipments = {
@@ -1751,7 +1930,7 @@ technologies = {
 		start_year = 1910
 		folder = {
 			name = support_folder
-			position = { x = 0 y = @1918 }
+			position = { x = 0 y = @1930 }
 		}
 
 		path = {
@@ -2268,51 +2447,4 @@ technologies = {
 			}
 		}
 	}
-
-	sp_armored_motorized_military_police_tech = {
-		allow_branch = {
-			 has_dlc = "Gotterdammerung"
-		}
-
-		allow = {
-	 		ROOT = {
-				is_special_project_completed = sp:sp_land_military_engineering_vehicles
-			}
-		}
-
-		is_special_project_tech = yes
-
-		force_use_small_tech_layout = yes
-		show_equipment_icon = yes
-
-		research_cost = 2.0
-		start_year = 1938
-		folder = {
-			name = support_folder
-			position = { x = 5 y = @1938 }
-		}
-
-		categories = {
-			support_tech
-			military_police_tech
-		}
-
-		enable_subunits = {
-			motorized_military_police
-		}
-
-		enable_equipments = {
-			motorbike_equipment_1
-		}
-
-		ai_will_do = {
-			base = 2
-
-			modifier = {
-				factor = 2
-				is_major = yes
-			}
-		}
-	}
-
 }

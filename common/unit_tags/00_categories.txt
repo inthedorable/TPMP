@@ -63,6 +63,7 @@ sub_unit_categories = {
 	category_frontline_artillery
 	category_light_artillery
 	category_heavy_artillery
+	category_rocket_artillery
 
 	category_anti_tank
 	category_anti_air
@@ -77,6 +78,7 @@ sub_unit_categories = {
 
 	category_infantry
 	category_frontline_infantry
+	category_support_infantry
 	category_mobile_infantry
 	category_leg_infantry
 	category_special_forces

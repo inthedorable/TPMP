@@ -53,7 +53,7 @@ sub_units = {
 
 		need = {
 			special_equipment = 50
-			infantry_equipment = 100
+			special_infantry_equipment = 100
 		}
 	}
 	
@@ -111,7 +111,7 @@ sub_units = {
 
 		need = {
 			special_equipment = 50
-			infantry_equipment = 100
+			special_infantry_equipment = 100
 		}
 	}
 
@@ -168,7 +168,7 @@ sub_units = {
 
 		need = {
 			special_equipment = 50
-			infantry_equipment = 100
+			special_infantry_equipment = 100
 		}
 	}
 
@@ -226,7 +226,7 @@ sub_units = {
 
 		need = {
 			special_equipment = 100
-			infantry_equipment = 100
+			special_infantry_equipment = 100
 		}
 	}
 }

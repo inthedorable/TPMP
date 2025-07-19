@@ -20,6 +20,10 @@ sub_units = {
 		categories = {
 			category_army
 			category_support
+			category_infantry
+			category_support_infantry
+			category_leg_infantry
+			category_special_forces
 		}
 
 		#Size Definitions
@@ -45,12 +49,12 @@ sub_units = {
 
 		essential = {
 			special_equipment
-			infantry_equipment
+			special_infantry_equipment
 		}
 		
 		need = {
 			special_equipment = 50
-			infantry_equipment = 50
+			special_infantry_equipment = 50
 		}
 	}
 
@@ -75,6 +79,9 @@ sub_units = {
 		categories = {
 			category_army
 			category_support
+			category_infantry
+			category_support_infantry
+			category_leg_infantry
 		}
 
 		#Size Definitions
@@ -102,12 +109,12 @@ sub_units = {
 
 		essential = {
 			support_equipment
-			infantry_equipment
+			line_infantry_equipment
 		}
 		
 		need = {
 			support_equipment = 30
-			infantry_equipment = 30
+			line_infantry_equipment = 30
 		}
 	}
 	assault_engineer = {
@@ -131,6 +138,9 @@ sub_units = {
 		categories = {
 			category_army
 			category_support
+			category_infantry
+			category_support_infantry
+			category_leg_infantry
 		}
 
 		#Size Definitions
@@ -158,12 +168,12 @@ sub_units = {
 
 		essential = {
 			support_equipment
-			infantry_equipment
+			line_infantry_equipment
 		}
 		
 		need = {
 			support_equipment = 50
-			infantry_equipment = 50
+			line_infantry_equipment = 50
 		}
 	}
 	armored_engineer = {
@@ -186,6 +196,8 @@ sub_units = {
 		categories = {
 			category_army
 			category_support
+			category_tanks
+			category_support_tanks
 		}
 
 		#Size Definitions
@@ -214,13 +226,13 @@ sub_units = {
 		essential = {
 			armored_support_vehicle
 			support_equipment
-			infantry_equipment
+			line_infantry_equipment
 		}
 		
 		need = {
 			armored_support_vehicle = 20
 			support_equipment = 30
-			infantry_equipment = 30
+			line_infantry_equipment = 30
 		}
 	}
 
@@ -701,6 +713,9 @@ sub_units = {
 		categories = {
 			category_army
 			category_support
+			category_infantry
+			category_support_infantry
+			category_leg_infantry
 		}
 
 		#Size Definitions
@@ -726,11 +741,11 @@ sub_units = {
 		suppression_factor = 0
 
 		essential = {
-			infantry_equipment
+			line_infantry_equipment
 		}
 		
 		need = {
-			infantry_equipment = 50
+			line_infantry_equipment = 50
 		}
 	}	
 

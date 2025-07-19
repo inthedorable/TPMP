@@ -49,7 +49,7 @@ sub_units = {
 		supply_consumption = 0.1
 
 		need = {
-			infantry_equipment = 100
+			line_infantry_equipment = 100
 		}
 	}
 	militia = {
@@ -99,7 +99,7 @@ sub_units = {
 
 
 		need = {
-			infantry_equipment = 50
+			line_infantry_equipment = 50
 		}
 	}
 	
@@ -156,7 +156,7 @@ sub_units = {
 
 		need = {
 			special_equipment = 25
-			infantry_equipment = 100
+			line_infantry_equipment = 100
 		}
 	}
 	motorized = {
@@ -211,7 +211,7 @@ sub_units = {
 
 		need = {
 			motorized_equipment = 50
-			infantry_equipment = 100
+			mobile_infantry_equipment = 100
 		}
 	}
 	
@@ -260,7 +260,7 @@ sub_units = {
 		supply_consumption = 0
 
 		need = {
-			infantry_equipment = 1
+			line_infantry_equipment = 1
 		}
 	}
 }

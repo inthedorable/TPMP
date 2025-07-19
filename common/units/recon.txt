@@ -19,6 +19,9 @@ sub_units = {
 		categories = {
 			category_army
 			category_support
+			category_infantry
+			category_support_infantry
+			category_leg_infantry
 			category_recon
 		}
 
@@ -48,12 +51,12 @@ sub_units = {
 
 		essential = {
 			support_equipment
-			infantry_equipment
+			line_infantry_equipment
 		}
 		
 		need = {
 			support_equipment = 10
-			infantry_equipment = 30
+			line_infantry_equipment = 30
 		}
 	}
 	mot_recon = {
@@ -76,6 +79,9 @@ sub_units = {
 		categories = {
 			category_army
 			category_support
+			category_infantry
+			category_support_infantry
+			category_mobile_infantry
 			category_recon
 		}
 
@@ -104,13 +110,13 @@ sub_units = {
 
 		essential = {
 			support_equipment
-			infantry_equipment
+			mobile_infantry_equipment
 			motorized_equipment
 		}
 		
 		need = {
 			support_equipment = 10
-			infantry_equipment = 30
+			mobile_infantry_equipment = 30
 			motorized_equipment = 30
 		}
 	}
@@ -134,6 +140,9 @@ sub_units = {
 		categories = {
 			category_army
 			category_support
+			category_infantry
+			category_support_infantry
+			category_mobile_infantry
 			category_recon
 		}
 
@@ -162,13 +171,13 @@ sub_units = {
 
 		essential = {
 			support_equipment
-			infantry_equipment
+			mobile_infantry_equipment
 			mechanized_equipment
 		}
 		
 		need = {
 			support_equipment = 10
-			infantry_equipment = 30
+			mobile_infantry_equipment = 30
 			mechanized_equipment = 30
 		}
 	}
@@ -191,6 +200,8 @@ sub_units = {
 		categories = {
 			category_army
 			category_support
+			category_tanks
+			category_support_tanks
 			category_recon
 		}
 
@@ -246,6 +257,9 @@ sub_units = {
 		categories = {
 			category_army
 			category_support
+			category_tanks
+			category_support_tanks
+			category_light_tanks
 			category_recon
 		}
 
@@ -301,6 +315,9 @@ sub_units = {
 		categories = {
 			category_army
 			category_support
+			category_tanks
+			category_support_tanks
+			category_medium_tanks
 			category_recon
 		}
 
@@ -358,6 +375,8 @@ sub_units = {
 		categories = {
 			category_army
 			category_support
+			category_infantry
+			category_support_infantry
 			category_recon
 		}
 
@@ -386,13 +405,13 @@ sub_units = {
 
 		essential = {
 			support_equipment
-			infantry_equipment
+			line_infantry_equipment
 			helicopter_equipment
 		}
 		
 		need = {
 			support_equipment = 10
-			infantry_equipment = 30
+			line_infantry_equipment = 30
 			helicopter_equipment = 30
 		}
 	}

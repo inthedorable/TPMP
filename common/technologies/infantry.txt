@@ -13,6 +13,13 @@ technologies = {
 	@1945 = 20
 	@1946 = 22
 	infantrymg1_tech = {
+		enable_subunits = {
+			commandos
+			mech_recon
+			medium_tank_recon
+			armored_headquarters
+			rangers
+		}
 		enable_equipment_modules = {
 			light_machine_gun_1
 			general_purpose_machine_gun_1
@@ -752,7 +759,7 @@ technologies = {
 		start_year = 1936
 		folder = {
 			name = infantry_folder
-			position = { x = 7 y = @1936 }
+			position = { x = 9 y = @1936 }
 		}
 
 		on_research_complete_limit = {
@@ -810,7 +817,6 @@ technologies = {
 			}
 		}
 	}
-
 	paratroopers2 = {
 
 		paratrooper = {
@@ -827,7 +833,7 @@ technologies = {
 		start_year = 1939
 		folder = {
 			name = infantry_folder
-			position = { x = 7 y = @1939 }
+			position = { x = 9 y = @1939 }
 		}
 
 		categories = {
@@ -859,8 +865,49 @@ technologies = {
 			}
 		}
 	}
-
 	paratroopers3 = {
+
+		paratrooper = {
+			max_organisation = 5
+		}
+
+		path = {
+			leads_to_tech = paratroopers4
+			research_cost_coeff = 1
+		}
+
+		research_cost = 2.0
+		start_year = 1942
+		folder = {
+			name = infantry_folder
+			position = { x = 9 y = @1942 }
+		}
+
+		categories = {
+			para_tech
+			cat_special_forces_generic
+		}
+
+		ai_will_do = {
+			factor = 0.5
+
+			modifier = {
+				factor = 2
+				tag = USA
+			}
+
+			modifier = {
+				factor = 2
+				tag = GER
+			}
+
+			modifier = {
+				factor = 2
+				tag = ENG
+			}
+		}
+	}
+	paratroopers4 = {
 
 		paratrooper = {
 			max_organisation = 5
@@ -868,10 +915,10 @@ technologies = {
 
 
 		research_cost = 2.0
-		start_year = 1942
+		start_year = 1945
 		folder = {
 			name = infantry_folder
-			position = { x = 7 y = @1942 }
+			position = { x = 9 y = @1945 }
 		}
 
 		categories = {
@@ -953,7 +1000,6 @@ technologies = {
 			}
 		}
 	}
-
 	marines2 = {
 
 		marine = {
@@ -991,11 +1037,15 @@ technologies = {
 			}
 		}
 	}
-
 	marines3 = {
 
 		marine = {
 			max_organisation = 5
+		}
+
+		path = {
+			leads_to_tech = marines4
+			research_cost_coeff = 1
 		}
 
 		research_cost = 2.0
@@ -1003,6 +1053,38 @@ technologies = {
 		folder = {
 			name = infantry_folder
 			position = { x = 3 y = @1942 }
+		}
+
+		categories = {
+			marine_tech
+			cat_special_forces_generic
+		}
+
+		ai_will_do = {
+			factor = 0.7
+
+			modifier = {
+				factor = 3
+				tag = USA
+			}
+
+			modifier = {
+				factor = 3
+				tag = JAP
+			}
+		}
+	}
+	marines4 = {
+
+		marine = {
+			max_organisation = 5
+		}
+
+		research_cost = 2.0
+		start_year = 1945
+		folder = {
+			name = infantry_folder
+			position = { x = 3 y = @1945 }
 		}
 
 		categories = {
@@ -1065,7 +1147,6 @@ technologies = {
 			factor = 0.7
 		}
 	}
-
 	tech_mountaineers2 = {
 
 		mountaineers = {
@@ -1094,10 +1175,14 @@ technologies = {
 			factor = 0.7
 		}
 	}
-
 	tech_mountaineers3 = {
 		mountaineers = {
 			max_organisation = 5
+		}
+
+		path = {
+			leads_to_tech = tech_mountaineers4
+			research_cost_coeff = 1
 		}
 
 		research_cost = 2.0
@@ -1117,6 +1202,203 @@ technologies = {
 			factor = 0.7
 		}
 	}
+	tech_mountaineers4 = {
+		mountaineers = {
+			max_organisation = 5
+		}
+
+		research_cost = 2.0
+		start_year = 1945
+		folder = {
+			name = infantry_folder
+			position = { x = 5 y = @1945 }
+		}
+
+		categories = {
+			infantry_tech
+			mountaineers_tech
+			cat_special_forces_generic
+		}
+
+		ai_will_do = {
+			factor = 0.7
+		}
+	}
+
+	#TPMP Changes
+	rangers1_tech = {
+		enable_subunits = {
+			rangers
+		}
+
+		path = {
+			leads_to_tech = rangers2_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.0
+		start_year = 1936
+
+		folder = {
+			name = infantry_folder
+			position = { x = 7 y = @1936 }
+		}
+
+		categories = {
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	rangers2_tech = {
+
+		path = {
+			leads_to_tech = rangers3_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.0
+		start_year = 1939
+
+		folder = {
+			name = infantry_folder
+			position = { x = 7 y = @1939 }
+		}
+
+		categories = {
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	rangers3_tech = {
+
+		path = {
+			leads_to_tech = rangers4_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.0
+		start_year = 1942
+
+		folder = {
+			name = infantry_folder
+			position = { x = 7 y = @1942 }
+		}
+
+		categories = {
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	rangers4_tech = {
+
+		research_cost = 1.0
+		start_year = 1945
+
+		folder = {
+			name = infantry_folder
+			position = { x = 7 y = @1945 }
+		}
+
+		categories = {
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	commandos1_tech = {
+		enable_subunits = {
+			commandos
+		}
+
+		path = {
+			leads_to_tech = commandos2_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.0
+		start_year = 1936
+
+		folder = {
+			name = infantry_folder
+			position = { x = 11 y = @1936 }
+		}
+
+		categories = {
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	commandos2_tech = {
+
+		path = {
+			leads_to_tech = commandos3_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.0
+		start_year = 1939
+
+		folder = {
+			name = infantry_folder
+			position = { x = 11 y = @1939 }
+		}
+
+		categories = {
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	commandos3_tech = {
+
+		path = {
+			leads_to_tech = commandos4_tech
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.0
+		start_year = 1942
+
+		folder = {
+			name = infantry_folder
+			position = { x = 11 y = @1942 }
+		}
+
+		categories = {
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	commandos4_tech = {
+
+		research_cost = 1.0
+		start_year = 1945
+
+		folder = {
+			name = infantry_folder
+			position = { x = 11 y = @1945 }
+		}
+
+		categories = {
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
+	#TPMP Changes
 
 	tech_special_forces = {
 		category_special_forces = {
@@ -1721,7 +2003,7 @@ technologies = {
 
 		folder = {
 			name = support_folder
-			position = { x = 7 y = 9 }
+			position = { x = 7 y = 11 }
 		}
 
 

@@ -134,6 +134,7 @@ sub_units = {
 			category_artillery
 			category_support_artillery
 			category_light_artillery
+			category_rocket_artillery
 		}		
 		
 		#Size Definitions

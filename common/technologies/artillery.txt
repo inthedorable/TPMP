@@ -41,6 +41,11 @@ technologies = {
 		}
 	}
 	heavyantiair2_tech = {
+		category_heavy_anti_air = {
+			air_attack = 0.1
+		}
+
+		static_anti_air_damage_factor = 0.1
 
 		path = {
 			leads_to_tech = heavyantiair3_tech
@@ -94,6 +99,11 @@ technologies = {
 		}
 	}
 	heavyantiair4_tech = {
+		category_heavy_anti_air = {
+			air_attack = 0.1
+		}
+
+		static_anti_air_damage_factor = 0.1
 
 		path = {
 			leads_to_tech = heavyantiair5_tech
@@ -175,6 +185,9 @@ technologies = {
 		}
 	}
 	antiair1_tech = {
+		category_light_anti_air = {
+			air_attack = 0.1
+		}
 
 		path = {
 			leads_to_tech = antiair2_tech
@@ -228,6 +241,9 @@ technologies = {
 		}
 	}
 	antiair3_tech = {
+		category_light_anti_air = {
+			air_attack = 0.1
+		}
 
 		path = {
 			leads_to_tech = antiair4_tech
@@ -281,6 +297,9 @@ technologies = {
 		}
 	}
 	antiair5_tech = {
+		category_light_anti_air = {
+			air_attack = 0.1
+		}
 
 		path = {
 			leads_to_tech = antiair6_tech
@@ -358,6 +377,9 @@ technologies = {
 		}
 	}
 	heavyartillery2_tech = {
+		category_heavy_artillery = {
+			soft_attack = 0.1
+		}
 
 		path = {
 			leads_to_tech = heavyartillery3_tech
@@ -411,6 +433,9 @@ technologies = {
 		}
 	}
 	heavyartillery4_tech = {
+		category_heavy_artillery = {
+			soft_attack = 0.1
+		}
 
 		path = {
 			leads_to_tech = heavyartillery5_tech
@@ -490,6 +515,10 @@ technologies = {
 		}
 	}
 	rocketartillery2_tech = {
+		category_rocket_artillery = {
+			breakthrough = 0.1
+			soft_attack = 0.05
+		}
 
 		path = {
 			leads_to_tech = rocketartillery3_tech
@@ -544,6 +573,10 @@ technologies = {
 		}
 	}
 	rocketartillery4_tech = {
+		category_rocket_artillery = {
+			breakthrough = 0.1
+			soft_attack = 0.05
+		}
 
 		research_cost = 2.0
 		start_year = 1946
@@ -636,6 +669,10 @@ technologies = {
 		}
 	}
 	artillery1_tech = {
+		category_light_artillery = {
+			soft_attack = 0.1
+		}
+
 		path = {
 			leads_to_tech = artillery2_tech
 			research_cost_coeff = 1
@@ -688,6 +725,9 @@ technologies = {
 		}
 	}
 	artillery3_tech = {
+		category_light_artillery = {
+			soft_attack = 0.1
+		}
 
 		path = {
 			leads_to_tech = artillery4_tech
@@ -753,6 +793,9 @@ technologies = {
 		}
 	}
 	artillery5_tech = {
+		category_light_artillery = {
+			soft_attack = 0.2
+		}
 
 		path = {
 			leads_to_tech = artillery6_tech
@@ -786,6 +829,9 @@ technologies = {
 		}
 	}
 	artillery6_tech = {
+		category_light_artillery = {
+			soft_attack = 0.1
+		}
 
 		research_cost = 2.0
 		start_year = 1944
@@ -835,6 +881,10 @@ technologies = {
 		}
 	}
 	antitank1_tech = {
+		category_light_anti_tank = {
+			ap_attack = 0.05
+			hard_attack = 0.1
+		}
 
 		path = {
 			leads_to_tech = antitank2_tech
@@ -892,6 +942,10 @@ technologies = {
 		}
 	}
 	antitank3_tech = {
+		category_light_anti_tank = {
+			ap_attack = 0.05
+			hard_attack = 0.1
+		}
 
 		path = {
 			leads_to_tech = antitank4_tech
@@ -945,6 +999,10 @@ technologies = {
 		}
 	}
 	antitank5_tech = {
+		category_light_anti_tank = {
+			ap_attack = 0.05
+			hard_attack = 0.1
+		}
 
 		path = {
 			leads_to_tech = antitank6_tech
@@ -1022,6 +1080,10 @@ technologies = {
 		}
 	}
 	heavyantitank2_tech = {
+		category_heavy_anti_tank = {
+			ap_attack = 0.05
+			hard_attack = 0.1
+		}
 
 		path = {
 			leads_to_tech = heavyantitank3_tech
@@ -1075,6 +1137,10 @@ technologies = {
 		}
 	}
 	heavyantitank4_tech = {
+		category_heavy_anti_tank = {
+			ap_attack = 0.05
+			hard_attack = 0.1
+		}
 
 		research_cost = 2.0
 		start_year = 1946
@@ -1262,6 +1328,7 @@ technologies = {
 				attack = 0.05
 			}
 		}
+		custom_modifier_tooltip = fireshells_tech_tt
 
 		path = {
 			leads_to_tech = beeshells_tech
@@ -1292,6 +1359,9 @@ technologies = {
 		battle_cruiser = {
 			air_attack = 0.10
 		}
+		heavy_cruiser = {
+			air_attack = 0.05
+		}
 
 		dependencies = {
     		fireshells_tech = 1
@@ -1317,6 +1387,7 @@ technologies = {
 	}
 	heshshells_tech = {
 		enable_equipment_modules = {
+			#UNIQUE TANK SHELL
 		}
 
 		category_frontline_artillery = {
@@ -1330,9 +1401,10 @@ technologies = {
 			}
 		}
 		category_artillery = {
-			ap_attack = 0.10
-			hard_attack = 0.05
+			ap_attack = 0.25
+			hard_attack = 0.25
 		}
+		custom_modifier_tooltip = heshshells_tech_tt
 
 		path = {
 			leads_to_tech = vtheshells_tech
@@ -1391,6 +1463,9 @@ technologies = {
 		category_artillery = {
 			max_strength = 3
 		}
+		category_spgs = {
+			max_strength = 1
+		}
 
 		path = {
 			leads_to_tech = flareshells_tech
@@ -1425,6 +1500,7 @@ technologies = {
 				attack = 0.05
 			}
 		}
+		custom_modifier_tooltip = flareshells_tech_tt
 
 		research_cost = 1.0
 		start_year = 1938
@@ -1444,6 +1520,12 @@ technologies = {
 		}
 	}
 	chemshells_tech = {
+		category_artillery = {
+			soft_attack = 0.01
+		}
+		category_spgs = {
+			soft_attack = 0.01
+		}
 
 		research_cost = 1.0
 		start_year = 1930
@@ -1464,11 +1546,12 @@ technologies = {
 	}
 	heatshells_tech = {
 		enable_equipment_modules = {
+			#UNIQUE TANK SHELL
 		}
 
 		category_artillery = {
-			ap_attack = 0.20
-			hard_attack = 0.10
+			ap_attack = 0.50
+			hard_attack = 0.50
 		}
 
 		path = {
@@ -1495,11 +1578,12 @@ technologies = {
 	}
 	heatfsshells_tech = {
 		enable_equipment_modules = {
+			#UNIQUE TANK SHELL
 		}
 
 		category_artillery = {
-			ap_attack = 0.20
-			hard_attack = 0.10
+			ap_attack = 0.25
+			hard_attack = 0.25
 		}
 
 		path = {
@@ -1526,6 +1610,7 @@ technologies = {
 	}
 	atgm_tech = {
 		enable_equipment_modules = {
+			#UNIQUE TANK SHELL
 		}
 
 		research_cost = 1.0
@@ -1585,6 +1670,9 @@ technologies = {
 		category_tanks = {
 			hard_attack = 0.03
 		}
+		category_tank_variants = {
+			hard_attack = 0.03
+		}
 
 		path = {
 			leads_to_tech = aphebcshells_tech
@@ -1613,6 +1701,9 @@ technologies = {
 			ap_attack = 0.03
 		}
 		category_tanks = {
+			ap_attack = 0.03
+		}
+		category_tank_variants = {
 			ap_attack = 0.03
 		}
 
@@ -1647,6 +1738,11 @@ technologies = {
 			ap_attack = 0.02
 			hard_attack = 0.02
 		}
+		category_tank_variants = {
+			ap_attack = 0.02
+			hard_attack = 0.02
+		}
+		
 
 		path = {
 			leads_to_tech = apdsshells_tech
@@ -1676,6 +1772,7 @@ technologies = {
 	}
 	apdsshells_tech = {
 		enable_equipment_modules = {
+			#UNIQUE TANK SHELL
 		}
 
 		category_anti_tank = {
@@ -1706,6 +1803,7 @@ technologies = {
 	}
 	apfsdsshells_tech = {
 		enable_equipment_modules = {
+			#UNIQUE TANK SHELL
 		}
 
 		category_anti_tank = {
@@ -1731,6 +1829,7 @@ technologies = {
 	}
 	apcrshells_tech = {
 		enable_equipment_modules = {
+			#UNIQUE TANK SHELL
 		}
 
 		category_anti_tank = {

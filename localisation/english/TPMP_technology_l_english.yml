@@ -52,6 +52,46 @@
  infantryaa_tech: "Anti-Aircraft Launchers"
  infantryaa_tech_desc: ""
 
+ marines4: "Marines IV"
+ marines4_desc: ""
+ tech_mountaineers4: "Mountain Infantry IV"
+ tech_mountaineers4_desc: ""
+ paratroopers4: "Paratroopers IV"
+ paratroopers4_desc: ""
+
+ rangers1_tech: "Rangers I"
+ rangers1_tech_desc: ""
+ rangers2_tech: "Rangers II"
+ rangers2_tech_desc: ""
+ rangers3_tech: "Rangers III"
+ rangers3_tech_desc: ""
+ rangers4_tech: "Rangers IV"
+ rangers4_tech_desc: ""
+
+ commandos1_tech: "Commandos I"
+ commandos1_tech_desc: ""
+ commandos2_tech: "Commandos II"
+ commandos2_tech_desc: ""
+ commandos3_tech: "Commandos III"
+ commandos3_tech_desc: ""
+ commandos4_tech: "Commandos IV"
+ commandos4_tech_desc: ""
+
+ mediumtankrecon_tech: "Medium Armoured Recon Company"
+ mediumtankrecon_tech_desc: ""
+
+ headquarters1_tech: "Headquarters I"
+ headquarters1_tech_desc: ""
+ headquarters2_tech: "Headquarters II"
+ headquarters2_tech_desc: ""
+ headquarters3_tech: "Headquarters III"
+ headquarters3_tech_desc: ""
+ headquarters4_tech: "Headquarters IV"
+ headquarters4_tech_desc: ""
+
+ armoredheadquarters_tech: "Armoured Headquarters"
+ armoredheadquarters_tech_desc: ""
+
  tank0_tech: "Chassis 1930"
  tank0_tech_desc: "During the interwar period, tanks developed rapidly, with many nations producing their first tank designs. These early tanks were often lightly armoured and armed, but they laid the foundation for future tank development."
 
@@ -126,23 +166,68 @@
  heavyartillery4_tech_desc: ""
 
  heshells_tech: "High-Explosive Shells"
+ heshells_tech_desc: "Standard explosive shells designed to inflict damage through blast and fragmentation."
+
  shrapshells_tech: "Shrapnel Shells"
+ shrapshells_tech_desc: "Shells filled with metal balls designed to explode mid-air and shower enemies with deadly projectiles."
+
  flakshells_tech: "Flak Shells"
+ flakshells_tech_desc: "Anti-aircraft shells that burst at altitude to damage aircraft with high-velocity fragments."
+
  vtflakshells_tech: "Variable-Time Flak Shells"
+ vtflakshells_tech_desc: "Flak shells with proximity fuzes that detonate near aerial targets for greater effectiveness."
+
  fireshells_tech: "Incendiary Shells"
+ fireshells_tech_desc: "Shells designed to start fires and cause thermal damage to targets and surroundings."
+
  beeshells_tech: "Beehive Shells"
+ beeshells_tech_desc: "Anti-personnel shells that release thousands of flechettes upon firing, effective at close range."
+
  heshshells_tech: "High-Explosive Squash Head Shells"
+ heshshells_tech_desc: "Shells that flatten on impact and send shockwaves through armor, causing internal spalling."
+
  vtheshells_tech: "Variable-Time High-Explosive Shells"
+ vtheshells_tech_desc: "HE shells with proximity fuzes, designed to detonate near targets for maximum blast effect."
+
  smokeshells_tech: "Smoke Shells"
+ smokeshells_tech_desc: "Used to create visual cover or obscure enemy observation and targeting."
+
  flareshells_tech: "Flare Shells"
+ flareshells_tech_desc: "Illumination shells that light up the battlefield or signal positions during night operations."
+
  chemshells_tech: "Chemical Shells"
+ chemshells_tech_desc: "Shells filled with chemical agents, intended to incapacitate or disrupt enemy troops."
+
  heatshells_tech: "High-Explosive Anti-Tank Shells"
+ heatshells_tech_desc: "Explosive shells that focus energy into a jet capable of penetrating armor."
+
  heatfsshells_tech: "High-Explosive Anti-Tank Fin-Stabilized Shells"
+ heatfsshells_tech_desc: "Improved HEAT shells with fin stabilization for greater accuracy and penetration at longer ranges."
+
  atgm_tech: "Anti-Tank Guided Missiles"
+ atgm_tech_desc: "Missiles guided to target after launch, capable of defeating modern armored threats."
+
  apshells_tech: "Armour-Piercing Shells"
+ apshells_tech_desc: "Solid shot shells designed to penetrate enemy armor through kinetic force."
+
  apheshells_tech: "Armour-Piercing High-Explosive Shells"
+ apheshells_tech_desc: "Armor-penetrating shells with an explosive charge to deal internal damage post-penetration."
+
  apbcshells_tech: "Armour-Piercing Ballistic Cap Shells"
+ apbcshells_tech_desc: "AP shells with ballistic caps for improved aerodynamics and deeper penetration."
+
  aphebcshells_tech: "Armour-Piercing High-Explosive Ballistic Cap Shells"
+ aphebcshells_tech_desc: "Combination shells with armor penetration, explosive filler, and improved flight characteristics."
+
  apdsshells_tech: "Armour-Piercing Discarding Sabot Shells"
+ apdsshells_tech_desc: "Shells with sub-caliber penetrators surrounded by a sabot that discards after firing for high velocity."
+
  apfsdsshells_tech: "Armour-Piercing Fin-Stabilized Discarding Sabot Shells"
+ apfsdsshells_tech_desc: "Advanced kinetic energy penetrators with fin stabilization and sabot for extreme armor penetration."
+
  apcrshells_tech: "Armour-Piercing Composite Rigid Shells"
+ apcrshells_tech_desc: "High-velocity shells with a dense core and lighter outer body to improve penetration capabilities."
+
+ fireshells_tech_tt: "£GFX_unit_category_frontline_artillery_icon_small  Frontline Artillery:\n§YForest:§!\n   £attack_texticon  Attack: §G+5.0%§!\n§YJungle:§!\n   £attack_texticon  Attack: §G+5.0%§!\n§YUrban:§!\n   £attack_texticon  Attack: §G+5.0%§!\n£GFX_unit_category_spgs_icon_small Self-Propelled Guns:\n§YForest:§!\n   £attack_texticon  Attack: §G+5.0%§!\n§YJungle:§!\n   £attack_texticon  Attack: §G+5.0%§!\n§YUrban:§!\n   £attack_texticon  Attack: §G+5.0%§!"
+ heshshells_tech_tt: "£GFX_unit_category_frontline_artillery_icon_small  Frontline Artillery:\n§YFort:§!\n   £attack_texticon  Attack: §G+5.0%§!\n£GFX_unit_category_spgs_icon_small Self-Propelled Guns:\n§YFort:§!\n   £attack_texticon  Attack: §G+5.0%§!"
+ flareshells_tech_tt: "£GFX_unit_category_frontline_artillery_icon_small  Frontline Artillery:\n§YNight:§!\n   £attack_texticon  Attack: §G+5.0%§!\n£GFX_unit_category_spgs_icon_small Self-Propelled Guns:\n§YNight:§!\n   £attack_texticon  Attack: §G+5.0%§!"

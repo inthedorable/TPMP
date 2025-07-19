@@ -237,6 +237,7 @@ sub_units = {
 			category_artillery
 			category_frontline_artillery
 			category_light_artillery
+			category_rocket_artillery
 		}		
 		
 		#Size Definitions
@@ -287,6 +288,7 @@ sub_units = {
 			category_artillery
 			category_frontline_artillery
 			category_light_artillery
+			category_rocket_artillery
 		}		
 		
 		#Size Definitions
