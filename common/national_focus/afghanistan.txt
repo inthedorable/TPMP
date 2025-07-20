@@ -1340,9 +1340,9 @@ focus_tree = {
 			add_units_to_division_template = {
 				template_name = "Pashtun Levy" 
 				regiments = {
-					irregular_infantry = 0 
-					irregular_infantry = 1 
-					irregular_infantry = 2 
+					militia = 0 
+					militia = 1 
+					militia = 2 
 				}
 			}
 			IF = {

@@ -365,7 +365,7 @@ BEL_CYC_01 =
 
 	can_use = { always = yes }
 
-	division_types = { "bicycle_battalion" }
+	division_types = { "infantry" }
 
 	fallback_name = "%dème Cycliste Frontière"
 

@@ -569,13 +569,13 @@ sub_units = {
 		same_support_type = logistics_company
 
 		essential = {
-			helicopter_transport
+			helicopter_equipment
 			support_equipment
 		}
 		
 		need = {
 			support_equipment = 30
-			helicopter_transport = 50
+			helicopter_equipment = 50
 		}
 	}
 

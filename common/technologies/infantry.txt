@@ -2526,7 +2526,6 @@ technologies = {
 		start_year = 1936
 
 		enable_subunits = {
-			bicycle_battalion
 		}
 	}
 
@@ -2630,7 +2629,7 @@ technologies = {
 		research_cost = 1
 		start_year = 1936
 
-		category_all_infantry = {
+		category_infantry = {
 			hard_attack = 0.25
 			ap_attack = 1
 		}
@@ -2709,7 +2708,7 @@ technologies = {
 		research_cost = 1
 		start_year = 1936
 
-		category_support_battalions = { #Any changes in the values below need to be applied in FIN_lotta_svard_support_battalions_bonus_tt too
+		category_support = { #Any changes in the values below need to be applied in FIN_lotta_svard_support_battalions_bonus_tt too
 			max_strength = 5
 			max_organisation = 10
 		}
@@ -2766,7 +2765,7 @@ technologies = {
 		research_cost = 1
 		start_year = 1936
 
-		category_all_infantry = {
+		category_infantry = {
 			river = {
 				movement = 0.1
 				attack = 0.1
@@ -2840,7 +2839,7 @@ technologies = {
 		research_cost = 1
 		start_year = 1936
 
-		category_mountaineers = {
+		mountaineers = {
 			forest = {
 				movement = 0.1
 				attack = 0.2
@@ -2862,12 +2861,12 @@ technologies = {
 		research_cost = 1
 		start_year = 1947
 
-		category_all_infantry = {
+		category_infantry = {
 			hard_attack = 0.25
 			ap_attack = 1
 		}
 
-		category_cavalry = {
+		cavalry = {
 			hard_attack = 0.1
 			ap_attack = 0.4
 		}
@@ -2889,7 +2888,7 @@ technologies = {
 		#	hard_attack = 0.5
 		#}
 
-		category_tank_destroyers = {
+		category_tds = {
 			hard_attack = 0.15
 			ap_attack = 0.2
 		}

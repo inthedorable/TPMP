@@ -890,13 +890,6 @@ focus_tree = {
 				name = SWE_kp_bill
 				# technology  = technology_id # optional
 			}
-			add_tech_bonus = {
-				bonus = 0.5
-				uses = 1
-				technology  = motorized_rocket_unit # optional
-				name = SWE_kp_bill
-			}
-			
 		}
 	}
 
@@ -6489,7 +6482,7 @@ focus_tree = {
 			division_template = {
 				name = "Mobile Headquarter"
 				regiments = {
-					bus = { x = 0 y = 0 }
+					motorized = { x = 0 y = 0 }
 				}
 				is_locked = yes
 				override_model = SWE_bus_vehicle_entity

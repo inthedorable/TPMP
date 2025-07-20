@@ -572,10 +572,6 @@ technologies = {
 			recon = 1
 		}
 
-		helicopter_brigade = {
-			recon = 2
-		}
-
 		path = {
 			leads_to_tech = tech_recon4
 			research_cost_coeff = 1
@@ -688,11 +684,6 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		path = {
-			leads_to_tech = sp_armored_motorized_military_police_tech
-			research_cost_coeff = 1
-		}
-
 		research_cost = 1.25
 		start_year = 1936
 		folder = {
@@ -770,14 +761,6 @@ technologies = {
 			suppression_factor = 0.1
 		}
 
-		motorized_military_police = {
-			suppression_factor = 0.1
-			battalion_mult = {
-				category = category_vehicle_infantry
-				default_morale = 0.05
-			}
-		}
-
 		path = {
 			leads_to_tech = tech_military_police3
 			research_cost_coeff = 1
@@ -811,14 +794,6 @@ technologies = {
 			suppression_factor = 0.1
 		}
 
-		motorized_military_police = {
-			suppression_factor = 0.1
-			battalion_mult = {
-				category = category_vehicle_infantry
-				default_morale = 0.05
-			}
-		}
-
 		path = {
 			leads_to_tech = tech_military_police4
 			research_cost_coeff = 1
@@ -849,14 +824,6 @@ technologies = {
 
 		military_police = {
 			suppression_factor = 0.1
-		}
-
-		motorized_military_police = {
-			suppression_factor = 0.1
-			battalion_mult = {
-				category = category_vehicle_infantry
-				default_morale = 0.05
-			}
 		}
 
 		research_cost = 2.0
@@ -1249,16 +1216,6 @@ technologies = {
 			}
 		}
 
-		helicopter_brigade = {
-			casualty_trickleback = 0.15
-			experience_loss_factor = -0.1
-
-			battalion_mult = {
-				category = category_infantry
-				default_morale = 0.05
-			}
-		}
-
 		path = {
 			leads_to_tech = tech_field_hospital4
 			research_cost_coeff = 1
@@ -1359,7 +1316,7 @@ technologies = {
 
 	NORDIC_supportCollaboration_tech = { # For the Army Capston in the Nordic JFT
 		allow = { always = no } #Only obtained through Focus
-		category_support_battalions = {
+		category_support = {
 			max_organisation = 10
 			soft_attack = 0.25
 			experience_loss_factor = 0.05
@@ -1487,10 +1444,6 @@ technologies = {
 		}
 
 		helicopter_transport = {
-			supply_consumption_factor = -0.12
-		}
-
-		helicopter_brigade = {
 			supply_consumption_factor = -0.12
 		}
 

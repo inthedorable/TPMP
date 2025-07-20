@@ -18299,8 +18299,8 @@ focus_tree = {
 						regiments = {
 							motorized = { x = 0 y = 0 }
 							motorized = { x = 0 y = 1 }
-							bicycle_battalion = { x = 1 y = 0 }
-							bicycle_battalion = { x = 1 y = 1 }
+							infantry = { x = 1 y = 0 }
+							infantry = { x = 1 y = 1 }
 						}
 						support = {
 							light_tank_recon = { x = 0 y = 0 }   # recon bn of tankettes, ACs etc
@@ -18358,8 +18358,8 @@ focus_tree = {
 						regiments = {
 							mechanized = { x = 0 y = 0 }
 							mechanized = { x = 0 y = 1 }
-							bicycle_battalion = { x = 1 y = 0 }
-							bicycle_battalion = { x = 1 y = 1 }
+							infantry = { x = 1 y = 0 }
+							infantry = { x = 1 y = 1 }
 						}
 						support = {
 							light_tank_recon = { x = 0 y = 0 }   # recon bn of tankettes, ACs etc

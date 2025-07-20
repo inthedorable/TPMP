@@ -2677,7 +2677,6 @@ tour_de_france = {
 			}
 			check_variable = { num_equipment_in_armies@infantry_equipment > 2200 }
 			check_variable = { num_equipment_in_armies@support_equipment > 220 }
-			check_variable = { num_battalions_with_type@bicycle_battalion > 22 }
 		}
 	}
 }

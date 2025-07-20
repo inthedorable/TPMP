@@ -346,7 +346,6 @@ ideas = {
 			
 			modifier = {
 				unit_cavalry_design_cost_factor = -0.4
-				unit_cavalry_design_cost_factor = -0.4
 				cavalry_attack_factor = 0.05
 			}
 		}
