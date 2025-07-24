@@ -1421,87 +1421,87 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_USA_heavyantiair1_tech_medium"
-		textureFile = "gfx/interface/technologies/artillery/HAA1_allies.dds"
+		textureFile = "gfx/interface/technologies/artillery/HAA1_american.dds"
 	}
 	SpriteType = {
 		name = "GFX_USA_heavyantiair3_tech_medium"
-		textureFile = "gfx/interface/technologies/artillery/HAA2_allies.dds"
+		textureFile = "gfx/interface/technologies/artillery/HAA2_american.dds"
 	}
 	SpriteType = {
 		name = "GFX_USA_heavyantiair5_tech_medium"
-		textureFile = "gfx/interface/technologies/artillery/HAA3_allies.dds"
+		textureFile = "gfx/interface/technologies/artillery/HAA3_american.dds"
 	}
 	SpriteType = {
 		name = "GFX_USA_antiair0_tech_medium"
-		textureFile = "gfx/interface/technologies/artillery/AA0_allies.dds"
+		textureFile = "gfx/interface/technologies/artillery/AA0_american.dds"
 	}
 	SpriteType = {
 		name = "GFX_USA_antiair2_tech_medium"
-		textureFile = "gfx/interface/technologies/artillery/AA1_allies.dds"
+		textureFile = "gfx/interface/technologies/artillery/AA1_american.dds"
 	}
 	SpriteType = {
 		name = "GFX_USA_antiair4_tech_medium"
-		textureFile = "gfx/interface/technologies/artillery/AA2_allies.dds"
+		textureFile = "gfx/interface/technologies/artillery/AA2_american.dds"
 	}
 	SpriteType = {
 		name = "GFX_USA_antiair6_tech_medium"
-		textureFile = "gfx/interface/technologies/artillery/AA3_allies.dds"
+		textureFile = "gfx/interface/technologies/artillery/AA3_american.dds"
 	}
 	SpriteType = {
 		name = "GFX_USA_heavyartillery1_tech_medium"
-		textureFile = "gfx/interface/technologies/artillery/HARTY1_allies.dds"
+		textureFile = "gfx/interface/technologies/artillery/HARTY1_american.dds"
 	}
 	SpriteType = {
 		name = "GFX_USA_heavyartillery3_tech_medium"
-		textureFile = "gfx/interface/technologies/artillery/HARTY2_allies.dds"
+		textureFile = "gfx/interface/technologies/artillery/HARTY2_american.dds"
 	}
 	SpriteType = {
 		name = "GFX_USA_heavyartillery5_tech_medium"
-		textureFile = "gfx/interface/technologies/artillery/HARTY3_allies.dds"
+		textureFile = "gfx/interface/technologies/artillery/HARTY3_american.dds"
 	}
 	SpriteType = {
 		name = "GFX_USA_artillery0_tech_medium"
-		textureFile = "gfx/interface/technologies/artillery/ARTY0_allies.dds"
+		textureFile = "gfx/interface/technologies/artillery/ARTY0_american.dds"
 	}
 	SpriteType = {
 		name = "GFX_USA_artillery2_tech_medium"
-		textureFile = "gfx/interface/technologies/artillery/ARTY1_allies.dds"
+		textureFile = "gfx/interface/technologies/artillery/ARTY1_american.dds"
 	}
 	SpriteType = {
 		name = "GFX_USA_artillery4_tech_medium"
-		textureFile = "gfx/interface/technologies/artillery/ARTY2_allies.dds"
+		textureFile = "gfx/interface/technologies/artillery/ARTY2_american.dds"
 	}
 	SpriteType = {
 		name = "GFX_USA_rocketartillery1_tech_medium"
-		textureFile = "gfx/interface/technologies/artillery/RARTY1_allies.dds"
+		textureFile = "gfx/interface/technologies/artillery/RARTY1_american.dds"
 	}
 	SpriteType = {
 		name = "GFX_USA_rocketartillery3_tech_medium"
-		textureFile = "gfx/interface/technologies/artillery/RARTY2_allies.dds"
+		textureFile = "gfx/interface/technologies/artillery/RARTY2_american.dds"
 	}
 	SpriteType = {
 		name = "GFX_USA_antitank0_tech_medium"
-		textureFile = "gfx/interface/technologies/artillery/AT0_allies.dds"
+		textureFile = "gfx/interface/technologies/artillery/AT0_american.dds"
 	}
 	SpriteType = {
 		name = "GFX_USA_antitank2_tech_medium"
-		textureFile = "gfx/interface/technologies/artillery/AT1_allies.dds"
+		textureFile = "gfx/interface/technologies/artillery/AT1_american.dds"
 	}
 	SpriteType = {
 		name = "GFX_USA_antitank4_tech_medium"
-		textureFile = "gfx/interface/technologies/artillery/AT2_allies.dds"
+		textureFile = "gfx/interface/technologies/artillery/AT2_american.dds"
 	}
 	SpriteType = {
 		name = "GFX_USA_antitank6_tech_medium"
-		textureFile = "gfx/interface/technologies/artillery/AT3_allies.dds"
+		textureFile = "gfx/interface/technologies/artillery/AT3_american.dds"
 	}
 	SpriteType = {
 		name = "GFX_USA_heavyantitank1_tech_medium"
-		textureFile = "gfx/interface/technologies/artillery/HAT1_allies.dds"
+		textureFile = "gfx/interface/technologies/artillery/HAT1_american.dds"
 	}
 	SpriteType = {
 		name = "GFX_USA_heavyantitank3_tech_medium"
-		textureFile = "gfx/interface/technologies/artillery/HAT2_allies.dds"
+		textureFile = "gfx/interface/technologies/artillery/HAT2_american.dds"
 	}
 	SpriteType = {
 		name = "GFX_FRA_heavyantiair1_tech_medium"

@@ -194,11 +194,11 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_USA_motorized_rocket_equipment_1_medium"
-		textureFile = "gfx/interface/technologies/artillery/MRARTY1_allies.dds"
+		textureFile = "gfx/interface/technologies/artillery/MRARTY1_american.dds"
 	}
 	SpriteType = {
 		name = "GFX_USA_motorized_rocket_equipment_2_medium"
-		textureFile = "gfx/interface/technologies/artillery/MRARTY2_allies.dds"
+		textureFile = "gfx/interface/technologies/artillery/MRARTY2_american.dds"
 	}
 	SpriteType = {
 		name = "GFX_USA_super_heavy_artillery_equipment_1_medium"
