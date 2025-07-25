@@ -101,6 +101,10 @@ spriteTypes = {
 		textureFile = "gfx/interface/technologies/subtech_sniper.dds"
 	}
 	SpriteType = {
+		name = "GFX_special_tech_medium"
+		textureFile = "gfx/interface/technologies/special_equipment.dds"
+	}
+	SpriteType = {
 		name = "GFX_marines4_medium"
 		textureFile = "gfx/interface/technologies/marines4.dds"
 	}

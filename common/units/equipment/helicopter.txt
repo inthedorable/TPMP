@@ -7,35 +7,32 @@ equipments = {
 		picture = archetype_helicopter_equipment #TODO_GK
 		is_buildable = no
 		type = {
-			infantry
-			motorized
 			support
 		}
 		group_by = archetype
-		
 		interface_category = interface_category_land
 		
 		#Misc Abilities
-		maximum_speed = 10
+		maximum_speed = 12
 		reliability = 0.7
 
 		#Defensive Abilities
-		defense 		= 6
-		breakthrough 	= 8
-		hardness 		= 0.40
-		armor_value 	= 4
+		defense = 0
+		breakthrough = 0
+		hardness = 0
+		armor_value = 0
 
 		#Offensive Abilities
-		ap_attack = 11
+		ap_attack = 0
 		air_attack = 0
 
 		#Space taken in convoy
-		lend_lease_cost = 3
+		lend_lease_cost = 5
 
-		build_cost_ic = 9
+		build_cost_ic = 15
 		resources = {
-			aluminium = 2
-			steel = 1
+			aluminium = 20
+			steel = 10
 		}
 
 		fuel_consumption = 1.8

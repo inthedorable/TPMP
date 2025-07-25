@@ -47,6 +47,37 @@ sub_units = {
 		need = {
 			anti_tank_equipment = 30
 		}
+
+		forest = {
+			attack = -0.1
+			defence = 0.1
+			movement = -0.1
+		}
+		jungle = {
+			attack = -0.15
+			defence = 0.1
+			movement = -0.15
+		}
+		hills = {
+			attack = -0.05
+			movement = -0.1
+		}
+		mountain = {
+			attack = -0.1
+			defence = -0.05
+			movement = -0.15
+		}
+		urban = {
+			attack = -0.1
+		}
+		river = {
+			attack = -0.15
+			movement = -0.1
+		}
+		amphibious = {
+			attack = -0.15
+			movement = -0.15
+		}
 	}
 	mot_anti_tank_brigade = {
 		abbreviation = "MAT"
@@ -102,6 +133,42 @@ sub_units = {
 			motorized_equipment = 15
 			anti_tank_equipment = 30
 		}
+
+		forest = {
+			attack = -0.1
+			defence = 0.1
+			movement = -0.2
+		}
+		jungle = {
+			attack = -0.15
+			defence = 0.1
+			movement = -0.25
+		}
+		hills = {
+			attack = -0.05
+			movement = -0.1
+		}
+		mountain = {
+			attack = -0.1
+			movement = -0.25
+		}
+		marsh = {
+			attack = -0.1
+			defence = -0.05
+			movement = -0.3
+		}
+		urban = {
+			attack = -0.1
+			movement = -0.05
+		}
+		river = {
+			attack = -0.15
+			movement = -0.1
+		}
+		amphibious = {
+			attack = -0.15
+			movement = -0.3
+		}
 	}
 
 	heavy_anti_tank_brigade = {
@@ -151,6 +218,37 @@ sub_units = {
 
 		need = {
 			heavy_anti_tank_equipment = 30
+		}
+
+		forest = {
+			attack = -0.15
+			defence = 0.1
+			movement = -0.1
+		}
+		jungle = {
+			attack = -0.2
+			defence = 0.1
+			movement = -0.15
+		}
+		hills = {
+			attack = -0.1
+			movement = -0.1
+		}
+		mountain = {
+			attack = -0.15
+			defence = -0.05
+			movement = -0.15
+		}
+		urban = {
+			attack = -0.15
+		}
+		river = {
+			attack = -0.2
+			movement = -0.1
+		}
+		amphibious = {
+			attack = -0.2
+			movement = -0.15
 		}
 	}
 	mot_heavy_anti_tank_brigade = {
@@ -206,6 +304,43 @@ sub_units = {
 		need = {
 			motorized_equipment = 30
 			heavy_anti_tank_equipment = 30
+		}
+
+		forest = {
+			attack = -0.15
+			defence = 0.1
+			movement = -0.2
+		}
+		jungle = {
+			attack = -0.2
+			defence = 0.1
+			movement = -0.25
+		}
+		hills = {
+			attack = -0.1
+			movement = -0.1
+		}
+		mountain = {
+			attack = -0.15
+			defence = -0.05
+			movement = -0.25
+		}
+		marsh = {
+			attack = -0.15
+			defence = -0.05
+			movement = -0.3
+		}
+		urban = {
+			attack = -0.15
+			movement = -0.05
+		}
+		river = {
+			attack = -0.2
+			movement = -0.1
+		}
+		amphibious = {
+			attack = -0.2
+			movement = -0.3
 		}
 	}
 }

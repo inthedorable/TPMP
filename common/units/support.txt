@@ -53,8 +53,22 @@ sub_units = {
 		}
 		
 		need = {
-			special_equipment = 50
+			special_equipment = 150
 			special_infantry_equipment = 50
+		}
+
+		urban = {
+			attack = 0.05
+			defence = 0.05
+		}
+		fort = {
+			attack = 0.05
+			defence = 0.05
+		}
+
+		battalion_mult = {
+			category = category_army
+			soft_attack = 0.05
 		}
 	}
 
@@ -93,10 +107,10 @@ sub_units = {
 		training_time = 120
 
 		#Combat
-		soft_attack = -0.5
-		hard_attack = -0.5
-		breakthrough = -0.5
-		defense = -0.5
+		soft_attack = 0
+		hard_attack = 0
+		breakthrough = 0
+		defense = 0
 		ap_attack = 0
 		armor_value = 0
 		air_attack = 0
@@ -115,6 +129,38 @@ sub_units = {
 		need = {
 			support_equipment = 30
 			line_infantry_equipment = 30
+		}
+
+		forest = {
+			defence = 0.15
+		}
+		jungle = {
+			defence = 0.15
+		}
+		hills = {
+			defence = 0.15
+		}
+		mountain = {
+			defence = 0.15
+			movement = 0.10
+		}
+		marsh = {
+			defence = 0.15
+			movement = 0.10
+		}
+		urban = {
+			defence = 0.15
+		}
+		fort = {
+			attack = 0.10
+			defence = 0.25
+		}
+		river = {
+			movement = 0.20
+		}
+		amphibious = {
+			attack = 0.10
+			movement = 0.20
 		}
 	}
 	assault_engineer = {
@@ -152,10 +198,10 @@ sub_units = {
 		training_time = 150
 
 		#Combat
-		soft_attack = -0.5
-		hard_attack = -0.5
-		breakthrough = -0.5
-		defense = -0.5
+		soft_attack = 0
+		hard_attack = 0
+		breakthrough = 0
+		defense = 0
 		ap_attack = 0
 		armor_value = 0
 		air_attack = 0
@@ -163,7 +209,7 @@ sub_units = {
 		#Misc Abilities
 		weight = 0.5
 		supply_consumption = 0.1
-		entrenchment = 5
+		entrenchment = 3
 		same_support_type = engineer
 
 		essential = {
@@ -174,6 +220,45 @@ sub_units = {
 		need = {
 			support_equipment = 50
 			line_infantry_equipment = 50
+		}
+
+		forest = {
+			attack = 0.05
+			defence = 0.05
+		}
+		jungle = {
+			attack = 0.05
+			defence = 0.05
+		}
+		hills = {
+			attack = 0.05
+			defence = 0.05
+		}
+		mountain = {
+			attack = 0.05
+			defence = 0.05
+			movement = 0.10
+		}
+		marsh = {
+			attack = 0.05
+			defence = 0.05
+			movement = 0.10
+		}
+		urban = {
+			attack = 0.05
+			defence = 0.05
+		}
+		fort = {
+			attack = 0.15
+			defence = 0.05
+		}
+		river = {
+			attack = 0.05
+			movement = 0.20
+		}
+		amphibious = {
+			attack = 0.15
+			movement = 0.20
 		}
 	}
 	armored_engineer = {
@@ -209,10 +294,10 @@ sub_units = {
 		training_time = 120
 
 		#Combat
-		soft_attack = -0.5
-		hard_attack = -0.5
-		breakthrough = -0.5
-		defense = -0.5
+		soft_attack = 0
+		hard_attack = 0
+		breakthrough = 0
+		defense = 0
 		ap_attack = 0
 		armor_value = 0
 		air_attack = 0
@@ -233,6 +318,50 @@ sub_units = {
 			armored_support_vehicle = 20
 			support_equipment = 30
 			line_infantry_equipment = 30
+		}
+
+		plains = {
+			defence = 0.10
+		}
+		desert = {
+			defence = 0.10
+		}
+		forest = {
+			defence = 0.10
+		}
+		jungle = {
+			defence = 0.10
+		}
+		hills = {
+			defence = 0.10
+		}
+		mountain = {
+			defence = 0.10
+			movement = 0.10
+		}
+		marsh = {
+			defence = 0.10
+			movement = 0.10
+		}
+		urban = {
+			defence = 0.10
+		}
+		fort = {
+			attack = 0.15
+			defence = 0.05
+		}
+		river = {
+			attack = 0.05
+			movement = 0.20
+		}
+		amphibious = {
+			attack = 0.15
+			movement = 0.20
+		}
+
+		battalion_mult = {
+			category = category_tanks
+			defense = 0.10
 		}
 	}
 
@@ -268,10 +397,10 @@ sub_units = {
 		training_time = 120
 
 		#Combat
-		soft_attack = -1.0
-		hard_attack = -1.0
-		breakthrough = -1.0
-		defense = -1.0
+		soft_attack = 0
+		hard_attack = 0
+		breakthrough = 0
+		defense = 0
 		ap_attack = 0
 		armor_value = 0
 		air_attack = 0
@@ -279,8 +408,8 @@ sub_units = {
 		#Misc Abilities
 		weight = 0.5
 		supply_consumption = 0.1
-		casualty_trickleback = 0.2
-		experience_loss_factor = -0.2
+		casualty_trickleback = 0.1
+		experience_loss_factor = -0.1
 		own_equipment_fuel_consumption_mult = 0
 		same_support_type = field_hospital
 
@@ -292,6 +421,11 @@ sub_units = {
 		need = {
 			support_equipment = 30
 			motorized_equipment = 30
+		}
+
+		battalion_mult = {
+			category = category_infantry
+			max_strength = 0.05
 		}
 	}
 	helicopter_field_hospital = {
@@ -321,10 +455,10 @@ sub_units = {
 		training_time = 120
 
 		#Combat
-		soft_attack = -1.0
-		hard_attack = -1.0
-		breakthrough = -1.0
-		defense = -1.0
+		soft_attack = 0
+		hard_attack = 0
+		breakthrough = 0
+		defense = 0
 		ap_attack = 0
 		armor_value = 0
 		air_attack = 0
@@ -380,10 +514,10 @@ sub_units = {
 		training_time = 120
 
 		#Combat
-		soft_attack = -1.0
-		hard_attack = -1.0
-		breakthrough = -1.0
-		defense = -1.0
+		soft_attack = 0
+		hard_attack = 0
+		breakthrough = 0
+		defense = 0
 		ap_attack = 0
 		armor_value = 0
 		air_attack = 0
@@ -402,6 +536,12 @@ sub_units = {
 		need = {
 			support_equipment = 50
 			motorized_equipment = 30
+		}
+
+		battalion_mult = {
+			category = category_army
+			max_organisation = 3
+			add = yes
 		}
 	}
 	armored_headquarters = {
@@ -435,10 +575,10 @@ sub_units = {
 		training_time = 120
 
 		#Combat
-		soft_attack = -1.0
-		hard_attack = -1.0
-		breakthrough = -1.0
-		defense = -1.0
+		soft_attack = 0
+		hard_attack = 0
+		breakthrough = 0
+		defense = 0
 		ap_attack = 0
 		armor_value = 0
 		air_attack = 0
@@ -459,6 +599,16 @@ sub_units = {
 			armored_support_vehicle = 20
 			support_equipment = 50
 			motorized_equipment = 30
+		}
+
+		battalion_mult = {
+			category = category_army
+			max_organisation = 1
+			add = yes
+		}
+		battalion_mult = {
+			category = category_army
+			breakthrough = 0.05
 		}
 	}
 
@@ -494,10 +644,10 @@ sub_units = {
 		training_time = 120
 
 		#Combat
-		soft_attack = -1.0
-		hard_attack = -1.0
-		breakthrough = -1.0
-		defense = -1.0
+		soft_attack = 0
+		hard_attack = 0
+		breakthrough = 0
+		defense = 0
 		ap_attack = 0
 		armor_value = 0
 		air_attack = 0
@@ -506,8 +656,8 @@ sub_units = {
 		weight = 0.5
 		supply_consumption = 0.1
 		own_equipment_fuel_consumption_mult = 0
-		supply_consumption_factor = 0 
-		fuel_consumption_factor = 0
+		supply_consumption_factor = -0.15 
+		fuel_consumption_factor = -0.15
 		same_support_type = logistics_company
 
 		essential = {
@@ -552,10 +702,10 @@ sub_units = {
 		training_time = 120
 
 		#Combat
-		soft_attack = -1.0
-		hard_attack = -1.0
-		breakthrough = -1.0
-		defense = -1.0
+		soft_attack = 0
+		hard_attack = 0
+		breakthrough = 0
+		defense = 0
 		ap_attack = 0
 		armor_value = 0
 		air_attack = 0
@@ -564,8 +714,8 @@ sub_units = {
 		weight = 0.5
 		supply_consumption = 0.1
 		own_equipment_fuel_consumption_mult = 0
-		supply_consumption_factor = 0 
-		fuel_consumption_factor = 0
+		supply_consumption_factor = -0.05
+		fuel_consumption_factor = -0.05
 		same_support_type = logistics_company
 
 		essential = {
@@ -576,6 +726,43 @@ sub_units = {
 		need = {
 			support_equipment = 30
 			helicopter_equipment = 50
+		}
+
+		plains = {
+			movement = 0.05
+		}
+		desert = {
+			attack = 0.03
+			movement = 0.05
+		}
+		forest = {
+			movement = 0.05
+		}
+		jungle = {
+			attack = 0.03
+			movement = 0.05
+		}
+		hills = {
+			movement = 0.05
+		}
+		mountain = {
+			attack = 0.05
+			movement = 0.05
+		}
+		marsh = {
+			movement = 0.05
+		}
+		urban = {
+			movement = 0.05
+		}
+		fort = {
+			movement = 0.05
+		}
+		river = {
+			movement = 0.05
+		}
+		amphibious = {
+			movement = 0.05
 		}
 	}
 
@@ -611,10 +798,10 @@ sub_units = {
 		training_time = 120
 
 		#Combat
-		soft_attack = -1.0
-		hard_attack = -1.0
-		breakthrough = -1.0
-		defense = -1.0
+		soft_attack = 0
+		hard_attack = 0
+		breakthrough = 0
+		defense = 0
 		ap_attack = 0
 		armor_value = 0
 		air_attack = 0
@@ -622,8 +809,8 @@ sub_units = {
 		#Misc Abilities
 		weight = 0.5
 		supply_consumption = 0.1
-		reliability_factor = 0 
-		equipment_capture_factor = 0
+		reliability_factor = 0.1
+		equipment_capture_factor = 0.05
 		same_support_type = maintenance_company
 
 		essential = {
@@ -665,10 +852,10 @@ sub_units = {
 		training_time = 120
 
 		#Combat
-		soft_attack = -1.0
-		hard_attack = -1.0
-		breakthrough = -1.0
-		defense = -1.0
+		soft_attack = 0
+		hard_attack = 0
+		breakthrough = 0
+		defense = 0
 		ap_attack = 0
 		armor_value = 0
 		air_attack = 0
@@ -677,8 +864,8 @@ sub_units = {
 		weight = 0.5
 		supply_consumption = 0.1
 		own_equipment_fuel_consumption_mult = 0
-		reliability_factor = 0 
-		equipment_capture_factor = 0
+		reliability_factor = 0
+		equipment_capture_factor = 0.1
 		same_support_type = maintenance_company
 
 		essential = {
@@ -689,6 +876,12 @@ sub_units = {
 		need = {
 			armored_support_vehicle = 30
 			support_equipment = 50
+		}
+
+		battalion_mult = {
+			category = category_frontline_tanks
+			max_strength = 1
+			add = yes
 		}
 	}
 
@@ -727,10 +920,10 @@ sub_units = {
 		training_time = 120
 
 		#Combat
-		soft_attack = -0.5
-		hard_attack = -0.5
-		breakthrough = -0.5
-		defense = -0.5
+		soft_attack = 0
+		hard_attack = 0
+		breakthrough = 0
+		defense = 0
 		ap_attack = 0
 		armor_value = 0
 		air_attack = 0
@@ -738,7 +931,7 @@ sub_units = {
 		#Misc Abilities
 		weight = 0.5
 		supply_consumption = 0.1
-		suppression_factor = 0
+		suppression_factor = 0.2
 
 		essential = {
 			line_infantry_equipment
@@ -746,6 +939,11 @@ sub_units = {
 		
 		need = {
 			line_infantry_equipment = 50
+		}
+		
+		battalion_mult = {
+			category = category_army
+			default_morale = 0.2
 		}
 	}	
 
@@ -781,10 +979,10 @@ sub_units = {
 		training_time = 120
 
 		#Combat
-		soft_attack = -1.0
-		hard_attack = -1.0
-		breakthrough = -1.0
-		defense = -1.0
+		soft_attack = 0
+		hard_attack = 0
+		breakthrough = 0
+		defense = 0
 		ap_attack = 0
 		armor_value = 0
 		air_attack = 0
@@ -793,7 +991,7 @@ sub_units = {
 		weight = 0.5
 		supply_consumption = 0.1
 		own_equipment_fuel_consumption_mult = 0
-		initiative = 0
+		initiative = 0.15
 		same_support_type = signal_company
 
 		essential = {
@@ -804,6 +1002,11 @@ sub_units = {
 		need = {
 			support_equipment = 50
 			motorized_equipment = 30
+		}
+
+		battalion_mult = {
+			category = category_artillery
+			soft_attack = 0.05
 		}
 	}
 	armored_signal = {
@@ -837,10 +1040,10 @@ sub_units = {
 		training_time = 120
 
 		#Combat
-		soft_attack = -1.0
-		hard_attack = -1.0
-		breakthrough = -1.0
-		defense = -1.0
+		soft_attack = 0
+		hard_attack = 0
+		breakthrough = 0
+		defense = 0
 		ap_attack = 0
 		armor_value = 0
 		air_attack = 0
@@ -849,7 +1052,7 @@ sub_units = {
 		weight = 0.5
 		supply_consumption = 0.1
 		own_equipment_fuel_consumption_mult = 0
-		initiative = 0
+		initiative = 0.05
 		same_support_type = signal_company
 
 		essential = {
@@ -862,6 +1065,11 @@ sub_units = {
 			armored_support_vehicle = 20
 			support_equipment = 50
 			motorized_equipment = 30
+		}
+
+		battalion_mult = {
+			category = category_tanks
+			soft_attack = 0.05
 		}
 	}
 }

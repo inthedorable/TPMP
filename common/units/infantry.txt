@@ -51,6 +51,10 @@ sub_units = {
 		need = {
 			line_infantry_equipment = 100
 		}
+
+		urban = {
+			defence = 0.1
+		}
 	}
 	militia = {
 		abbreviation = "MIL"
@@ -100,6 +104,10 @@ sub_units = {
 
 		need = {
 			line_infantry_equipment = 50
+		}
+
+		urban = {
+			defence = 0.1
 		}
 	}
 	
@@ -158,6 +166,10 @@ sub_units = {
 			special_equipment = 25
 			line_infantry_equipment = 100
 		}
+
+		urban = {
+			defence = 0.1
+		}
 	}
 	motorized = {
 		abbreviation = "MOT"
@@ -212,6 +224,38 @@ sub_units = {
 		need = {
 			motorized_equipment = 50
 			mobile_infantry_equipment = 100
+		}
+
+		forest = {
+			attack = -0.1
+			movement = -0.2
+		}
+		jungle = {
+			attack = -0.15
+			movement = -0.25
+		}
+		hills = {
+			movement = -0.1
+		}
+		mountain = {
+			attack = -0.1
+			movement = -0.25
+		}
+		marsh = {
+			attack = -0.1
+			movement = -0.3
+		}
+		urban = {
+			attack = -0.1
+			movement = -0.1
+		}
+		river = {
+			attack = -0.1
+			movement = -0.1
+		}
+		amphibious = {
+			attack = -0.15
+			movement = -0.3
 		}
 	}
 	

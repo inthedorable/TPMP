@@ -7,9 +7,7 @@ equipments = {
 		picture = archetype_artillery_equipment		
 		type = railway_gun
 		group_by = archetype
-		
 		interface_category = interface_category_land
-		
 		active = yes
 
 		#Misc Abilities
@@ -36,11 +34,11 @@ equipments = {
 		visual_level = 0
 		active = no
 
-		build_cost_ic = 1600.0
+		build_cost_ic = 3200.0
 		resources = {
-			steel = 8
-			tungsten = 4
-			chromium = 4
+			steel = 80
+			tungsten = 40
+			chromium = 40
 		}		
 	}
 }

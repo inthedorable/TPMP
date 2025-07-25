@@ -24,11 +24,11 @@ sub_units = {
 		}
 
 		#Size Definitions
-		combat_width = 2
-		max_strength = 2
+		combat_width = 1
+		max_strength = 1
 		max_organisation = 10
 		default_morale = 0.1
-		manpower = 500
+		manpower = 300
 		training_time = 120
 
 		#Combat
@@ -41,12 +41,39 @@ sub_units = {
 		air_attack = 0
 
 		#Misc Abilities
-		suppression = 3
-		weight = 1
-		supply_consumption = 0.2
+		suppression = 2
+		weight = 0.5
+		supply_consumption = 0.1
 
 		need = {
-			armored_car_equipment = 40
+			armored_car_equipment = 20
+		}
+
+		forest = {
+			attack = -0.1
+			movement = -0.1
+		}
+		jungle = {
+			attack = -0.1
+			movement = -0.15
+		}
+		marsh = {
+			attack = -0.1
+			defence = -0.1
+			movement = -0.15
+		}
+		urban = {
+			attack = -0.1
+			defence = -0.1
+			movement = -0.1
+		}
+		river = {
+			attack = -0.1
+			movement = -0.1
+		}
+		amphibious = {
+			attack = -0.2
+			movement = -0.15
 		}
 	}
 }

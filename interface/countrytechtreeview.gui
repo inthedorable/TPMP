@@ -298,40 +298,11 @@ guiTypes = {
 			}
 
 			gridboxtype = {
-				name = "marines_tree"
+				name = "special_tech_tree"
 				position = { x = 140 y = 1175 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 			}
-
-			gridboxtype = {
-				name = "tech_mountaineers_tree"
-				position = { x = 140 y = 1175 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-
-			gridboxtype = {
-				name = "rangers1_tech_tree"
-				position = { x = 140 y = 1175 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}			
-
-			gridboxtype = {
-				name = "paratroopers_tree"
-				position = { x = 140 y = 1175 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-
-			gridboxtype = {
-				name = "commandos1_tech_tree"
-				position = { x = 140 y = 1175 }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-			}
-
 
 			gridboxtype = {
 				name = "tech_special_forces_tree"
@@ -4467,6 +4438,42 @@ guiTypes = {
 				name = "picture"
 				position = { x=2 y=2 }
 				spriteType = "GFX_subtech_td"
+				alwaystransparent = yes
+			}
+		}
+		containerWindowType = {
+			name = "sub_technology_slot_2"
+			position = { x=181 y=28 }
+			size = { width = 35 height = 26 }
+			clipping = no
+
+			background = {
+				name = "Background"
+				spriteType ="GFX_subtechnology_unavailable_item_bg"
+			}
+
+			iconType = {
+				name = "picture"
+				position = { x=2 y=2 }
+				spriteType = "GFX_subtech_art"
+				alwaystransparent = yes
+			}
+		}
+		containerWindowType = {
+			name = "sub_technology_slot_3"
+			position = { x=181 y=56 }
+			size = { width = 35 height = 26 }
+			clipping = no
+
+			background = {
+				name = "Background"
+				spriteType ="GFX_subtechnology_unavailable_item_bg"
+			}
+
+			iconType = {
+				name = "picture"
+				position = { x=2 y=2 }
+				spriteType = "GFX_subtech_aa"
 				alwaystransparent = yes
 			}
 		}

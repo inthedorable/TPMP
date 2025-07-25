@@ -8,13 +8,12 @@ equipments = {
 		is_buildable = no
 		type = {
 			infantry
-			motorized
 			support
 		}
 		group_by = archetype
-		
 		interface_category = interface_category_land
 		
+		#Misc Abilities
 		reliability = 0.8
 
 		#Space taken in convoy
@@ -22,8 +21,9 @@ equipments = {
 
 		build_cost_ic = 4
 		resources = {
-			aluminium = 1
-			steel = 2
+			rubber = 5
+			aluminium = 5
+			steel = 5
 		}
 	}
 
@@ -33,5 +33,4 @@ equipments = {
 		archetype = special_equipment
 		priority = 20	
 	}
-
 }

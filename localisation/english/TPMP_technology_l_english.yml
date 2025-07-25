@@ -52,6 +52,27 @@
  infantryaa_tech: "Anti-Aircraft Launchers"
  infantryaa_tech_desc: ""
 
+ antitankmechanized1_tech: "Basic Anti-Tank Mechanized"
+ antitankmechanized1_tech_desc: ""
+ antitankmechanized2_tech: "Improved Anti-Tank Mechanized"
+ antitankmechanized2_tech_desc: ""
+ antitankmechanized3_tech: "Advanced Anti-Tank Mechanized"
+ antitankmechanized3_tech_desc: ""
+
+ artillerymechanized1_tech: "Basic Artillery Mechanized"
+ artillerymechanized1_tech_desc: ""
+ artillerymechanized2_tech: "Improved Artillery Mechanized"
+ artillerymechanized2_tech_desc: ""
+ artillerymechanized3_tech: "Advanced Artillery Mechanized"
+ artillerymechanized3_tech_desc: ""
+
+ antiairmechanized1_tech: "Basic Anti-Air Mechanized"
+ antiairmechanized1_tech_desc: ""
+ antiairmechanized2_tech: "Improved Anti-Air Mechanized"
+ antiairmechanized2_tech_desc: ""
+ antiairmechanized3_tech: "Advanced Anti-Air Mechanized"
+ antiairmechanized3_tech_desc: ""
+
  marines4: "Marines IV"
  marines4_desc: ""
  tech_mountaineers4: "Mountain Infantry IV"

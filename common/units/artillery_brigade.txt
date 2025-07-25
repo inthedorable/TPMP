@@ -48,6 +48,41 @@ sub_units = {
 		need = {
 			artillery_equipment = 30
 		}
+
+		forest = {
+			movement = -0.1
+		}
+		jungle = {
+			movement = -0.15
+		}
+		hills = {
+			defence = 0.05
+			movement = -0.1
+		}
+		mountain = {
+			attack = 0.05
+			defence = 0.1
+			movement = -0.15
+		}
+		marsh = {
+			attack = -0.1
+			defence = -0.1
+			movement = -0.15
+		}
+		urban = {
+			attack = 0.05
+		}
+		fort = {
+			attack = 0.05
+			defence = 0.05
+		}
+		river = {
+			attack = -0.1
+		}
+		amphibious = {
+			attack = -0.1
+			movement = -0.15
+		}
 	}
 	mot_artillery_brigade = {
 		abbreviation = "MRT"
@@ -104,6 +139,42 @@ sub_units = {
 			motorized_equipment = 15
 			artillery_equipment = 30
 		}
+
+		forest = {
+			movement = -0.2
+		}
+		jungle = {
+			movement = -0.25
+		}
+		hills = {
+			defence = 0.05
+			movement = -0.1
+		}
+		mountain = {
+			attack = 0.05
+			defence = 0.1
+			movement = -0.25
+		}
+		marsh = {
+			attack = -0.1
+			defence = -0.1
+			movement = -0.3
+		}
+		urban = {
+			attack = 0.05
+			movement = -0.05
+		}
+		fort = {
+			attack = 0.05
+			defence = 0.05
+		}
+		river = {
+			attack = -0.1
+		}
+		amphibious = {
+			attack = -0.1
+			movement = -0.3
+		}
 	}
 	
 	heavy_artillery_brigade = {
@@ -154,6 +225,41 @@ sub_units = {
 
 		need = {
 			heavy_artillery_equipment = 30
+		}
+
+		forest = {
+			movement = -0.1
+		}
+		jungle = {
+			movement = -0.15
+		}
+		hills = {
+			attack = 0.05
+			defence = 0.1
+			movement = -0.1
+		}
+		mountain = {
+			defence = 0.15
+			movement = -0.15
+		}
+		marsh = {
+			attack = -0.15
+			defence = -0.15
+			movement = -0.15
+		}
+		urban = {
+			attack = 0.1
+		}
+		fort = {
+			attack = 0.1
+			defence = 0.1
+		}
+		river = {
+			movement = -0.1
+		}
+		amphibious = {
+			attack = -0.5
+			movement = -0.15
 		}
 	}
 	mot_heavy_artillery_brigade = {
@@ -212,6 +318,42 @@ sub_units = {
 			motorized_equipment = 30
 			heavy_artillery_equipment = 30
 		}
+
+		forest = {
+			movement = -0.2
+		}
+		jungle = {
+			movement = -0.25
+		}
+		hills = {
+			attack = 0.05
+			defence = 0.1
+			movement = -0.1
+		}
+		mountain = {
+			defence = 0.15
+			movement = -0.25
+		}
+		marsh = {
+			attack = -0.15
+			defence = -0.15
+			movement = -0.3
+		}
+		urban = {
+			attack = 0.1
+			movement = -0.05
+		}
+		fort = {
+			attack = 0.1
+			defence = 0.1
+		}
+		river = {
+			movement = -0.1
+		}
+		amphibious = {
+			attack = -0.5
+			movement = -0.3
+		}
 	}
 
 	rocket_artillery_brigade = {
@@ -264,6 +406,40 @@ sub_units = {
 		need = {
 			rocket_artillery_equipment = 30
 		}
+
+		forest = {
+			movement = -0.1
+		}
+		jungle = {
+			movement = -0.15
+		}
+		hills = {
+			defence = 0.05
+			movement = -0.1
+		}
+		mountain = {
+			attack = 0.05
+			defence = 0.1
+			movement = -0.15
+		}
+		marsh = {
+			attack = -0.1
+			defence = -0.1
+			movement = -0.15
+		}
+		urban = {
+			attack = 0.05
+		}
+		fort = {
+			attack = 0.05
+			defence = 0.05
+		}
+		river = {
+			movement = -0.1
+		}
+		amphibious = {
+			movement = -0.15
+		}
 	}
 	mot_rocket_artillery_brigade = {
 		abbreviation = "TRA"
@@ -314,6 +490,41 @@ sub_units = {
 
 		need = {
 			motorized_rocket_equipment = 30
+		}
+
+		forest = {
+			movement = -0.2
+		}
+		jungle = {
+			movement = -0.25
+		}
+		hills = {
+			defence = 0.05
+			movement = -0.1
+		}
+		mountain = {
+			attack = 0.05
+			defence = 0.1
+			movement = -0.25
+		}
+		marsh = {
+			attack = -0.1
+			defence = -0.1
+			movement = -0.3
+		}
+		urban = {
+			attack = 0.05
+			movement = -0.05
+		}
+		fort = {
+			attack = 0.05
+			defence = 0.05
+		}
+		river = {
+			movement = -0.1
+		}
+		amphibious = {
+			movement = -0.3
 		}
 	}
 }

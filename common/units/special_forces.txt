@@ -27,7 +27,7 @@ sub_units = {
 		
 		#Size Definitions
 		combat_width = 2
-		max_strength = 25
+		max_strength = 20
 		max_organisation = 60
 		default_morale = 0.1
 		manpower = 1000
@@ -54,6 +54,19 @@ sub_units = {
 		need = {
 			special_equipment = 50
 			special_infantry_equipment = 100
+		}
+
+		marsh = {
+			attack = 0.1
+		}
+		urban = {
+			defence = 0.1
+		}
+		river = {
+			attack = 0.1
+		}
+		amphibious = {
+			attack = 0.3
 		}
 	}
 	
@@ -85,7 +98,7 @@ sub_units = {
 		
 		#Size Definitions
 		combat_width = 2
-		max_strength = 25
+		max_strength = 20
 		max_organisation = 60
 		default_morale = 0.1
 		manpower = 1000
@@ -112,6 +125,18 @@ sub_units = {
 		need = {
 			special_equipment = 50
 			special_infantry_equipment = 100
+		}
+
+		hills = {
+			attack = 0.1
+			defence = 0.1
+		}
+		mountain = {
+			attack = 0.25
+			defence = 0.15
+		}
+		urban = {
+			defence = 0.1
 		}
 	}
 
@@ -142,7 +167,7 @@ sub_units = {
 		
 		#Size Definitions
 		combat_width = 2
-		max_strength = 25
+		max_strength = 20
 		max_organisation = 60
 		default_morale = 0.1
 		manpower = 1000
@@ -169,6 +194,18 @@ sub_units = {
 		need = {
 			special_equipment = 50
 			special_infantry_equipment = 100
+		}
+
+		forest = {
+			attack = 0.15
+			defence = 0.15
+		}
+		jungle = {
+			attack = 0.1
+			defence = 0.1
+		}
+		urban = {
+			defence = 0.1
 		}
 	}
 
@@ -200,7 +237,7 @@ sub_units = {
 		
 		#Size Definitions
 		combat_width = 2
-		max_strength = 25
+		max_strength = 20
 		max_organisation = 60
 		default_morale = 0.1
 		manpower = 1000
@@ -227,6 +264,14 @@ sub_units = {
 		need = {
 			special_equipment = 100
 			special_infantry_equipment = 100
+		}
+
+		urban = {
+			defence = 0.25
+			attack = 0.1
+		}
+		fort = {
+			attack = 0.1
 		}
 	}
 }

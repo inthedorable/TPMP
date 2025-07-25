@@ -1,15 +1,13 @@
 equipments = {
 
 	railway_gun_equipment = {
-		year = 1934
+		year = 1930
 
 		is_archetype = yes
 		picture = archetype_artillery_equipment		
 		type = railway_gun
 		group_by = archetype
-		
 		interface_category = interface_category_land
-		
 		active = yes
 
 		#Misc Abilities
@@ -29,18 +27,18 @@ equipments = {
 	}
 
 	railway_gun_equipment_1 = {
-		year = 1934
+		year = 1930
 
 		archetype = railway_gun_equipment
 		priority = 50
 		visual_level = 0
 		active = no
 
-		build_cost_ic = 800.0
+		build_cost_ic = 1600.0
 		resources = {
-			steel = 4
-			tungsten = 2
-			chromium = 2
+			steel = 40
+			tungsten = 20
+			chromium = 20
 		}		
 	}
 }
