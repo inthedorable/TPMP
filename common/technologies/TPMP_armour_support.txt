@@ -25,6 +25,9 @@ technologies = {
 			leads_to_tech = mediumcannon1_tech
 			research_cost_coeff = 1
 		}
+		allow = {
+			has_tech = antitank0_tech
+		}
 
 		research_cost = 1.5
 		start_year = 1930
@@ -56,6 +59,9 @@ technologies = {
 			leads_to_tech = lighthighvelocity_tech
 			research_cost_coeff = 1
 		}
+		allow = {
+			has_tech = antitank0_tech
+		}
 
 		research_cost = 1.5
 		start_year = 1936
@@ -77,6 +83,10 @@ technologies = {
 	lightcannon3_tech = {
 		enable_equipment_modules = {
 			tank_light_cannon_3
+		}
+
+		allow = {
+			has_tech = antitank0_tech
 		}
 
 		research_cost = 1.5
@@ -106,6 +116,9 @@ technologies = {
 			leads_to_tech = mediumhighvelocity1_tech
 			research_cost_coeff = 1
 		}
+		allow = {
+			has_tech = antitank0_tech
+		}
 
 		research_cost = 1.5
 		start_year = 1938
@@ -133,6 +146,9 @@ technologies = {
 			leads_to_tech = mediumhighvelocity2_tech
 			research_cost_coeff = 1
 		}
+		allow = {
+			has_tech = antitank2_tech
+		}
 
 		research_cost = 1.5
 		start_year = 1941
@@ -154,6 +170,10 @@ technologies = {
 	mediumhighvelocity2_tech = {
 		enable_equipment_modules = {
 			tank_medium_high_velocity_cannon_2
+		}
+
+		allow = {
+			has_tech = antitank4_tech
 		}
 
 		research_cost = 1.5
@@ -186,6 +206,9 @@ technologies = {
 		path = {
 			leads_to_tech = mediumcannon2_tech
 			research_cost_coeff = 1
+		}
+		allow = {
+			has_tech = antitank2_tech
 		}
 
 		research_cost = 1.5
@@ -222,6 +245,9 @@ technologies = {
 			leads_to_tech = heavycannon1_tech
 			research_cost_coeff = 1
 		}
+		allow = {
+			has_tech = antitank2_tech
+		}
 
 		research_cost = 1.5
 		start_year = 1938
@@ -253,6 +279,9 @@ technologies = {
 			leads_to_tech = largemediumcannon1_tech
 			research_cost_coeff = 1
 		}
+		allow = {
+			has_tech = antitank2_tech
+		}
 
 		research_cost = 1.5
 		start_year = 1941
@@ -274,6 +303,10 @@ technologies = {
 	mediumcannon4_tech = {
 		enable_equipment_modules = {
 			tank_medium_cannon_4
+		}
+
+		allow = {
+			has_tech = antitank4_tech
 		}
 
 		research_cost = 1.5
@@ -303,6 +336,9 @@ technologies = {
 			leads_to_tech = largemediumcannon2_tech
 			research_cost_coeff = 1
 		}
+		allow = {
+			has_tech = antitank4_tech
+		}
 
 		research_cost = 1.5
 		start_year = 1943
@@ -324,6 +360,10 @@ technologies = {
 	largemediumcannon2_tech = {
 		enable_equipment_modules = {
 			tank_large_medium_cannon_2
+		}
+
+		allow = {
+			has_tech = antitank6_tech
 		}
 
 		research_cost = 1.5
@@ -353,6 +393,9 @@ technologies = {
 			leads_to_tech = heavyhighvelocity2_tech
 			research_cost_coeff = 1
 		}
+		allow = {
+			has_tech = heavyantitank1_tech
+		}
 
 		research_cost = 1.5
 		start_year = 1941
@@ -374,6 +417,10 @@ technologies = {
 	heavyhighvelocity2_tech = {
 		enable_equipment_modules = {
 			tank_heavy_high_velocity_cannon_2
+		}
+
+		allow = {
+			has_tech = heavyantitank3_tech
 		}
 
 		research_cost = 1.5
@@ -411,6 +458,9 @@ technologies = {
 			leads_to_tech = largeheavycannon1_tech
 			research_cost_coeff = 1
 		}
+		allow = {
+			has_tech = heavyantitank1_tech
+		}
 
 		research_cost = 1.5
 		start_year = 1940
@@ -432,6 +482,10 @@ technologies = {
 	heavycannon2_tech = {
 		enable_equipment_modules = {
 			tank_heavy_cannon_2
+		}
+
+		allow = {
+			has_tech = heavyantitank3_tech
 		}
 
 		research_cost = 1.5
@@ -465,6 +519,9 @@ technologies = {
 			leads_to_tech = superheavycannon_tech
 			research_cost_coeff = 1
 		}
+		allow = {
+			has_tech = heavyantitank3_tech
+		}
 
 		research_cost = 1.5
 		start_year = 1943
@@ -488,6 +545,10 @@ technologies = {
 			tank_large_heavy_cannon_2
 		}
 
+		allow = {
+			has_tech = heavyantitank3_tech
+		}
+
 		research_cost = 1.5
 		start_year = 1945
 
@@ -509,6 +570,10 @@ technologies = {
 	superheavycannon_tech = {
 		enable_equipment_modules = {
 			tank_super_heavy_cannon
+		}
+
+		allow = {
+			has_tech = heavyantitank3_tech
 		}
 
 		research_cost = 1.5
@@ -550,6 +615,9 @@ technologies = {
 			leads_to_tech = heavyhowitzer1_tech
 			research_cost_coeff = 1
 		}
+		allow = {
+			has_tech = artillery0_tech
+		}
 
 		research_cost = 1.5
 		start_year = 1930
@@ -577,6 +645,9 @@ technologies = {
 			leads_to_tech = lighthowitzer3_tech
 			research_cost_coeff = 1
 		}
+		allow = {
+			has_tech = artillery0_tech
+		}
 
 		research_cost = 1.5
 		start_year = 1938
@@ -598,6 +669,10 @@ technologies = {
 	lighthowitzer3_tech = {
 		enable_equipment_modules = {
 			tank_light_howitzer_3
+		}
+
+		allow = {
+			has_tech = artillery0_tech
 		}
 
 		research_cost = 1.5
@@ -631,6 +706,9 @@ technologies = {
 			leads_to_tech = mediumclosesupportgun1_tech
 			research_cost_coeff = 1
 		}
+		allow = {
+			has_tech = artillery0_tech
+		}
 
 		research_cost = 1.5
 		start_year = 1936
@@ -652,6 +730,10 @@ technologies = {
 	lightclosesupportgun2_tech = {
 		enable_equipment_modules = {
 			tank_light_close_support_gun_2
+		}
+
+		allow = {
+			has_tech = artillery0_tech
 		}
 
 		research_cost = 1.5
@@ -681,6 +763,9 @@ technologies = {
 			leads_to_tech = mediumclosesupportgun2_tech
 			research_cost_coeff = 1
 		}
+		allow = {
+			has_tech = artillery2_tech
+		}
 
 		research_cost = 1.5
 		start_year = 1940
@@ -702,6 +787,13 @@ technologies = {
 	mediumclosesupportgun2_tech = {
 		enable_equipment_modules = {
 			tank_medium_close_support_gun_2
+		}
+
+		allow = {
+			OR = {
+				has_tech = artillery4_tech
+				has_tech = artillery5_tech
+			}
 		}
 
 		research_cost = 1.5
@@ -735,6 +827,9 @@ technologies = {
 			leads_to_tech = mediumhowitzer2_tech
 			research_cost_coeff = 1
 		}
+		allow = {
+			has_tech = artillery2_tech
+		}
 
 		research_cost = 1.5
 		start_year = 1936
@@ -756,6 +851,13 @@ technologies = {
 	mediumhowitzer2_tech = {
 		enable_equipment_modules = {
 			tank_medium_howitzer_2
+		}
+
+		allow = {
+			OR = {
+				has_tech = artillery4_tech
+				has_tech = artillery5_tech
+			}
 		}
 
 		research_cost = 1.5
@@ -785,6 +887,9 @@ technologies = {
 			leads_to_tech = heavyclosesupportgun2_tech
 			research_cost_coeff = 1
 		}
+		allow = {
+			has_tech = heavyartillery3_tech
+		}
 
 		research_cost = 1.5
 		start_year = 1943
@@ -806,6 +911,10 @@ technologies = {
 	heavyclosesupportgun2_tech = {
 		enable_equipment_modules = {
 			tank_heavy_close_support_gun_2
+		}
+
+		allow = {
+			has_tech = heavyartillery5_tech
 		}
 
 		research_cost = 1.5
@@ -834,6 +943,9 @@ technologies = {
 		path = {
 			leads_to_tech = heavyhowitzer2_tech
 			research_cost_coeff = 1
+		}
+		allow = {
+			has_tech = heavyartillery1_tech
 		}
 
 		research_cost = 1.5
@@ -866,6 +978,9 @@ technologies = {
 			leads_to_tech = superheavyhowitzer_tech
 			research_cost_coeff = 1
 		}
+		allow = {
+			has_tech = heavyartillery3_tech
+		}
 
 		research_cost = 1.5
 		start_year = 1942
@@ -888,6 +1003,10 @@ technologies = {
 	superheavyhowitzer_tech = {
 		enable_equipment_modules = {
 			tank_super_heavy_howitzer
+		}
+
+		allow = {
+			has_tech = heavyartillery5_tech
 		}
 
 		research_cost = 1.5
@@ -921,6 +1040,9 @@ technologies = {
 			leads_to_tech = heavyantiaircannon1_tech
 			research_cost_coeff = 1
 		}
+		allow = {
+			has_tech = antiair0_tech
+		}
 
 		research_cost = 1.5
 		start_year = 1930
@@ -948,6 +1070,9 @@ technologies = {
 			leads_to_tech = antiaircannon3_tech
 			research_cost_coeff = 1
 		}
+		allow = {
+			has_tech = antiair2_tech
+		}
 
 		research_cost = 1.5
 		start_year = 1939
@@ -969,6 +1094,10 @@ technologies = {
 	antiaircannon3_tech = {
 		enable_equipment_modules = {
 			tank_anti_air_cannon_3
+		}
+
+		allow = {
+			has_tech = antiair4_tech
 		}
 
 		research_cost = 1.5
@@ -998,6 +1127,9 @@ technologies = {
 			leads_to_tech = heavyantiaircannon2_tech
 			research_cost_coeff = 1
 		}
+		allow = {
+			has_tech = heavyantiair1_tech
+		}
 
 		research_cost = 1.5
 		start_year = 1937
@@ -1025,6 +1157,9 @@ technologies = {
 			leads_to_tech = heavyantiaircannon3_tech
 			research_cost_coeff = 1
 		}
+		allow = {
+			has_tech = heavyantiair3_tech
+		}
 
 		research_cost = 1.5
 		start_year = 1941
@@ -1046,6 +1181,10 @@ technologies = {
 	heavyantiaircannon3_tech = {
 		enable_equipment_modules = {
 			tank_heavy_anti_air_cannon_3
+		}
+
+		allow = {
+			has_tech = heavyantiair5_tech
 		}
 
 		research_cost = 1.5
