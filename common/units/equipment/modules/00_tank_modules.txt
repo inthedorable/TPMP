@@ -3858,11 +3858,12 @@ equipment_modules = {
 		category = tank_ammunition_module
 		sfx = sfx_ui_sd_module_turret
 
-		multiply_stats = {
-			ap_attack = 0.1
+		add_stats = {
+			ap_attack = 20
+			build_cost_ic = 1
 		}
-		build_cost_resources = {
-			tungsten = 5
+		multiply_stats = {
+			ap_attack = -0.2
 		}
 		xp_cost = 0
 	}
@@ -3870,12 +3871,14 @@ equipment_modules = {
 		abbreviation = "heatfs"
 		category = tank_ammunition_module
 		sfx = sfx_ui_sd_module_turret
+		parent = heat_ammunition
 
-		multiply_stats = {
-			ap_attack = 0.1
+		add_stats = {
+			ap_attack = 30
+			build_cost_ic = 1.5
 		}
-		build_cost_resources = {
-			tungsten = 5
+		multiply_stats = {
+			ap_attack = -0.2
 		}
 		xp_cost = 0
 	}
@@ -3884,11 +3887,16 @@ equipment_modules = {
 		category = tank_ammunition_module
 		sfx = sfx_ui_sd_module_turret
 
-		multiply_stats = {
-			ap_attack = 0.1
+		add_stats = {
+			soft_attack = -5
+			hard_attack = -5
+			ap_attack = 20
+			build_cost_ic = 2
 		}
-		build_cost_resources = {
-			tungsten = 5
+		multiply_stats = {
+			soft_attack = 0.25
+			hard_attack = 0.25
+			ap_attack = -0.2
 		}
 		xp_cost = 0
 	}
@@ -3897,6 +3905,9 @@ equipment_modules = {
 		category = tank_ammunition_module
 		sfx = sfx_ui_sd_module_turret
 
+		add_stats = {
+			build_cost_ic = 1
+		}
 		multiply_stats = {
 			ap_attack = 0.1
 		}
@@ -3910,11 +3921,12 @@ equipment_modules = {
 		category = tank_ammunition_module
 		sfx = sfx_ui_sd_module_turret
 
-		multiply_stats = {
-			ap_attack = 0.1
+		add_stats = {
+			build_cost_ic = 1
 		}
-		build_cost_resources = {
-			tungsten = 5
+		multiply_stats = {
+			hard_attack = -0.1
+			ap_attack = 0.1
 		}
 		xp_cost = 0
 	}
@@ -3923,11 +3935,12 @@ equipment_modules = {
 		category = tank_ammunition_module
 		sfx = sfx_ui_sd_module_turret
 
-		multiply_stats = {
-			ap_attack = 0.1
+		add_stats = {
+			build_cost_ic = 1.5
 		}
-		build_cost_resources = {
-			tungsten = 5
+		multiply_stats = {
+			hard_attack = -0.1
+			ap_attack = 0.15
 		}
 		xp_cost = 0
 	}

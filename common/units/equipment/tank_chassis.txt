@@ -372,8 +372,12 @@ equipments = {
 			special_type_slot_1 = {
 				required = no
 				allowed_module_categories = {
-					tank_radio_module
 					tank_special_module
+					tank_simplification_module
+					tank_cupola_module
+					tank_rocket_module
+					tank_special_module_stabilizer
+					tank_special_module_rangefinder
 					tank_secondary_turret
 				}
 			}
@@ -381,8 +385,12 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					tank_special_module
+					tank_simplification_module
+					tank_cupola_module
+					tank_rocket_module
+					tank_special_module_stabilizer
+					tank_special_module_rangefinder
 					tank_secondary_turret
-					tank_radio_module
 				}
 			}
 		}
@@ -748,7 +756,11 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					tank_special_module
-					tank_radio_module
+					tank_simplification_module
+					tank_cupola_module
+					tank_rocket_module
+					tank_special_module_stabilizer
+					tank_special_module_rangefinder
 					tank_secondary_turret
 				}
 			}
@@ -756,8 +768,12 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					tank_special_module
+					tank_simplification_module
+					tank_cupola_module
+					tank_rocket_module
+					tank_special_module_stabilizer
+					tank_special_module_rangefinder
 					tank_secondary_turret
-					tank_radio_module
 				}
 			}
 		}
@@ -1125,7 +1141,11 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					tank_special_module
-					tank_radio_module
+					tank_simplification_module
+					tank_cupola_module
+					tank_rocket_module
+					tank_special_module_stabilizer
+					tank_special_module_rangefinder
 					tank_secondary_turret
 				}
 			}
@@ -1133,16 +1153,24 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					tank_special_module
+					tank_simplification_module
+					tank_cupola_module
+					tank_rocket_module
+					tank_special_module_stabilizer
+					tank_special_module_rangefinder
 					tank_secondary_turret
-					tank_radio_module
 				}
 			}
 			special_type_slot_3 = {
 				required = no
 				allowed_module_categories = {
 					tank_special_module
+					tank_simplification_module
+					tank_cupola_module
+					tank_rocket_module
+					tank_special_module_stabilizer
+					tank_special_module_rangefinder
 					tank_secondary_turret
-					tank_radio_module
 				}
 			}
 		}
