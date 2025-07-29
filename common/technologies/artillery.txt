@@ -488,6 +488,9 @@ technologies = {
 		enable_equipments = {
 			rocket_artillery_equipment_1
 		}
+		enable_equipment_modules = {
+			tank_rocket_launcher
+		}
 
 		path = {
 			leads_to_tech = rocketartillery2_tech
@@ -545,6 +548,9 @@ technologies = {
 	rocketartillery3_tech = {
 		enable_equipments = {
 			rocket_artillery_equipment_2
+		}
+		enable_equipment_modules = {
+			tank_rocket_launcher_2
 		}
 
 		path = {
@@ -1388,7 +1394,7 @@ technologies = {
 	}
 	heshshells_tech = {
 		enable_equipment_modules = {
-			#UNIQUE TANK SHELL
+			hesh_ammunition
 		}
 
 		category_frontline_artillery = {
@@ -1548,7 +1554,7 @@ technologies = {
 	}
 	heatshells_tech = {
 		enable_equipment_modules = {
-			#UNIQUE TANK SHELL
+			heat_ammunition
 		}
 
 		category_artillery = {
@@ -1580,7 +1586,7 @@ technologies = {
 	}
 	heatfsshells_tech = {
 		enable_equipment_modules = {
-			#UNIQUE TANK SHELL
+			heatfs_ammunition
 		}
 
 		category_artillery = {
@@ -1612,7 +1618,7 @@ technologies = {
 	}
 	atgm_tech = {
 		enable_equipment_modules = {
-			#UNIQUE TANK SHELL
+			atgm_ammunition
 		}
 
 		research_cost = 1.0
@@ -1775,7 +1781,7 @@ technologies = {
 	}
 	apdsshells_tech = {
 		enable_equipment_modules = {
-			#UNIQUE TANK SHELL
+			apds_ammunition
 		}
 
 		category_anti_tank = {
@@ -1806,7 +1812,7 @@ technologies = {
 	}
 	apfsdsshells_tech = {
 		enable_equipment_modules = {
-			#UNIQUE TANK SHELL
+			apfsds_ammunition
 		}
 
 		category_anti_tank = {
@@ -1832,7 +1838,7 @@ technologies = {
 	}
 	apcrshells_tech = {
 		enable_equipment_modules = {
-			#UNIQUE TANK SHELL
+			apcr_ammunition
 		}
 
 		category_anti_tank = {

@@ -64,6 +64,11 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					tank_special_module
+					tank_simplification_module
+					tank_cupola_module
+					tank_rocket_module
+					tank_special_module_stabilizer
+					tank_special_module_rangefinder
 					tank_secondary_turret
 				}
 			}
@@ -71,14 +76,15 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					tank_special_module
+					tank_simplification_module
+					tank_cupola_module
+					tank_rocket_module
+					tank_special_module_stabilizer
+					tank_special_module_rangefinder
 					tank_secondary_turret
 				}
 			}
 		}
-		module_count_limit = {
-			module = sloped_armor
-			count < 2
-		}	
 		module_count_limit = {
 			category = tank_radio_module
 			count < 2
@@ -87,6 +93,26 @@ equipments = {
 			category = tank_secondary_turret
 			count < 2
 		}
+		module_count_limit = {
+			category = tank_simplification_module
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_ammunition_module
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_cupola_module
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_rocket_module
+			count < 2
+		}
+		module_count_limit = {
+			module = sloped_armor
+			count < 2
+		}	
 		module_count_limit = {
 			module = amphibious_drive
 			count < 2
@@ -118,6 +144,26 @@ equipments = {
 		module_count_limit = {
 			module = stabilizer
 			count < 2
+		}
+		module_count_limit = {
+			module = spall_liner
+			count < 2
+		}
+		module_count_limit = {
+			module = rangefinder
+			count < 2
+		}
+		module_count_limit = {
+			module = fire_control_computer
+			count < 2
+		}
+		module_count_limit = {
+			module = ventilation_system
+			count < 2
+		}
+		module_count_limit = {
+			module = expanded_fuel_tank
+			count < 3
 		}
 		default_modules = {
 			main_armament_slot = empty
@@ -183,6 +229,11 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					tank_special_module
+					tank_simplification_module
+					tank_cupola_module
+					tank_rocket_module
+					tank_special_module_stabilizer
+					tank_special_module_rangefinder
 					tank_secondary_turret
 				}
 			}
@@ -214,6 +265,11 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					tank_special_module
+					tank_simplification_module
+					tank_cupola_module
+					tank_rocket_module
+					tank_special_module_stabilizer
+					tank_special_module_rangefinder
 					tank_secondary_turret
 				}
 			}
@@ -245,6 +301,11 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					tank_special_module
+					tank_simplification_module
+					tank_cupola_module
+					tank_rocket_module
+					tank_special_module_stabilizer
+					tank_special_module_rangefinder
 					tank_secondary_turret
 				}
 			}
@@ -326,17 +387,33 @@ equipments = {
 			}
 		}
 		module_count_limit = {
-			module = sloped_armor
-			count < 2
-		}	
-		module_count_limit = {
 			category = tank_radio_module
 			count < 2
 		}
 		module_count_limit = {
 			category = tank_secondary_turret
-			count < 3 #two secondary turrets only
+			count < 2
 		}
+		module_count_limit = {
+			category = tank_simplification_module
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_ammunition_module
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_cupola_module
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_rocket_module
+			count < 2
+		}
+		module_count_limit = {
+			module = sloped_armor
+			count < 2
+		}	
 		module_count_limit = {
 			module = amphibious_drive
 			count < 2
@@ -368,6 +445,26 @@ equipments = {
 		module_count_limit = {
 			module = stabilizer
 			count < 2
+		}
+		module_count_limit = {
+			module = spall_liner
+			count < 2
+		}
+		module_count_limit = {
+			module = rangefinder
+			count < 2
+		}
+		module_count_limit = {
+			module = fire_control_computer
+			count < 2
+		}
+		module_count_limit = {
+			module = ventilation_system
+			count < 2
+		}
+		module_count_limit = {
+			module = expanded_fuel_tank
+			count < 3
 		}
 		default_modules = {
 			main_armament_slot = empty
@@ -433,6 +530,11 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					tank_special_module
+					tank_simplification_module
+					tank_cupola_module
+					tank_rocket_module
+					tank_special_module_stabilizer
+					tank_special_module_rangefinder
 					tank_secondary_turret
 				}
 			}
@@ -464,6 +566,11 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					tank_special_module
+					tank_simplification_module
+					tank_cupola_module
+					tank_rocket_module
+					tank_special_module_stabilizer
+					tank_special_module_rangefinder
 					tank_secondary_turret
 				}
 			}
@@ -495,6 +602,11 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					tank_special_module
+					tank_simplification_module
+					tank_cupola_module
+					tank_rocket_module
+					tank_special_module_stabilizer
+					tank_special_module_rangefinder
 					tank_secondary_turret
 				}
 			}
@@ -526,6 +638,11 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					tank_special_module
+					tank_simplification_module
+					tank_cupola_module
+					tank_rocket_module
+					tank_special_module_stabilizer
+					tank_special_module_rangefinder
 					tank_secondary_turret
 				}
 			}
@@ -557,6 +674,11 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					tank_special_module
+					tank_simplification_module
+					tank_cupola_module
+					tank_rocket_module
+					tank_special_module_stabilizer
+					tank_special_module_rangefinder
 					tank_secondary_turret
 				}
 			}
@@ -640,13 +762,33 @@ equipments = {
 			}
 		}
 		module_count_limit = {
-			module = sloped_armor
-			count < 2
-		}	
-		module_count_limit = {
 			category = tank_radio_module
 			count < 2
 		}
+		module_count_limit = {
+			category = tank_secondary_turret
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_simplification_module
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_ammunition_module
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_cupola_module
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_rocket_module
+			count < 2
+		}
+		module_count_limit = {
+			module = sloped_armor
+			count < 2
+		}	
 		module_count_limit = {
 			module = amphibious_drive
 			count < 2
@@ -678,6 +820,26 @@ equipments = {
 		module_count_limit = {
 			module = stabilizer
 			count < 2
+		}
+		module_count_limit = {
+			module = spall_liner
+			count < 2
+		}
+		module_count_limit = {
+			module = rangefinder
+			count < 2
+		}
+		module_count_limit = {
+			module = fire_control_computer
+			count < 2
+		}
+		module_count_limit = {
+			module = ventilation_system
+			count < 2
+		}
+		module_count_limit = {
+			module = expanded_fuel_tank
+			count < 3
 		}
 		default_modules = {
 			main_armament_slot = empty
@@ -743,6 +905,11 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					tank_special_module
+					tank_simplification_module
+					tank_cupola_module
+					tank_rocket_module
+					tank_special_module_stabilizer
+					tank_special_module_rangefinder
 					tank_secondary_turret
 				}
 			}
@@ -774,6 +941,11 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					tank_special_module
+					tank_simplification_module
+					tank_cupola_module
+					tank_rocket_module
+					tank_special_module_stabilizer
+					tank_special_module_rangefinder
 					tank_secondary_turret
 				}
 			}
@@ -805,6 +977,11 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					tank_special_module
+					tank_simplification_module
+					tank_cupola_module
+					tank_rocket_module
+					tank_special_module_stabilizer
+					tank_special_module_rangefinder
 					tank_secondary_turret
 				}
 			}
@@ -836,6 +1013,11 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					tank_special_module
+					tank_simplification_module
+					tank_cupola_module
+					tank_rocket_module
+					tank_special_module_stabilizer
+					tank_special_module_rangefinder
 					tank_secondary_turret
 				}
 			}
@@ -867,6 +1049,11 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					tank_special_module
+					tank_simplification_module
+					tank_cupola_module
+					tank_rocket_module
+					tank_special_module_stabilizer
+					tank_special_module_rangefinder
 					tank_secondary_turret
 				}
 			}
@@ -960,16 +1147,36 @@ equipments = {
 			}
 		}
 		module_count_limit = {
-			module = sloped_armor
-			count < 2
-		}	
-		module_count_limit = {
 			category = tank_radio_module
 			count < 2
 		}
 		module_count_limit = {
+			category = tank_secondary_turret
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_simplification_module
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_ammunition_module
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_cupola_module
+			count < 2
+		}
+		module_count_limit = {
+			category = tank_rocket_module
+			count < 2
+		}
+		module_count_limit = {
+			module = sloped_armor
+			count < 2
+		}	
+		module_count_limit = {
 			module = amphibious_drive
-			count < 1
+			count < 2
 		}
 		module_count_limit = {
 			module = wet_ammo_storage
@@ -998,6 +1205,26 @@ equipments = {
 		module_count_limit = {
 			module = stabilizer
 			count < 2
+		}
+		module_count_limit = {
+			module = spall_liner
+			count < 2
+		}
+		module_count_limit = {
+			module = rangefinder
+			count < 2
+		}
+		module_count_limit = {
+			module = fire_control_computer
+			count < 2
+		}
+		module_count_limit = {
+			module = ventilation_system
+			count < 2
+		}
+		module_count_limit = {
+			module = expanded_fuel_tank
+			count < 3
 		}
 		default_modules = {
 			main_armament_slot = empty
@@ -1063,6 +1290,11 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					tank_special_module
+					tank_simplification_module
+					tank_cupola_module
+					tank_rocket_module
+					tank_special_module_stabilizer
+					tank_special_module_rangefinder
 					tank_secondary_turret
 				}
 			}
@@ -1070,6 +1302,11 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					tank_special_module
+					tank_simplification_module
+					tank_cupola_module
+					tank_rocket_module
+					tank_special_module_stabilizer
+					tank_special_module_rangefinder
 					tank_secondary_turret
 				}
 			}
@@ -1101,6 +1338,11 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					tank_special_module
+					tank_simplification_module
+					tank_cupola_module
+					tank_rocket_module
+					tank_special_module_stabilizer
+					tank_special_module_rangefinder
 					tank_secondary_turret
 				}
 			}
@@ -1108,6 +1350,11 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					tank_special_module
+					tank_simplification_module
+					tank_cupola_module
+					tank_rocket_module
+					tank_special_module_stabilizer
+					tank_special_module_rangefinder
 					tank_secondary_turret
 				}
 			}

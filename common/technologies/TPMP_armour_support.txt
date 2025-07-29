@@ -15,6 +15,7 @@ technologies = {
 	lightcannon1_tech = {
 		enable_equipment_modules = {
 			tank_light_cannon_1
+			secondary_turret_small_cannon
 		}
 
 		path = {
@@ -696,6 +697,7 @@ technologies = {
 	lightclosesupportgun1_tech = {
 		enable_equipment_modules = {
 			tank_light_close_support_gun_1
+			secondary_turret_close_support_gun
 		}
 
 		path = {
@@ -1373,6 +1375,7 @@ technologies = {
 	}
 	gasturbine_tech = {
 		enable_equipment_modules = {
+			tank_gas_turbine_engine
 		}
 
 		research_cost = 1.5
@@ -1396,10 +1399,14 @@ technologies = {
 
 	tankupgrade1_tech = {
 		enable_equipment_modules = {
-			tank_gasoline_engine_1
-			tank_diesel_engine_1
-			tank_petrol_electric_engine_1
+			secondary_turret_hmg
 			tank_optics_1
+			cupola_1
+			easy_maintenance
+			wartime_simplification_steel
+			wartime_simplification_tungsten
+			wartime_simplification_chromium
+			wartime_simplification_general
 		}
 
 		path = {
@@ -1435,6 +1442,7 @@ technologies = {
 	optics2_tech = {
 		enable_equipment_modules = {
 			tank_optics_2
+			tank_bino_optics_1
 		}
 
 		path = {
@@ -1461,7 +1469,7 @@ technologies = {
 	}
 	optics3_tech = {
 		enable_equipment_modules = {
-			tank_optics_rangefinder_stabilizer_3
+			tank_optics_3
 		}
 
 		path = {
@@ -1491,13 +1499,21 @@ technologies = {
 		}
 	}
 	optics4_tech = {
+		enable_equipment_modules = {
+			tank_optics_4
+			tank_bino_optics_2
+		}
 
+		path = {
+			leads_to_tech = rangefinder_tech
+			research_cost_coeff = 1
+		}
 		path = {
 			leads_to_tech = firecontrolcomputer_tech
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = rangefinder_tech
+			leads_to_tech = autoloader_tech
 			research_cost_coeff = 1
 		}
 
@@ -1520,7 +1536,7 @@ technologies = {
 	}
 	firecontrolcomputer_tech = {
 		enable_equipment_modules = {
-			tank_fire_control_computer
+			fire_control_computer
 		}
 
 		research_cost = 1.5
@@ -1543,7 +1559,7 @@ technologies = {
 	}
 	stabilizer_tech = {
 		enable_equipment_modules = {
-			tank_optics_stabilizer_2
+			stabilizer
 		}
 
 		path = {
@@ -1570,12 +1586,7 @@ technologies = {
 	}
 	rangefinder_tech = {
 		enable_equipment_modules = {
-			tank_optics_rangefinder_2
-		}
-
-		path = {
-			leads_to_tech = optics2_tech
-			research_cost_coeff = 1
+			rangefinder
 		}
 
 		research_cost = 1.5
@@ -1595,9 +1606,33 @@ technologies = {
 		ai_will_do = {
 		}
 	}
+	autoloader_tech = {
+		enable_equipment_modules = {
+			auto_loader
+		}
+
+		research_cost = 1.5
+		start_year = 1944
+
+		folder = {
+			name = TPMP_armour_support_folder
+			position = { x = 29 y = @1944 }
+		}
+
+		categories = {
+			armor
+			mio_cat_tech_all_armor_and_modules
+		}
+		special_project_specialization = { specialization_land }
+
+		ai_will_do = {
+		}
+	}
 
 	armour2_tech = {
 		enable_equipment_modules = {
+			armor_skirts
+			sloped_armor
 		}
 
 		path = {
@@ -1628,6 +1663,7 @@ technologies = {
 	}
 	armour3_tech = {
 		enable_equipment_modules = {
+			pike_nose_armor
 		}
 
 		path = {
@@ -1654,6 +1690,7 @@ technologies = {
 	}
 	armour4_tech = {
 		enable_equipment_modules = {
+			spall_liner
 		}
 
 		path = {

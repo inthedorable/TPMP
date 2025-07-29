@@ -3331,6 +3331,10 @@ spriteTypes = {
 		textureFile = "gfx/interface/technologies/rangefinder.dds"
 	}
 	SpriteType = {
+		name = "GFX_autoloader_tech_medium"
+		textureFile = "gfx/interface/technologies/autoloader.dds"
+	}
+	SpriteType = {
 		name = "GFX_optics2_tech_medium"
 		textureFile = "gfx/interface/technologies/optics2.dds"
 	}
