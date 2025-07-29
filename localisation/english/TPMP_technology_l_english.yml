@@ -113,8 +113,8 @@
  armoredheadquarters_tech: "Armoured Headquarters"
  armoredheadquarters_tech_desc: ""
 
- tank0_tech: "Chassis 1930"
- tank0_tech_desc: "During the interwar period, tanks developed rapidly, with many nations producing their first tank designs. These early tanks were often lightly armoured and armed, but they laid the foundation for future tank development."
+ tank0_tech: "Basic Tank Modules"
+ tank0_tech_desc: ""
 
  lighttankturret1_tech: "Basic Light Tank Turrets"
  lighttankturret1_tech_desc: ""

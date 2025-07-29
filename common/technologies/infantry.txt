@@ -1634,10 +1634,10 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1930
+		start_year = 1936
 		folder = {
 			name = infantry_folder
-			position = { x = 0 y = @1930 }
+			position = { x = 0 y = @1936 }
 		}
 
 		folder = {
@@ -1691,10 +1691,10 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1930
+		start_year = 1936
 		folder = {
 			name = infantry_folder
-			position = { x = 4 y = @1930 }
+			position = { x = 4 y = @1936 }
 		}
 
 		categories = {
@@ -1738,10 +1738,10 @@ technologies = {
 		}
 
 		research_cost = 2
-		start_year = 1940
+		start_year = 1939
 		folder = {
 			name = infantry_folder
-			position = { x = 4 y = @1940 }
+			position = { x = 4 y = @1939 }
 		}
 
 		categories = {

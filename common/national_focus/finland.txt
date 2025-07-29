@@ -11632,7 +11632,7 @@ focus_tree = {
 							}
 						}
 						add_equipment_to_stockpile = { 
-							type = light_tank_chassis_1930
+							type = light_tank_chassis_1936
 							amount = 50
 							producer = ENG
 						}
@@ -11648,7 +11648,7 @@ focus_tree = {
 							}
 							create_equipment_variant = {
 								name = "Vickers Mark E Tpye B"
-								type = light_tank_chassis_1930
+								type = light_tank_chassis_1936
 								parent_version = 0
 								modules = {
 									main_armament_slot = tank_light_cannon_1
@@ -11668,7 +11668,7 @@ focus_tree = {
 							}
 						}
 						add_equipment_to_stockpile = { 
-							type = light_tank_chassis_1930
+							type = light_tank_chassis_1936
 							variant_name = "Vickers 6 ton A"
 							amount = 26
 							producer = ENG
@@ -11681,12 +11681,12 @@ focus_tree = {
 							}
 						}
 						add_equipment_to_stockpile = { 
-							type = light_tank_chassis_1930
+							type = light_tank_chassis_1936
 							amount = 25
 							producer = FRA
 						}
 						add_equipment_to_stockpile = { 
-							type = medium_tank_chassis_1930
+							type = medium_tank_chassis_1936
 							amount = 15
 							producer = FRA
 						}
@@ -11710,7 +11710,7 @@ focus_tree = {
 							producer = SOV
 						}
 						add_equipment_to_stockpile = { 
-							type = medium_tank_chassis_1930
+							type = medium_tank_chassis_1936
 							amount = 15
 							producer = SOV
 						}
@@ -11723,7 +11723,7 @@ focus_tree = {
 							}
 						}
 						add_equipment_to_stockpile = { 
-							type = light_tank_chassis_1930
+							type = light_tank_chassis_1936
 							amount = 35
 							producer = SWE
 						}

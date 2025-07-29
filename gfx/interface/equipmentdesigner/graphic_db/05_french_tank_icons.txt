@@ -7,7 +7,7 @@ FRA = {
 			}
 		}
 	}
-	light_tank_chassis_1930 = {
+	light_tank_chassis_1936 = {
 		pool = {
 			models = {
 				FRA_light_armor_0_entity #Hotchkiss H35 (Basic LT) -> Pick oldest tank
@@ -39,7 +39,7 @@ FRA = {
 			}
 		}
 	}
-	#medium_tank_chassis_1930 uses vanilla medium_armor_entity as oldest tank pick
+	#medium_tank_chassis_1936 uses vanilla medium_armor_entity as oldest tank pick
 	#medium_tank_chassis_1936 uses vanilla medium_armor_entity
 	medium_tank_chassis_1938 = {
 		pool = {
@@ -65,7 +65,7 @@ FRA = {
 			}
 		}
 	}
-	#heavy_tank_chassis_1930 uses vanilla heavy_armor_entity as oldest tank pick
+	#heavy_tank_chassis_1936 uses vanilla heavy_armor_entity as oldest tank pick
 	#heavy_tank_chassis_1936 uses vanilla heavy_armor_entity
 	heavy_tank_chassis_1938 = {
 		pool = {

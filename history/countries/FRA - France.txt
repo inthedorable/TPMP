@@ -740,7 +740,7 @@ if = {
 	}
 	create_equipment_variant = {
 		name = "FT mod. 31"
-		type = light_tank_chassis_1930
+		type = light_tank_chassis_1936
 		design_team = mio:FRA_renault_organization
 		parent_version = 0
 		modules = {
@@ -758,7 +758,7 @@ if = {
 	}
 	create_equipment_variant = {
 		name = "FT Char Cannon"
-		type = light_tank_chassis_1930
+		type = light_tank_chassis_1936
 		design_team = mio:FRA_renault_organization
 		parent_version = 0
 		modules = {
@@ -815,7 +815,7 @@ if = {
 
 	create_equipment_variant = {
 		name = "SOMUA S35"
-		type = medium_tank_chassis_1930
+		type = medium_tank_chassis_1936
 		parent_version = 0
 		modules = {
 			main_armament_slot = tank_light_cannon_1

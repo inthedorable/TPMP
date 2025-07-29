@@ -527,7 +527,7 @@ units = {
 		division_template = "Grupa Pancerna" 			# Was still being mobilized on 1939.9.1
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.5
-		force_equipment_variants = { light_tank_chassis_1930 = { owner = "POL" creator = "POL" version_name = "7TP jw" } }
+		force_equipment_variants = { light_tank_chassis_1936 = { owner = "POL" creator = "POL" version_name = "7TP jw" } }
 
 	}
 	# Grupa Operacyjna Pólnocna (CO: Sadowski) #
@@ -784,7 +784,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = light_tank_chassis_1930
+			type = light_tank_chassis_1936
 			creator = POL 
 			version_name = "7TP jw"
 		}

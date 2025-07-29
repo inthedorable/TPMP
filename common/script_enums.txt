@@ -407,13 +407,11 @@ script_enum_equipment_bonus_type = {
 	special_equipment
 	special_equipment_1
 	light_tank_chassis
-	light_tank_chassis_1930
 	light_tank_chassis_1936
 	light_tank_chassis_1938
 	light_tank_chassis_1940
 	light_tank_chassis_1941
 	medium_tank_chassis
-	medium_tank_chassis_1930
 	medium_tank_chassis_1936
 	medium_tank_chassis_1938
 	medium_tank_chassis_1940
@@ -421,7 +419,6 @@ script_enum_equipment_bonus_type = {
 	medium_tank_chassis_1943
 	medium_tank_chassis_1944
 	heavy_tank_chassis
-	heavy_tank_chassis_1930
 	heavy_tank_chassis_1936
 	heavy_tank_chassis_1938
 	heavy_tank_chassis_1940
@@ -557,95 +554,80 @@ script_enum_equipment_bonus_type = {
 	super_heavy_tank_aa_chassis
 	super_heavy_tank_artillery_chassis
 	super_heavy_tank_destroyer_chassis
-	light_tank_aa_chassis_1930
 	light_tank_aa_chassis_1936
 	light_tank_aa_chassis_1938
 	light_tank_aa_chassis_1940
 	light_tank_aa_chassis_1941
-	light_tank_artillery_chassis_1930
 	light_tank_artillery_chassis_1936
 	light_tank_artillery_chassis_1938
 	light_tank_artillery_chassis_1940
 	light_tank_artillery_chassis_1941
-	light_tank_destroyer_chassis_1930
 	light_tank_destroyer_chassis_1936
 	light_tank_destroyer_chassis_1938
 	light_tank_destroyer_chassis_1940
 	light_tank_destroyer_chassis_1941
-	light_tank_amphibious_chassis_1930
 	light_tank_amphibious_chassis_1936
 	light_tank_amphibious_chassis_1938
 	light_tank_amphibious_chassis_1940
 	light_tank_amphibious_chassis_1941
-	light_tank_flame_chassis_1930
 	light_tank_flame_chassis_1936
 	light_tank_flame_chassis_1938
 	light_tank_flame_chassis_1940
 	light_tank_flame_chassis_1941
-	medium_tank_aa_chassis_1930
 	medium_tank_aa_chassis_1936
 	medium_tank_aa_chassis_1938
 	medium_tank_aa_chassis_1940
 	medium_tank_aa_chassis_1941
 	medium_tank_aa_chassis_1943
 	medium_tank_aa_chassis_1944
-	medium_tank_artillery_chassis_1930
 	medium_tank_artillery_chassis_1936
 	medium_tank_artillery_chassis_1938
 	medium_tank_artillery_chassis_1940
 	medium_tank_artillery_chassis_1941
 	medium_tank_artillery_chassis_1943
 	medium_tank_artillery_chassis_1944
-	medium_tank_destroyer_chassis_1930
 	medium_tank_destroyer_chassis_1936
 	medium_tank_destroyer_chassis_1938
 	medium_tank_destroyer_chassis_1940
 	medium_tank_destroyer_chassis_1941
 	medium_tank_destroyer_chassis_1943
 	medium_tank_destroyer_chassis_1944
-	medium_tank_amphibious_chassis_1930
 	medium_tank_amphibious_chassis_1936
 	medium_tank_amphibious_chassis_1938
 	medium_tank_amphibious_chassis_1940
 	medium_tank_amphibious_chassis_1941
 	medium_tank_amphibious_chassis_1943
 	medium_tank_amphibious_chassis_1944
-	medium_tank_flame_chassis_1930
 	medium_tank_flame_chassis_1936
 	medium_tank_flame_chassis_1938
 	medium_tank_flame_chassis_1940
 	medium_tank_flame_chassis_1941
 	medium_tank_flame_chassis_1943
 	medium_tank_flame_chassis_1944
-	heavy_tank_aa_chassis_1930
 	heavy_tank_aa_chassis_1936
 	heavy_tank_aa_chassis_1938
 	heavy_tank_aa_chassis_1940
 	heavy_tank_aa_chassis_1941
 	heavy_tank_aa_chassis_1943
 	heavy_tank_aa_chassis_1944
-	heavy_tank_artillery_chassis_1930
 	heavy_tank_artillery_chassis_1936
 	heavy_tank_artillery_chassis_1938
 	heavy_tank_artillery_chassis_1940
 	heavy_tank_artillery_chassis_1941
 	heavy_tank_artillery_chassis_1943
 	heavy_tank_artillery_chassis_1944
-	heavy_tank_destroyer_chassis_1930
 	heavy_tank_destroyer_chassis_1936
 	heavy_tank_destroyer_chassis_1938
 	heavy_tank_destroyer_chassis_1940
 	heavy_tank_destroyer_chassis_1941
 	heavy_tank_destroyer_chassis_1943
 	heavy_tank_destroyer_chassis_1944
-	heavy_tank_amphibious_chassis_1930
 	heavy_tank_amphibious_chassis_1936
 	heavy_tank_amphibious_chassis_1938
 	heavy_tank_amphibious_chassis_1940
 	heavy_tank_amphibious_chassis_1941
 	heavy_tank_amphibious_chassis_1943
 	heavy_tank_amphibious_chassis_1944
-	heavy_tank_flame_chassis_1930
 	heavy_tank_flame_chassis_1936
 	heavy_tank_flame_chassis_1938
 	heavy_tank_flame_chassis_1940

@@ -343,7 +343,7 @@ units = {
 		division_template = "Tyazolaya-Tankovaya Brigada"		# 20ya TB (T-35), 40ya TB (T-26)
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
-		force_equipment_variants = { heavy_tank_chassis_1930 = { owner = "SOV" creator = "SOV" version_name = "T-35" } }
+		force_equipment_variants = { heavy_tank_chassis_1936 = { owner = "SOV" creator = "SOV" version_name = "T-35" } }
 		force_equipment_variants = { light_tank_chassis_1936 = { owner = "SOV" creator = "SOV" version_name = "T-26TU mod. 1933" } }
 
 	}
@@ -650,7 +650,7 @@ units = {
 		division_template = "Tankovaya Brigada"		# 1ya TB (T-28), 16ya TB (BT-7)
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
-		force_equipment_variants = { medium_tank_chassis_1930 = { owner = "SOV" creator = "SOV" version_name = "T-28" } }
+		force_equipment_variants = { medium_tank_chassis_1936 = { owner = "SOV" creator = "SOV" version_name = "T-28" } }
 		force_equipment_variants = { light_tank_chassis_1938 = { owner = "SOV" creator = "SOV" version_name = "BT-7" } }
 	}
 	# 24ya Strelkovyi Korpus (CO: ) #	
@@ -873,7 +873,7 @@ units = {
 		division_template = "Tankovaya Brigada"		# 2ya TB (BT-7), 6ya TB (T-28)
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
-		force_equipment_variants = { medium_tank_chassis_1930 = { owner = "SOV" creator = "SOV" version_name = "T-28" } }
+		force_equipment_variants = { medium_tank_chassis_1936 = { owner = "SOV" creator = "SOV" version_name = "T-28" } }
 		force_equipment_variants = { light_tank_chassis_1938 = { owner = "SOV" creator = "SOV" version_name = "BT-7" } }
 	}
 	# 5ya Strelkovyi Korpus (CO: ) #
@@ -979,7 +979,7 @@ units = {
 		division_template = "Tankovaya Brigada"		# 37ya TB (T-28), 43ya TB (BT-7)
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
-		force_equipment_variants = { medium_tank_chassis_1930 = { owner = "SOV" creator = "SOV" version_name = "T-28" } }
+		force_equipment_variants = { medium_tank_chassis_1936 = { owner = "SOV" creator = "SOV" version_name = "T-28" } }
 		force_equipment_variants = { light_tank_chassis_1938 = { owner = "SOV" creator = "SOV" version_name = "BT-7" } }
 	}
 	# 51ya Strelkovyi Korpus (CO: ) #	
@@ -1725,7 +1725,7 @@ units = {
 		division_template = "Tyazolaya-Tankovaya Brigada"		# 10ya TB (T-35), 24ya TB (T-26)
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
-		force_equipment_variants = { heavy_tank_chassis_1930 = { owner = "SOV" creator = "SOV" version_name = "T-35" } }
+		force_equipment_variants = { heavy_tank_chassis_1936 = { owner = "SOV" creator = "SOV" version_name = "T-35" } }
 		force_equipment_variants = { light_tank_chassis_1936 = { owner = "SOV" creator = "SOV" version_name = "T-26TU mod. 1933" } }
 	}
 	# 2ya Kavaleriyskiy Korpus	(CO: ) #	
@@ -2003,7 +2003,7 @@ units = {
 		division_template = "Tyazolaya-Tankovaya Brigada"		# 14ya TB (T-35), 30ya TB (T-26)
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
-		force_equipment_variants = { heavy_tank_chassis_1930 = { owner = "SOV" creator = "SOV" version_name = "T-35" } }
+		force_equipment_variants = { heavy_tank_chassis_1936 = { owner = "SOV" creator = "SOV" version_name = "T-35" } }
 		force_equipment_variants = { light_tank_chassis_1936 = { owner = "SOV" creator = "SOV" version_name = "T-26TU mod. 1933" } }
 	}
 	# 55ya Strelkovyi Korpus (CO: ) #	

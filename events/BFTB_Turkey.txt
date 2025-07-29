@@ -2355,7 +2355,7 @@ country_event = {
 		else = {
 			send_equipment = {
 				target = TUR
-				type = light_tank_chassis_1930
+				type = light_tank_chassis_1936
 				amount = 75
 			}
 		}	
@@ -2473,7 +2473,7 @@ country_event = {
 		}
 		else = {
 			effect_tooltip = {
-				add_equipment_to_stockpile = { type = light_tank_chassis_1930 amount = 75 producer = ITA } 
+				add_equipment_to_stockpile = { type = light_tank_chassis_1936 amount = 75 producer = ITA } 
 			}
 		}
 		if = {

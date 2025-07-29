@@ -1142,7 +1142,9 @@ technologies = {
 	engine2_tech = {
 		enable_equipment_modules = {
 			tank_gasoline_engine_2
+			tank_large_gasoline_engine_1
 			tank_diesel_engine_2
+			tank_large_diesel_engine_1
 		}
 
 		path = {
@@ -1203,7 +1205,9 @@ technologies = {
 	engine4_tech = {
 		enable_equipment_modules = {
 			tank_gasoline_engine_4
+			tank_large_gasoline_engine_2
 			tank_diesel_engine_4
+			tank_large_diesel_engine_2
 		}
 
 		path = {

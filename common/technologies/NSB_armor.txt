@@ -13,12 +13,6 @@ technologies = {
 	@1946 = 24
 
 	tank0_tech = {
-		enable_equipments = {
-			light_tank_chassis_1930
-			medium_tank_chassis_1930
-			heavy_tank_chassis_1930
-		}
-
 		enable_equipment_modules = {
 			tank_simple_light_turret_1
 			tank_light_turret_1

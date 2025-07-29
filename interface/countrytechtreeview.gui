@@ -4423,6 +4423,7 @@ guiTypes = {
 				alwaystransparent = yes
 			}
 		}
+
 		containerWindowType = {
 			name = "sub_technology_slot_1"
 			position = { x=141 y=1 }
@@ -4441,9 +4442,10 @@ guiTypes = {
 				alwaystransparent = yes
 			}
 		}
+
 		containerWindowType = {
 			name = "sub_technology_slot_2"
-			position = { x=181 y=28 }
+			position = { x=141 y=28 }
 			size = { width = 35 height = 26 }
 			clipping = no
 
@@ -4459,9 +4461,10 @@ guiTypes = {
 				alwaystransparent = yes
 			}
 		}
+
 		containerWindowType = {
 			name = "sub_technology_slot_3"
-			position = { x=181 y=56 }
+			position = { x=141 y=56 }
 			size = { width = 35 height = 26 }
 			clipping = no
 

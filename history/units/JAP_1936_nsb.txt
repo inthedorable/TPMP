@@ -144,7 +144,7 @@ units = {
 		location = 12446 #Toyohara
 		division_template = "Dokuritsu Konsei Ryodan"
 		start_equipment_factor = 0.8
-		force_equipment_variants = { light_tank_chassis_1930 = { owner = JAP version_name = "Type 94 Tankette" } }
+		force_equipment_variants = { light_tank_chassis_1936 = { owner = JAP version_name = "Type 94 Tankette" } }
 	}
 
 	#Chuo Homengun - East Japan Army
@@ -615,7 +615,7 @@ units = {
 		location = 3900 #East Hebei Autonomous Council
 		division_template = "Dokuritsu Konsei Ryodan"
 		start_experience_factor = 0.3
-		force_equipment_variants = { light_tank_chassis_1930 = { owner = JAP version_name = "Type 94 Tankette" } }
+		force_equipment_variants = { light_tank_chassis_1936 = { owner = JAP version_name = "Type 94 Tankette" } }
 	}
 	division = { # "11 Dokuritsu Konsei Ryodan"
 		division_name = {
@@ -625,7 +625,7 @@ units = {
 		location = 11822 #East Hebei Autonomous Council
 		division_template = "Dokuritsu Konsei Ryodan"
 		start_experience_factor = 0.3
-		force_equipment_variants = { light_tank_chassis_1930 = { owner = JAP version_name = "Type 94 Tankette" } }
+		force_equipment_variants = { light_tank_chassis_1936 = { owner = JAP version_name = "Type 94 Tankette" } }
 	}
 
 	#2 Homengun - 2nd Field Army

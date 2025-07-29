@@ -1930,11 +1930,11 @@ country_event = { # Norway wants ONE tank
 			else_if = {
 				limit = {
 					has_equipment = {
-						light_tank_chassis_1930 > 0
+						light_tank_chassis_1936 > 0
 					}
 				}
 				add_equipment_to_stockpile = { 
-					type = light_tank_chassis_1930 
+					type = light_tank_chassis_1936 
 					amount = -1 
 				}
 			}

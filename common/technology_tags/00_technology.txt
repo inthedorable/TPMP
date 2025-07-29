@@ -115,7 +115,41 @@ technology_categories = {
 	transport_planes_cat
 
 	#TPMP Categories
+	cat_infantry_tech
+	cat_infantry_gun_tech
+	cat_mg_tech
+	cat_rifle_tech
+	cat_cqc_tech
+	cat_infantry_support_tech
+	cat_infantry_at_tech
+
+	cat_special_forces_tech
+	cat_marine_tech
+	cat_mountaineers_tech
+	cat_rangers_tech
+	cat_para_tech
+	cat_commandos_tech
+
 	cat_motorized_tech
+	cat_armored_car_tech
+	cat_mechanized_tech
+	cat_anti_tank_mechanized_tech
+	cat_artillery_mechanized_tech
+	cat_anti_air_mechanized_tech
+	cat_amphibious_mechanized_tech
+
+	cat_support_tech
+	cat_engineers_tech
+	cat_recon_tech
+	cat_military_police_tech
+	cat_maintenance_company_tech
+	cat_hospital_tech
+	cat_logistics_tech
+	cat_signal_company_tech
+	cat_headquarters_tech
+
+	cat_train_tech
+
 	cat_rocketry_tech
 	cat_artillery_tech
 	cat_howitzer_tech
@@ -130,6 +164,8 @@ technology_categories = {
 	cat_shells_tech
 	cat_ap_shells_tech
 	cat_he_shells_tech
+
+	cat_special_project_tech
 
 	cat_land_doctrine
 	cat_tank_doctrine

@@ -18799,12 +18799,12 @@ focus_tree = {
 				amount = 100
 			}
 			add_equipment_to_stockpile = {
-				type = light_tank_chassis_1930
+				type = light_tank_chassis_1936
 				amount = 60
 				variant_name = "Fiat 3000"
 			}
 			add_equipment_to_stockpile = {
-				type = light_tank_chassis_1930
+				type = light_tank_chassis_1936
 				amount = 20
 				variant_name = "Fiat 3000B"
 			}

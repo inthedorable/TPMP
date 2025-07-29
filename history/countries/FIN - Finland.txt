@@ -705,7 +705,7 @@ if = {
 	}
 	create_equipment_variant = {
 		name = "FT mod. 31"
-		type = light_tank_chassis_1930
+		type = light_tank_chassis_1936
 		parent_version = 0
 		modules = {
 			main_armament_slot = tank_light_cannon_1
@@ -723,7 +723,7 @@ if = {
 	}
 
 	add_equipment_to_stockpile = { 
-		type = light_tank_chassis_1930
+		type = light_tank_chassis_1936
 		variant_name = "FT mod. 31"
 		amount = 34
 		producer = FRA
@@ -740,7 +740,7 @@ if = {
 		set_country_flag = FIN_vickers_template_created_flag
 		create_equipment_variant = {
 			name = "Vickers Mark E Tpye B"
-			type = light_tank_chassis_1930
+			type = light_tank_chassis_1936
 			parent_version = 0
 			modules = {
 				main_armament_slot = tank_light_cannon_1
@@ -760,7 +760,7 @@ if = {
 		}
 
 		add_equipment_to_stockpile = { 
-			type = light_tank_chassis_1930
+			type = light_tank_chassis_1936
 			variant_name = "Vickers 6 ton A"
 			amount = 26
 			producer = ENG

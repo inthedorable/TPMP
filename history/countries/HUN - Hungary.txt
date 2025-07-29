@@ -228,7 +228,7 @@ IF = {
 	}
 	create_equipment_variant = {
 		name = "Straussler V-4"
-		type = light_tank_chassis_1930
+		type = light_tank_chassis_1936
 		parent_version = 0
 		obsolete = no
 		modules = {
@@ -247,7 +247,7 @@ IF = {
 	}
 
 	add_equipment_to_stockpile = {
-		type = light_tank_chassis_1930
+		type = light_tank_chassis_1936
 		amount = 4
 		variant_name = "Straussler V-4"
 	}

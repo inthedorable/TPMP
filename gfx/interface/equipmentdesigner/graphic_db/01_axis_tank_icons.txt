@@ -39,7 +39,7 @@ GER = {
 			}
 		}
 	}
-	light_tank_destroyer_chassis_1930 = {
+	light_tank_destroyer_chassis_1936 = {
 		pool = {
 			weight = 2
 			icons = { 
@@ -85,7 +85,7 @@ GER = {
 			}
 		}
 	}
-	light_tank_artillery_chassis_1930 = {
+	light_tank_artillery_chassis_1936 = {
 		pool = {
 			icons = {
 				GFX_GER_basic_light_art_medium #Sturmpanzer I Bison -> Pick Oldest Tank
@@ -126,7 +126,7 @@ GER = {
 			}
 		}
 	}
-	light_tank_aa_chassis_1930 = {
+	light_tank_aa_chassis_1936 = {
 		pool = {
 			icons = {
 				GFX_GER_basic_light_spaa_medium #Flakpanzer I -> Pick oldest tank
@@ -194,7 +194,7 @@ GER = {
 			}
 		}
 	}
-	medium_tank_destroyer_chassis_1930 = {
+	medium_tank_destroyer_chassis_1936 = {
 		pool = {
 			icons = {
 				GFX_GER_basic_medium_td_medium #Sturmgeschütz III -> Pick oldest tank
@@ -249,7 +249,7 @@ GER = {
 			}
 		}
 	}
-	medium_tank_artillery_chassis_1930 = {
+	medium_tank_artillery_chassis_1936 = {
 		pool = {
 			icons = {
 				GFX_GER_basic_medium_art_medium #Grille -> Pick oldest tank
@@ -304,7 +304,7 @@ GER = {
 			}
 		}
 	}
-	medium_tank_aa_chassis_1930 = {
+	medium_tank_aa_chassis_1936 = {
 		pool = {
 			icons = {
 				GFX_GER_basic_medium_spaa_medium #Flakpanzer III Möbelwagen -> Pick oldest tank
@@ -385,7 +385,7 @@ GER = {
 			}
 		}
 	}
-	heavy_tank_destroyer_chassis_1930 = {
+	heavy_tank_destroyer_chassis_1936 = {
 		pool = {
 			icons = {
 				GFX_GER_basic_heavy_td_medium #Selbstfahrlafette auf VK3001(H) Sturer Emil -> Pick oldest tank
@@ -927,7 +927,7 @@ JAP = {
 	
 	### Mediums - FUNCTIONAL NOW - PWN
 	
-	medium_tank_chassis_1930 = {
+	medium_tank_chassis_1936 = {
 		pool = {
 			weight = 0.5
 			icons = {
@@ -1099,7 +1099,7 @@ JAP = {
 	
 	### Heavies - FUNCTIONAL NOW - PWN
 	
-	heavy_tank_chassis_1930 = {
+	heavy_tank_chassis_1936 = {
 		pool = {
 			models = {
 				"JAP_heavy_armor_2_entity"

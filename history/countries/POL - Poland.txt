@@ -554,7 +554,7 @@ if = {
 
 		create_equipment_variant = {
 			name = "TKS"
-			type = light_tank_chassis_1930
+			type = light_tank_chassis_1936
 			parent_version = 0
 			modules = {
 				main_armament_slot = tank_light_cannon_1
@@ -572,7 +572,7 @@ if = {
 		}
 		create_equipment_variant = {
 			name = "7TP dw"
-			type = light_tank_chassis_1930
+			type = light_tank_chassis_1936
 			parent_version = 1
 			modules = {
 				main_armament_slot = tank_light_cannon_1
@@ -590,7 +590,7 @@ if = {
 		}
 		create_equipment_variant = {
 			name = "7TP jw"
-			type = light_tank_chassis_1930
+			type = light_tank_chassis_1936
 			parent_version = 2
 			modules = {
 				main_armament_slot = tank_light_cannon_1
@@ -611,7 +611,7 @@ if = {
 	ELSE = {
 		create_equipment_variant = {
 			name = "TKS"
-			type = light_tank_chassis_1930
+			type = light_tank_chassis_1936
 			parent_version = 0
 			modules = {
 				main_armament_slot = tank_light_cannon_1
@@ -628,7 +628,7 @@ if = {
 		}
 		create_equipment_variant = {
 			name = "7TP dw"
-			type = light_tank_chassis_1930
+			type = light_tank_chassis_1936
 			parent_version = 1
 			modules = {
 				main_armament_slot = tank_light_cannon_1
@@ -645,7 +645,7 @@ if = {
 		}
 		create_equipment_variant = {
 			name = "7TP jw"
-			type = light_tank_chassis_1930
+			type = light_tank_chassis_1936
 			parent_version = 2
 			modules = {
 				main_armament_slot = tank_light_cannon_1
@@ -662,7 +662,7 @@ if = {
 		}
 	}
 #	add_equipment_to_stockpile = {
-#		type = light_tank_chassis_1930
+#		type = light_tank_chassis_1936
 #		amount = 550
 #		variant_name = "TKS"
 #	}

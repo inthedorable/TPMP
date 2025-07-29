@@ -53,7 +53,7 @@ ENG = {
 			}
 		}
 	}
-	heavy_tank_chassis_1930 = {
+	heavy_tank_chassis_1936 = {
 		pool = {
 			models = {
 				ENG_heavy_armor_0_entity #Vickers A1E1 Independent (Basic HT) -> Pick oldest tank
@@ -152,7 +152,7 @@ RAJ = {
 			}
 		}
 	}
-	heavy_tank_chassis_1930 = {
+	heavy_tank_chassis_1936 = {
 		pool = {
 			models = {
 				ENG_heavy_armor_0_entity #Vickers A1E1 Independent (Basic HT) -> Pick oldest tank
@@ -231,7 +231,7 @@ AST = {
 			}
 		}
 	}
-	heavy_tank_chassis_1930 = {
+	heavy_tank_chassis_1936 = {
 		pool = {
 			models = {
 				ENG_heavy_armor_0_entity #Vickers A1E1 Independent (Basic HT) -> Pick oldest tank
@@ -310,7 +310,7 @@ CAN = {
 			}
 		}
 	}
-	heavy_tank_chassis_1930 = {
+	heavy_tank_chassis_1936 = {
 		pool = {
 			models = {
 				ENG_heavy_armor_0_entity #Vickers A1E1 Independent (Basic HT) -> Pick oldest tank
@@ -389,7 +389,7 @@ NZL = {
 			}
 		}
 	}
-	heavy_tank_chassis_1930 = {
+	heavy_tank_chassis_1936 = {
 		pool = {
 			models = {
 				ENG_heavy_armor_0_entity #Vickers A1E1 Independent (Basic HT) -> Pick oldest tank
@@ -468,7 +468,7 @@ SAF = {
 			}
 		}
 	}
-	heavy_tank_chassis_1930 = {
+	heavy_tank_chassis_1936 = {
 		pool = {
 			models = {
 				ENG_heavy_armor_0_entity #Vickers A1E1 Independent (Basic HT) -> Pick oldest tank

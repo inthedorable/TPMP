@@ -223,7 +223,7 @@ focus_tree = {
 					set_technology = { tank0_tech = 1 }
 				}
 
-				add_equipment_to_stockpile = { type = light_tank_chassis_1930 amount = 100 producer = ITA variant_name = "Fiat 3000B" }
+				add_equipment_to_stockpile = { type = light_tank_chassis_1936 amount = 100 producer = ITA variant_name = "Fiat 3000B" }
 			}
 
 		}
@@ -574,7 +574,7 @@ focus_tree = {
 
 			create_equipment_variant = {
 			    name = "German Tractor Tank"
-			    type = light_tank_chassis_1930
+			    type = light_tank_chassis_1936
 			    parent_version = 1
 			    modules = {
 					main_armament_slot=tank_light_cannon_1
@@ -603,7 +603,7 @@ focus_tree = {
 				}
 			}
 			add_equipment_to_stockpile = { 
-				type = light_tank_chassis_1930
+				type = light_tank_chassis_1936
 				amount = 700
 				producer = URG
 				variant_name = "German Tractor Tank" 

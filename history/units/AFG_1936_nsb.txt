@@ -43,7 +43,7 @@ units = {
 		location = 10737
 		division_template = "Royal Guard"
 		start_experience_factor = 0.3
-		force_equipment_variants = { light_tank_chassis_1930 = { owner = AFG creator = FRA version_name = "FT mod. 31" } }
+		force_equipment_variants = { light_tank_chassis_1936 = { owner = AFG creator = FRA version_name = "FT mod. 31" } }
 	}
 	division = {
 		#name = "Farah Military District"
@@ -171,7 +171,7 @@ units = {
 #		location = 10737
 #		division_template = "Royal Guard"
 #		start_experience_factor = 0.3
-#		force_equipment_variants = { light_tank_chassis_1930 = { owner = AFG creator = FRA version_name = "FT mod. #31" } }
+#		force_equipment_variants = { light_tank_chassis_1936 = { owner = AFG creator = FRA version_name = "FT mod. #31" } }
 #	}
 #	division = {
 #		#name = "Farah Military District"

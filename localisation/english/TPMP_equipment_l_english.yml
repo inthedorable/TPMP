@@ -1,6 +1,4 @@
 ﻿l_english:
- light_tank_chassis_1930: "Light Tank Chassis 1930"
- light_tank_chassis_1930_short: "Light 1930"
  light_tank_chassis_1936: "Light Tank Chassis 1936"
  light_tank_chassis_1936_short: "Light 1936"
  light_tank_chassis_1938: "Light Tank Chassis 1938"
@@ -10,8 +8,6 @@
  light_tank_chassis_1941: "Light Tank Chassis 1941"
  light_tank_chassis_1941_short: "Light 1941"
 
- medium_tank_chassis_1930: "Medium Tank Chassis 1930"
- medium_tank_chassis_1930_short: "Medium 1930"
  medium_tank_chassis_1936: "Medium Tank Chassis 1936"
  medium_tank_chassis_1936_short: "Medium 1936"
  medium_tank_chassis_1938: "Medium Tank Chassis 1938"
@@ -25,8 +21,6 @@
  medium_tank_chassis_1944: "Medium Tank Chassis 1944"
  medium_tank_chassis_1944_short: "Medium 1944"
 
- heavy_tank_chassis_1930: "Heavy Tank Chassis 1930"
- heavy_tank_chassis_1930_short: "Heavy 1930"
  heavy_tank_chassis_1936: "Heavy Tank Chassis 1936"
  heavy_tank_chassis_1936_short: "Heavy 1936"
  heavy_tank_chassis_1938: "Heavy Tank Chassis 1938"

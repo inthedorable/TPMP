@@ -18,7 +18,7 @@ ARG = {
 		}
 	}
 
-	light_tank_chassis_1930 = {
+	light_tank_chassis_1936 = {
 		pool = {
 			limit = {
 				has_dlc = "Trial of Allegiance"
@@ -95,7 +95,7 @@ ARG = {
 		}
 	}
 
-	medium_tank_chassis_1930 = {
+	medium_tank_chassis_1936 = {
 		pool = {
 			limit = {
 				has_dlc = "Trial of Allegiance"
@@ -166,7 +166,7 @@ ARG = {
 		}
 	}
 
-	heavy_tank_chassis_1930 = {
+	heavy_tank_chassis_1936 = {
 		pool = {
 			limit = {
 				has_dlc = "Trial of Allegiance"
@@ -268,7 +268,7 @@ BRA = {
 		}
 	}
 
-	light_tank_chassis_1930 = {
+	light_tank_chassis_1936 = {
 		pool = {
 			limit = {
 				has_dlc = "Trial of Allegiance"
@@ -345,7 +345,7 @@ BRA = {
 		}
 	}
 
-	medium_tank_chassis_1930 = {
+	medium_tank_chassis_1936 = {
 		pool = {
 			limit = {
 				has_dlc = "Trial of Allegiance"
@@ -417,7 +417,7 @@ BRA = {
 		}
 	}
 
-	heavy_tank_chassis_1930 = {
+	heavy_tank_chassis_1936 = {
 		pool = {
 			limit = {
 				has_dlc = "Trial of Allegiance"
@@ -510,7 +510,7 @@ CHL = {
 		}
 	}
 
-	light_tank_chassis_1930 = {
+	light_tank_chassis_1936 = {
 		pool = {
 			limit = {
 				has_dlc = "Trial of Allegiance"
@@ -587,7 +587,7 @@ CHL = {
 		}
 	}
 
-	medium_tank_chassis_1930 = {
+	medium_tank_chassis_1936 = {
 		pool = {
 			limit = {
 				has_dlc = "Trial of Allegiance"
@@ -659,7 +659,7 @@ CHL = {
 		}
 	}
 
-	heavy_tank_chassis_1930 = {
+	heavy_tank_chassis_1936 = {
 		pool = {
 			limit = {
 				has_dlc = "Trial of Allegiance"
@@ -750,7 +750,7 @@ CHL = {
 #		}
 #	}
 #
-#	light_tank_chassis_1930 = {
+#	light_tank_chassis_1936 = {
 #		pool = {
 #			limit = {
 #				has_dlc = "Trial of Allegiance"
@@ -824,7 +824,7 @@ CHL = {
 #		}
 #	}
 #
-#	medium_tank_chassis_1930 = {
+#	medium_tank_chassis_1936 = {
 #		pool = {
 #			limit = {
 #				has_dlc = "Trial of Allegiance"
@@ -893,7 +893,7 @@ CHL = {
 #		}
 #	}
 #
-#	heavy_tank_chassis_1930 = {
+#	heavy_tank_chassis_1936 = {
 #		pool = {
 #			limit = {
 #				has_dlc = "Trial of Allegiance"

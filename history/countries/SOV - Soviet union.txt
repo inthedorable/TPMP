@@ -1405,7 +1405,7 @@ if = {
 	}
 	create_equipment_variant = { #Note: There is a copy of this variant in Finnish Scripted Effects file (FIN_purchase_soviet_equipment_for_cw). Any changes here should also be applied there
 		name = "T-27"
-		type = light_tank_chassis_1930
+		type = light_tank_chassis_1936
 		parent_version = 0
 		modules = {
 			main_armament_slot = tank_light_cannon_1
@@ -1481,7 +1481,7 @@ if = {
 
 	create_equipment_variant = {
 		name = "T-28"
-		type = medium_tank_chassis_1930
+		type = medium_tank_chassis_1936
 		parent_version = 0
 		modules = {
 			main_armament_slot = tank_light_cannon_1
@@ -1502,7 +1502,7 @@ if = {
 	}
 	create_equipment_variant = {
 		name = "T-35"
-		type = heavy_tank_chassis_1930
+		type = heavy_tank_chassis_1936
 		design_team = mio:SOV_okmo_organization
 		parent_version = 0
 		modules = {

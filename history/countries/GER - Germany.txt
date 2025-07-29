@@ -1030,7 +1030,7 @@ if = {
 	}
 	create_equipment_variant = { #Note: There is a copy of this variant in Finnish Scripted Effects file (FIN_purchase_german_equipment_for_cw). Any changes here should also be applied there
 		name = "Leichttraktor"
-		type = light_tank_chassis_1930
+		type = light_tank_chassis_1936
 		parent_version = 0
 		modules = {
 			main_armament_slot = tank_light_cannon_1

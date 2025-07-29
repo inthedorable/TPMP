@@ -623,7 +623,7 @@ governments_in_exile = {
 			}
 			ELSE = {
 				add_equipment_to_stockpile = {
-					type = light_tank_chassis_1930
+					type = light_tank_chassis_1936
 					amount = 25
 					producer = ETH.host_nation
 				}			

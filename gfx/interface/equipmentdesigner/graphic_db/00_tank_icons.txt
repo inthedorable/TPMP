@@ -1,5 +1,5 @@
 default = {
-	light_tank_chassis_1930 = {
+	light_tank_chassis_1936 = {
 		pool = {
 			weight = 2
 			icons = { 
@@ -90,7 +90,7 @@ default = {
 		}
 	}
 	
-	medium_tank_chassis_1930 = {
+	medium_tank_chassis_1936 = {
 		pool = {
 			weight = 2
 			icons = { 
@@ -182,7 +182,7 @@ default = {
 		}
 	}
 
-	heavy_tank_chassis_1930 = {
+	heavy_tank_chassis_1936 = {
 		pool = {
 			weight = 2
 			icons = { 
@@ -315,7 +315,7 @@ GER = {
 			}
 		}
 	}
-	light_tank_chassis_1930 = {
+	light_tank_chassis_1936 = {
 		pool = {
 			weight = 2
 			icons = { 
@@ -436,7 +436,7 @@ GER = {
 			}
 		}
 	}
-	light_tank_destroyer_chassis_1930 = {
+	light_tank_destroyer_chassis_1936 = {
 		pool = {
 			icons = {
 				GFX_GER_light_fixed_AFA #Basic Tank Destroyer -> Pick oldest tank
@@ -517,7 +517,7 @@ GER = {
 			}
 		}
 	}
-	light_tank_aa_chassis_1930 = {
+	light_tank_aa_chassis_1936 = {
 		pool = {
 			icons = {
 				GFX_GER_light_AA_A #Basic Light AA Tank -> Take oldest tank
@@ -574,7 +574,7 @@ GER = {
 			}
 		}
 	}
-	medium_tank_chassis_1930 = {
+	medium_tank_chassis_1936 = {
 		pool = {
 			icons = {
 				GFX_GER_basic_medium_tank_medium #Panzer III (Basic Medium Tank) -> Take oldest tank
@@ -690,7 +690,7 @@ GER = {
 			}
 		}
 	}
-	medium_tank_aa_chassis_1930 = {
+	medium_tank_aa_chassis_1936 = {
 		pool = {
 			icons = {
 				GFX_GER_medium_AA_A #Basic Medium AA Tank -> Take oldest tank
@@ -735,7 +735,7 @@ GER = {
 			}
 		}
 	}
-	medium_tank_destroyer_chassis_1930 = {
+	medium_tank_destroyer_chassis_1936 = {
 		
 		pool = {
 			weight = 2
@@ -779,7 +779,7 @@ GER = {
 			}
 		}
 	}
-	medium_tank_artillery_chassis_1930 = {
+	medium_tank_artillery_chassis_1936 = {
 		pool = {
 			weight = 2
 			icons = { 
@@ -816,7 +816,7 @@ GER = {
 			}
 		}
 	}
-	heavy_tank_chassis_1930 = {
+	heavy_tank_chassis_1936 = {
 		pool = {
 			icons = {
 				GFX_GER_basic_heavy_tank_medium #Grosstraktor (Basic Heavy Tank) -> Pick oldest tank
@@ -920,7 +920,7 @@ GER = {
 			}
 		}
 	}
-	heavy_tank_aa_chassis_1930 = {
+	heavy_tank_aa_chassis_1936 = {
 		pool = {
 			icons = {
 				GFX_GER_heavy_AA_C #Basic Heavy AA Tank
@@ -976,7 +976,7 @@ GER = {
 			}
 		}
 	}
-	heavy_tank_destroyer_chassis_1930 = {
+	heavy_tank_destroyer_chassis_1936 = {
 		pool = {
 			icons = {
 				GFX_GER_heavy_fixed_CFA #Pick oldest tank (Basic Heavy Tank Destroyer)
@@ -1119,7 +1119,7 @@ SOV = {
 			}
 		}
 	}
-	light_tank_chassis_1930 = {
+	light_tank_chassis_1936 = {
 		pool = {
 			icons = { 
 				GFX_SOV_basic_light_tank_medium #T-26 (Basic Light Tank) -> Pick oldest tank
@@ -1229,7 +1229,7 @@ SOV = {
 			}
 		}
 	}
-	light_tank_aa_chassis_1930 = {
+	light_tank_aa_chassis_1936 = {
 		pool = {
 			icons = { 
 				GFX_SOV_light_AA_A # Basic Light AA Tank -> Pick oldest tank
@@ -1301,7 +1301,7 @@ SOV = {
 			}
 		}
 	}
-	medium_tank_chassis_1930 = {
+	medium_tank_chassis_1936 = {
 		pool = {
 			icons = {
 				GFX_SOV_medium_gwtank_medium #T-28 (GW Medium Tank)
@@ -1407,7 +1407,7 @@ SOV = {
 			}
 		}
 	}
-	medium_tank_aa_chassis_1930 = {
+	medium_tank_aa_chassis_1936 = {
 		pool = {
 			icons = { 
 				GFX_SOV_medium_AA_B # Improved Medium AA Tank -> Pick oldest tank
@@ -1457,7 +1457,7 @@ SOV = {
 			}
 		}
 	}
-	heavy_tank_chassis_1930 = {
+	heavy_tank_chassis_1936 = {
 		pool = {
 			icons = { 
 				GFX_SOV_basic_heavy_tank_medium #T-35 (Basic Heavy Tank) -> Pick oldest tank
@@ -1585,7 +1585,7 @@ SOV = {
 			}
 		}
 	}
-	heavy_tank_aa_chassis_1930 = {
+	heavy_tank_aa_chassis_1936 = {
 		pool = {
 			icons = { 
 				GFX_SOV_heavy_AA_A # Basic Heavy AA Tank -> Pick oldest tank
@@ -1674,7 +1674,7 @@ USA = {
 			}
 		}
 	}
-	light_tank_chassis_1930 = {
+	light_tank_chassis_1936 = {
 		pool = {
 			icons = { 
 				GFX_USA_basic_light_tank_medium #M2 Basic Light Tank -> Take oldest tank
@@ -1778,7 +1778,7 @@ USA = {
 		}
 	}
 
-	light_tank_aa_chassis_1930 = {
+	light_tank_aa_chassis_1936 = {
 		pool = {
 			weight = 0.5
 			icons = {
@@ -1840,7 +1840,7 @@ USA = {
 			}
 		}
 	}
-	medium_tank_chassis_1930 = {
+	medium_tank_chassis_1936 = {
 		pool = {
 			icons = {
 				GFX_USA_basic_medium_tank_medium #M3 Lee (Basic Medium Tank) -> Take oldest tank
@@ -1944,7 +1944,7 @@ USA = {
 	}
 
 
-	medium_tank_aa_chassis_1930 = {
+	medium_tank_aa_chassis_1936 = {
 		pool = {
 			weight = 0.5
 			icons = {
@@ -1999,7 +1999,7 @@ USA = {
 			}
 		}
 	}
-	heavy_tank_chassis_1930 = {
+	heavy_tank_chassis_1936 = {
 		pool = {
 			icons = {
 				GFX_USA_basic_heavy_tank_medium	#T1 (Basic Heavy Tank) -> Pick oldest tank
@@ -2094,7 +2094,7 @@ USA = {
 		}
 	}
 
-	heavy_tank_aa_chassis_1930 = {
+	heavy_tank_aa_chassis_1936 = {
 		pool = {
 			weight = 0.5
 			icons = {
@@ -2170,7 +2170,7 @@ ENG = {
 			}
 		}
 	}
-	light_tank_chassis_1930 = {
+	light_tank_chassis_1936 = {
 		pool = {
 			icons = { 
 				GFX_ENG_basic_light_tank_medium #Vickers Medium MK II (Should actually be Vickers MK V - Icon and Name are wrong) -> Pick oldest tank
@@ -2286,7 +2286,7 @@ ENG = {
 		}
 	}
 
-	light_tank_aa_chassis_1930 = {
+	light_tank_aa_chassis_1936 = {
 		pool = {
 			weight = 0.5
 			icons = {
@@ -2332,7 +2332,7 @@ ENG = {
 			}
 		}
 	}
-	medium_tank_chassis_1930 = {
+	medium_tank_chassis_1936 = {
 		pool = {
 			icons = {
 				GFX_ENG_basic_medium_tank_medium #Crusader -> Pick oldest tank
@@ -2430,7 +2430,7 @@ ENG = {
 		}
 	}
 
-	medium_tank_aa_chassis_1930 = {
+	medium_tank_aa_chassis_1936 = {
 		pool = {
 			weight = 0.5
 			icons = {
@@ -2476,7 +2476,7 @@ ENG = {
 			}
 		}
 	}
-	heavy_tank_chassis_1930 = {
+	heavy_tank_chassis_1936 = {
 		pool = {
 			weight = 2
 			icons = { 
@@ -2577,7 +2577,7 @@ ENG = {
 		}
 	}
 
-	heavy_tank_aa_chassis_1930 = {
+	heavy_tank_aa_chassis_1936 = {
 		pool = {
 			weight = 0.5
 			icons = {
@@ -2654,7 +2654,7 @@ FRA = {
 			}
 		}
 	}
-	light_tank_chassis_1930 = {
+	light_tank_chassis_1936 = {
 		pool = {
 			icons = { 
 				GFX_FRA_basic_light_tank_medium #Hotchkiss H35 -> Pick oldest tank
@@ -2768,7 +2768,7 @@ FRA = {
 			}
 		}
 	}
-	medium_tank_chassis_1930 = {
+	medium_tank_chassis_1936 = {
 		pool = {
 			icons = {
 				GFX_FRA_basic_medium_tank_medium #Renault AMC 35 -> Pick oldest tank
@@ -2882,7 +2882,7 @@ FRA = {
 			}
 		}
 	}
-	medium_tank_destroyer_chassis_1930 = {
+	medium_tank_destroyer_chassis_1936 = {
 		pool = {
 			weight = 0.5
 			icons = {
@@ -2936,7 +2936,7 @@ FRA = {
 			}
 		}
 	}
-	heavy_tank_chassis_1930 = {
+	heavy_tank_chassis_1936 = {
 		pool = {
 			icons = {
 				GFX_FRA_basic_heavy_tank_medium	#Renault B1 -> Pick oldest tank
@@ -3216,7 +3216,7 @@ JAP = {
 		}
 	}
 
-	medium_tank_chassis_1930 = {
+	medium_tank_chassis_1936 = {
 		pool = {
 			icons = { 
 				GFX_JAP_basic_medium_tank_medium
@@ -3322,7 +3322,7 @@ JAP = {
 			}
 		}
 	}
-	heavy_tank_chassis_1930 = {
+	heavy_tank_chassis_1936 = {
 		pool = {
 			icons = { 
 				GFX_JAP_basic_heavy_tank_medium
@@ -3459,7 +3459,7 @@ ITA = {
 			}
 		}
 	}
-	light_tank_chassis_1930 = {
+	light_tank_chassis_1936 = {
 		pool = {
 			weight = 2
 			icons = { 
@@ -3561,7 +3561,7 @@ ITA = {
 			}
 		}
 	}
-	light_tank_aa_chassis_1930 = {
+	light_tank_aa_chassis_1936 = {
 		pool = {
 			icons = {
 				GFX_ITA_light_AA_A #Basic Light AA Tank -> Take oldest tank
@@ -3603,7 +3603,7 @@ ITA = {
 		}
 	}
 
-	medium_tank_chassis_1930 = {
+	medium_tank_chassis_1936 = {
 
 	}
 
@@ -3703,7 +3703,7 @@ ITA = {
 			}
 		}
 	}
-	medium_tank_aa_chassis_1930 = {
+	medium_tank_aa_chassis_1936 = {
 		pool = {
 			icons = {
 				GFX_ITA_medium_AA_A #Basic Medium AA Tank -> Take oldest tank
@@ -3745,7 +3745,7 @@ ITA = {
 		}
 	}
 
-	heavy_tank_chassis_1930 = {
+	heavy_tank_chassis_1936 = {
 
 	}
 	heavy_tank_chassis_1936 = {
@@ -3844,7 +3844,7 @@ ITA = {
 			}
 		}
 	}
-	heavy_tank_aa_chassis_1930 = {
+	heavy_tank_aa_chassis_1936 = {
 		pool = {
 			icons = {
 				GFX_ITA_heavy_AA_C #Basic Heavy AA Tank -> Pick the oldest tank
@@ -3928,7 +3928,7 @@ AST = {
 		}
 	}
 
-	light_tank_chassis_1930 = {
+	light_tank_chassis_1936 = {
 		pool = {
 			icons = { 
 				GFX_ENG_basic_light_tank_medium #Vickers Medium MK II (Should actually be Vickers MK V - Icon and Name are wrong) -> Pick oldest tank
@@ -4067,7 +4067,7 @@ AST = {
 		}
 	}
 
-	light_tank_aa_chassis_1930 = {
+	light_tank_aa_chassis_1936 = {
 		pool = {
 			weight = 0.5
 			icons = {
@@ -4120,7 +4120,7 @@ AST = {
 		}
 	}
 
-	medium_tank_chassis_1930 = {
+	medium_tank_chassis_1936 = {
 		pool = {
 			icons = {
 				GFX_ENG_basic_medium_tank_medium #Crusader -> Pick oldest tank
@@ -4255,7 +4255,7 @@ AST = {
 		}
 	}
 
-	medium_tank_aa_chassis_1930 = {
+	medium_tank_aa_chassis_1936 = {
 		pool = {
 			weight = 0.5
 			icons = {
@@ -4308,7 +4308,7 @@ AST = {
 		}
 	}
 
-	heavy_tank_chassis_1930 = {
+	heavy_tank_chassis_1936 = {
 		pool = {
 			icons = {
 				GFX_ENG_basic_heavy_tank_medium	#Vickers A1E1 Independent -> Pick oldest tank
@@ -4446,7 +4446,7 @@ AST = {
 		}
 	}
 
-	heavy_tank_aa_chassis_1930 = {
+	heavy_tank_aa_chassis_1936 = {
 		pool = {
 			weight = 0.5
 			icons = {
@@ -4527,7 +4527,7 @@ RAJ = {
 		}
 	}
 
-	light_tank_chassis_1930 = {
+	light_tank_chassis_1936 = {
 		pool = {
 			icons = { 
 				GFX_ENG_basic_light_tank_medium #Vickers Medium MK II (Should actually be Vickers MK V - Icon and Name are wrong) -> Pick oldest tank
@@ -4666,7 +4666,7 @@ RAJ = {
 		}
 	}
 
-	light_tank_aa_chassis_1930 = {
+	light_tank_aa_chassis_1936 = {
 		pool = {
 			weight = 0.5
 			icons = {
@@ -4719,7 +4719,7 @@ RAJ = {
 		}
 	}
 
-	medium_tank_chassis_1930 = {
+	medium_tank_chassis_1936 = {
 		pool = {
 			icons = {
 				GFX_ENG_basic_medium_tank_medium #Crusader -> Pick oldest tank
@@ -4854,7 +4854,7 @@ RAJ = {
 		}
 	}
 
-	medium_tank_aa_chassis_1930 = {
+	medium_tank_aa_chassis_1936 = {
 		pool = {
 			weight = 0.5
 			icons = {
@@ -4907,7 +4907,7 @@ RAJ = {
 		}
 	}
 
-	heavy_tank_chassis_1930 = {
+	heavy_tank_chassis_1936 = {
 		pool = {
 			icons = {
 				GFX_ENG_basic_heavy_tank_medium	#Vickers A1E1 Independent -> Pick oldest tank
@@ -5045,7 +5045,7 @@ RAJ = {
 		}
 	}
 
-	heavy_tank_aa_chassis_1930 = {
+	heavy_tank_aa_chassis_1936 = {
 		pool = {
 			weight = 0.5
 			icons = {
@@ -5126,7 +5126,7 @@ CAN = {
 		}
 	}
 
-	light_tank_chassis_1930 = {
+	light_tank_chassis_1936 = {
 		pool = {
 			icons = { 
 				GFX_ENG_basic_light_tank_medium #Vickers Medium MK II (Should actually be Vickers MK V - Icon and Name are wrong) -> Pick oldest tank
@@ -5265,7 +5265,7 @@ CAN = {
 		}
 	}
 
-	light_tank_aa_chassis_1930 = {
+	light_tank_aa_chassis_1936 = {
 		pool = {
 			weight = 0.5
 			icons = {
@@ -5318,7 +5318,7 @@ CAN = {
 		}
 	}
 
-	medium_tank_chassis_1930 = {
+	medium_tank_chassis_1936 = {
 		pool = {
 			icons = {
 				GFX_ENG_basic_medium_tank_medium #Crusader -> Pick oldest tank
@@ -5482,7 +5482,7 @@ CAN = {
 		}
 	}
 
-	medium_tank_aa_chassis_1930 = {
+	medium_tank_aa_chassis_1936 = {
 		pool = {
 			weight = 0.5
 			icons = {
@@ -5535,7 +5535,7 @@ CAN = {
 		}
 	}
 
-	heavy_tank_chassis_1930 = {
+	heavy_tank_chassis_1936 = {
 		pool = {
 			icons = {
 				GFX_ENG_basic_heavy_tank_medium	#Vickers A1E1 Independent -> Pick oldest tank
@@ -5673,7 +5673,7 @@ CAN = {
 		}
 	}
 
-	heavy_tank_aa_chassis_1930 = {
+	heavy_tank_aa_chassis_1936 = {
 		pool = {
 			weight = 0.5
 			icons = {
@@ -5754,7 +5754,7 @@ SAF = {
 		}
 	}
 
-	light_tank_chassis_1930 = {
+	light_tank_chassis_1936 = {
 		pool = {
 			icons = { 
 				GFX_ENG_basic_light_tank_medium #Vickers Medium MK II (Should actually be Vickers MK V - Icon and Name are wrong) -> Pick oldest tank
@@ -5893,7 +5893,7 @@ SAF = {
 		}
 	}
 
-	light_tank_aa_chassis_1930 = {
+	light_tank_aa_chassis_1936 = {
 		pool = {
 			weight = 0.5
 			icons = {
@@ -5946,7 +5946,7 @@ SAF = {
 		}
 	}
 
-	medium_tank_chassis_1930 = {
+	medium_tank_chassis_1936 = {
 		pool = {
 			icons = {
 				GFX_ENG_basic_medium_tank_medium #Crusader -> Pick oldest tank
@@ -6081,7 +6081,7 @@ SAF = {
 		}
 	}
 
-	medium_tank_aa_chassis_1930 = {
+	medium_tank_aa_chassis_1936 = {
 		pool = {
 			weight = 0.5
 			icons = {
@@ -6134,7 +6134,7 @@ SAF = {
 		}
 	}
 
-	heavy_tank_chassis_1930 = {
+	heavy_tank_chassis_1936 = {
 		pool = {
 			icons = {
 				GFX_ENG_basic_heavy_tank_medium	#Vickers A1E1 Independent -> Pick oldest tank
@@ -6272,7 +6272,7 @@ SAF = {
 		}
 	}
 
-	heavy_tank_aa_chassis_1930 = {
+	heavy_tank_aa_chassis_1936 = {
 		pool = {
 			weight = 0.5
 			icons = {
@@ -6353,7 +6353,7 @@ NZL = {
 		}
 	}
 
-	light_tank_chassis_1930 = {
+	light_tank_chassis_1936 = {
 		pool = {
 			icons = { 
 				GFX_ENG_basic_light_tank_medium #Vickers Medium MK II (Should actually be Vickers MK V - Icon and Name are wrong) -> Pick oldest tank
@@ -6495,7 +6495,7 @@ NZL = {
 		}
 	}
 
-	light_tank_aa_chassis_1930 = {
+	light_tank_aa_chassis_1936 = {
 		pool = {
 			weight = 0.5
 			icons = {
@@ -6548,7 +6548,7 @@ NZL = {
 		}
 	}
 
-	medium_tank_chassis_1930 = {
+	medium_tank_chassis_1936 = {
 		pool = {
 			icons = {
 				GFX_ENG_basic_medium_tank_medium #Crusader -> Pick oldest tank
@@ -6683,7 +6683,7 @@ NZL = {
 		}
 	}
 
-	medium_tank_aa_chassis_1930 = {
+	medium_tank_aa_chassis_1936 = {
 		pool = {
 			weight = 0.5
 			icons = {
@@ -6736,7 +6736,7 @@ NZL = {
 		}
 	}
 
-	heavy_tank_chassis_1930 = {
+	heavy_tank_chassis_1936 = {
 		pool = {
 			icons = {
 				GFX_ENG_basic_heavy_tank_medium	#Vickers A1E1 Independent -> Pick oldest tank
@@ -6874,7 +6874,7 @@ NZL = {
 		}
 	}
 
-	heavy_tank_aa_chassis_1930 = {
+	heavy_tank_aa_chassis_1936 = {
 		pool = {
 			weight = 0.5
 			icons = {
@@ -6953,7 +6953,7 @@ POL = {
 		}
 	}
 
-	light_tank_chassis_1930 = { #POL has no GW Tank
+	light_tank_chassis_1936 = { #POL has no GW Tank
 		pool = {
 			limit = {
 				has_dlc = "Poland: United and Ready"
@@ -7134,7 +7134,7 @@ HUN = {
 		}
 	}
 
-	light_tank_chassis_1930 = {
+	light_tank_chassis_1936 = {
 		pool = {
 			weight = 2
 			icons = { 
@@ -7265,7 +7265,7 @@ CZE = {
 		}
 	}
 
-	light_tank_chassis_1930 = {
+	light_tank_chassis_1936 = {
 		pool = {
 			weight = 2
 			icons = {
@@ -7402,7 +7402,7 @@ ROM = {
 		}
 	}
 
-	light_tank_chassis_1930 = {
+	light_tank_chassis_1936 = {
 		pool = {
 			weight = 2
 			icons = {
@@ -7533,7 +7533,7 @@ YUG = {
 		}
 	}
 
-	light_tank_chassis_1930 = {
+	light_tank_chassis_1936 = {
 		pool = {
 			weight = 2
 			icons = {
@@ -7669,7 +7669,7 @@ CHI = {
 		}
 	}
 
-	light_tank_chassis_1930 = {
+	light_tank_chassis_1936 = {
 		pool = {
 			weight = 2
 			icons = {
@@ -7800,7 +7800,7 @@ PRC = {
 		}
 	}
 
-	light_tank_chassis_1930 = {
+	light_tank_chassis_1936 = {
 		pool = {
 			weight = 2
 			icons = {
@@ -7934,7 +7934,7 @@ SIK = {
 		}
 	}
 
-	light_tank_chassis_1930 = {
+	light_tank_chassis_1936 = {
 		pool = {
 			weight = 2
 			icons = {
@@ -8076,7 +8076,7 @@ YUN = {
 		}
 	}
 
-	light_tank_chassis_1930 = {
+	light_tank_chassis_1936 = {
 		pool = {
 			weight = 2
 			icons = {
@@ -8218,7 +8218,7 @@ XSM = {
 		}
 	}
 
-	light_tank_chassis_1930 = {
+	light_tank_chassis_1936 = {
 		pool = {
 			weight = 2
 			icons = {
@@ -8360,7 +8360,7 @@ GXC = {
 		}
 	}
 
-	light_tank_chassis_1930 = {
+	light_tank_chassis_1936 = {
 		pool = {
 			weight = 2
 			icons = {
@@ -8502,7 +8502,7 @@ SHX = {
 		}
 	}
 
-	light_tank_chassis_1930 = {
+	light_tank_chassis_1936 = {
 		pool = {
 			weight = 2
 			icons = {
@@ -8650,7 +8650,7 @@ HOL = {
 		}
 	}
 
-	light_tank_chassis_1930 = { #HOL has no GW Tank
+	light_tank_chassis_1936 = { #HOL has no GW Tank
 		pool = {
 			limit = {
 				has_dlc = "Man the Guns"
@@ -8827,7 +8827,7 @@ MEX = {
 		}
 	}
 
-	light_tank_chassis_1930 = {
+	light_tank_chassis_1936 = {
 		pool = {
 			limit = {
 				has_dlc = "Man the Guns"
@@ -9007,7 +9007,7 @@ POR = {
 		}
 	}
 
-	light_tank_chassis_1930 = {
+	light_tank_chassis_1936 = {
 		pool = {
 			limit = {
 				has_dlc = "La Resistance"
@@ -9183,7 +9183,7 @@ SPR = {
 		}
 	}
 
-	light_tank_chassis_1930 = {
+	light_tank_chassis_1936 = {
 		pool = {
 			limit = {
 				has_dlc = "La Resistance"
@@ -9364,7 +9364,7 @@ BUL = {
 		}
 	}
 
-	light_tank_chassis_1930 = {
+	light_tank_chassis_1936 = {
 		pool = {
 			limit = {
 				has_dlc = "Battle for the Bosporus"
@@ -9540,7 +9540,7 @@ GRE = {
 		}
 	}
 
-	light_tank_chassis_1930 = {
+	light_tank_chassis_1936 = {
 		pool = {
 			limit = {
 				has_dlc = "Battle for the Bosporus"
@@ -9716,7 +9716,7 @@ TUR = {
 		}
 	}
 
-	light_tank_chassis_1930 = {
+	light_tank_chassis_1936 = {
 		pool = {
 			limit = {
 				has_dlc = "Battle for the Bosporus"
@@ -9901,7 +9901,7 @@ NOR = {
 		}
 	}
 
-	light_tank_chassis_1930 = {
+	light_tank_chassis_1936 = {
 		pool = {
 			limit = {
 				has_dlc = "Arms Against Tyranny"
@@ -10097,7 +10097,7 @@ FIN = {
 		}
 	}
 
-	light_tank_chassis_1930 = {
+	light_tank_chassis_1936 = {
 		pool = {
 			weight = 2
 			icons = {
@@ -10154,7 +10154,7 @@ FIN = {
 		}
 	}
 
-	light_tank_destroyer_chassis_1930 = {
+	light_tank_destroyer_chassis_1936 = {
 		pool = {
 			weight = 2
 			icons = {
@@ -10193,7 +10193,7 @@ FIN = {
 		}
 	}
 
-	medium_tank_chassis_1930 = {
+	medium_tank_chassis_1936 = {
 		pool = {
 			weight = 2
 			icons = { 
@@ -10241,7 +10241,7 @@ FIN = {
 		}
 	}
 
-	medium_tank_destroyer_chassis_1930 = {
+	medium_tank_destroyer_chassis_1936 = {
 		pool = {
 			icons = { 
 			
@@ -10266,7 +10266,7 @@ FIN = {
 		}
 	}
 
-	heavy_tank_chassis_1930 = {
+	heavy_tank_chassis_1936 = {
 		pool = {
 			weight = 2
 			icons = { 
@@ -10344,7 +10344,7 @@ SWE = {
 		}
 	}
 
-	light_tank_chassis_1930 = {
+	light_tank_chassis_1936 = {
 		pool = {
 			limit = {
 				has_dlc = "Arms Against Tyranny"
@@ -10433,7 +10433,7 @@ SWE = {
 		}
 	}
 
-	light_tank_aa_chassis_1930 = {
+	light_tank_aa_chassis_1936 = {
 		pool = {
 			limit = {
 				has_dlc = "Arms Against Tyranny"
@@ -10513,7 +10513,7 @@ SWE = {
 		}
 	}
 
-	medium_tank_chassis_1930 = {
+	medium_tank_chassis_1936 = {
 		pool = {
 			limit = {
 				has_dlc = "Arms Against Tyranny"
@@ -10584,7 +10584,7 @@ SWE = {
 		}
 	}
 
-	medium_tank_destroyer_chassis_1930 = {
+	medium_tank_destroyer_chassis_1936 = {
 		pool = {
 			limit = {
 				has_dlc = "Arms Against Tyranny"
@@ -10656,7 +10656,7 @@ SWE = {
 		}
 	}
 
-	medium_tank_artillery_chassis_1930 = {
+	medium_tank_artillery_chassis_1936 = {
 		pool = {
 			limit = {
 				has_dlc = "Arms Against Tyranny"
@@ -10728,7 +10728,7 @@ SWE = {
 		}
 	}
 
-	heavy_tank_chassis_1930 = {
+	heavy_tank_chassis_1936 = {
 		pool = {
 			limit = {
 				has_dlc = "Arms Against Tyranny"
@@ -10843,7 +10843,7 @@ DEN = {
 		}
 	}
 
-	light_tank_chassis_1930 = {
+	light_tank_chassis_1936 = {
 		pool = {
 			limit = {
 				has_dlc = "Arms Against Tyranny"
@@ -11017,7 +11017,7 @@ AUS = {
 		}
 	}
 
-	light_tank_chassis_1930 = {
+	light_tank_chassis_1936 = {
 		pool = {
 			limit = {
 				has_dlc = "Gotterdammerung"
@@ -11194,7 +11194,7 @@ BEL = {
 		}
 	}
 
-	light_tank_chassis_1930 = {
+	light_tank_chassis_1936 = {
 		pool = {
 			limit = {
 				has_dlc = "Gotterdammerung"

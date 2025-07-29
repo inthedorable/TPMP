@@ -17,7 +17,7 @@ AFG = {
 		}
 	}
 
-	light_tank_chassis_1930 = {
+	light_tank_chassis_1936 = {
 		pool = {
 			limit = {
 				has_dlc = "Graveyard of Empires"
@@ -92,7 +92,7 @@ AFG = {
 		}
 	}
 
-	medium_tank_chassis_1930 = {
+	medium_tank_chassis_1936 = {
 		pool = {
 			limit = {
 				has_dlc = "Graveyard of Empires"
@@ -164,7 +164,7 @@ AFG = {
 		}
 	}
 
-	heavy_tank_chassis_1930 = {
+	heavy_tank_chassis_1936 = {
 		pool = {
 			limit = {
 				has_dlc = "Graveyard of Empires"
@@ -270,7 +270,7 @@ IRQ = {
 		}
 	}
 
-	light_tank_chassis_1930 = {
+	light_tank_chassis_1936 = {
 		pool = {
 			limit = {
 				has_dlc = "Graveyard of Empires"
@@ -345,7 +345,7 @@ IRQ = {
 		}
 	}
 
-	medium_tank_chassis_1930 = {
+	medium_tank_chassis_1936 = {
 		pool = {
 			limit = {
 				has_dlc = "Graveyard of Empires"
@@ -416,7 +416,7 @@ IRQ = {
 		}
 	}
 
-	heavy_tank_chassis_1930 = {
+	heavy_tank_chassis_1936 = {
 		pool = {
 			limit = {
 				has_dlc = "Graveyard of Empires"
@@ -522,7 +522,7 @@ PER = {
 		}
 	}
 
-	light_tank_chassis_1930 = {
+	light_tank_chassis_1936 = {
 		pool = {
 			limit = {
 				has_dlc = "Graveyard of Empires"
@@ -597,7 +597,7 @@ PER = {
 		}
 	}
 
-	medium_tank_chassis_1930 = {
+	medium_tank_chassis_1936 = {
 		pool = {
 			limit = {
 				has_dlc = "Graveyard of Empires"
@@ -668,7 +668,7 @@ PER = {
 		}
 	}
 
-	heavy_tank_chassis_1930 = {
+	heavy_tank_chassis_1936 = {
 		pool = {
 			limit = {
 				has_dlc = "Graveyard of Empires"
@@ -773,7 +773,7 @@ RAJ = {
 		}
 	}
 
-	light_tank_chassis_1930 = {
+	light_tank_chassis_1936 = {
 		pool = {
 			limit = {
 				has_dlc = "Graveyard of Empires"
@@ -848,7 +848,7 @@ RAJ = {
 		}
 	}
 
-	medium_tank_chassis_1930 = {
+	medium_tank_chassis_1936 = {
 		pool = {
 			limit = {
 				has_dlc = "Graveyard of Empires"
@@ -919,7 +919,7 @@ RAJ = {
 		}
 	}
 
-	heavy_tank_chassis_1930 = {
+	heavy_tank_chassis_1936 = {
 		pool = {
 			limit = {
 				has_dlc = "Graveyard of Empires"

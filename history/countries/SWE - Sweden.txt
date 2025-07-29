@@ -370,7 +370,7 @@ if = {
 	}
 	create_equipment_variant = {
 		name = "Stridsvagn m/21"
-		type = light_tank_chassis_1930
+		type = light_tank_chassis_1936
 		parent_version = 0
 		modules = {
 			main_armament_slot = tank_light_cannon_1

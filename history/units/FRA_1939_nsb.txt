@@ -257,7 +257,7 @@ units = {
 		location = 698
 		division_template = "Brigade de Chars de Combat"				# FT-17s, R-35s
 		start_experience_factor = 0.2
-		force_equipment_variants = { light_tank_chassis_1930 = { owner = "FRA" version_name = "FT mod. 31" } }
+		force_equipment_variants = { light_tank_chassis_1936 = { owner = "FRA" version_name = "FT mod. 31" } }
 	}
 	# XIIIe Corps d'Armée (CO: Missery) #
 	division= {	# "19ème Division d'Infanterie"
@@ -327,7 +327,7 @@ units = {
 		location = 3447
 		division_template = "Division Légère Mécanique" 	
 		start_experience_factor = 0.3
-		force_equipment_variants = { medium_tank_chassis_1930 = { owner = "FRA" version_name = "SOUMUA S35" } }
+		force_equipment_variants = { medium_tank_chassis_1936 = { owner = "FRA" version_name = "SOUMUA S35" } }
 		force_equipment_variants = { light_tank_chassis_1936 = { owner = "FRA" version_name = "H-35" } }
 	}
 	# IIIe Corps d'Armée (CO: de la Laurence) #
@@ -413,7 +413,7 @@ units = {
 		location = 6545
 		division_template = "Division Légère Mécanique" 	
 		start_experience_factor = 0.3
-		force_equipment_variants = { medium_tank_chassis_1930 = { owner = "FRA" version_name = "SOUMUA S35" } }
+		force_equipment_variants = { medium_tank_chassis_1936 = { owner = "FRA" version_name = "SOUMUA S35" } }
 		force_equipment_variants = { light_tank_chassis_1936 = { owner = "FRA" version_name = "H-35" } }
 	}
 	# Xe Corps d'Armée (CO: Gransard) #
@@ -1022,7 +1022,7 @@ units = {
 		location = 454
 		division_template = "Brigade de Chars de Combat"					# FT-17s, R-35s
 		start_experience_factor = 0.2
-		force_equipment_variants = { light_tank_chassis_1930 = { owner = "FRA" version_name = "FT mod. 31" } }
+		force_equipment_variants = { light_tank_chassis_1936 = { owner = "FRA" version_name = "FT mod. 31" } }
 	}
 
 
@@ -1066,7 +1066,7 @@ units = {
 		location = 6975
 		division_template = "Brigade de Chars de Combat"					# FT-17s, R-35s
 		start_experience_factor = 0.2
-		force_equipment_variants = { light_tank_chassis_1930 = { owner = "FRA" version_name = "FT mod. 31" } }
+		force_equipment_variants = { light_tank_chassis_1936 = { owner = "FRA" version_name = "FT mod. 31" } }
 	}
 	# XIVe Corps d'Armée (CO: Touchon) #
 	division= {	# "27ème Division d'Infanterie Alpine"

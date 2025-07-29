@@ -1052,7 +1052,7 @@ if = {
 	}
 	create_equipment_variant = {
 		name = "Fiat 3000"
-		type = light_tank_chassis_1930
+		type = light_tank_chassis_1936
 		parent_version = 0
 		obsolete = yes
 		modules = {
@@ -1070,14 +1070,14 @@ if = {
 	}
 
 	add_equipment_to_stockpile = {
-		type = light_tank_chassis_1930
+		type = light_tank_chassis_1936
 		amount = 150
 		variant_name = "Fiat 3000"
 	}
 
 	create_equipment_variant = {
 		name = "Fiat 3000B"
-		type = light_tank_chassis_1930
+		type = light_tank_chassis_1936
 		parent_version = 1
 		obsolete = yes
 		modules = {
@@ -1095,7 +1095,7 @@ if = {
 	}
 
 	add_equipment_to_stockpile = {
-		type = light_tank_chassis_1930
+		type = light_tank_chassis_1936
 		amount = 40
 		variant_name = "Fiat 3000B"
 	}

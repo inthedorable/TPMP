@@ -7,7 +7,7 @@ GER = {
 			}
 		}
 	}
-	light_tank_chassis_1930 = {
+	light_tank_chassis_1936 = {
 		pool = {
 			models = {
 				GER_light_armor_0_entity #Panzer I -> Pick oldest tank
@@ -43,7 +43,7 @@ GER = {
 			}
 		}
 	}
-	medium_tank_chassis_1930 = {
+	medium_tank_chassis_1936 = {
 		pool = {
 			models = {
 				GER_medium_armor_0_entity #Panzer III -> Pick oldest tank
@@ -74,7 +74,7 @@ GER = {
 			}
 		}
 	}
-	heavy_tank_chassis_1930 = {
+	heavy_tank_chassis_1936 = {
 		pool = {
 			models = {
 				GER_heavy_armor_0_entity #Grosstraktor -> Pick oldest tank

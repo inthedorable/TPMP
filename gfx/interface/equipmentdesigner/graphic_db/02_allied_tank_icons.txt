@@ -33,7 +33,7 @@ SOV = {
 			}
 		}
 	}
-	light_tank_destroyer_chassis_1930 = {
+	light_tank_destroyer_chassis_1936 = {
 		pool = {
 			icons = {
 				GFX_SOV_basic_light_td_medium #AT-1 (Basic Light Tank Destroyer) -> Pick oldest tank
@@ -324,7 +324,7 @@ USA = {
 			}
 		}
 	}
-	light_tank_destroyer_chassis_1930 = {
+	light_tank_destroyer_chassis_1936 = {
 		pool = {
 			icons = {
 				GFX_USA_basic_light_td_medium #M6 Gun Motor Carriage (Basic Light AT) -> Pick oldest tank
@@ -377,7 +377,7 @@ USA = {
 			}
 		}
 	}
-	light_tank_artillery_chassis_1930 = {
+	light_tank_artillery_chassis_1936 = {
 		pool = {
 			icons = {
 				GFX_USA_basic_light_art_medium #T30 Howitzer Motor Carriage (Basic Light SPG) -> Pick oldest tank
@@ -420,7 +420,7 @@ USA = {
 			}
 		}
 	}
-	light_tank_aa_chassis_1930 = {
+	light_tank_aa_chassis_1936 = {
 		pool = {
 			icons = {
 				GFX_USA_improved_light_spaa_medium #M13 Multiple Gun Motor Carriage (Improved Light AA) -> Pick oldest tank
@@ -475,7 +475,7 @@ USA = {
 			}
 		}
 	}
-	medium_tank_destroyer_chassis_1930 = {
+	medium_tank_destroyer_chassis_1936 = {
 		pool = {
 			icons = {
 				GFX_USA_basic_medium_td_medium #M10 Wolverine (Basic Medium AT) -> Pick oldest tank
@@ -530,7 +530,7 @@ USA = {
 			}
 		}
 	}
-	medium_tank_artillery_chassis_1930 = {
+	medium_tank_artillery_chassis_1936 = {
 		pool = {
 			icons = {
 				GFX_USA_basic_medium_art_medium #M7 Priest (Basic Medium SPG) -> Pick oldest tank
@@ -583,7 +583,7 @@ USA = {
 			}
 		}
 	}
-	medium_tank_aa_chassis_1930 = {
+	medium_tank_aa_chassis_1936 = {
 		pool = {
 			icons = {
 				GFX_USA_basic_medium_spaa_medium #M15 Multiple Gun Motor Carriage (Basic Medium AA) -> Pick oldest tank
@@ -624,7 +624,7 @@ USA = {
 			}
 		}
 	}
-	heavy_tank_destroyer_chassis_1930 = {
+	heavy_tank_destroyer_chassis_1936 = {
 		pool = {
 			icons = {
 				GFX_USA_basic_heavy_td_medium #M9 Gun Motor Carriage (Basic Heavy AT) -> Pick oldest tank
@@ -680,7 +680,7 @@ ENG = {
 			}
 		}
 	}
-	light_tank_destroyer_chassis_1930 = {
+	light_tank_destroyer_chassis_1936 = {
 		pool = {
 			icons = {
 				GFX_ENG_basic_light_td_medium #Deacon (Basic Light SPAT) -> Pick oldest tank
@@ -744,7 +744,7 @@ ENG = {
 			}
 		}
 	}
-	medium_tank_aa_chassis_1930 = {
+	medium_tank_aa_chassis_1936 = {
 		pool = {
 			icons = {
 				GFX_ENG_basic_medium_spaa_medium #Crusader AA I (Basic Light SPAA) -> Pick oldest tank
@@ -888,7 +888,7 @@ FRA = {
 			}
 		}
 	}
-	medium_tank_destroyer_chassis_1930 = {
+	medium_tank_destroyer_chassis_1936 = {
 		pool = {
 			icons = {
 				GFX_FRA_basic_medium_td_medium #Laffly W15 TCC (Basic Medium AT) -> Pick oldest tank
@@ -931,7 +931,7 @@ FRA = {
 			}
 		}
 	}
-	medium_tank_artillery_chassis_1930 = {
+	medium_tank_artillery_chassis_1936 = {
 		pool = {
 			icons = {
 				GFX_FRA_basic_medium_art_medium #ARL V39 (Basic Medium SPG) -> Pick oldest tank
@@ -973,7 +973,7 @@ FRA = {
 			}
 		}
 	}
-	heavy_tank_artillery_chassis_1930 = {
+	heavy_tank_artillery_chassis_1936 = {
 		pool = {
 			icons = {
 				GFX_FRA_basic_heavy_art_medium #Canon de 194 mle GPF (Basic Heavy SPG) -> Pick oldest tank
@@ -1010,7 +1010,7 @@ RAJ = {
 			}
 		}
 	}
-	light_tank_destroyer_chassis_1930 = {
+	light_tank_destroyer_chassis_1936 = {
 		pool = {
 			icons = {
 				GFX_ENG_basic_light_td_medium #Deacon (Basic Light SPAT) -> Pick oldest tank
@@ -1074,7 +1074,7 @@ RAJ = {
 			}
 		}
 	}
-	medium_tank_aa_chassis_1930 = {
+	medium_tank_aa_chassis_1936 = {
 		pool = {
 			icons = {
 				GFX_ENG_basic_medium_spaa_medium #Crusader AA I (Basic Light SPAA) -> Pick oldest tank
@@ -1163,7 +1163,7 @@ AST = {
 			}
 		}
 	}
-	light_tank_destroyer_chassis_1930 = {
+	light_tank_destroyer_chassis_1936 = {
 		pool = {
 			icons = {
 				GFX_ENG_basic_light_td_medium #Deacon (Basic Light SPAT) -> Pick oldest tank
@@ -1227,7 +1227,7 @@ AST = {
 			}
 		}
 	}
-	medium_tank_aa_chassis_1930 = {
+	medium_tank_aa_chassis_1936 = {
 		pool = {
 			icons = {
 				GFX_ENG_basic_medium_spaa_medium #Crusader AA I (Basic Light SPAA) -> Pick oldest tank
@@ -1316,7 +1316,7 @@ CAN = {
 			}
 		}
 	}
-	light_tank_destroyer_chassis_1930 = {
+	light_tank_destroyer_chassis_1936 = {
 		pool = {
 			icons = {
 				GFX_ENG_basic_light_td_medium #Deacon (Basic Light SPAT) -> Pick oldest tank
@@ -1380,7 +1380,7 @@ CAN = {
 			}
 		}
 	}
-	medium_tank_aa_chassis_1930 = {
+	medium_tank_aa_chassis_1936 = {
 		pool = {
 			icons = {
 				GFX_ENG_basic_medium_spaa_medium #Crusader AA I (Basic Light SPAA) -> Pick oldest tank
@@ -1469,7 +1469,7 @@ NZL = {
 			}
 		}
 	}
-	light_tank_destroyer_chassis_1930 = {
+	light_tank_destroyer_chassis_1936 = {
 		pool = {
 			icons = {
 				GFX_ENG_basic_light_td_medium #Deacon (Basic Light SPAT) -> Pick oldest tank
@@ -1533,7 +1533,7 @@ NZL = {
 			}
 		}
 	}
-	medium_tank_aa_chassis_1930 = {
+	medium_tank_aa_chassis_1936 = {
 		pool = {
 			icons = {
 				GFX_ENG_basic_medium_spaa_medium #Crusader AA I (Basic Light SPAA) -> Pick oldest tank

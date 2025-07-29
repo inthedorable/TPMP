@@ -381,7 +381,7 @@ FIN_purchase_soviet_equipment_for_cw = {
 		}
 		create_equipment_variant = { #Copy of T-27 variant in Soviet history file
 			name = "T-27"
-			type = light_tank_chassis_1930
+			type = light_tank_chassis_1936
 			allow_without_tech = yes # Tooltip purposes, tech will be granted anyways
 			modules = {
 				main_armament_slot = tank_light_cannon_1
@@ -398,7 +398,7 @@ FIN_purchase_soviet_equipment_for_cw = {
 			icon = "GFX_generic_gw_light_tank_medium"
 		}
 		add_equipment_to_stockpile = { 
-			type = light_tank_chassis_1930
+			type = light_tank_chassis_1936
 			amount = 50
 			producer = SOV
 			variant_name = "T-27"
@@ -565,7 +565,7 @@ FIN_purchase_german_equipment_for_cw = {
 		}
 		create_equipment_variant = { #Copy of Leichttraktor variant in German history file
 			name = "Leichttraktor"
-			type = light_tank_chassis_1930
+			type = light_tank_chassis_1936
 			allow_without_tech = yes # Tooltip purposes, tech will be granted anyways
 			modules = {
 				main_armament_slot = tank_light_cannon_1
@@ -583,7 +583,7 @@ FIN_purchase_german_equipment_for_cw = {
 			icon = "GFX_GER_gwtank_medium"
 		}
 		add_equipment_to_stockpile = { 
-			type = light_tank_chassis_1930
+			type = light_tank_chassis_1936
 			amount = 50
 			producer = GER
 			variant_name = "Leichttraktor"				

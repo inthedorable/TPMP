@@ -567,7 +567,7 @@ IF = {
 	}
 	create_equipment_variant = {
 		name = "Type 94 Tankette"
-		type = light_tank_chassis_1930
+		type = light_tank_chassis_1936
 		parent_version = 0
 		modules = {
 			main_armament_slot = tank_light_cannon_1
@@ -585,7 +585,7 @@ IF = {
 	}
 	create_equipment_variant = {
 		name = "Type 89 I-Go"
-		type = medium_tank_chassis_1930
+		type = medium_tank_chassis_1936
 		parent_version = 0
 		modules = {
 			main_armament_slot = tank_light_cannon_1
