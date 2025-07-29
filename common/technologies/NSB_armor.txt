@@ -30,10 +30,11 @@ technologies = {
 			tank_super_heavy_turret_1
 			tank_simple_super_heavy_superstructure_1
 			tank_super_heavy_superstructure_1
-
 			tank_gasoline_engine_1
 			tank_diesel_engine_1
 			tank_petrol_electric_engine_1
+			tank_bogie_suspension
+			tank_riveted_armor
 		}
 
 		path = {

@@ -1399,6 +1399,11 @@ technologies = {
 
 	tankupgrade1_tech = {
 		enable_equipment_modules = {
+			tank_welded_armor
+			tank_cast_armor
+			tank_torsion_bar_suspension
+			tank_christie_suspension
+			tank_interleaved_suspension
 			secondary_turret_hmg
 			tank_optics_1
 			cupola_1
@@ -1717,6 +1722,7 @@ technologies = {
 	}
 	compositearmour_tech = {
 		enable_equipment_modules = {
+			tank_composite_armor
 		}
 
 		research_cost = 1.5
