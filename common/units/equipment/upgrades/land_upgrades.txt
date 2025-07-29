@@ -84,7 +84,6 @@ upgrades = {
 			maximum_speed = -0.2
 			reliability = -0.05
 			build_cost_ic = 2
-
 		}
 	}
 
