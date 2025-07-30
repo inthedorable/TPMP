@@ -521,7 +521,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		allow = {
-			has_tech = heavyantitank3_tech
+			has_tech = heavyantitank1_tech
 		}
 
 		research_cost = 1.5
@@ -1412,6 +1412,14 @@ technologies = {
 			wartime_simplification_tungsten
 			wartime_simplification_chromium
 			wartime_simplification_general
+			smoke_launchers
+			extra_ammo_storage
+			wet_ammo_storage
+			squeezebore_adaptor
+			dozer_blade
+			additional_machine_guns
+			expanded_fuel_tank
+			ventilation_system
 		}
 
 		path = {
@@ -1571,6 +1579,9 @@ technologies = {
 			leads_to_tech = optics2_tech
 			research_cost_coeff = 1
 		}
+		allow = {
+			has_tech = mechanical_computing
+		}
 
 		research_cost = 1.5
 		start_year = 1941
@@ -1592,6 +1603,10 @@ technologies = {
 	rangefinder_tech = {
 		enable_equipment_modules = {
 			rangefinder
+		}
+
+		allow = {
+			has_tech = improved_computing_machine
 		}
 
 		research_cost = 1.5

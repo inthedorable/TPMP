@@ -36,7 +36,7 @@ sub_units = {
 		#Combat
 		soft_attack = 0
 		hard_attack = 0
-		breakthrough = 0
+		breakthrough = -0.2
 		defense = 0
 		ap_attack = 0
 		armor_value = 0
@@ -127,7 +127,7 @@ sub_units = {
 		#Combat
 		soft_attack = 0
 		hard_attack = 0
-		breakthrough = 0
+		breakthrough = -0.2
 		defense = 0
 		ap_attack = 0
 		armor_value = 0
@@ -219,7 +219,7 @@ sub_units = {
 		#Combat
 		soft_attack = 0
 		hard_attack = 0
-		breakthrough = 0
+		breakthrough = -0.2
 		defense = 0
 		ap_attack = 0
 		armor_value = 0
@@ -320,7 +320,7 @@ sub_units = {
 		#Combat
 		soft_attack = 0
 		hard_attack = 0
-		breakthrough = 0
+		breakthrough = -0.2
 		defense = 0
 		ap_attack = 0
 		armor_value = 0

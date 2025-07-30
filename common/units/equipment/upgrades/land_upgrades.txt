@@ -23,13 +23,25 @@ upgrades = {
 		}
 
 		resource_cost_thresholds = {
+			1 = { 
+				steel = 1
+				chromium = 3
+			}
+			2 = { 
+				steel = 2
+				chromium = 6
+			}
+			3 = { 
+				steel = 3
+				chromium = 9
+			}
 		}
 
+		maximum_speed = 0.1
 		add_stats = {
-			maximum_speed = 0.2
 			fuel_consumption = 0.05
 			reliability = -0.025
-			build_cost_ic = 1
+			build_cost_ic = 2
 		}
 	}
 

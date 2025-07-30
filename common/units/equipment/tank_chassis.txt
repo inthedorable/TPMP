@@ -25,6 +25,7 @@ equipments = {
 			main_armament_slot = {
 				required = yes
 				allowed_module_categories = {
+					tank_flamethrower
 				}
 			}
 			suspension_type_slot = {
@@ -202,7 +203,6 @@ equipments = {
 		build_cost_ic = 5
 		resources = {
 			steel = 10
-			chromium = 0
 		}
 	}
 	light_tank_chassis_1938 = {
@@ -223,7 +223,6 @@ equipments = {
 		build_cost_ic = 6
 		resources = {
 			steel = 12
-			chromium = 0
 		}
 
 		module_slots = {
@@ -260,7 +259,6 @@ equipments = {
 		build_cost_ic = 7
 		resources = {
 			steel = 14
-			chromium = 0
 		}
 
 		module_slots = {
@@ -297,7 +295,6 @@ equipments = {
 		build_cost_ic = 8
 		resources = {
 			steel = 15
-			chromium = 0
 		}
 
 		module_slots = {
@@ -340,6 +337,7 @@ equipments = {
 			main_armament_slot = {
 				required = yes
 				allowed_module_categories = {
+					tank_flamethrower
 				}
 			}
 			suspension_type_slot = {
@@ -515,8 +513,7 @@ equipments = {
 		reliability = 0.6
 		build_cost_ic = 10
 		resources = {
-			steel = 16
-			chromium = 0
+			steel = 12
 		}
 	}
 	medium_tank_chassis_1938 = {
@@ -536,8 +533,7 @@ equipments = {
 		reliability = 0.8
 		build_cost_ic = 12
 		resources = {
-			steel = 18
-			chromium = 0
+			steel = 14
 		}
 
 		module_slots = {
@@ -573,8 +569,7 @@ equipments = {
 		reliability = 1.0
 		build_cost_ic = 14
 		resources = {
-			steel = 20
-			chromium = 0
+			steel = 16
 		}
 
 		module_slots = {
@@ -610,8 +605,7 @@ equipments = {
 		reliability = 1.0
 		build_cost_ic = 16
 		resources = {
-			steel = 21
-			chromium = 0
+			steel = 17
 		}
 
 		module_slots = {
@@ -647,8 +641,7 @@ equipments = {
 		reliability = 1.2
 		build_cost_ic = 18
 		resources = {
-			steel = 23
-			chromium = 0
+			steel = 19
 		}
 
 		module_slots = {
@@ -684,8 +677,7 @@ equipments = {
 		reliability = 1.2
 		build_cost_ic = 20
 		resources = {
-			steel = 24
-			chromium = 0
+			steel = 20
 		}
 
 		module_slots = {
@@ -730,6 +722,7 @@ equipments = {
 			main_armament_slot = {
 				required = yes
 				allowed_module_categories = {
+					tank_flamethrower
 				}
 			}
 			suspension_type_slot = {
@@ -905,7 +898,7 @@ equipments = {
 		reliability = 0.8
 		build_cost_ic = 15
 		resources = {
-			steel = 24
+			steel = 18
 			chromium = 4
 		}
 	}
@@ -926,7 +919,7 @@ equipments = {
 		reliability = 0.75
 		build_cost_ic = 18
 		resources = {
-			steel = 27
+			steel = 21
 			chromium = 4
 		}
 
@@ -963,7 +956,7 @@ equipments = {
 		reliability = 0.9
 		build_cost_ic = 21
 		resources = {
-			steel = 30
+			steel = 24
 			chromium = 5
 		}
 
@@ -1000,7 +993,7 @@ equipments = {
 		reliability = 0.9
 		build_cost_ic = 24
 		resources = {
-			steel = 32
+			steel = 26
 			chromium = 5
 		}
 
@@ -1037,7 +1030,7 @@ equipments = {
 		reliability = 1.05
 		build_cost_ic = 27
 		resources = {
-			steel = 34
+			steel = 28
 			chromium = 6
 		}
 
@@ -1074,7 +1067,7 @@ equipments = {
 		reliability = 1.05
 		build_cost_ic = 30
 		resources = {
-			steel = 36
+			steel = 30
 			chromium = 6
 		}
 
@@ -1122,6 +1115,7 @@ equipments = {
 			main_armament_slot = {
 				required = yes
 				allowed_module_categories = {
+					tank_flamethrower
 				}
 			}
 			suspension_type_slot = {
@@ -1310,7 +1304,7 @@ equipments = {
 		reliability = 0.5
 		build_cost_ic = 24
 		resources = {
-			steel = 30
+			steel = 24
 			chromium = 8
 		}
 	}
@@ -1331,7 +1325,7 @@ equipments = {
 		reliability = 0.8
 		build_cost_ic = 48
 		resources = {
-			steel = 36
+			steel = 30
 			chromium = 9
 		}
 
@@ -1381,7 +1375,7 @@ equipments = {
 		reliability = 0.95
 		build_cost_ic = 60
 		resources = {
-			steel = 40
+			steel = 34
 			chromium = 10
 		}
 

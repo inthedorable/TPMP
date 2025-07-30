@@ -609,7 +609,6 @@ technologies = {
 		# small boost to research speed
 		research_speed_factor = 0.08
 		enable_equipment_modules = {
-			stabilizer
 			bomb_sights_2
 		}
 		path = {
