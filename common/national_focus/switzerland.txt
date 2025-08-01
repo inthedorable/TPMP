@@ -2824,12 +2824,6 @@
 			}
 			add_ideas = { SWI_spirit_of_saint_bernard_idea }
 			show_ideas_tooltip = SWI_saint_bernard_idea_desc
-			hidden_effect = {
-				set_technology = { 
-					SWI_saint_bernard_tech = 1
-					popup = no 
-				 } 
-			}
 			unlock_decision_tooltip = {
 				decision = SWI_field_hospital_for_militias
 				show_effect_tooltip  = yes
@@ -8964,12 +8958,6 @@ focus = {
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 		
 		completion_reward = {
-			hidden_effect = {
-				set_technology = { 
-					SWI_mountaineer_paratroopers_tech = 1
-					popup = no 
-				} 
-			}
 			add_tech_bonus = {
 				name = SWI_mountaneer_paratroopers
 				bonus = 2

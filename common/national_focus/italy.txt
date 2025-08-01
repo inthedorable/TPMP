@@ -4417,8 +4417,6 @@ focus_tree = {
 				category = cat_special_forces_generic
 			}
 
-			set_technology = { bicycle_infantry = 1 popup = no }
-
 			division_template = { 
 				name = "Reggimento Bersaglieri" 
 				division_names_group = ITA_INF_01
@@ -9499,12 +9497,6 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = ITA_camicie_nere
-			hidden_effect = {
-				set_technology = {
-					camicie_nere_security_militias = 1
-					popup = no
-				}
-			}
 			if = {
 				limit = {
 					NOT = { has_completed_focus = ITA_disband_the_blackshirts }
@@ -9545,10 +9537,6 @@ focus_tree = {
 		search_filters = {}
 
 		completion_reward = {
-			custom_effect_tooltip = ITA_battaglioni_d_assalto_tt
-			hidden_effect = {
-				set_technology = { blackshirt_assault_battalion_tech = 1 popup = no }
-			}
 		}
 	}
 
@@ -17473,13 +17461,6 @@ focus_tree = {
 				idea = ITA_grande_rivolta_rurale_ns
 				days = 365
 			}
-			#Hidden tech for terrain bonuses for militias (communicated as part of the NS above)
-			hidden_effect = {
-				set_technology = { 
-					mountain_warfare_militias_tech = 1
-					popup = no
-				}
-			}
 		}
 	}
 
@@ -20079,11 +20060,6 @@ focus_tree = {
 		search_filters = {}
 
 		completion_reward = {
-			custom_effect_tooltip = ITA_special_brigades_tt
-			hidden_effect = {
-				set_technology = { blackshirt_assault_battalion_tech = 1 popup = no }
-			}
-
 			custom_effect_tooltip = ITA_redshirts_div_cap_8_tt
 			hidden_effect = {
 				add_to_variable = { ITA_militias_cap = 8 }

@@ -110,11 +110,11 @@
  headquarters4_tech: "Headquarters IV"
  headquarters4_tech_desc: ""
 
- armoredheadquarters_tech: "Armoured Headquarters"
- armoredheadquarters_tech_desc: ""
+ Armouredheadquarters_tech: "Armoured Headquarters"
+ Armouredheadquarters_tech_desc: ""
 
- tank0_tech: "Basic Tank Modules"
- tank0_tech_desc: ""
+ tank_tech: "Basic Tank Modules"
+ tank_tech_desc: ""
 
  lighttankturret1_tech: "Basic Light Tank Turrets"
  lighttankturret1_tech_desc: ""
@@ -205,7 +205,7 @@
  beeshells_tech_desc: "Anti-personnel shells that release thousands of flechettes upon firing, effective at close range."
 
  heshshells_tech: "High-Explosive Squash Head Shells"
- heshshells_tech_desc: "Shells that flatten on impact and send shockwaves through armor, causing internal spalling."
+ heshshells_tech_desc: "Shells that flatten on impact and send shockwaves through Armour, causing internal spalling."
 
  vtheshells_tech: "Variable-Time High-Explosive Shells"
  vtheshells_tech_desc: "HE shells with proximity fuzes, designed to detonate near targets for maximum blast effect."
@@ -220,35 +220,192 @@
  chemshells_tech_desc: "Shells filled with chemical agents, intended to incapacitate or disrupt enemy troops."
 
  heatshells_tech: "High-Explosive Anti-Tank Shells"
- heatshells_tech_desc: "Explosive shells that focus energy into a jet capable of penetrating armor."
+ heatshells_tech_desc: "Explosive shells that focus energy into a jet capable of penetrating Armour."
 
  heatfsshells_tech: "High-Explosive Anti-Tank Fin-Stabilized Shells"
  heatfsshells_tech_desc: "Improved HEAT shells with fin stabilization for greater accuracy and penetration at longer ranges."
 
  atgm_tech: "Anti-Tank Guided Missiles"
- atgm_tech_desc: "Missiles guided to target after launch, capable of defeating modern armored threats."
+ atgm_tech_desc: "Missiles guided to target after launch, capable of defeating modern Armoured threats."
 
  apshells_tech: "Armour-Piercing Shells"
- apshells_tech_desc: "Solid shot shells designed to penetrate enemy armor through kinetic force."
+ apshells_tech_desc: "Solid shot shells designed to penetrate enemy Armour through kinetic force."
 
  apheshells_tech: "Armour-Piercing High-Explosive Shells"
- apheshells_tech_desc: "Armor-penetrating shells with an explosive charge to deal internal damage post-penetration."
+ apheshells_tech_desc: "Armour-penetrating shells with an explosive charge to deal internal damage post-penetration."
 
  apbcshells_tech: "Armour-Piercing Ballistic Cap Shells"
  apbcshells_tech_desc: "AP shells with ballistic caps for improved aerodynamics and deeper penetration."
 
  aphebcshells_tech: "Armour-Piercing High-Explosive Ballistic Cap Shells"
- aphebcshells_tech_desc: "Combination shells with armor penetration, explosive filler, and improved flight characteristics."
+ aphebcshells_tech_desc: "Combination shells with Armour penetration, explosive filler, and improved flight characteristics."
 
  apdsshells_tech: "Armour-Piercing Discarding Sabot Shells"
  apdsshells_tech_desc: "Shells with sub-caliber penetrators surrounded by a sabot that discards after firing for high velocity."
 
  apfsdsshells_tech: "Armour-Piercing Fin-Stabilized Discarding Sabot Shells"
- apfsdsshells_tech_desc: "Advanced kinetic energy penetrators with fin stabilization and sabot for extreme armor penetration."
+ apfsdsshells_tech_desc: "Advanced kinetic energy penetrators with fin stabilization and sabot for extreme Armour penetration."
 
  apcrshells_tech: "Armour-Piercing Composite Rigid Shells"
  apcrshells_tech_desc: "High-velocity shells with a dense core and lighter outer body to improve penetration capabilities."
 
- fireshells_tech_tt: "£GFX_unit_category_frontline_artillery_icon_small  Frontline Artillery:\n§YForest:§!\n   £attack_texticon  Attack: §G+5.0%§!\n§YJungle:§!\n   £attack_texticon  Attack: §G+5.0%§!\n§YUrban:§!\n   £attack_texticon  Attack: §G+5.0%§!\n£GFX_unit_category_spgs_icon_small Self-Propelled Guns:\n§YForest:§!\n   £attack_texticon  Attack: §G+5.0%§!\n§YJungle:§!\n   £attack_texticon  Attack: §G+5.0%§!\n§YUrban:§!\n   £attack_texticon  Attack: §G+5.0%§!"
- heshshells_tech_tt: "£GFX_unit_category_frontline_artillery_icon_small  Frontline Artillery:\n§YFort:§!\n   £attack_texticon  Attack: §G+5.0%§!\n£GFX_unit_category_spgs_icon_small Self-Propelled Guns:\n§YFort:§!\n   £attack_texticon  Attack: §G+5.0%§!"
- flareshells_tech_tt: "£GFX_unit_category_frontline_artillery_icon_small  Frontline Artillery:\n§YNight:§!\n   £attack_texticon  Attack: §G+5.0%§!\n£GFX_unit_category_spgs_icon_small Self-Propelled Guns:\n§YNight:§!\n   £attack_texticon  Attack: §G+5.0%§!"
+ fireshells_tech_tt: "£GFX_unit_category_frontline_artillery_icon_small  Frontline Artillery:\n§YForest:§!\n   £attack_texticon  Attack: §G+5.%§!\n§YJungle:§!\n   £attack_texticon  Attack: §G+5.%§!\n§YUrban:§!\n   £attack_texticon  Attack: §G+5.%§!\n£GFX_unit_category_spgs_icon_small Self-Propelled Guns:\n§YForest:§!\n   £attack_texticon  Attack: §G+5.%§!\n§YJungle:§!\n   £attack_texticon  Attack: §G+5.%§!\n§YUrban:§!\n   £attack_texticon  Attack: §G+5.%§!"
+ heshshells_tech_tt: "£GFX_unit_category_frontline_artillery_icon_small  Frontline Artillery:\n§YFort:§!\n   £attack_texticon  Attack: §G+5.%§!\n£GFX_unit_category_spgs_icon_small Self-Propelled Guns:\n§YFort:§!\n   £attack_texticon  Attack: §G+5.%§!"
+ flareshells_tech_tt: "£GFX_unit_category_frontline_artillery_icon_small  Frontline Artillery:\n§YNight:§!\n   £attack_texticon  Attack: §G+5.%§!\n£GFX_unit_category_spgs_icon_small Self-Propelled Guns:\n§YNight:§!\n   £attack_texticon  Attack: §G+5.%§!"
+
+ lightcannon1_tech: "Basic Light Cannon"
+ lightcannon1_tech_desc: ""
+ lightcannon2_tech: "Improved Light Cannon"
+ lightcannon2_tech_desc: ""
+ lightcannon3_tech: "Advanced Light Cannon"
+ lightcannon3_tech_desc: ""
+
+ lighthighvelocity_tech: "Light High-Velocity Cannon"
+ lighthighvelocity_tech_desc: ""
+ mediumhighvelocity1_tech: "Basic Medium High-Velocity Cannon"
+ mediumhighvelocity1_tech_desc: ""
+ mediumhighvelocity2_tech: "Improved Medium High-Velocity Cannon"
+ mediumhighvelocity2_tech_desc: ""
+
+ mediumcannon1_tech: "Early Medium Cannon"
+ mediumcannon1_tech_desc: ""
+ mediumcannon2_tech: "Basic Medium Cannon"
+ mediumcannon2_tech_desc: ""
+ mediumcannon3_tech: "Improved Medium Cannon"
+ mediumcannon3_tech_desc: ""
+ mediumcannon4_tech: "Advanced Medium Cannon"
+ mediumcannon4_tech_desc: ""
+
+ largemediumcannon1_tech: "Basic Large Medium Cannon"
+ largemediumcannon1_tech_desc: ""
+ largemediumcannon2_tech: "Improved Large Medium Cannon"
+ largemediumcannon2_tech_desc: ""
+
+ heavyhighvelocity1_tech: "Basic Heavy High-Velocity Cannon"
+ heavyhighvelocity1_tech_desc: ""
+ heavyhighvelocity2_tech: "Improved Heavy High-Velocity Cannon"
+ heavyhighvelocity2_tech_desc: ""
+
+ heavycannon1_tech: "Basic Heavy Cannon"
+ heavycannon1_tech_desc: ""
+ heavycannon2_tech: "Improved Heavy Cannon"
+ heavycannon2_tech_desc: ""
+
+ largeheavycannon1_tech: "Basic Large Heavy Cannon"
+ largeheavycannon1_tech_desc: ""
+ largeheavycannon2_tech: "Improved Large Heavy Cannon"
+ largeheavycannon2_tech_desc: ""
+
+ superheavycannon_tech: "Super Heavy Cannon"
+ superheavycannon_tech_desc: ""
+
+ lighthowitzer1_tech: "Basic Light Howitzer"
+ lighthowitzer1_tech_desc: ""
+ lighthowitzer2_tech: "Improved Light Howitzer"
+ lighthowitzer2_tech_desc: ""
+ lighthowitzer3_tech: "Advanced Light Howitzer"
+ lighthowitzer3_tech_desc: ""
+
+ lightclosesupportgun1_tech: "Basic Light Close Support Gun"
+ lightclosesupportgun1_tech_desc: ""
+ lightclosesupportgun2_tech: "Improved Light Close Support Gun"
+ lightclosesupportgun2_tech_desc: ""
+
+ mediumclosesupportgun1_tech: "Basic Medium Close Support Gun"
+ mediumclosesupportgun1_tech_desc: ""
+ mediumclosesupportgun2_tech: "Improved Medium Close Support Gun"
+ mediumclosesupportgun2_tech_desc: ""
+
+ mediumhowitzer1_tech: "Basic Medium Howitzer"
+ mediumhowitzer1_tech_desc: ""
+ mediumhowitzer2_tech: "Improved Medium Howitzer"
+ mediumhowitzer2_tech_desc: ""
+
+ heavyclosesupportgun1_tech: "Basic Heavy Close Support Gun"
+ heavyclosesupportgun1_tech_desc: ""
+ heavyclosesupportgun2_tech: "Improved Heavy Close Support Gun"
+ heavyclosesupportgun2_tech_desc: ""
+
+ heavyhowitzer1_tech: "Basic Heavy Howitzer"
+ heavyhowitzer1_tech_desc: ""
+ heavyhowitzer2_tech: "Improved Heavy Howitzer"
+ heavyhowitzer2_tech_desc: ""
+
+ superheavyhowitzer_tech: "Super-Heavy Howitzer"
+ superheavyhowitzer_tech_desc: ""
+
+ antiaircannon1_tech: "Basic Anti-Air Cannon"
+ antiaircannon1_tech_desc: ""
+ antiaircannon2_tech: "Improved Anti-Air Cannon"
+ antiaircannon2_tech_desc: ""
+ antiaircannon3_tech: "Advanced Anti-Air Cannon"
+ antiaircannon3_tech_desc: ""
+
+ heavyantiaircannon1_tech: "Basic Heavy Anti-Air Cannon"
+ heavyantiaircannon1_tech_desc: ""
+ heavyantiaircannon2_tech: "Improved Heavy Anti-Air Cannon"
+ heavyantiaircannon2_tech_desc: ""
+ heavyantiaircannon3_tech: "Advanced Heavy Anti-Air Cannon"
+ heavyantiaircannon3_tech_desc: ""
+
+ engineupgrade1_tech: "Basic Engine Upgrade"
+ engineupgrade1_tech_desc: ""
+ engineupgrade1_tech_tt: "Enables Engine Upgrade values up to 1."
+ engineupgrade2_tech: "Improved Engine Upgrade"
+ engineupgrade2_tech_desc: ""
+ engineupgrade2_tech_tt: "Enables Engine Upgrade values up to 2."
+ engineupgrade3_tech: "Advanced Engine Upgrade"
+ engineupgrade3_tech_desc: ""
+ engineupgrade3_tech_tt: "Enables Engine Upgrade values up to 3."
+
+ engine2_tech: "Basic Engines"
+ engine2_tech_desc: ""
+ engine3_tech: "Improved Engines"
+ engine3_tech_desc: ""
+ engine4_tech: "Advanced Engines"
+ engine4_tech_desc: ""
+
+ gasturbine_tech: "Gas-Turbine Engine"
+ gasturbine_tech_desc: ""
+
+ tankupgrade1_tech: "Basic Tank Upgrades"
+ tankupgrade1_tech_desc: ""
+
+ optics2_tech: "Basic Optics"
+ optics2_tech_desc: ""
+ optics3_tech: "Improved Optics"
+ optics3_tech_desc: ""
+ optics4_tech: "Advanced Optics"
+ optics4_tech_desc: ""
+
+ firecontrolcomputer_tech: "Fire Control Computer"
+ firecontrolcomputer_tech_desc: ""
+
+ stabilizer_tech: "Stabilizer"
+ stabilizer_tech_desc: ""
+
+ rangefinder_tech: "Rangefinder"
+ rangefinder_tech_desc: ""
+
+ autoloader_tech: "Autoloader"
+ autoloader_tech_desc: ""
+
+ armour2_tech: "Basic Armour Modules"
+ armour2_tech_desc: ""
+ armour3_tech: "Improved Armour Modules"
+ armour3_tech_desc: ""
+ armour4_tech: "Advanced Armour Modules"
+ armour4_tech_desc: ""
+
+ compositearmour_tech: "Composite Armour"
+ compositearmour_tech_desc: ""
+
+ armourupgrade1_tech: "Basic Armour Upgrade"
+ armourupgrade1_tech_desc: ""
+ armourupgrade1_tech_tt: "Enables Armour Upgrade values up to 3."
+ armourupgrade2_tech: "Improved Armour Upgrade"
+ armourupgrade2_tech_desc: ""
+ armourupgrade2_tech_tt: "Enables Armour Upgrade values up to 4."
+ armourupgrade3_tech: "Advanced Armour Upgrade"
+ armourupgrade3_tech_desc: ""
+ armourupgrade3_tech_tt: "Enables Armour Upgrade values up to 5."

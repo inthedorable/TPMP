@@ -2431,10 +2431,6 @@ focus_tree = {
 		completion_reward = {
 			add_stability = 0.1
 			add_ideas = ETH_national_studs_idea
-			set_technology = {
-				cavalry = 1
-				popup = no
-			}	
 		}
 	}
 	focus = {
@@ -3938,8 +3934,8 @@ focus_tree = {
 						engine_type_slot = tank_gasoline_engine_1
 					}
 					upgrades = {
-						tank_nsb_engine_upgrade = 1
-						tank_nsb_armor_upgrade = 1
+						tank_nsb_engine_upgrade = 0
+						tank_nsb_armor_upgrade = 0
 					}
 					icon = "GFX_ITA_basic_light_tank_medium"
 				}
@@ -5321,8 +5317,8 @@ focus_tree = {
 						special_type_slot_1 = tank_radio_1
 					}
 					upgrades = {
-						tank_nsb_engine_upgrade = 5
-						tank_nsb_armor_upgrade = 1
+						tank_nsb_engine_upgrade = 0
+						tank_nsb_armor_upgrade = 0
 					}
 					icon = "GFX_GER_basic_light_tank_medium"
 					obsolete = yes

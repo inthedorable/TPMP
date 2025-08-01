@@ -76,6 +76,7 @@ set_technology = {
 	motorised_infantry = 1
 	fuel_silos = 1
 	fuel_refining = 1
+	special_tech = 1
 	marines = 1
 	basic_train = 1
 	tankupgrade1_tech = 1
@@ -298,6 +299,7 @@ if = {
 		infantrygun3_tech = 1
 		infantrysupport1_tech = 1
 		infantrysupport2_tech = 1
+		special_tech = 1
 		marines = 1
 
 		#doctrines
@@ -777,8 +779,8 @@ if = {
 			radio_type_slot = tank_radio_1
 		}
 		upgrades = {
-			tank_nsb_armor_upgrade = 2
-			tank_nsb_engine_upgrade = 5
+			tank_nsb_armor_upgrade = 0
+			tank_nsb_engine_upgrade = 0
 		}
 		icon = "GFX_USA_basic_light_tank_medium"
 	}
@@ -796,8 +798,8 @@ if = {
 			radio_type_slot = tank_radio_1
 		}
 		upgrades = {
-			tank_nsb_armor_upgrade = 2
-			tank_nsb_engine_upgrade = 4
+			tank_nsb_armor_upgrade = 0
+			tank_nsb_engine_upgrade = 0
 		}
 		icon = "GFX_USA_basic_light_tank_medium"
 	}

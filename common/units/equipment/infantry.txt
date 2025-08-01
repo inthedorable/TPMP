@@ -22,6 +22,7 @@ equipments = {
 				allowed_module_categories = {
 					infantry_rifle_weapon
 					infantry_cqc_weapon
+					infantry_flamethrower_weapon
 					infantry_mg_weapon
 					infantry_sniper_weapon
 					infantry_at_weapon
@@ -33,6 +34,7 @@ equipments = {
 				allowed_module_categories = {
 					infantry_rifle_weapon
 					infantry_cqc_weapon
+					infantry_flamethrower_weapon
 					infantry_mg_weapon
 					infantry_sniper_weapon
 					infantry_at_weapon
@@ -44,6 +46,7 @@ equipments = {
 				allowed_module_categories = {
 					infantry_rifle_weapon
 					infantry_cqc_weapon
+					infantry_flamethrower_weapon
 					infantry_mg_weapon
 					infantry_sniper_weapon
 					infantry_at_weapon
@@ -85,6 +88,7 @@ equipments = {
 				allowed_module_categories = {
 					infantry_rifle_weapon
 					infantry_cqc_weapon
+					infantry_flamethrower_weapon
 					infantry_mg_weapon
 					infantry_sniper_weapon
 					infantry_at_weapon
@@ -96,6 +100,7 @@ equipments = {
 				allowed_module_categories = {
 					infantry_rifle_weapon
 					infantry_cqc_weapon
+					infantry_flamethrower_weapon
 					infantry_mg_weapon
 					infantry_sniper_weapon
 					infantry_at_weapon
@@ -107,6 +112,7 @@ equipments = {
 				allowed_module_categories = {
 					infantry_rifle_weapon
 					infantry_cqc_weapon
+					infantry_flamethrower_weapon
 					infantry_mg_weapon
 					infantry_sniper_weapon
 					infantry_at_weapon
@@ -118,6 +124,7 @@ equipments = {
 				allowed_module_categories = {
 					infantry_rifle_weapon
 					infantry_cqc_weapon
+					infantry_flamethrower_weapon
 					infantry_mg_weapon
 					infantry_sniper_weapon
 					infantry_at_weapon
@@ -129,6 +136,7 @@ equipments = {
 				allowed_module_categories = {
 					infantry_rifle_weapon
 					infantry_cqc_weapon
+					infantry_flamethrower_weapon
 					infantry_mg_weapon
 					infantry_sniper_weapon
 					infantry_at_weapon
@@ -140,6 +148,7 @@ equipments = {
 				allowed_module_categories = {
 					infantry_rifle_weapon
 					infantry_cqc_weapon
+					infantry_flamethrower_weapon
 					infantry_mg_weapon
 					infantry_sniper_weapon
 					infantry_at_weapon
@@ -151,12 +160,77 @@ equipments = {
 				allowed_module_categories = {
 					infantry_rifle_weapon
 					infantry_cqc_weapon
+					infantry_flamethrower_weapon
 					infantry_mg_weapon
 					infantry_sniper_weapon
 					infantry_at_weapon
 					infantry_aa_weapon
 				}
 			}
+		}
+		module_count_limit = {
+			category = infantry_sniper_weapon
+			count < 3
+		}
+		module_count_limit = {
+			category = infantry_flamethrower_weapon
+			count < 3
+		}
+		module_count_limit = {
+			category = infantry_mg_weapon
+			count < 5
+		}
+		module_count_limit = {
+			category = infantry_at_weapon
+			count < 3
+		}
+		module_count_limit = {
+			category = infantry_aa_weapon
+			count < 2
+		}
+		module_count_limit = {
+			category = infantry_at_support
+			count < 2
+		}
+		module_count_limit = {
+			category = infantry_weapons_support
+			count < 2
+		}
+		module_count_limit = {
+			module = grenades
+			count < 2
+		}
+		module_count_limit = {
+			module = rifle_grenades
+			count < 2
+		}
+		module_count_limit = {
+			module = satchel_charge
+			count < 2
+		}
+		module_count_limit = {
+			module = mines
+			count < 2
+		}
+		module_count_limit = {
+			module = smoke_grenades
+			count < 2
+		}
+		module_count_limit = {
+			module = rations
+			count < 2
+		}
+		module_count_limit = {
+			module = specialized_rations
+			count < 2
+		}
+		module_count_limit = {
+			module = medical_supplies
+			count < 2
+		}
+		module_count_limit = {
+			module = radios
+			count < 2
 		}
 		default_modules = {
 			soldier_type_slot_0 = bolt_action_1

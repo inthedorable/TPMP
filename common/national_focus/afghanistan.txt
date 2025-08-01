@@ -1980,15 +1980,6 @@ focus_tree = {
 		search_filters = {  }
 
 		completion_reward = {
-
-			custom_effect_tooltip = TUR_unlock_camelry_effect_tt
-			hidden_effect = { 
-				set_technology = { 
-					cavalry = 1 
-					popup = no
-				} 
-			} 
-			
 			division_template = {
 				name = "Pashtun Camel Corps" 
 
@@ -4371,11 +4362,6 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_ARMY_XP FOCUS_FILTER_MANPOWER }
 
 		completion_reward = {
-
-			set_technology = {
-	            cavalry = 1
-	            popup = no
-	        }
 
 	        division_template = {
 	            name = "Gajhastas"

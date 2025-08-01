@@ -158,13 +158,8 @@ sub_units = {
 		weight = 1
 		supply_consumption = 0.2
 
-		essential = {
-            special_equipment
-        }
-
 		need = {
-			special_equipment = 25
-			line_infantry_equipment = 100
+			mobile_infantry_equipment = 120
 		}
 
 		urban = {
@@ -185,7 +180,7 @@ sub_units = {
 			motorized
 		}
 		
-		group = infantry
+		group = mobile
 		
 		categories = {
 			category_army

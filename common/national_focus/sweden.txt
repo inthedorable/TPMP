@@ -617,11 +617,9 @@ focus_tree = {
 		search_filters = {  }
 
 		completion_reward = {
-			set_technology = { bicycle_infantry = 1 popup = no }
 			mio:SWE_husqvarna_organization = {
 				add_mio_funds = 500
 			}
-			#
 		}
 	}
 
@@ -811,13 +809,6 @@ focus_tree = {
 				limit = {
 					has_dlc = "La Resistance"
 				}
-
-				set_technology = {
-					SWE_lynx_armored_car = 1
-					popup = yes
-				}
-				custom_effect_tooltip = SWE_lynx_armored_car_tt
-				custom_effect_tooltip = SWE_lynx_armored_car_recon_company_tt
 				add_tech_bonus = {
 					bonus = 1
 					ahead_reduction = 1
@@ -1266,15 +1257,6 @@ focus_tree = {
 					scope = SWE
 				}
 			}
-
-			hidden_effect = {
-				set_technology = {
-					SWE_sami_support_tech = 1
-					popup = no
-				}
-			}
-
-			custom_effect_tooltip = SWE_sami_support_tech_tt
 		}
 	}
 
@@ -2828,8 +2810,8 @@ focus_tree = {
 						engine_type_slot = tank_diesel_engine_1
 				    }
 				    upgrades = {
-				        tank_nsb_engine_upgrade = 3
-				        tank_nsb_armor_upgrade = 2
+				        tank_nsb_engine_upgrade = 0
+				        tank_nsb_armor_upgrade = 0
 				    }
 				}
 
@@ -3706,16 +3688,6 @@ focus_tree = {
 			every_army_leader = {
 				add_logistics = 1
 			}
-
-			custom_effect_tooltip = FIN_winter_warfare_battalion_tt
-
-			hidden_effect = {
-				set_technology = {
-					winter_logistics_support_tech = 1
-					popup = no
-				}
-			}
-			custom_effect_tooltip = SWE_winter_drill_tt
 		}
 	}
 
@@ -7834,10 +7806,6 @@ focus_tree = {
 		search_filters = {  }
 
 		completion_reward = {
-				set_technology = {
-					militia_tech = 1
-					popup = no
-				}
 				every_army_leader = {
 					random_select_amount = 3
 					add_unit_leader_trait = militias_officer
@@ -8967,8 +8935,8 @@ focus_tree = {
 						armor_type_slot=tank_welded_armor
 				    }
 				    upgrades = {
-				        tank_nsb_engine_upgrade = 9
-				        tank_nsb_armor_upgrade = 12
+				        tank_nsb_engine_upgrade = 0
+				        tank_nsb_armor_upgrade = 0
 				    }
 				}
 

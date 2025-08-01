@@ -104,6 +104,7 @@ set_technology = {
 	tech_engineers = 1
 	tech_trucks = 1
 	motorised_infantry = 1
+	special_tech = 1
 	marines  = 1
 	artillery0_tech = 1
 	basic_train = 1
@@ -577,8 +578,8 @@ IF = {
 			engine_type_slot = tank_gasoline_engine_1
 		}
 		upgrades = {
-			tank_nsb_engine_upgrade = 1
-			tank_nsb_armor_upgrade = 1
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
 		}
 		obsolete = yes
 		icon = "GFX_JAP_basic_light_tank_medium"
@@ -595,8 +596,8 @@ IF = {
 			engine_type_slot = tank_diesel_engine_1
 		}
 		upgrades = {
-			tank_nsb_engine_upgrade = 3
-			tank_nsb_armor_upgrade = 2
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
 		}
 		icon = "GFX_JAP_basic_medium_tank_medium"
 	}
@@ -612,8 +613,8 @@ IF = {
 			engine_type_slot = tank_diesel_engine_1
 		}
 		upgrades = {
-			tank_nsb_engine_upgrade = 2
-			tank_nsb_armor_upgrade = 2
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
 		}
 		icon = "GFX_JAP_improved_light_tank_medium"
 	}
@@ -1520,8 +1521,8 @@ IF = {
 					radio_type_slot = tank_radio_1
 				}
 				upgrades = {
-					tank_nsb_engine_upgrade = 4
-					tank_nsb_armor_upgrade = 2
+					tank_nsb_engine_upgrade = 0
+					tank_nsb_armor_upgrade = 0
 				}
 				icon = "GFX_JAP_basic_medium_tank_medium"
 			}

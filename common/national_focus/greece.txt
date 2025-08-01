@@ -5590,8 +5590,6 @@ focus_tree = {
 				technology = tech_mountaineers
 				technology = tech_mountaineers2
 			}
-			custom_effect_tooltip = GRE_mountain_training_effect
-			hidden_effect = { set_technology = { mountain_warfare = 1 } }
 		}
 	}	
 

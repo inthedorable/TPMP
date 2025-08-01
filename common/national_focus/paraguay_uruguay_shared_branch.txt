@@ -1124,10 +1124,6 @@
 		completion_reward = {
 			custom_effect_tooltip = GUAY_penal_battalions_tt
 			hidden_effect = {
-				set_technology = {
-				 	penal_infantry = 1
-				 	popup = no
-				 } 
 				division_template = {
 					name = "Batallón de Castigo"
 					#division_names_group = 

@@ -165,6 +165,10 @@ equipments = {
 			count < 2
 		}
 		module_count_limit = {
+			module = pike_nose_armor
+			count < 2
+		}
+		module_count_limit = {
 			module = expanded_fuel_tank
 			count < 3
 		}
@@ -476,6 +480,10 @@ equipments = {
 			count < 2
 		}
 		module_count_limit = {
+			module = pike_nose_armor
+			count < 2
+		}
+		module_count_limit = {
 			module = expanded_fuel_tank
 			count < 3
 		}
@@ -629,7 +637,7 @@ equipments = {
 		derived_variant_name = medium_tank_equipment_1943
 		visual_level = 4
 		year = 1943
-		parent = medium_tank_chassis_1940
+		parent = medium_tank_chassis_1941
 		archetype = medium_tank_chassis
 		priority = 2000
 		module_slots = inherit
@@ -858,6 +866,10 @@ equipments = {
 		}
 		module_count_limit = {
 			module = ventilation_system
+			count < 2
+		}
+		module_count_limit = {
+			module = pike_nose_armor
 			count < 2
 		}
 		module_count_limit = {
@@ -1264,6 +1276,10 @@ equipments = {
 		}
 		module_count_limit = {
 			module = ventilation_system
+			count < 2
+		}
+		module_count_limit = {
+			module = pike_nose_armor
 			count < 2
 		}
 		module_count_limit = {

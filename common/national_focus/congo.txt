@@ -464,10 +464,6 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_HISTORICAL }
 	
 		cost = 10
-	
-		bypass = {
-			has_tech = ToA_river_boats_tech	
-		}
 
 		mutually_exclusive	= { focus = COG_south_atlantic_navy }
 	
@@ -476,22 +472,7 @@ focus_tree = {
 		}
 	
 		completion_reward = {
-
-			IF = {
-				limit = {
-					NOT = {
-						has_tech = ToA_river_boats_tech	 
-					}
-				}
-				hidden_effect = { 
-					set_technology = { 
-						ToA_river_boats_tech = 1	
-						popup = no
-					} 
-				}
-				add_ideas = BRA_brown_water_navy_idea
-			}
-
+			add_ideas = BRA_brown_water_navy_idea
 		}
 
 	}

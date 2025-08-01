@@ -6338,8 +6338,8 @@ country_event = {
 					special_type_slot_3 = sloped_armor
 				}
 				upgrades = {
-					tank_nsb_engine_upgrade = 6
-					tank_nsb_armor_upgrade = 6
+					tank_nsb_engine_upgrade = 0
+					tank_nsb_armor_upgrade = 0
 				}
 				icon = "GFX_GER_improved_heavy_tank_medium"
 			}
@@ -6360,8 +6360,8 @@ country_event = {
 					special_type_slot_4 = sloped_armor
 				}
 				upgrades = {
-					tank_nsb_engine_upgrade = 6
-					tank_nsb_armor_upgrade = 6
+					tank_nsb_engine_upgrade = 0
+					tank_nsb_armor_upgrade = 0
 				}
 				icon = "GFX_GER_improved_heavy_tank_medium"
 			}

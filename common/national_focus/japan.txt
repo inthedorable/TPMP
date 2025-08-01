@@ -5614,7 +5614,6 @@
 
 		search_filters = { FOCUS_FILTER_RESEARCH }
 		completion_reward = {
-			set_technology = { bicycle_infantry = 1 }
 		}
 	}
 

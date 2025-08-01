@@ -76,6 +76,7 @@ set_technology = {
 	tech_recon = 1
 	tech_support = 1		
 	tech_engineers = 1
+	special_tech = 1
 	tech_mountaineers = 1
 	tech_trucks = 1
 	motorised_infantry = 1
@@ -1041,8 +1042,8 @@ if = {
 			radio_type_slot = tank_radio_1
 		}
 		upgrades = {
-			tank_nsb_engine_upgrade = 2
-			tank_nsb_armor_upgrade = 2
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
 		}
 		obsolete = yes
 		icon = "GFX_GER_gwtank_medium"
@@ -1060,8 +1061,8 @@ if = {
 			radio_type_slot = tank_radio_1
 		}
 		upgrades = {
-			tank_nsb_engine_upgrade = 5
-			tank_nsb_armor_upgrade = 1
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
 		}
 		icon = "GFX_GER_basic_light_tank_medium"
 		obsolete = yes
@@ -1078,11 +1079,10 @@ if = {
 			engine_type_slot = tank_gasoline_engine_1
 			radio_type_slot = tank_radio_1
 			special_type_slot_1 = secondary_turret_hmg
-			special_type_slot_2 = secondary_turret_hmg
 		}
 		upgrades = {
-			tank_nsb_engine_upgrade = 6
-			tank_nsb_armor_upgrade = 2
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
 		}
 		icon = "GFX_GER_basic_heavy_tank_medium"
 	}
@@ -1101,8 +1101,8 @@ if = {
 			radio_type_slot = tank_radio_1
 		}
 		upgrades = {
-			tank_nsb_engine_upgrade = 3
-			tank_nsb_armor_upgrade = 2
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
 		}
 		icon = "GFX_GER_improved_light_tank_medium"
 	}
@@ -1120,8 +1120,8 @@ if = {
 			radio_type_slot = tank_radio_1
 		}
 		upgrades = {
-			tank_nsb_engine_upgrade = 3
-			tank_nsb_armor_upgrade = 3
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
 		}
 		icon = "GFX_GER_improved_light_tank_medium"
 	}
@@ -1608,8 +1608,8 @@ if = {
 				special_type_slot_4 = empty
 			}
 			upgrades = {
-				tank_nsb_engine_upgrade = 6
-				tank_nsb_armor_upgrade = 3
+				tank_nsb_engine_upgrade = 0
+				tank_nsb_armor_upgrade = 0
 			}
 			icon = "GFX_GER_basic_medium_tank_medium"
 		}
@@ -1629,8 +1629,8 @@ if = {
 				special_type_slot_4 = empty
 			}
 			upgrades = {
-				tank_nsb_engine_upgrade = 6
-				tank_nsb_armor_upgrade = 3
+				tank_nsb_engine_upgrade = 0
+				tank_nsb_armor_upgrade = 0
 			}
 			icon = "GFX_GER_improved_medium_tank_medium"
 		}
@@ -1650,8 +1650,8 @@ if = {
 				special_type_slot_4 = empty
 			}
 			upgrades = {
-				tank_nsb_engine_upgrade = 3
-				tank_nsb_armor_upgrade = 2
+				tank_nsb_engine_upgrade = 0
+				tank_nsb_armor_upgrade = 0
 			}
 			obsolete = yes
 			icon = "GFX_CZE_basic_light_tank_medium"
@@ -1672,8 +1672,8 @@ if = {
 				special_type_slot_4 = empty
 			}
 			upgrades = {
-				tank_nsb_engine_upgrade = 3
-				tank_nsb_armor_upgrade = 3
+				tank_nsb_engine_upgrade = 0
+				tank_nsb_armor_upgrade = 0
 			}
 			
 			icon = "GFX_CZE_improved_light_tank_medium"

@@ -1931,15 +1931,6 @@ ideas = {
 				original_tag = ITA
 			}
 
-			on_remove = { #Remove terrain bonuses for militias
-				hidden_effect = {
-					set_technology = { 
-						mountain_warfare_militias_tech = 0
-						popup = no
-					}
-				}
-			}
-
 			modifier = {
 				weekly_manpower = 1000
 				communism_drift = 0.1

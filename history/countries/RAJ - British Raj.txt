@@ -178,13 +178,6 @@ if = {
 }
 
 if = {
-	limit = {
-		has_dlc = "Battle for the Bosporus"
-	}
-	set_technology = { cavalry = 1 }
-}
-
-if = {
 	limit = { 
 		has_dlc = "Together for Victory" 
 		

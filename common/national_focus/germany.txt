@@ -3234,8 +3234,8 @@ focus_tree = {
 						engine_type_slot = tank_gasoline_engine_1
 					}
 					upgrades = {
-						tank_nsb_engine_upgrade = 6
-						tank_nsb_armor_upgrade = 2
+						tank_nsb_engine_upgrade = 0
+						tank_nsb_armor_upgrade = 0
 					}
 					icon = "GFX_GER_basic_medium_art_medium"
 				}
@@ -3253,8 +3253,8 @@ focus_tree = {
 						engine_type_slot = tank_gasoline_engine_1
 					}
 					upgrades = {
-						tank_nsb_engine_upgrade = 6
-						tank_nsb_armor_upgrade = 2
+						tank_nsb_engine_upgrade = 0
+						tank_nsb_armor_upgrade = 0
 					}
 					icon = "GFX_GER_basic_light_td"
 				}
@@ -3340,16 +3340,6 @@ focus_tree = {
 					tooltip = breakthrough_factor_tt
 				}
 			}
-
-			custom_effect_tooltip = generic_skip_one_line_tt
-
-			custom_effect_tooltip = GER_sturmtruppe_battalion_tt
-			hidden_effect = {
-				set_technology = { sturmtruppe_battalion_tech = 1 popup = no }
-			}
-
-			custom_effect_tooltip = generic_skip_one_line_tt
-
 			if = {
 				limit = {
 					has_character = GER_friedrich_schulz				
@@ -3867,14 +3857,6 @@ focus_tree = {
 					uses = 1
 					category = cat_armored_cars
 				}
-
-				custom_effect_tooltip = generic_skip_one_line_tt
-
-				set_technology = {
-					GER_heavy_armored_car = 1
-					popup = yes
-				}
-				custom_effect_tooltip = GER_heavy_armored_car_recon_company_tt
 			}
 
 			custom_effect_tooltip = generic_skip_one_line_tt
@@ -4425,8 +4407,8 @@ focus_tree = {
 						special_type_slot_2 = smoke_launchers
 					}
 					upgrades = {
-						tank_nsb_engine_upgrade = 6
-						tank_nsb_armor_upgrade = 3
+						tank_nsb_engine_upgrade = 0
+						tank_nsb_armor_upgrade = 0
 					}
 					icon = "GFX_GER_basic_medium_tank_medium"
 				}
@@ -4445,8 +4427,8 @@ focus_tree = {
 						special_type_slot_2 = smoke_launchers
 					}
 					upgrades = {
-						tank_nsb_engine_upgrade = 6
-						tank_nsb_armor_upgrade = 2
+						tank_nsb_engine_upgrade = 0
+						tank_nsb_armor_upgrade = 0
 					}
 					icon = "GFX_GER_basic_medium_tank_medium"
 				}
@@ -4464,8 +4446,8 @@ focus_tree = {
 						special_type_slot_1 = tank_radio_1
 					}
 					upgrades = {
-						tank_nsb_engine_upgrade = 4
-						tank_nsb_armor_upgrade = 3
+						tank_nsb_engine_upgrade = 0
+						tank_nsb_armor_upgrade = 0
 					}
 					icon = "GFX_GER_basic_medium_td_medium"
 				}
@@ -4588,8 +4570,8 @@ focus_tree = {
 						special_type_slot_3 = smoke_launchers
 					}
 					upgrades = {
-						tank_nsb_engine_upgrade = 6
-						tank_nsb_armor_upgrade = 4
+						tank_nsb_engine_upgrade = 0
+						tank_nsb_armor_upgrade = 0
 					}
 					icon = "GFX_GER_advanced_medium_tank_medium"
 				}
@@ -4608,8 +4590,8 @@ focus_tree = {
 						special_type_slot_3 = additional_machine_guns
 					}
 					upgrades = {
-						tank_nsb_engine_upgrade = 8
-						tank_nsb_armor_upgrade = 6
+						tank_nsb_engine_upgrade = 0
+						tank_nsb_armor_upgrade = 0
 					}
 					icon = "GFX_GER_advanced_heavy_tank_medium"
 				}
@@ -14561,8 +14543,8 @@ focus_tree = {
 							special_type_slot_3 = sloped_armor
 						}
 						upgrades = {
-							tank_nsb_engine_upgrade = 6
-							tank_nsb_armor_upgrade = 6
+							tank_nsb_engine_upgrade = 0
+							tank_nsb_armor_upgrade = 0
 						}
 						icon = "GFX_GER_improved_heavy_tank_medium"
 					}
@@ -14583,8 +14565,8 @@ focus_tree = {
 							special_type_slot_4 = sloped_armor
 						}
 						upgrades = {
-							tank_nsb_engine_upgrade = 6
-							tank_nsb_armor_upgrade = 6
+							tank_nsb_engine_upgrade = 0
+							tank_nsb_armor_upgrade = 0
 						}
 						icon = "GFX_GER_improved_heavy_tank_medium"
 					}	
@@ -32468,16 +32450,6 @@ focus_tree = {
 					support = {
 					}
 					override_model = GER_infantry_alt_3_entity
-				}
-
-				IF = {
-					limit = {
-						has_dlc = "Battle for the Bosporus"
-					}
-					set_technology = { 
-						cavalry = 1 
-						popup = no
-					}
 				}
 			}
 		}

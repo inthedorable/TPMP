@@ -53,8 +53,8 @@ sub_units = {
 		}
 		
 		need = {
-			special_equipment = 150
-			special_infantry_equipment = 50
+			special_equipment = 200
+			special_infantry_equipment = 100
 		}
 
 		urban = {

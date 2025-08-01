@@ -6574,33 +6574,7 @@
 						add_trait = { trait = jungle_rat }
 					} 
 				}
-
-				custom_effect_tooltip = generic_skip_one_line_tt
-
-				hidden_effect = {
-					set_technology = { 
-						TOA_jungle_pioneers_support_tech = 1 
-						popup = no
-					}
-				}
-				custom_effect_tooltip = SMB_jungle_pioneers_tt
 			}
-
-			custom_effect_tooltip = generic_skip_one_line_tt
-
-			IF = {
-				limit = {
-					original_tag = BEL
-				}
-				hidden_effect = {
-					set_technology = { 
-						TOA_jungle_pioneers_support_tech = 1 
-						popup = no
-					}
-				}
-				custom_effect_tooltip = SMB_jungle_pioneers_tt
-			}
-
 			hidden_effect = {
 				CONGO_one_more_focus_done = yes
 			}
@@ -6633,33 +6607,7 @@
 						add_trait = { trait = jungle_rat }
 					} 
 				}
-
-				custom_effect_tooltip = generic_skip_one_line_tt
-
-				hidden_effect = {
-					set_technology = { 
-						TOA_jungle_pioneers_support_tech = 1 
-						popup = no
-					}
-				}
-				custom_effect_tooltip = SMB_jungle_pioneers_tt
 			}
-
-			custom_effect_tooltip = generic_skip_one_line_tt
-
-			IF = {
-				limit = {
-					original_tag = BEL
-				}
-				hidden_effect = {
-					set_technology = { 
-						TOA_jungle_pioneers_support_tech = 1 
-						popup = no
-					}
-				}
-				custom_effect_tooltip = SMB_jungle_pioneers_tt
-			}
-
 		}
 
 	}	
@@ -8558,13 +8506,6 @@
 		available_if_capitulated = yes
 
 		completion_reward = {
-
-			hidden_effect = { 
-				set_technology = { 
-					ToA_river_boats_tech = 1	
-					popup = no
-				} 
-			}
 			add_ideas = BRA_brown_water_navy_idea
 
 			hidden_effect = {

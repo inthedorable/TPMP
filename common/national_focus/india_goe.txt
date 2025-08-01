@@ -559,8 +559,8 @@ focus_tree = {
                     type = light_tank_chassis_1938
 
                    upgrades = {       
-                       tank_nsb_engine_upgrade = 10
-                       tank_nsb_armor_upgrade = 2 
+                       tank_nsb_engine_upgrade = 0
+                       tank_nsb_armor_upgrade = 0 
                    }
                     modules={
                         main_armament_slot=tank_light_cannon_1
@@ -1760,11 +1760,6 @@ focus_tree = {
         search_filters = {FOCUS_FILTER_RESEARCH FOCUS_FILTER_ARMY_XP}
 
         completion_reward = {
-
-            set_technology = {
-                cavalry = 1
-                popup = no
-            }
 
             division_template = {
                 name = "Gajhastas"
@@ -11275,13 +11270,6 @@ focus_tree = {
 
         completion_reward = {
             custom_effect_tooltip = RAJ_defenders_of_the_revolution_idea_tt
-            custom_effect_tooltip = tech_effect|revolutionary_mass_assault
-            hidden_effect = {
-                set_technology = {
-                    revolutionary_mass_assault = 1
-                    popup = no
-                }
-            }
         }
     }
 
@@ -11881,8 +11869,8 @@ focus_tree = {
                                 type = medium_tank_chassis_1936 # equipment type id, example: ship_hull_carrier_2 
 
                                 upgrades = {
-                                    tank_nsb_engine_upgrade = 7
-                                    tank_nsb_armor_upgrade = 3
+                                    tank_nsb_engine_upgrade = 0
+                                    tank_nsb_armor_upgrade = 0
                                 }
                                 
                                 modules = {      
@@ -15941,18 +15929,7 @@ focus_tree = {
 
         search_filters = {FOCUS_FILTER_RESEARCH}
 
-        complete_tooltip = {
-            custom_effect_tooltip = RAJ_uranium_tipped_bullets_tt
-        }
-
         completion_reward = {
-            custom_effect_tooltip = RAJ_uranium_tipped_bullets_tt
-            hidden_effect = {
-                set_technology = {
-                    uranium_tipped_bullets = 1
-                    popup = no
-                }
-            }
         }
     }
 
@@ -19643,15 +19620,6 @@ focus = {
 	search_filters = { FOCUS_FILTER_MILITARY_CHARACTER }
 
 	completion_reward = {
-		custom_effect_tooltip = {
-			localization_key = generic_enables_tech_tt
-			TECH_EFFECT = tech_effect|desert_training_tech
-			TECH_NAME = desert_training_tech
-		}
-		hidden_effect = { set_technology = { desert_training_tech = 1 } }
-
-		custom_effect_tooltip = generic_skip_one_line_tt
-
 		random_army_leader = {
 			limit = { #General/FM doesn't have a terrain trait already
 				NOT = {
@@ -19782,14 +19750,6 @@ focus = {
 	search_filters = { FOCUS_FILTER_MILITARY_CHARACTER }
 
 	completion_reward = {
-		custom_effect_tooltip = {
-			localization_key = generic_enables_tech_tt
-			TECH_EFFECT = tech_effect|jungle_training_tech
-			TECH_NAME = jungle_training_tech
-		}
-		hidden_effect = { set_technology = { jungle_training_tech = 1 } }
-
-		custom_effect_tooltip = generic_skip_one_line_tt
 		random_army_leader = {
 			limit = { #General/FM doesn't have a terrain trait already
 				NOT = {
@@ -19975,15 +19935,6 @@ focus = {
 	search_filters = { FOCUS_FILTER_MILITARY_CHARACTER }
 
 	completion_reward = {
-		custom_effect_tooltip = {
-			localization_key = generic_enables_tech_tt
-			TECH_EFFECT = tech_effect|hills_training_tech
-			TECH_NAME = hills_training_tech
-		}
-		hidden_effect = { set_technology = { hills_training_tech = 1 } }
-
-		custom_effect_tooltip = generic_skip_one_line_tt
-
 		random_army_leader = {
 			limit = { #General/FM doesn't have a terrain trait already
 				NOT = {
@@ -20742,15 +20693,6 @@ focus = {
 	search_filters = { FOCUS_FILTER_MILITARY_CHARACTER }
 
 	completion_reward = {
-		custom_effect_tooltip = {
-			localization_key = generic_enables_tech_tt
-			TECH_EFFECT = tech_effect|urban_training_tech
-			TECH_NAME = urban_training_tech
-		}
-		hidden_effect = { set_technology = { urban_training_tech = 1 } }
-		
-		custom_effect_tooltip = generic_skip_one_line_tt
-
 		random_army_leader = {
 			limit = { #General/FM doesn't have a terrain trait already
 				NOT = {
@@ -23258,14 +23200,6 @@ focus = {
                 uses = 1
                 category = recon_tech # optional 
             }
-            hidden_effect = {
-                set_technology = {
-                    tech_recon_focus_bonus = 1
-                    popup = no
-                }
-            }
-            custom_effect_tooltip = tech_recon_focus_bonus_tt
-
         }
     }
     

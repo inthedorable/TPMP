@@ -116,6 +116,7 @@ set_technology = {
 	tech_support = 1
 	tech_engineers = 1
 	tech_recon = 1
+	special_tech = 1
 	tech_mountaineers = 1
 	tech_trucks = 1
 	motorised_infantry = 1
@@ -154,12 +155,6 @@ if = {
 	}
 }
 
-if = {
-	limit = {
-		has_dlc = "Battle for the Bosporus"
-	}
-	set_technology = { cavalry = 1 }
-}
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
 		set_technology = {

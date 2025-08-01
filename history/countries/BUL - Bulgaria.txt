@@ -332,6 +332,7 @@ set_technology = { #VANILLA & DLC
 	motorised_infantry = 1
 	fuel_silos = 1
 	basic_train = 1
+	special_tech = 1
 	tech_mountaineers = 1
 }
 if = {

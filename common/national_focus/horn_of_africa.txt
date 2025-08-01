@@ -966,8 +966,8 @@ focus_tree = {
 							engine_type_slot = tank_gasoline_engine_1
 						}
 						upgrades = {
-							tank_nsb_engine_upgrade = 1
-							tank_nsb_armor_upgrade = 1
+							tank_nsb_engine_upgrade = 0
+							tank_nsb_armor_upgrade = 0
 						}
 						icon = "GFX_gwtank_medium"
 					}
@@ -1453,9 +1453,6 @@ focus_tree = {
 		search_filters = {}
 
 		completion_reward = {
-			set_technology = {
-				tech_special_forces = 1
-			}
 			add_tech_bonus = {
 				name = HOA_commandos
 				bonus = 0.25

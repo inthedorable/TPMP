@@ -985,8 +985,6 @@ shared_focus = {
 		}
 
 	completion_reward = {
-		custom_effect_tooltip = GRE_mountain_training_effect
-		hidden_effect = { set_technology = { mountain_warfare = 1 } }
 	}
 }
 
@@ -4947,13 +4945,6 @@ shared_focus = {
 			uses = 1
 			category = support_tech
 		}
-		hidden_effect = {
-			set_technology = { 
-				TOA_jungle_pioneers_support_tech = 1 
-				popup = no
-			}
-		}
-		custom_effect_tooltip = SMB_jungle_pioneers_tt
 	}
 }
 
@@ -4982,16 +4973,6 @@ shared_focus = {
 		}
 
 	completion_reward = {
-		#custom_effect_tooltip = BRA_modify_brazilian_army_ns_intro
-		#add_to_variable = { JUNO_army_heat_attrition_factor = -0.1 tooltip = heat_attrition_factor_tt }
-		#add_to_variable = { JUNO_supply_combat_penalties_on_core_factor = -0.05 tooltip = supply_combat_penalties_on_core_factor_tt }
-		hidden_effect = { 
-			set_technology = { 
-				ToA_river_boats_tech = 1	
-				popup = no
-			} 
-		}
-		#show_ideas_tooltip = BRA_brown_water_navy_idea
 		add_ideas = BRA_brown_water_navy_idea
 	}
 }

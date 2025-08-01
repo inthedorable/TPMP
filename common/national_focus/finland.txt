@@ -6837,14 +6837,6 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = FIN_lotta_svard
-
-			hidden_effect = {
-				set_technology = {
-					lotta_svard_tech = 1
-					popup = no
-				}
-			}
-
 			custom_effect_tooltip = available_political_advisor
 			show_ideas_tooltip = FIN_hilja_riipinen
 
@@ -7913,8 +7905,8 @@ focus_tree = {
 							special_type_slot_1 = tank_radio_1
 						}
 						upgrades = {
-							tank_nsb_engine_upgrade = 5
-							tank_nsb_armor_upgrade = 1
+							tank_nsb_engine_upgrade = 0
+							tank_nsb_armor_upgrade = 0
 						}
 						icon = "GFX_GER_basic_light_tank_medium"
 						model = "GER_light_armor_0_entity"
@@ -7946,8 +7938,8 @@ focus_tree = {
 							engine_type_slot = tank_gasoline_engine_1
 						}
 						upgrades = {
-							tank_nsb_engine_upgrade = 1
-							tank_nsb_armor_upgrade = 1
+							tank_nsb_engine_upgrade = 0
+							tank_nsb_armor_upgrade = 0
 						}
 						icon = "GFX_ITA_basic_light_tank_medium"
 						model = "ITA_light_armor_entity"
@@ -7978,8 +7970,8 @@ focus_tree = {
 							engine_type_slot = tank_diesel_engine_1
 						}
 						upgrades = {
-							tank_nsb_engine_upgrade = 2
-							tank_nsb_armor_upgrade = 2
+							tank_nsb_engine_upgrade = 0
+							tank_nsb_armor_upgrade = 0
 						}
 						icon = "GFX_JAP_improved_light_tank_medium"
 						model = "JAP_light_armor_entity"
@@ -8010,8 +8002,8 @@ focus_tree = {
 							engine_type_slot = tank_gasoline_engine_1
 						}
 						upgrades = {
-							tank_nsb_engine_upgrade = 2
-							tank_nsb_armor_upgrade = 4
+							tank_nsb_engine_upgrade = 0
+							tank_nsb_armor_upgrade = 0
 						}
 						icon = "GFX_FRA_basic_light_tank_medium"
 						model = "FRA_light_armor_0_entity"
@@ -8042,8 +8034,8 @@ focus_tree = {
 							engine_type_slot = tank_gasoline_engine_1
 						}
 						upgrades = {
-							tank_nsb_engine_upgrade = 2
-							tank_nsb_armor_upgrade = 1
+							tank_nsb_engine_upgrade = 0
+							tank_nsb_armor_upgrade = 0
 						}
 						icon = "GFX_ENG_basic_light_tank_medium"
 						model = "commonwealth_gfx_light_armor_entity"
@@ -8076,8 +8068,8 @@ focus_tree = {
 							special_type_slot_2 = tank_radio_1
 						}
 						upgrades = {
-							tank_nsb_armor_upgrade = 2
-							tank_nsb_engine_upgrade = 5
+							tank_nsb_armor_upgrade = 0
+							tank_nsb_engine_upgrade = 0
 						}
 						icon = "GFX_USA_basic_light_tank_medium"
 						model = "USA_light_armor_0_entity"
@@ -8108,8 +8100,8 @@ focus_tree = {
 							engine_type_slot = tank_gasoline_engine_1
 						}
 						upgrades = {
-							tank_nsb_engine_upgrade = 8
-							tank_nsb_armor_upgrade = 1
+							tank_nsb_engine_upgrade = 0
+							tank_nsb_armor_upgrade = 0
 						}
 						icon = "GFX_SOV_improved_light_tank_medium" #More similar to BT-7 than to T-26
 						model = "SOV_light_armor_entity" #More similar to BT-7 than to T-26
@@ -8141,8 +8133,8 @@ focus_tree = {
 							special_type_slot_1 = tank_radio_1
 						}
 						upgrades = {
-							tank_nsb_armor_upgrade = 2
-							tank_nsb_engine_upgrade = 3
+							tank_nsb_armor_upgrade = 0
+							tank_nsb_engine_upgrade = 0
 						}
 						icon = "GFX_SWE_basic_light_tank_alt_medium"
 						model = "SWE_light_armor_0_entity"
@@ -10815,14 +10807,6 @@ focus_tree = {
 		completion_reward = {
 			add_stability = 0.05
 			add_war_support = 0.05
-
-			custom_effect_tooltip = FIN_oy_alkoholiliike_ns_tt
-			hidden_effect = {
-				set_technology = {
-					molotov_cocktails_tech = 1
-					popup = no
-				}
-			}
 		}
 	}
 
@@ -11254,8 +11238,6 @@ focus_tree = {
 		completion_reward = {
 			army_experience = 15
 
-			set_technology = { bicycle_infantry = 1 popup = no }
-
 			custom_effect_tooltip = FIN_modify_finnish_army_ns_intro
 			add_to_variable = { FIN_finnish_army_army_org_factor = 0.1 tooltip = army_org_factor_tt }
 			add_to_variable = { FIN_finnish_army_special_forces_cap = 0.15 tooltip = special_forces_cap_tt }
@@ -11344,8 +11326,8 @@ focus_tree = {
 							engine_type_slot = tank_gasoline_engine_1
 						}
 						upgrades = {
-							tank_nsb_engine_upgrade = 10
-							tank_nsb_armor_upgrade = 2
+							tank_nsb_engine_upgrade = 0
+							tank_nsb_armor_upgrade = 0
 						}
 						icon = "GFX_FIN_improved_light_art_medium"
 						design_team = mio:FIN_valtion_panssaritehdas_organization
@@ -11364,8 +11346,8 @@ focus_tree = {
 							engine_type_slot = tank_gasoline_engine_1
 						}
 						upgrades = {
-							tank_nsb_engine_upgrade = 10
-							tank_nsb_armor_upgrade = 2
+							tank_nsb_engine_upgrade = 0
+							tank_nsb_armor_upgrade = 0
 						}
 						icon = "GFX_FIN_improved_light_art_medium"
 					}
@@ -11415,15 +11397,6 @@ focus_tree = {
 			add_to_variable = { FIN_finnish_army_acclimatization_cold_climate_gain_factor = 0.15 tooltip = acclimatization_cold_climate_gain_factor_tt }
 			add_to_variable = { FIN_finnish_army_winter_attrition_factor = -0.15 tooltip = winter_attrition_factor_tt }
 			add_to_variable = { FIN_finnish_army_supply_combat_penalties_on_core_factor = -0.15 tooltip = supply_combat_penalties_on_core_factor_tt }
-
-			custom_effect_tooltip = FIN_winter_warfare_battalion_tt
-
-			hidden_effect = {
-				set_technology = {
-					winter_logistics_support_tech = 1
-					popup = no
-				}
-			}
 		}
 	}
 	
@@ -11659,8 +11632,8 @@ focus_tree = {
 									special_type_slot_1 = secondary_turret_hmg
 								}
 								upgrades = {
-									tank_nsb_armor_upgrade = 3
-									tank_nsb_engine_upgrade = 2
+									tank_nsb_armor_upgrade = 0
+									tank_nsb_engine_upgrade = 0
 								}
 								obsolete = yes
 								icon = "GFX_FIN_gw_tank_destroyer_vickers_medium"
@@ -11745,8 +11718,8 @@ focus_tree = {
 								engine_type_slot = tank_diesel_engine_1
 						    	}
 							upgrades = {
-								tank_nsb_engine_upgrade = 3
-								tank_nsb_armor_upgrade = 2
+								tank_nsb_engine_upgrade = 0
+								tank_nsb_armor_upgrade = 0
 							}
 							model = "FIN_light_sp_anti_air_brigade_entity"
 							icon = "GFX_SWE_basic_light_spaa_medium"
@@ -11879,13 +11852,6 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = FIN_sami_pathfinders
-
-			hidden_effect = {
-				set_technology = {
-					sami_pathfinders_tech = 1
-					popup = no
-				}
-			}
 		}
 	}
 
@@ -11905,14 +11871,6 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_HISTORICAL }
 
 		completion_reward = {
-			custom_effect_tooltip = FIN_long_range_patrols_battalion_tt
-
-			hidden_effect = {
-				set_technology = {
-					long_range_patrol_support_tech = 1
-					popup = no
-				}
-			}
 		}
 	}
 	
@@ -12057,8 +12015,8 @@ focus_tree = {
 							special_type_slot_4 = additional_machine_guns
 						}
 						upgrades = {
-							tank_nsb_engine_upgrade = 10
-							tank_nsb_armor_upgrade = 8
+							tank_nsb_engine_upgrade = 0
+							tank_nsb_armor_upgrade = 0
 						}
 						design_team = mio:FIN_valtion_panssaritehdas_organization
 					}
@@ -12079,8 +12037,8 @@ focus_tree = {
 							special_type_slot_4 = additional_machine_guns
 						}
 						upgrades = {
-							tank_nsb_engine_upgrade = 9
-							tank_nsb_armor_upgrade = 6
+							tank_nsb_engine_upgrade = 0
+							tank_nsb_armor_upgrade = 0
 						}
 						design_team = mio:FIN_valtion_panssaritehdas_organization
 					}
@@ -12102,8 +12060,8 @@ focus_tree = {
 							special_type_slot_4 = additional_machine_guns
 						}
 						upgrades = {
-							tank_nsb_engine_upgrade = 10
-							tank_nsb_armor_upgrade = 8
+							tank_nsb_engine_upgrade = 0
+							tank_nsb_armor_upgrade = 0
 						}
 					}
 					
@@ -12123,8 +12081,8 @@ focus_tree = {
 							special_type_slot_4 = additional_machine_guns
 						}
 						upgrades = {
-							tank_nsb_engine_upgrade = 9
-							tank_nsb_armor_upgrade = 6
+							tank_nsb_engine_upgrade = 0
+							tank_nsb_armor_upgrade = 0
 						}
 					}
 				}
@@ -12199,8 +12157,8 @@ focus_tree = {
 						special_type_slot_4 = empty
 					}
 					upgrades = {
-						tank_nsb_engine_upgrade = 18
-						tank_nsb_armor_upgrade = 7
+						tank_nsb_engine_upgrade = 0
+						tank_nsb_armor_upgrade = 0
 					}
 					icon = "GFX_FIN_super_heavy_tank_2_medium"
 				}

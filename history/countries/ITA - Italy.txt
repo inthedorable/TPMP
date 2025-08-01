@@ -356,6 +356,7 @@ set_technology = {
 	infantrygun2_tech = 1
 	tech_support = 1		
 	tech_engineers = 1
+	special_tech = 1
 	tech_mountaineers = 1
 	tech_trucks = 1
 	motorised_infantry = 1
@@ -392,12 +393,6 @@ if = {
 		tank0_tech = 1
 		lighttank1_tech = 1
 	}
-}
-if = {
-	limit = {
-		has_dlc = "Battle for the Bosporus"
-	}
-	set_technology = { cavalry = 1 }
 }
 if = {
 	limit = { not = { has_dlc = "Man the Guns" } }
@@ -1063,8 +1058,8 @@ if = {
 			engine_type_slot = tank_gasoline_engine_1
 		}
 		upgrades = {
-			tank_nsb_engine_upgrade = 1
-			tank_nsb_armor_upgrade = 2
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
 		}
 		icon = "GFX_gwtank_medium"
 	}
@@ -1088,8 +1083,8 @@ if = {
 			engine_type_slot = tank_gasoline_engine_1
 		}
 		upgrades = {
-			tank_nsb_engine_upgrade = 1
-			tank_nsb_armor_upgrade = 2
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
 		}
 		icon = "GFX_gwtank_medium"
 	}
@@ -1112,8 +1107,8 @@ if = {
 			engine_type_slot = tank_gasoline_engine_1
 		}
 		upgrades = {
-			tank_nsb_engine_upgrade = 1
-			tank_nsb_armor_upgrade = 1
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 0
 		}
 		icon = "GFX_ITA_basic_light_tank_medium"
 	}
@@ -1717,8 +1712,8 @@ if = {
 				engine_type_slot = tank_gasoline_engine_1
 			}
 			upgrades = {
-				tank_nsb_engine_upgrade = 2
-				tank_nsb_armor_upgrade = 4
+				tank_nsb_engine_upgrade = 0
+				tank_nsb_armor_upgrade = 0
 			}
 			icon = "GFX_ITA_improved_light_tank_medium"
 		}
@@ -1736,8 +1731,8 @@ if = {
 				special_type_slot_1 = secondary_turret_hmg
 			}
 			upgrades = {
-				tank_nsb_engine_upgrade = 2
-				tank_nsb_armor_upgrade = 3
+				tank_nsb_engine_upgrade = 0
+				tank_nsb_armor_upgrade = 0
 			}
 			icon = "GFX_ITA_basic_medium_tank_medium"
 		}

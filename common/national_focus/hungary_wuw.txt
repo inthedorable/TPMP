@@ -6247,14 +6247,6 @@ focus_tree = {
 				}
 			}
 			custom_effect_tooltip = wuw_HUN_magyar_cserkeszszovetseg_tt
-
-			hidden_effect = {
-				set_technology = {
-					lotta_svard_tech = 1
-					popup = no
-				}
-			}
-
 		}
 	}
 
@@ -16837,16 +16829,6 @@ focus_tree = {
 
 			IF = {
 				limit = {
-					NOT = {
-						has_tech = bicycle_infantry
-					}
-				}
-				set_technology = { bicycle_infantry = 1 popup = no }
-				custom_effect_tooltip = generic_skip_one_line_tt
-			}
-
-			IF = {
-				limit = {
 					43 = {
 						free_building_slots = {
 							building = arms_factory
@@ -18249,17 +18231,6 @@ focus_tree = {
 
 		completion_reward = {
 
-			hidden_effect = {
-				IF = {
-					limit = {
-						NOT = {
-							has_tech = bicycle_infantry
-						}
-					}
-					set_technology = { bicycle_infantry = 1 popup = no }
-				}
-			}
-
 			add_tech_bonus = {
 				name = wuw_HUN_form_the_gyorshadtest
 				bonus = 0.25
@@ -18763,9 +18734,6 @@ focus_tree = {
 					}
 				}
 			}
-			hidden_effect = { set_technology = { HUN_light_infantry_tech = 1 } }
-
-			custom_effect_tooltip = generic_skip_one_line_tt
 
 			custom_effect_tooltip = available_military_high_command
 			show_ideas_tooltip = HUN_jeno_ratz
@@ -19084,8 +19052,8 @@ focus_tree = {
 							special_type_slot_2 = additional_machine_guns
 						}
 						upgrades = {
-							tank_nsb_engine_upgrade = 3
-							tank_nsb_armor_upgrade = 3
+							tank_nsb_engine_upgrade = 0
+							tank_nsb_armor_upgrade = 0
 						}
 						#icon = "GFX_ITA_basic_medium_tank_medium"
 					}
@@ -19108,8 +19076,8 @@ focus_tree = {
 								special_type_slot_2 = additional_machine_guns
 							}
 							upgrades = {
-								tank_nsb_engine_upgrade = 3
-								tank_nsb_armor_upgrade = 3
+								tank_nsb_engine_upgrade = 0
+								tank_nsb_armor_upgrade = 0
 							}
 							#icon = "GFX_ITA_basic_medium_tank_medium"
 						}
@@ -19134,8 +19102,8 @@ focus_tree = {
 							special_type_slot_2 = additional_machine_guns
 						}
 						upgrades = {
-							tank_nsb_engine_upgrade = 3
-							tank_nsb_armor_upgrade = 7
+							tank_nsb_engine_upgrade = 0
+							tank_nsb_armor_upgrade = 0
 						}
 						#icon = "GFX_ITA_basic_medium_tank_medium"
 					}
@@ -19158,8 +19126,8 @@ focus_tree = {
 								special_type_slot_2 = additional_machine_guns
 							}
 							upgrades = {
-								tank_nsb_engine_upgrade = 3
-								tank_nsb_armor_upgrade = 7
+								tank_nsb_engine_upgrade = 0
+								tank_nsb_armor_upgrade = 0
 							}
 							#icon = "GFX_ITA_basic_medium_tank_medium"
 						}
@@ -19256,8 +19224,8 @@ focus_tree = {
 							engine_type_slot = tank_gasoline_engine_1
 						}
 						upgrades = {
-							tank_nsb_engine_upgrade = 3
-							tank_nsb_armor_upgrade = 3
+							tank_nsb_engine_upgrade = 0
+							tank_nsb_armor_upgrade = 0
 						}
 						#icon = "GFX_ITA_advanced_medium_art_medium"
 					}
@@ -19278,8 +19246,8 @@ focus_tree = {
 								engine_type_slot = tank_gasoline_engine_1
 							}
 							upgrades = {
-								tank_nsb_engine_upgrade = 3
-								tank_nsb_armor_upgrade = 3
+								tank_nsb_engine_upgrade = 0
+								tank_nsb_armor_upgrade = 0
 							}
 							#icon = "GFX_ITA_advanced_medium_art_medium"
 						}
@@ -19304,8 +19272,8 @@ focus_tree = {
 							special_type_slot_2 = secondary_turret_small_cannon
 						}
 						upgrades = {
-							tank_nsb_engine_upgrade = 6
-							tank_nsb_armor_upgrade = 2
+							tank_nsb_engine_upgrade = 0
+							tank_nsb_armor_upgrade = 0
 						}
 						#icon = "GFX_ITA_advanced_medium_spaa_medium"
 					}
@@ -19328,8 +19296,8 @@ focus_tree = {
 								special_type_slot_2 = secondary_turret_small_cannon
 							}
 							upgrades = {
-								tank_nsb_engine_upgrade = 6
-								tank_nsb_armor_upgrade = 2
+								tank_nsb_engine_upgrade = 0
+								tank_nsb_armor_upgrade = 0
 							}
 							#icon = "GFX_ITA_advanced_medium_spaa_medium"
 						}
@@ -19407,8 +19375,8 @@ focus_tree = {
 							special_type_slot_2 = tank_radio_1
 						}
 						upgrades = {
-							tank_nsb_engine_upgrade = 3
-							tank_nsb_armor_upgrade = 2
+							tank_nsb_engine_upgrade = 0
+							tank_nsb_armor_upgrade = 0
 						}
 						#icon = "GFX_ITA_improved_light_tank_medium"
 					}
@@ -19430,8 +19398,8 @@ focus_tree = {
 								special_type_slot_2 = tank_radio_1
 							}
 							upgrades = {
-								tank_nsb_engine_upgrade = 3
-								tank_nsb_armor_upgrade = 2
+								tank_nsb_engine_upgrade = 0
+								tank_nsb_armor_upgrade = 0
 							}
 							#icon = "GFX_ITA_improved_light_tank_medium"
 						}

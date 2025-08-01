@@ -3250,8 +3250,8 @@ focus_tree = {
 						special_type_slot_2 = smoke_launchers
 					}
 					upgrades = {
-						tank_nsb_engine_upgrade = 6
-						tank_nsb_armor_upgrade = 2
+						tank_nsb_engine_upgrade = 0
+						tank_nsb_armor_upgrade = 0
 					}
 					icon = "GFX_GER_basic_medium_tank_medium"
 				}
@@ -7836,7 +7836,6 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_HISTORICAL }
 	
 		completion_reward = {
-			set_technology = { bicycle_infantry = 1 popup = no }
 			random_core_state = {
 				limit = {
 					free_building_slots = {
