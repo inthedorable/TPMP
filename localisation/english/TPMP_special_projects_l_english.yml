@@ -1,0 +1,24 @@
+﻿l_english:
+ sp_gas_turbine_engine: "Gas Turbine Engine"
+ sp_gas_turbine_engine_desc: "An experimental gas turbine engine offering high power-to-weight ratio and improved performance, especially in cold environments."
+
+ sp_fire_control_computer: "Fire Control Computer"
+ sp_fire_control_computer_desc: "An experimental electromechanical fire control computer which both elevates the gun and tracks the movement of targets to a limited degree automatically."
+
+ sp_composite_armour: "Composite Armour"
+ sp_composite_armour_desc: "An advanced form of layered armour using different materials to maximize protection while minimizing weight."
+
+ sp_assault_rifles: "Assault Rifles"
+ sp_assault_rifles_desc: "A new class of select-fire infantry weapons chambered for intermediate cartridges, offering high versatility in both close and medium range combat."
+
+ sp_advanced_infantry_launchers: "Advanced Infantry Launchers"
+ sp_advanced_infantry_launchers_desc: "Lightweight, man-portable launchers capable of firing advanced anti-tank or anti-air projectiles with improved accuracy and range."
+
+ sp_anti_tank_guided_missiles: "Anti-Tank Guided Missiles"
+ sp_anti_tank_guided_missiles_desc: "Wire-guided or self-guided missile systems that allow infantry to defeat heavy armour from standoff distances."
+
+ sp_amphibious_drive: "Amphibious Drive"
+ sp_amphibious_drive_desc: "A specialized drive system enabling land vehicles to traverse bodies of water without the need for additional engineering support."
+
+ sp_floating_harbour: "Floating Harbour"
+ sp_floating_harbour_desc: "A portable, modular harbour system that can be deployed off hostile coasts to facilitate rapid logistical operations."

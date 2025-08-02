@@ -306,6 +306,7 @@ equipment_modules = {
 		build_cost_resources = {
 			steel = 1
 		}
+		xp_cost = 0
 	}
 	submachine_gun_2 = {
 		abbreviation = "smg2"
@@ -325,6 +326,7 @@ equipment_modules = {
 		build_cost_resources = {
 			steel = 1
 		}
+		xp_cost = 0
 	}
 	submachine_gun_3 = {
 		abbreviation = "smg3"
@@ -344,6 +346,7 @@ equipment_modules = {
 		build_cost_resources = {
 			steel = 1
 		}
+		xp_cost = 0
 	}
 	flamethrower_1 = {
 		abbreviation = "flm1"

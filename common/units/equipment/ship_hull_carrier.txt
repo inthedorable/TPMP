@@ -137,8 +137,8 @@ equipments = {
 
 		build_cost_ic = 2094
 		resources = {
-			steel = 3
-			chromium = 1
+			steel = 30
+			chromium = 10
 		}
 
 		manpower = 4500
@@ -220,8 +220,8 @@ equipments = {
 
 		build_cost_ic = 2600
 		resources = {
-			steel = 4
-			chromium = 1
+			steel = 40
+			chromium = 10
 		}
 		manpower = 5000
 	}
@@ -291,8 +291,8 @@ equipments = {
 
 		build_cost_ic = 3250
 		resources = {
-			steel = 4
-			chromium = 2
+			steel = 40
+			chromium = 20
 		}
 		manpower = 5500
 	}
@@ -370,8 +370,8 @@ equipments = {
 
 		build_cost_ic = 4250
 		resources = {
-			steel = 5
-			chromium = 3
+			steel = 50
+			chromium = 30
 		}
 		manpower = 6500
 	}
@@ -452,8 +452,8 @@ equipments = {
 
 		fuel_consumption = 95		
 		resources = {
-			steel = 5
-			chromium = 2
+			steel = 50
+			chromium = 20
 		}
 		manpower = 6000
 	}
@@ -499,8 +499,8 @@ equipments = {
 
 		build_cost_ic = 2700
 		resources = {
-			steel = 4
-			chromium = 1
+			steel = 40
+			chromium = 10
 		}
 		manpower = 5000
 	}
@@ -541,7 +541,7 @@ equipments = {
 		naval_speed = 22.5
 		build_cost_ic = 2700
 		resources = {
-			steel = 3
+			steel = 30
 		}
 		manpower = 1000
 	}

@@ -1,4 +1,7 @@
 ﻿l_english:
+ TPMP_armour_support_folder: "Armour Support"
+ TPMP_armour_support_folder_desc: "Various guns and other modules for armour."
+
  infantrymg1_tech: "Early Machine Guns"
  infantrymg1_tech_desc: ""
  infantrymg2_tech: "Basic Machine Guns"
@@ -113,8 +116,8 @@
  Armouredheadquarters_tech: "Armoured Headquarters"
  Armouredheadquarters_tech_desc: ""
 
- tank_tech: "Basic Tank Modules"
- tank_tech_desc: ""
+ tank0_tech: "Basic Tank Modules"
+ tank0_tech_desc: ""
 
  lighttankturret1_tech: "Basic Light Tank Turrets"
  lighttankturret1_tech_desc: ""

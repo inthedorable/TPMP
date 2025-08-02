@@ -63,8 +63,8 @@ technologies = {
 		}
 
 		categories = {
-			armor
-			mio_cat_tech_all_armor_and_modules
+			cat_armour_tech
+			cat_armour_module_tech
 		}
 		special_project_specialization = { specialization_land }
 
@@ -92,8 +92,9 @@ technologies = {
 		}
 
 		categories = {
-			armor
-			mio_cat_tech_all_armor_and_modules
+			cat_armour_tech
+			cat_chassis_tech
+			cat_light_chassis_tech
 		}
 		special_project_specialization = { specialization_land }
 
@@ -119,8 +120,9 @@ technologies = {
 		}
 
 		categories = {
-			armor
-			mio_cat_tech_all_armor_and_modules
+			cat_armour_tech
+			cat_chassis_tech
+			cat_light_chassis_tech
 		}
 		special_project_specialization = { specialization_land }
 
@@ -150,7 +152,7 @@ technologies = {
 		}
 		
 
-		research_cost = 2.0
+		research_cost = 1.5
 		start_year = 1939
 
 		folder = {
@@ -159,8 +161,8 @@ technologies = {
 		}
 
 		categories = {
-			armor
-			mio_cat_tech_all_armor_and_modules
+			cat_armour_tech
+			cat_armour_module_tech
 		}
 		special_project_specialization = { specialization_land }
 
@@ -194,8 +196,9 @@ technologies = {
 		}
 
 		categories = {
-			armor
-			mio_cat_tech_all_armor_and_modules
+			cat_armour_tech
+			cat_chassis_tech
+			cat_light_chassis_tech
 		}
 		special_project_specialization = { specialization_land }
 
@@ -229,8 +232,9 @@ technologies = {
 		}
 
 		categories = {
-			armor
-			mio_cat_tech_all_armor_and_modules
+			cat_armour_tech
+			cat_chassis_tech
+			cat_light_chassis_tech
 		}
 		special_project_specialization = { specialization_land }
 
@@ -251,7 +255,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		research_cost = 2.0
+		research_cost = 1.5
 		start_year = 1942
 
 		folder = {
@@ -260,8 +264,8 @@ technologies = {
 		}
 
 		categories = {
-			armor
-			mio_cat_tech_all_armor_and_modules
+			cat_armour_tech
+			cat_armour_module_tech
 		}
 		special_project_specialization = { specialization_land }
 
@@ -289,8 +293,9 @@ technologies = {
 		}
 
 		categories = {
-			armor
-			mio_cat_tech_all_armor_and_modules
+			cat_armour_tech
+			cat_chassis_tech
+			cat_medium_chassis_tech
 		}
 		special_project_specialization = { specialization_land }
 
@@ -316,8 +321,9 @@ technologies = {
 		}
 
 		categories = {
-			armor
-			mio_cat_tech_all_armor_and_modules
+			cat_armour_tech
+			cat_chassis_tech
+			cat_medium_chassis_tech
 		}
 		special_project_specialization = { specialization_land }
 
@@ -350,7 +356,7 @@ technologies = {
 			research_cost_coeff = 0.1
 		}
 
-		research_cost = 2.0
+		research_cost = 1.5
 		start_year = 1939
 
 		folder = {
@@ -359,8 +365,8 @@ technologies = {
 		}
 
 		categories = {
-			armor
-			mio_cat_tech_all_armor_and_modules
+			cat_armour_tech
+			cat_armour_module_tech
 		}
 		special_project_specialization = { specialization_land }
 
@@ -394,8 +400,9 @@ technologies = {
 		}
 
 		categories = {
-			armor
-			mio_cat_tech_all_armor_and_modules
+			cat_armour_tech
+			cat_chassis_tech
+			cat_medium_chassis_tech
 		}
 		special_project_specialization = { specialization_land }
 
@@ -429,8 +436,9 @@ technologies = {
 		}
 
 		categories = {
-			armor
-			mio_cat_tech_all_armor_and_modules
+			cat_armour_tech
+			cat_chassis_tech
+			cat_medium_chassis_tech
 		}
 		special_project_specialization = { specialization_land }
 
@@ -462,7 +470,7 @@ technologies = {
 			research_cost_coeff = 0.1
 		}
 
-		research_cost = 2.0
+		research_cost = 1.5
 		start_year = 1942
 
 		folder = {
@@ -471,8 +479,8 @@ technologies = {
 		}
 
 		categories = {
-			armor
-			mio_cat_tech_all_armor_and_modules
+			cat_armour_tech
+			cat_armour_module_tech
 		}
 		special_project_specialization = { specialization_land }
 
@@ -506,8 +514,9 @@ technologies = {
 		}
 
 		categories = {
-			armor
-			mio_cat_tech_all_armor_and_modules
+			cat_armour_tech
+			cat_chassis_tech
+			cat_medium_chassis_tech
 		}
 		special_project_specialization = { specialization_land }
 
@@ -541,8 +550,9 @@ technologies = {
 		}
 
 		categories = {
-			armor
-			mio_cat_tech_all_armor_and_modules
+			cat_armour_tech
+			cat_chassis_tech
+			cat_medium_chassis_tech
 		}
 		special_project_specialization = { specialization_land }
 
@@ -556,7 +566,7 @@ technologies = {
 			tank_simple_medium_superstructure_4
 		}
 
-		research_cost = 2.0
+		research_cost = 1.5
 		start_year = 1945
 
 		folder = {
@@ -565,8 +575,8 @@ technologies = {
 		}
 
 		categories = {
-			armor
-			mio_cat_tech_all_armor_and_modules
+			cat_armour_tech
+			cat_armour_module_tech
 		}
 		special_project_specialization = { specialization_land }
 
@@ -594,8 +604,9 @@ technologies = {
 		}
 
 		categories = {
-			armor
-			mio_cat_tech_all_armor_and_modules
+			cat_armour_tech
+			cat_chassis_tech
+			cat_heavy_chassis_tech
 		}
 		special_project_specialization = { specialization_land }
 
@@ -621,8 +632,9 @@ technologies = {
 		}
 
 		categories = {
-			armor
-			mio_cat_tech_all_armor_and_modules
+			cat_armour_tech
+			cat_chassis_tech
+			cat_heavy_chassis_tech
 		}
 		special_project_specialization = { specialization_land }
 
@@ -655,7 +667,7 @@ technologies = {
 			research_cost_coeff = 0.1
 		}
 
-		research_cost = 2.0
+		research_cost = 1.5
 		start_year = 1939
 
 		folder = {
@@ -664,8 +676,8 @@ technologies = {
 		}
 
 		categories = {
-			armor
-			mio_cat_tech_all_armor_and_modules
+			cat_armour_tech
+			cat_armour_module_tech
 		}
 		special_project_specialization = { specialization_land }
 
@@ -699,8 +711,9 @@ technologies = {
 		}
 
 		categories = {
-			armor
-			mio_cat_tech_all_armor_and_modules
+			cat_armour_tech
+			cat_chassis_tech
+			cat_heavy_chassis_tech
 		}
 		special_project_specialization = { specialization_land }
 
@@ -734,8 +747,9 @@ technologies = {
 		}
 
 		categories = {
-			armor
-			mio_cat_tech_all_armor_and_modules
+			cat_armour_tech
+			cat_chassis_tech
+			cat_heavy_chassis_tech
 		}
 		special_project_specialization = { specialization_land }
 
@@ -768,7 +782,7 @@ technologies = {
 			research_cost_coeff = 0.1
 		}
 
-		research_cost = 2.0
+		research_cost = 1.5
 		start_year = 1942
 
 		folder = {
@@ -777,8 +791,8 @@ technologies = {
 		}
 
 		categories = {
-			armor
-			mio_cat_tech_all_armor_and_modules
+			cat_armour_tech
+			cat_armour_module_tech
 		}
 		special_project_specialization = { specialization_land }
 
@@ -812,8 +826,9 @@ technologies = {
 		}
 
 		categories = {
-			armor
-			mio_cat_tech_all_armor_and_modules
+			cat_armour_tech
+			cat_chassis_tech
+			cat_heavy_chassis_tech
 		}
 		special_project_specialization = { specialization_land }
 
@@ -847,8 +862,9 @@ technologies = {
 		}
 
 		categories = {
-			armor
-			mio_cat_tech_all_armor_and_modules
+			cat_armour_tech
+			cat_chassis_tech
+			cat_heavy_chassis_tech
 		}
 		special_project_specialization = { specialization_land }
 
@@ -862,7 +878,7 @@ technologies = {
 			tank_simple_heavy_superstructure_4
 		}
 
-		research_cost = 2.0
+		research_cost = 1.5
 		start_year = 1945
 
 		folder = {
@@ -871,8 +887,8 @@ technologies = {
 		}
 
 		categories = {
-			armor
-			mio_cat_tech_all_armor_and_modules
+			cat_armour_tech
+			cat_armour_module_tech
 		}
 		special_project_specialization = { specialization_land }
 
@@ -899,8 +915,9 @@ technologies = {
 		}
 
 		categories = {
-			armor
-			mio_cat_tech_all_armor_and_modules
+			cat_armour_tech
+			cat_chassis_tech
+			cat_super_heavy_chassis_tech
 		}
 		special_project_specialization = { specialization_land }
 
@@ -925,7 +942,7 @@ technologies = {
 			research_cost_coeff = 0.1
 		}
 
-		research_cost = 2.0
+		research_cost = 1.5
 		start_year = 1939
 
 		folder = {
@@ -934,8 +951,8 @@ technologies = {
 		}
 
 		categories = {
-			armor
-			mio_cat_tech_all_armor_and_modules
+			cat_armour_tech
+			cat_armour_module_tech
 		}
 		special_project_specialization = { specialization_land }
 
@@ -961,8 +978,9 @@ technologies = {
 		}
 
 		categories = {
-			armor
-			mio_cat_tech_all_armor_and_modules
+			cat_armour_tech
+			cat_chassis_tech
+			cat_super_heavy_chassis_tech
 		}
 		special_project_specialization = { specialization_land }
 
@@ -986,7 +1004,7 @@ technologies = {
 			research_cost_coeff = 0.1
 		}
 
-		research_cost = 2.0
+		research_cost = 1.5
 		start_year = 1942
 
 		folder = {
@@ -995,8 +1013,8 @@ technologies = {
 		}
 
 		categories = {
-			armor
-			mio_cat_tech_all_armor_and_modules
+			cat_armour_tech
+			cat_armour_module_tech
 		}
 		special_project_specialization = { specialization_land }
 
@@ -1017,8 +1035,9 @@ technologies = {
 		}
 
 		categories = {
-			armor
-			mio_cat_tech_all_armor_and_modules
+			cat_armour_tech
+			cat_chassis_tech
+			cat_super_heavy_chassis_tech
 		}
 		special_project_specialization = { specialization_land }
 

@@ -1,4 +1,19 @@
 ﻿l_english:
+ anti_tank_mechanized_equipment: "Anti-Tank Mechanized"
+ anti_tank_mechanized_equipment_1: "Basic Anti-Tank Mechanized"
+ anti_tank_mechanized_equipment_2: "Improved Anti-Tank Mechanized"
+ anti_tank_mechanized_equipment_3: "Advanced Anti-Tank Mechanized"
+
+ artillery_mechanized_equipment: "Artillery Mechanized"
+ artillery_mechanized_equipment_1: "Basic Artillery Mechanized"
+ artillery_mechanized_equipment_2: "Improved Artillery Mechanized"
+ artillery_mechanized_equipment_3: "Advanced Artillery Mechanized"
+
+ anti_air_mechanized_equipment: "Anti-Air Mechanized"
+ anti_air_mechanized_equipment_1: "Basic Anti-Air Mechanized"
+ anti_air_mechanized_equipment_2: "Improved Anti-Air Mechanized"
+ anti_air_mechanized_equipment_3: "Advanced Anti-Air Mechanized"
+
  light_tank_chassis_1936: "Light Tank Chassis 1936"
  light_tank_chassis_1936_short: "Light 1936"
  light_tank_chassis_1938: "Light Tank Chassis 1938"

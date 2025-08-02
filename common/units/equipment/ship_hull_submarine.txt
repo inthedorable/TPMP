@@ -94,7 +94,7 @@ equipments = {
 		build_cost_ic = 320
 		resources = {
 			#oil = 1
-			steel = 1
+			steel = 10
 		}
 		
 		manpower = 200
@@ -152,7 +152,7 @@ equipments = {
 		build_cost_ic = 350
 		resources = {
 			#oil = 1
-			steel = 2
+			steel = 20
 		}
 	}
 
@@ -202,7 +202,7 @@ equipments = {
 		
 		build_cost_ic = 420
 		resources = {
-			steel = 2
+			steel = 20
 		}
 	}
 	ship_hull_submarine_4 = {
@@ -251,8 +251,8 @@ equipments = {
 		
 		build_cost_ic = 550
 		resources = {
-			steel = 3
-			chromium = 1
+			steel = 30
+			chromium = 10
 		}
 	}
 
@@ -312,7 +312,7 @@ equipments = {
 		
 		build_cost_ic = 490
 		resources = {
-			steel = 2
+			steel = 20
 		}
 	}
 
@@ -372,7 +372,7 @@ equipments = {
 		
 		build_cost_ic = 650
 		resources = {
-			steel = 3
+			steel = 30
 		}
 	}
 
@@ -405,7 +405,7 @@ equipments = {
 		
 		build_cost_ic = 150
 		resources = {
-			steel = 1
+			steel = 10
 		}
 	}
 
@@ -476,8 +476,8 @@ equipments = {
 		
 		build_cost_ic = 1150
 		resources = {
-			steel = 3
-			chromium = 2
+			steel = 30
+			chromium = 20
 		}
 	}
 

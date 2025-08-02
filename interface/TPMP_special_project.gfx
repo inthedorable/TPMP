@@ -1,0 +1,34 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_sp_gas_turbine_engine"
+		texturefile = "gfx/interface/special_project/project_icons/sp_gas_turbine_engine.dds"
+	}
+	spriteType = {
+		name = "GFX_sp_fire_control_computer"
+		texturefile = "gfx/interface/special_project/project_icons/sp_fire_control_computer.dds"
+	}
+	spriteType = {
+		name = "GFX_sp_composite_armour"
+		texturefile = "gfx/interface/special_project/project_icons/sp_composite_armour.dds"
+	}
+	spriteType = {
+		name = "GFX_sp_assault_rifles"
+		texturefile = "gfx/interface/special_project/project_icons/sp_assault_rifles.dds"
+	}
+	spriteType = {
+		name = "GFX_sp_advanced_infantry_launchers"
+		texturefile = "gfx/interface/special_project/project_icons/sp_advanced_infantry_launchers.dds"
+	}
+	spriteType = {
+		name = "GFX_sp_anti_tank_guided_missiles"
+		texturefile = "gfx/interface/special_project/project_icons/sp_anti_tank_guided_missiles.dds"
+	}
+	spriteType = {
+		name = "GFX_sp_amphibious_drive"
+		texturefile = "gfx/interface/special_project/project_icons/sp_amphibious_drive.dds"
+	}
+	spriteType = {
+		name = "GFX_sp_floating_harbour"
+		texturefile = "gfx/interface/special_project/project_icons/sp_floating_harbour.dds"
+	}
+}

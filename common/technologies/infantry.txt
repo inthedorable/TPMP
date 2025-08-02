@@ -13,13 +13,6 @@ technologies = {
 	@1946 = 22
 
 	infantrymg1_tech = {
-		enable_subunits = {
-			commandos
-			mech_recon
-			medium_tank_recon
-			armored_headquarters
-			rangers
-		}
 		enable_equipment_modules = {
 			light_machine_gun_1
 			general_purpose_machine_gun_1
@@ -147,6 +140,11 @@ technologies = {
 			leads_to_tech = assaultrifle2_tech
 			research_cost_coeff = 1
 		}
+		allow = {
+	 		ROOT = {
+				is_special_project_completed = sp:sp_assasult_rifles
+			}
+		}
 
 		research_cost = 2
 		start_year = 1943
@@ -171,6 +169,12 @@ technologies = {
 	assaultrifle2_tech = {
 		enable_equipment_modules = {
 			assault_rifle_2
+		}
+
+		allow = {
+	 		ROOT = {
+				is_special_project_completed = sp:sp_assasult_rifles
+			}
 		}
 
 		research_cost = 2
@@ -748,6 +752,12 @@ technologies = {
 			recoiless_rifle
 		}
 
+		allow = {
+	 		ROOT = {
+				is_special_project_completed = sp:sp_advanced_infantry_launchers
+			}
+		}
+
 		research_cost = 2
 		start_year = 1946
 
@@ -770,6 +780,12 @@ technologies = {
 	infantryaa_tech = {
 		enable_equipment_modules = {
 			aa_launcher
+		}
+
+		allow = {
+	 		ROOT = {
+				is_special_project_completed = sp:sp_advanced_infantry_launchers
+			}
 		}
 
 		research_cost = 2
@@ -888,6 +904,7 @@ technologies = {
 			cat_para_tech
 			cat_special_forces_tech
 		}
+		special_project_specialization = { specialization_land specialization_air }
 
 		ai_will_do = {
 			factor = 0.5
@@ -937,6 +954,7 @@ technologies = {
 			cat_para_tech
 			cat_special_forces_tech
 		}
+		special_project_specialization = { specialization_land specialization_air }
 
 		ai_will_do = {
 			factor = 0.5
@@ -984,6 +1002,7 @@ technologies = {
 			cat_para_tech
 			cat_special_forces_tech
 		}
+		special_project_specialization = { specialization_land specialization_air }
 
 		ai_will_do = {
 			factor = 0.5
@@ -1022,6 +1041,7 @@ technologies = {
 			cat_para_tech
 			cat_special_forces_tech
 		}
+		special_project_specialization = { specialization_land specialization_air }
 
 		ai_will_do = {
 			factor = 0.5
@@ -1077,6 +1097,7 @@ technologies = {
 			cat_marine_tech
 			cat_special_forces_tech
 		}
+		special_project_specialization = { specialization_land specialization_naval }
 
 		ai_will_do = {
 			factor = 0.7
@@ -1118,6 +1139,7 @@ technologies = {
 			cat_marine_tech
 			cat_special_forces_tech
 		}
+		special_project_specialization = { specialization_land specialization_naval }
 
 		ai_will_do = {
 			factor = 0.7
@@ -1155,6 +1177,7 @@ technologies = {
 			cat_marine_tech
 			cat_special_forces_tech
 		}
+		special_project_specialization = { specialization_land specialization_naval }
 
 		ai_will_do = {
 			factor = 0.7
@@ -1187,6 +1210,7 @@ technologies = {
 			cat_marine_tech
 			cat_special_forces_tech
 		}
+		special_project_specialization = { specialization_land specialization_naval }
 
 		ai_will_do = {
 			factor = 0.7
@@ -1238,6 +1262,7 @@ technologies = {
 			cat_mountaineers_tech
 			cat_special_forces_tech
 		}
+		special_project_specialization = { specialization_land }
 
 		ai_will_do = {
 			factor = 0.7
@@ -1265,6 +1290,7 @@ technologies = {
 			cat_mountaineers_tech
 			cat_special_forces_tech
 		}
+		special_project_specialization = { specialization_land }
 
 		ai_will_do = {
 			factor = 0.7
@@ -1292,6 +1318,7 @@ technologies = {
 			cat_mountaineers_tech
 			cat_special_forces_tech
 		}
+		special_project_specialization = { specialization_land }
 
 		ai_will_do = {
 			factor = 0.7
@@ -1314,6 +1341,7 @@ technologies = {
 			cat_mountaineers_tech
 			cat_special_forces_tech
 		}
+		special_project_specialization = { specialization_land }
 
 		ai_will_do = {
 			factor = 0.7

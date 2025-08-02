@@ -165,6 +165,17 @@ technology_categories = {
 	cat_ap_shells_tech
 	cat_he_shells_tech
 
+	cat_armour_tech
+	cat_chassis_tech
+	cat_armour_module_tech
+	cat_armour_cannon_tech
+	cat_armour_engine_tech
+	cat_armour_firepower_tech
+	cat_armour_armour_tech
+	cat_light_chassis_tech
+	cat_medium_chassis_tech
+	cat_heavy_chassis_tech
+
 	cat_special_project_tech
 
 	cat_land_doctrine

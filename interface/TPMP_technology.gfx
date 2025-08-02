@@ -2139,7 +2139,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_tank0_tech_medium"
-		textureFile = "gfx/interface/technologies/tanks/POL/pol_wb_10.dds"
+		textureFile = "gfx/interface/technologies/tanks/tankupgrade1.dds"
 	}
 	SpriteType = {
 		name = "GFX_lighttank1_tech_medium"
@@ -2218,10 +2218,6 @@ spriteTypes = {
 		textureFile = "gfx/interface/technologies/tanks/POL/pol_200tp_lem.dds"
 	}
 	SpriteType = {
-		name = "GFX_ENG_tank0_tech_medium"
-		textureFile = "gfx/interface/technologies/tanks/ENG/ENG_medium_tank_mk_2.dds"
-	}
-	SpriteType = {
 		name = "GFX_ENG_lighttank1_tech_medium"
 		textureFile = "gfx/interface/technologies/tanks/ENG/ENG_light_tank_mk_6a.dds"
 	}
@@ -2296,10 +2292,6 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_ENG_superheavytank3_tech_medium"
 		textureFile = "gfx/interface/technologies/tanks/ENG/ENG_tortoise.dds"
-	}
-	SpriteType = {
-		name = "GFX_CAN_tank0_tech_medium"
-		textureFile = "gfx/interface/technologies/tanks/ENG/ENG_medium_tank_mk_2.dds"
 	}
 	SpriteType = {
 		name = "GFX_CAN_lighttank1_tech_medium"
@@ -2378,10 +2370,6 @@ spriteTypes = {
 		textureFile = "gfx/interface/technologies/tanks/ENG/ENG_tortoise.dds"
 	}
 	SpriteType = {
-		name = "GFX_AST_tank0_tech_medium"
-		textureFile = "gfx/interface/technologies/tanks/ENG/ENG_medium_tank_mk_2.dds"
-	}
-	SpriteType = {
 		name = "GFX_AST_lighttank1_tech_medium"
 		textureFile = "gfx/interface/technologies/tanks/ENG/ENG_light_tank_mk_6a.dds"
 	}
@@ -2456,10 +2444,6 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_AST_superheavytank3_tech_medium"
 		textureFile = "gfx/interface/technologies/tanks/ENG/ENG_tortoise.dds"
-	}
-	SpriteType = {
-		name = "GFX_RAJ_tank0_tech_medium"
-		textureFile = "gfx/interface/technologies/tanks/ENG/ENG_medium_tank_mk_2.dds"
 	}
 	SpriteType = {
 		name = "GFX_RAJ_lighttank1_tech_medium"
@@ -2538,10 +2522,6 @@ spriteTypes = {
 		textureFile = "gfx/interface/technologies/tanks/ENG/ENG_tortoise.dds"
 	}
 	SpriteType = {
-		name = "GFX_SAF_tank0_tech_medium"
-		textureFile = "gfx/interface/technologies/tanks/ENG/ENG_medium_tank_mk_2.dds"
-	}
-	SpriteType = {
 		name = "GFX_SAF_lighttank1_tech_medium"
 		textureFile = "gfx/interface/technologies/tanks/ENG/ENG_light_tank_mk_6a.dds"
 	}
@@ -2616,10 +2596,6 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_SAF_superheavytank3_tech_medium"
 		textureFile = "gfx/interface/technologies/tanks/ENG/ENG_tortoise.dds"
-	}
-	SpriteType = {
-		name = "GFX_USA_tank0_tech_medium"
-		textureFile = "gfx/interface/technologies/tanks/USA/usa_medium_m1.dds"
 	}
 	SpriteType = {
 		name = "GFX_USA_lighttank1_tech_medium"
@@ -2698,10 +2674,6 @@ spriteTypes = {
 		textureFile = "gfx/interface/technologies/tanks/USA/usa_super_heavy_t28.dds"
 	}
 	SpriteType = {
-		name = "GFX_GER_tank0_tech_medium"
-		textureFile = "gfx/interface/technologies/tanks/GER/ger_begleitwagen1_krupp.dds"
-	}
-	SpriteType = {
 		name = "GFX_GER_lighttank1_tech_medium"
 		textureFile = "gfx/interface/technologies/tanks/GER/ger_panzer1_ausf_a.dds"
 	}
@@ -2776,10 +2748,6 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_GER_superheavytank3_tech_medium"
 		textureFile = "gfx/interface/technologies/tanks/GER/ger_maus.dds"
-	}
-	SpriteType = {
-		name = "GFX_SOV_tank0_tech_medium"
-		textureFile = "gfx/interface/technologies/tanks/SOV/sov_t24.dds"
 	}
 	SpriteType = {
 		name = "GFX_SOV_lighttank1_tech_medium"
@@ -2858,10 +2826,6 @@ spriteTypes = {
 		textureFile = "gfx/interface/technologies/tanks/SOV/sov_is7.dds"
 	}
 	SpriteType = {
-		name = "GFX_UKR_tank0_tech_medium"
-		textureFile = "gfx/interface/technologies/tanks/SOV/sov_t24.dds"
-	}
-	SpriteType = {
 		name = "GFX_UKR_lighttank1_tech_medium"
 		textureFile = "gfx/interface/technologies/tanks/SOV/sov_t26_tu_m1933.dds"
 	}
@@ -2938,10 +2902,6 @@ spriteTypes = {
 		textureFile = "gfx/interface/technologies/tanks/SOV/sov_is7.dds"
 	}
 	SpriteType = {
-		name = "GFX_MON_tank0_tech_medium"
-		textureFile = "gfx/interface/technologies/tanks/SOV/sov_t24.dds"
-	}
-	SpriteType = {
 		name = "GFX_MON_lighttank1_tech_medium"
 		textureFile = "gfx/interface/technologies/tanks/SOV/sov_t26_tu_m1933.dds"
 	}
@@ -3016,10 +2976,6 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_MON_superheavytank3_tech_medium"
 		textureFile = "gfx/interface/technologies/tanks/SOV/sov_is7.dds"
-	}
-	SpriteType = {
-		name = "GFX_FRA_tank0_tech_medium"
-		textureFile = "gfx/interface/technologies/tanks/FRA/fra_char_d1.dds"
 	}
 	SpriteType = {
 		name = "GFX_FRA_lighttank1_tech_medium"
