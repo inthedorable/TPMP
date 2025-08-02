@@ -1171,7 +1171,7 @@ technologies = {
 		}
 		
 		ai_research_weights = {
-			oil = -2.0
+			oil = -20
 		}
 	}
 	
@@ -1230,7 +1230,7 @@ technologies = {
 		}
 		
 		ai_research_weights = {
-			oil = -2.0
+			oil = -20
 		}
 		
 		show_effect_as_desc = yes
@@ -1290,7 +1290,7 @@ technologies = {
 		}
 		
 		ai_research_weights = {
-			oil = -2.0
+			oil = -20
 		}
 		
 		show_effect_as_desc = yes
@@ -1345,7 +1345,7 @@ technologies = {
 		}
 		
 		ai_research_weights = {
-			rubber = -2.0
+			rubber = -20
 		}
 		
 		show_effect_as_desc = yes
@@ -1386,7 +1386,7 @@ technologies = {
 		}
 		
 		ai_research_weights = {
-			oil = -2.0
+			oil = -20
 		}
 		
 		show_effect_as_desc = yes
@@ -1452,7 +1452,7 @@ technologies = {
 		}
 		
 		ai_research_weights = {
-			rubber = -2.0
+			rubber = -20
 		}
 		
 		show_effect_as_desc = yes
@@ -1512,7 +1512,7 @@ technologies = {
 		}
 		
 		ai_research_weights = {
-			rubber = -2.0
+			rubber = -20
 		}
 		
 		show_effect_as_desc = yes
@@ -1572,7 +1572,7 @@ technologies = {
 		}
 		
 		ai_research_weights = {
-			rubber = -2.0
+			rubber = -20
 		}
 		
 		show_effect_as_desc = yes
@@ -1619,7 +1619,7 @@ technologies = {
 		}
 		
 		ai_research_weights = {
-			rubber = -2.0
+			rubber = -20
 		}
 		
 		show_effect_as_desc = yes

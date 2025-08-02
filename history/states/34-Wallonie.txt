@@ -3,7 +3,7 @@ state = {
 	name = "STATE_34"
 	manpower = 3043170 # was 3381300, 10% was split off to the Ardennes (980)
 	resources={
-		steel=22 # was: 14
+		steel = 220 # was: 14
 	}
 
 	state_category = large_city

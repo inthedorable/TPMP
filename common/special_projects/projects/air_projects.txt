@@ -44,9 +44,9 @@ sp_air_bouncing_bomb = {
 	
 	resource_cost = {
 		resources = {
-			steel = 4
-			aluminium = 4
-			rubber = 2
+			steel = 40
+			aluminium = 40
+			rubber = 20
 		}
 	}
 
@@ -220,8 +220,8 @@ sp_air_earthshaker_bomb = {
 	
 	resource_cost = {
 		resources = {
-			steel = 4
-			tungsten = 8
+			steel = 40
+			tungsten = 80
 		}
 	}
 	
@@ -414,8 +414,8 @@ sp_air_intercontinental_bomber = {
 	
 	resource_cost = {
 		resources = {
-			aluminium = 24
-			rubber = 12
+			aluminium = 240
+			rubber = 120
 		}
 	}
 	
@@ -634,8 +634,8 @@ sp_air_mothership_aircraft = {
 	
 	resource_cost = {
 		resources = {
-			aluminium = 18
-			rubber = 8
+			aluminium = 180
+			rubber = 80
 		}
 	}
 	
@@ -824,9 +824,9 @@ sp_air_jet_engine = {
 
 	resource_cost = {
 		resources = {
-			chromium = 12
-			aluminium = 4
-			steel = 2
+			chromium = 120
+			aluminium = 40
+			steel = 20
 		}
 	}
 
@@ -1104,9 +1104,9 @@ sp_air_axial_jet_engine = {
 
 	resource_cost = {
 		resources = {
-			chromium = 18
-			aluminium = 10
-			steel = 4
+			chromium = 180
+			aluminium = 100
+			steel = 40
 		}
 	}
 
@@ -1379,9 +1379,9 @@ sp_air_supersonic_jet = {
 	
 	resource_cost = {
 		resources = {
-			aluminium = 24
-			chromium = 16
-			rubber = 8
+			aluminium = 240
+			chromium = 160
+			rubber = 80
 		}
 	}
 
@@ -1584,8 +1584,8 @@ sp_air_helicopter = {
 
 	resource_cost = {
 		resources = {
-			aluminium = 12
-			steel = 8
+			aluminium = 120
+			steel = 80
 		}
 	}
 	

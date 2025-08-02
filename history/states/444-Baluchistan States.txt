@@ -5,7 +5,7 @@ state={
 		1179 5043 7917  12761 12774 
 	}
 	resources={
-		oil=3
+		oil = 30
 	}
 	manpower=364000
 	buildings_max_level_factor=1.000

@@ -4,8 +4,8 @@ state={
 	name="STATE_266" # Tehran
 	manpower = 3446250
 	resources = {
-		aluminium = 2
-		tungsten = 2
+		aluminium = 20
+		tungsten = 20
 	}
 	
 	state_category = city

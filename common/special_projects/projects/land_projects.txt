@@ -239,8 +239,8 @@ sp_land_land_cruiser = {
 
 	resource_cost = {
 		resources = { 
-			steel = 16
-			chromium = 8
+			steel = 160
+			chromium = 80
 		}
 	}
 
@@ -961,8 +961,8 @@ sp_land_super_heavy_howitzer = {
 
 	resource_cost = {
 		resources = { 
-			steel = 8
-			tungsten = 4
+			steel = 80
+			tungsten = 40
 		}
 	}
 	
@@ -1096,9 +1096,9 @@ sp_land_super_heavy_railway_gun = {
 
 	resource_cost = {
 		resources = { 
-			steel = 16
-			tungsten = 8
-			chromium = 8
+			steel = 160
+			tungsten = 80
+			chromium = 80
 		}
 	}
 	
@@ -1183,9 +1183,9 @@ sp_land_multi_charge_large_caliber_gun = {
 
 	resource_cost = {
 		resources = { 
-			steel = 6
-			tungsten = 4
-			chromium = 2
+			steel = 60
+			tungsten = 40
+			chromium = 20
 		}
 	}
 	
@@ -1429,9 +1429,9 @@ sp_land_stronghold_network = {
 
 	resource_cost = {
 		resources = { 
-			steel = 4
-			chromium = 2
-			tungsten = 1
+			steel = 40
+			chromium = 20
+			tungsten = 10
 		}
 	}
 	
