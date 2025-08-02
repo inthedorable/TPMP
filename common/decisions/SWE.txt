@@ -452,12 +452,12 @@ SWE_politics = {
 #						if = { #add resource state modifier if output is at 8 civs worht of resources or above
 #							limit = {
 #								OR = {
-#									check_variable = {resource@steel > 7 }
-#									check_variable = {resource@aluminium > 7 }
-#									check_variable = {resource@oil > 7 }
-#									check_variable = {resource@rubber > 7 }
-#									check_variable = {resource@chromium > 7 }
-#									check_variable = {resource@tungsten > 7 }
+#									check_variable = {resource@steel > 70 }
+#									check_variable = {resource@aluminium > 70 }
+#									check_variable = {resource@oil > 70 }
+#									check_variable = {resource@rubber > 70 }
+#									check_variable = {resource@chromium > 70 }
+#									check_variable = {resource@tungsten > 70 }
 #								}
 #							}
 #							add_dynamic_modifier = { modifier = SWE_hygenic_housing_resource_bonus }
@@ -1913,7 +1913,7 @@ SWE_rationing_policies = {
 				141 = {
 					add_resource = {
 						type = rubber
-						amount = 8
+						amount = 80
 					}
 				}
 			}
@@ -1925,7 +1925,7 @@ SWE_rationing_policies = {
 				141 = {
 					add_resource = {
 						type = rubber
-						amount = -8
+						amount = -80
 					}
 				}
 			}

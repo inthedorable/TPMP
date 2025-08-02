@@ -781,15 +781,15 @@ technologies = {
 			factor = 1
 			modifier = {
 				factor = 2
-				oil > 10
+				oil > 100
 			}
 			modifier = {
 				factor = 3
-				oil > 20
+				oil > 200
 			}	
 			modifier = {
 				factor = 4
-				oil > 30
+				oil > 300
 			}	
 			
 			modifier = {
@@ -1158,20 +1158,20 @@ technologies = {
 			}
 			modifier = {
 				factor = 0.5
-				oil > 10
+				oil > 100
 			}
 			modifier = {
 				factor = 0.5
-				oil > 20
+				oil > 200
 			}	
 			modifier = {
 				factor = 0.5
-				oil > 30
+				oil > 300
 			}			
 		}
 		
 		ai_research_weights = {
-			oil = -20
+			oil = -200
 		}
 	}
 	
@@ -1212,15 +1212,15 @@ technologies = {
 			}
 			modifier = {
 				factor = 0.5
-				oil > 10
+				oil > 100
 			}
 			modifier = {
 				factor = 0.5
-				oil > 20
+				oil > 200
 			}	
 			modifier = {
 				factor = 0.5
-				oil > 30
+				oil > 300
 			}			
 			modifier = {
 				factor = 25
@@ -1230,7 +1230,7 @@ technologies = {
 		}
 		
 		ai_research_weights = {
-			oil = -20
+			oil = -200
 		}
 		
 		show_effect_as_desc = yes
@@ -1272,15 +1272,15 @@ technologies = {
 			}
 			modifier = {
 				factor = 0.5
-				oil > 10
+				oil > 100
 			}
 			modifier = {
 				factor = 0.5
-				oil > 20
+				oil > 200
 			}	
 			modifier = {
 				factor = 0.5
-				oil > 30
+				oil > 300
 			}	
 			modifier = {
 				original_tag = GER			
@@ -1290,7 +1290,7 @@ technologies = {
 		}
 		
 		ai_research_weights = {
-			oil = -20
+			oil = -200
 		}
 		
 		show_effect_as_desc = yes
@@ -1332,20 +1332,20 @@ technologies = {
 			}
 			modifier = {
 				factor = 0.5
-				rubber > 10
+				rubber > 100
 			}
 			modifier = {
 				factor = 0.5
-				rubber > 20
+				rubber > 200
 			}	
 			modifier = {
 				factor = 0.5
-				rubber > 30
+				rubber > 300
 			}			
 		}
 		
 		ai_research_weights = {
-			rubber = -20
+			rubber = -200
 		}
 		
 		show_effect_as_desc = yes
@@ -1373,20 +1373,20 @@ technologies = {
 			factor = 0.5
 			modifier = {
 				factor = 0.5
-				oil > 10
+				oil > 100
 			}
 			modifier = {
 				factor = 0.5
-				oil > 20
+				oil > 200
 			}	
 			modifier = {
 				factor = 0.5
-				oil > 30
+				oil > 300
 			}			
 		}
 		
 		ai_research_weights = {
-			oil = -20
+			oil = -200
 		}
 		
 		show_effect_as_desc = yes
@@ -1399,7 +1399,7 @@ technologies = {
 			modify_building_resources = {
 				building = synthetic_refinery
 				resource = rubber
-				amount = 1
+				amount = 10
 			}
 		}
 
@@ -1434,15 +1434,15 @@ technologies = {
 			}
 			modifier = {
 				factor = 0.5
-				rubber > 10
+				rubber > 100
 			}
 			modifier = {
 				factor = 0.5
-				rubber > 20
+				rubber > 200
 			}	
 			modifier = {
 				factor = 0.5
-				rubber > 30
+				rubber > 300
 			}			
 			modifier = {
 				factor = 25
@@ -1452,7 +1452,7 @@ technologies = {
 		}
 		
 		ai_research_weights = {
-			rubber = -20
+			rubber = -200
 		}
 		
 		show_effect_as_desc = yes
@@ -1464,7 +1464,7 @@ technologies = {
 			modify_building_resources = {
 				building = synthetic_refinery
 				resource = rubber
-				amount = 1
+				amount = 10
 			}
 		}
 
@@ -1499,20 +1499,20 @@ technologies = {
 			}
 			modifier = {
 				factor = 0.5
-				rubber > 10
+				rubber > 100
 			}
 			modifier = {
 				factor = 0.5
-				rubber > 20
+				rubber > 200
 			}	
 			modifier = {
 				factor = 0.5
-				rubber > 30
+				rubber > 300
 			}			
 		}
 		
 		ai_research_weights = {
-			rubber = -20
+			rubber = -200
 		}
 		
 		show_effect_as_desc = yes
@@ -1524,7 +1524,7 @@ technologies = {
 			modify_building_resources = {
 				building = synthetic_refinery
 				resource = rubber
-				amount = 1
+				amount = 10
 			}
 		}
 
@@ -1559,20 +1559,20 @@ technologies = {
 			}
 			modifier = {
 				factor = 0.5
-				rubber > 10
+				rubber > 100
 			}
 			modifier = {
 				factor = 0.5
-				rubber > 20
+				rubber > 200
 			}	
 			modifier = {
 				factor = 0.5
-				rubber > 30
+				rubber > 300
 			}			
 		}
 		
 		ai_research_weights = {
-			rubber = -20
+			rubber = -200
 		}
 		
 		show_effect_as_desc = yes
@@ -1584,7 +1584,7 @@ technologies = {
 			modify_building_resources = {
 				building = synthetic_refinery
 				resource = rubber
-				amount = 1
+				amount = 10
 			}
 		}
 		
@@ -1606,20 +1606,20 @@ technologies = {
 			factor = 0.5
 			modifier = {
 				factor = 0.5
-				rubber > 10
+				rubber > 100
 			}
 			modifier = {
 				factor = 0.5
-				rubber > 20
+				rubber > 200
 			}	
 			modifier = {
 				factor = 0.5
-				rubber > 30
+				rubber > 300
 			}			
 		}
 		
 		ai_research_weights = {
-			rubber = -20
+			rubber = -200
 		}
 		
 		show_effect_as_desc = yes
@@ -1701,12 +1701,12 @@ technologies = {
 			modifier = {
 				factor = 1.5
 				OR = {
-					oil > 8
-					aluminium > 8
-					rubber > 8
-					tungsten > 8
-					steel > 8
-					chromium > 8
+					oil > 80
+					aluminium > 80
+					rubber > 80
+					tungsten > 80
+					steel > 80
+					chromium > 80
 				}
 			}
 		}
@@ -1790,12 +1790,12 @@ technologies = {
 			modifier = {
 				factor = 1.5
 				OR = {
-					oil > 8
-					aluminium > 8
-					rubber > 8
-					tungsten > 8
-					steel > 8
-					chromium > 8
+					oil > 80
+					aluminium > 80
+					rubber > 80
+					tungsten > 80
+					steel > 80
+					chromium > 80
 				}
 			}
 		}
@@ -1889,12 +1889,12 @@ technologies = {
 			modifier = {
 				factor = 1.5
 				OR = {
-					oil > 8
-					aluminium > 8
-					rubber > 8
-					tungsten > 8
-					steel > 8
-					chromium > 8
+					oil > 80
+					aluminium > 80
+					rubber > 80
+					tungsten > 80
+					steel > 80
+					chromium > 80
 				}
 			}
 		}
@@ -1984,12 +1984,12 @@ technologies = {
 			modifier = {
 				factor = 1.5
 				OR = {
-					oil > 8
-					aluminium > 8
-					rubber > 8
-					tungsten > 8
-					steel > 8
-					chromium > 8
+					oil > 80
+					aluminium > 80
+					rubber > 80
+					tungsten > 80
+					steel > 80
+					chromium > 80
 				}
 			}
 		}
@@ -2070,12 +2070,12 @@ technologies = {
 			modifier = {
 				factor = 1.5
 				OR = {
-					oil > 8
-					aluminium > 8
-					rubber > 8
-					tungsten > 8
-					steel > 8
-					chromium > 8
+					oil > 80
+					aluminium > 80
+					rubber > 80
+					tungsten > 80
+					steel > 80
+					chromium > 80
 				}
 			}
 		}

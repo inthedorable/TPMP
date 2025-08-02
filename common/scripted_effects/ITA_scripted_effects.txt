@@ -4802,7 +4802,7 @@ ITA_increase_resource_amount_in_state = { #THIS is state
 			}
 			add_resource = {
 				type = oil
-				amount = 2
+				amount = 20
 			}
 		}
 		if = {
@@ -4814,7 +4814,7 @@ ITA_increase_resource_amount_in_state = { #THIS is state
 			}
 			add_resource = {
 				type = aluminium
-				amount = 2
+				amount = 20
 			}
 		}
 		if = {
@@ -4826,7 +4826,7 @@ ITA_increase_resource_amount_in_state = { #THIS is state
 			}
 			add_resource = {
 				type = rubber
-				amount = 2
+				amount = 20
 			}
 		}
 		if = {
@@ -4838,7 +4838,7 @@ ITA_increase_resource_amount_in_state = { #THIS is state
 			}
 			add_resource = {
 				type = tungsten
-				amount = 2
+				amount = 20
 			}
 		}
 		if = {
@@ -4850,7 +4850,7 @@ ITA_increase_resource_amount_in_state = { #THIS is state
 			}
 			add_resource = {
 				type = steel
-				amount = 2
+				amount = 20
 			}
 		}
 		if = {
@@ -4862,7 +4862,7 @@ ITA_increase_resource_amount_in_state = { #THIS is state
 			}
 			add_resource = {
 				type = chromium
-				amount = 2
+				amount = 20
 			}
 		}
 	}

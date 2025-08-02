@@ -7602,7 +7602,7 @@ focus_tree = {
 			974 = {
 				add_resource = {
 					type = oil
-					amount = 32
+					amount = 320
 				}
 			}
 
@@ -11021,7 +11021,7 @@ focus_tree = {
 				}
 				add_resource = {
 					type = steel
-					amount = 4
+					amount = 40
 				}
 			}
 
@@ -11068,7 +11068,7 @@ focus_tree = {
 			43 = {
 				add_resource = {
 					type = aluminium
-					amount = 16
+					amount = 160
 				}
 			}
 
@@ -15854,7 +15854,7 @@ focus_tree = {
 					}
 					add_resource = {
 						type = steel
-						amount = 6
+						amount = 60
 					}
 				}
 				ELSE = {
@@ -16927,7 +16927,7 @@ focus_tree = {
 				}
 				add_resource = {
 					type = steel
-					amount = 10
+					amount = 100
 				}
 			}
 
@@ -17034,7 +17034,7 @@ focus_tree = {
 					}
 					add_resource = {
 						type = steel
-						amount = 2
+						amount = 20
 					}
 				}
 			}
@@ -17087,20 +17087,20 @@ focus_tree = {
 			155 = {
 				add_resource = {
 					type = oil
-					amount = 5
+					amount = 50
 				}
 			}
 			974 = {
 				add_resource = {
 					type = oil
-					amount = 4
+					amount = 40
 				}
 			}
 
 			973 = {
 				add_resource = {
 					type = oil
-					amount = 6
+					amount = 60
 				}
 			}
 
@@ -17342,7 +17342,7 @@ focus_tree = {
 			43 = {
 				add_resource = {
 					type = aluminium
-					amount = 14
+					amount = 140
 				}
 			}
 		}

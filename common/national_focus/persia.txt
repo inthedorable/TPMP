@@ -952,21 +952,21 @@ focus_tree = {
 			421 = {
 				add_resource = {
 					type = oil
-					amount = 25
+					amount = 250
 				}	
 			}
 
 			413 = {
 				add_resource = {
 					type = oil
-					amount = 15
+					amount = 150
 				}	
 			}
 
 			412 = {
 				add_resource = {
 					type = oil
-					amount = 18
+					amount = 180
 				}	
 			}
 		}
@@ -9963,19 +9963,19 @@ focus_tree = {
 			411 = {
 				add_resource = {
 					type = oil
-					amount = 6
+					amount = 60
 				}
 			}
 			412 = {
 				add_resource = {
 					type = oil
-					amount = 3
+					amount = 30
 				}
 			}
 			413 = {
 				add_resource = {
 					type = oil
-					amount = 5
+					amount = 50
 				}
 			}
 		}
@@ -10225,7 +10225,7 @@ focus_tree = {
 			417 = {
 				add_resource = {
 					type = oil
-					amount = 8
+					amount = 80
 				}
 			}
 			add_tech_bonus = {
@@ -12810,14 +12810,14 @@ focus_tree = {
 					prioritize = { 413 412}
 					add_resource = {
 						type = oil
-						amount = 12
+						amount = 120
 					}
 				}
 				random_owned_controlled_state = {
 					prioritize = { 412 413}
 					add_resource = {
 						type = oil
-						amount = 6
+						amount = 60
 					}
 				}
 			}
@@ -12826,14 +12826,14 @@ focus_tree = {
 					prioritize = { 229 232}
 					add_resource = {
 						type = oil
-						amount = 10
+						amount = 100
 					}
 				}
 				random_owned_controlled_state = {
 					prioritize = { 232 229}
 					add_resource = {
 						type = oil
-						amount = 14
+						amount = 140
 					}
 				}
 			}

@@ -3192,7 +3192,7 @@ joint_focus = {
 				}
 				add_resource = {
 					type = oil
-					amount = 4
+					amount = 40
 				}
 			}
 		}
@@ -3204,7 +3204,7 @@ joint_focus = {
 				}
 				add_resource = {
 					type = oil
-					amount = 4
+					amount = 40
 				}
 			}
 		}
@@ -3241,7 +3241,7 @@ joint_focus = {
 				}
 				add_resource = {
 					type = oil
-					amount = 2
+					amount = 20
 				}
 			}
 		}
@@ -3253,7 +3253,7 @@ joint_focus = {
 				}
 				add_resource = {
 					type = oil
-					amount = 2
+					amount = 20
 				}
 			}
 		}

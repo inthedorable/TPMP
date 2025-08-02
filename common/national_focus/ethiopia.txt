@@ -2494,7 +2494,7 @@ focus_tree = {
 				prioritize = { 835 }
 				add_resource = {
 					type = oil
-					amount = 10
+					amount = 100
 				}
 			}
 			custom_effect_tooltip = ETH_invite_foreign_prospectors_tt

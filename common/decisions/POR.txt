@@ -2579,7 +2579,7 @@ POR_prospect_for_resources = {
 			112 = {
 				add_resource = {
 					type = tungsten
-					amount = 10
+					amount = 100
 				}
 			}
 		}
@@ -2658,7 +2658,7 @@ POR_prospect_for_resources = {
 			795 = {
 				add_resource = {
 					type = chromium
-					amount = 2
+					amount = 20
 				}
 			}
 		}

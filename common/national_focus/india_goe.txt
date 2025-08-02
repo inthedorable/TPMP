@@ -5328,7 +5328,7 @@ focus_tree = {
                 432 = {
                     add_resource = {
                         type = oil
-                        amount = 12
+                        amount = 120
                     }
                 }
             }
@@ -5346,7 +5346,7 @@ focus_tree = {
                 429 = {
                     add_resource = {
                         type = steel
-                        amount = 19
+                        amount = 190
                     }
                 }
             }
@@ -10808,7 +10808,7 @@ focus_tree = {
 
                 add_resource = {
                     type = steel
-                    amount = 9
+                    amount = 90
                 }
             }
         }
@@ -10861,7 +10861,7 @@ focus_tree = {
             429 = {
                 add_resource = {
                     type = steel
-                    amount = 18
+                    amount = 180
                 }
             }
         }
@@ -11078,16 +11078,16 @@ focus_tree = {
                 }
                 add_resource = {
                     type = aluminium
-                    amount = 8
+                    amount = 80
                 }
 
                 add_resource = {
                     type = tungsten
-                    amount = 4
+                    amount = 40
                 }
                 add_resource = {
                     type = steel
-                    amount = 4
+                    amount = 40
                 }
             }
         }
@@ -13264,7 +13264,7 @@ focus_tree = {
                 prioritize = { 435 } #optional: to pick those states first if they fulfill the limit
                 add_resource = {
                     type = steel
-                    amount = 12
+                    amount = 120
                     state = THIS 
                 }
             }
@@ -13360,7 +13360,7 @@ focus_tree = {
                 capital_scope  = {
                   add_resource = {
                         type = tungsten
-                        amount = 6
+                        amount = 60
                     }
                 }
             }
@@ -13762,16 +13762,16 @@ focus_tree = {
                 capital_scope  = {
                     add_resource = {
                         type = oil
-                        amount = 5
+                        amount = 50
                     }
 
                   add_resource = {
                         type = tungsten
-                        amount = 4
+                        amount = 40
                     }
                     add_resource = {
                         type = steel
-                        amount = 6
+                        amount = 60
                     }
                 }
             }
@@ -18001,7 +18001,7 @@ focus = {
 				}
 				add_resource = {
 					type = oil
-					amount = 4
+					amount = 40
 				}
 			}
 		}
@@ -18015,23 +18015,23 @@ focus = {
 				OR = {
 					has_resources_amount = {
 						resource = steel
-						amount > 19
+						amount > 190
 					}
 					has_resources_amount = {
 						resource = tungsten
-						amount > 19
+						amount > 190
 					}
 					has_resources_amount = {
 						resource = chromium
-						amount > 19
+						amount > 190
 					}
 					has_resources_amount = {
 						resource = aluminium
-						amount > 19
+						amount > 190
 					}
 					has_resources_amount = {
 						resource = rubber
-						amount > 19
+						amount > 190
 					}
 				}
 				is_in_array = {
@@ -18055,60 +18055,60 @@ focus = {
 					limit = {
 						has_resources_amount = {
 							resource = steel
-							amount > 19
+							amount > 190
 						}
 					}
 					add_resource = {
 						type = steel
-						amount = 4
+						amount = 40
 					}
 				}
 				if = {
 					limit = {
 						has_resources_amount = {
 							resource = tungsten
-							amount > 19
+							amount > 190
 						}
 					}
 					add_resource = {
 						type = tungsten
-						amount = 4
+						amount = 40
 					}
 				}
 				if = {
 					limit = {
 						has_resources_amount = {
 							resource = chromium
-							amount > 19
+							amount > 190
 						}
 					}
 					add_resource = {
 						type = chromium
-						amount = 4
+						amount = 40
 					}
 				}
 				if = {
 					limit = {
 						has_resources_amount = {
 							resource = aluminium
-							amount > 19
+							amount > 190
 						}
 					}
 					add_resource = {
 						type = aluminium
-						amount = 4
+						amount = 40
 					}
 				}
 				if = {
 					limit = {
 						has_resources_amount = {
 							resource = rubber
-							amount > 19
+							amount > 190
 						}
 					}
 					add_resource = {
 						type = rubber
-						amount = 4
+						amount = 40
 					}
 				}
 			}
@@ -23330,7 +23330,7 @@ focus = {
             432 = {
                 add_resource = {
                     type = oil
-                    amount = 12
+                    amount = 120
                 }
             }
 
@@ -23377,7 +23377,7 @@ focus = {
             429 = {
                 add_resource = {
                     type = steel
-                    amount = 24
+                    amount = 240
                 }
             }
         }

@@ -187,7 +187,7 @@ HOL_obtain_foreign_colonial_investments = {
 			695 = {
 				add_resource = {
 					type = oil
-					amount = 2
+					amount = 20
 				}
 			}
 			if = {
@@ -283,19 +283,19 @@ HOL_obtain_foreign_colonial_investments = {
 			335 = {
 				add_resource = {
 					type = oil
-					amount = 1
+					amount = 10
 				}
 			}
 			672 = {
 				add_resource = {
 					type = oil
-					amount = 1
+					amount = 10
 				}
 			}
 			334 = {
 				add_resource = {
 					type = oil
-					amount = 1
+					amount = 10
 				}
 			}
 			if = {

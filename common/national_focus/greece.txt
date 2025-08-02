@@ -3504,31 +3504,31 @@ focus_tree = {
 			47 = { 
 				add_resource = { 
 					type = aluminium
-					amount = 12
+					amount = 120
 				}
 			}
 			186 = { 
 				add_resource = { 
 					type = aluminium
-					amount = 8
+					amount = 80
 				}
 				add_resource = { 
 					type = steel
-					amount = 15
+					amount = 150
 				}
 				add_resource = { 
 					type = tungsten
-					amount = 5
+					amount = 50
 				}
 			}
 			187 = { 
 				add_resource = { 
 					type = aluminium
-					amount = 21
+					amount = 210
 				}
 				add_resource = { 
 					type = steel
-					amount = 9
+					amount = 90
 				}
 			}
 		}

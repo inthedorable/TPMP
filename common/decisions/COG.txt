@@ -2232,11 +2232,11 @@ COG_the_empain_group_decisions = {
 			768 = {
 				add_resource = {
 					type = tungsten
-					amount = 8
+					amount = 80
 				}
 				add_resource = {
 					type = aluminium
-					amount = 2
+					amount = 20
 				}	
 			}
 
@@ -2245,11 +2245,11 @@ COG_the_empain_group_decisions = {
 			769 = {
 				add_resource = {
 					type = tungsten
-					amount = 4
+					amount = 40
 				}
 				add_resource = {
 					type = aluminium
-					amount = 1
+					amount = 10
 				}	
 			}
 
@@ -2319,15 +2319,15 @@ COG_the_empain_group_decisions = {
 			718 = {
 				add_resource = {
 					type = tungsten
-					amount = 2
+					amount = 20
 				}
 				add_resource = {
 					type = aluminium
-					amount = 3
+					amount = 30
 				}	
 				add_resource = {
 					type = steel
-					amount = 2
+					amount = 20
 				}	
 			}
 
@@ -2397,7 +2397,7 @@ COG_the_empain_group_decisions = {
 			889 = {
 				add_resource = {
 					type = chromium
-					amount = 6
+					amount = 60
 				}	
 			}
 

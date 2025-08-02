@@ -142,7 +142,7 @@ technologies = {
 		}
 		allow = {
 	 		ROOT = {
-				is_special_project_completed = sp:sp_assasult_rifles
+				is_special_project_completed = sp:sp_assault_rifles
 			}
 		}
 
@@ -173,7 +173,7 @@ technologies = {
 
 		allow = {
 	 		ROOT = {
-				is_special_project_completed = sp:sp_assasult_rifles
+				is_special_project_completed = sp:sp_assault_rifles
 			}
 		}
 

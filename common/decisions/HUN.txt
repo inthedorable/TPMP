@@ -713,7 +713,7 @@ HUN_gyor_program_initiatives_category = {
 				}
 				add_resource = {
 					type = steel
-					amount = 8
+					amount = 80
 				}		
 			}
 
@@ -1159,7 +1159,7 @@ HUN_gyor_program_initiatives_category = {
 				}
 				add_resource = {
 					type = rubber
-					amount = 16
+					amount = 160
 				}	
 			}
 			

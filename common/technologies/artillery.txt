@@ -1633,7 +1633,7 @@ technologies = {
 
 		allow = {
 	 		ROOT = {
-				is_special_project_completed = sp:sp_anti_tank_guided_missile
+				is_special_project_completed = sp:sp_anti_tank_guided_missiles
 			}
 		}
 

@@ -62,14 +62,14 @@ AFG_oil_concessions_category = {
 				267 = {
 					add_resource = {
 						type = oil
-						amount = 10
+						amount = 100
 					}
 					set_state_flag = AFG_oil_concession_here_flag
 				}
 				415 = {
 					add_resource = {
 						type = oil
-						amount = 10
+						amount = 100
 					}
 				}
 				give_resource_rights = {

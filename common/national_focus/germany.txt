@@ -623,15 +623,15 @@ focus_tree = {
 			42 = {
 				add_resource = {
 					type = steel
-					amount = 8
+					amount = 80
 				}
 				add_resource = {
 					type = tungsten
-					amount = 2
+					amount = 20
 				}
 				add_resource = {
 					type = chromium
-					amount = 2
+					amount = 20
 				}
 			}
 
@@ -1563,11 +1563,11 @@ focus_tree = {
 				prioritize = { 56 }
 				add_resource = {
 					type = tungsten
-					amount = 2
+					amount = 20
 				}
 				add_resource = {
 					type = chromium
-					amount = 2
+					amount = 20
 				}
 			}
 
@@ -1790,7 +1790,7 @@ focus_tree = {
 				}
 				add_resource = {
 					type = steel
-					amount = 6
+					amount = 60
 				}
 			}
 			
@@ -1853,11 +1853,11 @@ focus_tree = {
 				NOT = { is_core_of = ROOT }
 				is_fully_controlled_by = ROOT
 				OR = {
-					steel > 24
-					aluminium > 19
-					oil > 14
-					tungsten > 9
-					chromium > 9
+					steel > 240
+					aluminium > 190
+					oil > 140
+					tungsten > 90
+					chromium > 90
 				}
 			}
 		}
@@ -1867,11 +1867,11 @@ focus_tree = {
 				any_controlled_state = {
 					is_core_of = ROOT
 					OR = {
-						steel > 25
-						aluminium > 20
-						oil > 15
-						tungsten > 10
-						chromium > 10
+						steel > 250
+						aluminium > 200
+						oil > 150
+						tungsten > 100
+						chromium > 100
 					}
 				}
 			}
@@ -1986,11 +1986,11 @@ focus_tree = {
 					is_fully_controlled_by = ROOT
 					is_on_continent = europe
 					OR = {
-						steel > 19
-						aluminium > 10
-						oil > 9
-						tungsten > 9
-						chromium > 9
+						steel > 190
+						aluminium > 100
+						oil > 90
+						tungsten > 90
+						chromium > 90
 					}
 				}
 				random_select_amount = 5
@@ -18702,7 +18702,7 @@ focus_tree = {
 				59 = { #Hannover
 					add_resource = {
 						type = steel
-						amount = 6
+						amount = 60
 					}
 					add_dynamic_modifier = { 
 						modifier = GER_four_year_plan_initiative_modifier
@@ -18718,32 +18718,32 @@ focus_tree = {
 						OR = {
 							has_resources_amount = {
 								resource = oil
-								amount > 19
+								amount > 190
 								delivered = no
 							}
 							has_resources_amount = {
 								resource = aluminium
-								amount > 19
+								amount > 190
 								delivered = no
 							}
 							has_resources_amount = {
 								resource = rubber
-								amount > 19
+								amount > 190
 								delivered = no
 							}
 							has_resources_amount = {
 								resource = tungsten
-								amount > 19
+								amount > 190
 								delivered = no
 							}
 							has_resources_amount = {
 								resource = steel
-								amount > 19
+								amount > 190
 								delivered = no
 							}
 							has_resources_amount = {
 								resource = chromium
-								amount > 19
+								amount > 190
 								delivered = no
 							}
 						}
@@ -18761,32 +18761,32 @@ focus_tree = {
 						OR = {
 							has_resources_amount = {
 								resource = oil
-								amount > 19
+								amount > 190
 								delivered = no
 							}
 							has_resources_amount = {
 								resource = aluminium
-								amount > 19
+								amount > 190
 								delivered = no
 							}
 							has_resources_amount = {
 								resource = rubber
-								amount > 19
+								amount > 190
 								delivered = no
 							}
 							has_resources_amount = {
 								resource = tungsten
-								amount > 19
+								amount > 190
 								delivered = no
 							}
 							has_resources_amount = {
 								resource = steel
-								amount > 19
+								amount > 190
 								delivered = no
 							}
 							has_resources_amount = {
 								resource = chromium
-								amount > 19
+								amount > 190
 								delivered = no
 							}
 						}
@@ -23619,15 +23619,15 @@ focus_tree = {
 				65 = {
 					add_resource = {
 						type = steel
-						amount = 6
+						amount = 60
 					}
 					add_resource = {
 						type = tungsten
-						amount = 3
+						amount = 30
 					}
 					add_resource = {
 						type = chromium
-						amount = 3
+						amount = 30
 					}
 				}
 			}
@@ -23637,22 +23637,22 @@ focus_tree = {
 						is_fully_controlled_by = ROOT
 						has_resources_amount = {
 							resource = steel
-							amount > 4
+							amount > 40
 							delivered = no
 						}
 					}
 					prioritize = { 51 60 }
 					add_resource = {
 						type = steel
-						amount = 6
+						amount = 60
 					}
 					add_resource = {
 						type = tungsten
-						amount = 3
+						amount = 30
 					}
 					add_resource = {
 						type = chromium
-						amount = 3
+						amount = 30
 					}
 				}
 			}

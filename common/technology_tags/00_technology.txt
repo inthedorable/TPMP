@@ -175,6 +175,7 @@ technology_categories = {
 	cat_light_chassis_tech
 	cat_medium_chassis_tech
 	cat_heavy_chassis_tech
+	cat_super_heavy_chassis_tech
 
 	cat_special_project_tech
 

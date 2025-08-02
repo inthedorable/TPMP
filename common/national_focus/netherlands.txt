@@ -143,7 +143,7 @@ focus_tree = {
 			695 = {
 				add_resource = {
 					type = oil
-					amount = 24
+					amount = 240
 				}
 				if = {
 					limit = {
@@ -215,7 +215,7 @@ focus_tree = {
 			309 = {
 				add_resource = {
 					type = aluminium
-					amount = 36
+					amount = 360
 				}
 				if = {
 					limit = {
@@ -1552,7 +1552,7 @@ focus_tree = {
 			7 = {
 				add_resource = {
 					type = steel
-					amount = 16
+					amount = 160
 				}
 				if = {
 					limit = {

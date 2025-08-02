@@ -440,7 +440,7 @@ focus_tree = {
 			1006 = {
 				add_resource = {
 					type = steel
-					amount = 16
+					amount = 160
 				}
 			}
 		}
@@ -471,7 +471,7 @@ focus_tree = {
 			1008 = {
 				add_resource = {
 					type = chromium
-					amount = 24
+					amount = 240
 				}
 			}
 		}
@@ -11781,11 +11781,11 @@ focus_tree = {
 			830 = {
 				add_resource = {
 					type = oil
-					amount = 8
+					amount = 80
 				}
 				add_resource = {
 					type = tungsten
-					amount = 8
+					amount = 80
 				}
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {
@@ -11822,7 +11822,7 @@ focus_tree = {
 			742 = {
 				add_resource = {
 					type = aluminium
-					amount = 8
+					amount = 80
 				}
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
@@ -11859,7 +11859,7 @@ focus_tree = {
 			584 = {
 				add_resource = {
 					type = oil
-					amount = 8
+					amount = 80
 				}
 				add_extra_state_shared_building_slots = 2
 				add_building_construction = {

@@ -1514,7 +1514,7 @@ the_good_the_bad_and_the_weird = {
 		610 = { infrastructure > 4 }
 		328 = { infrastructure > 4 }
 		717 = { infrastructure > 4 }
-		oil > 15
+		oil > 150
 	}
 }
 

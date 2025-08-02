@@ -2,7 +2,7 @@
 
 oob = "UKR_1936"
 
-set_research_slots = 3
+set_research_slots = 4
 
 # Starting tech
 set_technology = {
@@ -85,9 +85,9 @@ if = {
 }
 
 set_popularities = {
-	democratic = 20
-	fascism = 30
-	communism = 50
+	democratic = 15
+	fascism = 15
+	communism = 70
 }
 
 recruit_character = UKR_mykhailo_omelianovych_pavlenko

@@ -12651,7 +12651,7 @@ focus_tree = {
 			950 = {
 				add_resource = {
 					type = steel
-					amount = 24
+					amount = 240
 				}
 			}
 
@@ -13295,7 +13295,7 @@ focus_tree = {
 				add_resource = {
 					show_state_in_tooltip = no
 					type = steel
-					amount = 4
+					amount = 40
 				}
 			}  
 			every_core_state = {
@@ -13309,7 +13309,7 @@ focus_tree = {
 				add_resource = {
 					show_state_in_tooltip = no
 					type = tungsten
-					amount = 4
+					amount = 40
 				}
 			}
 			every_core_state = {
@@ -13323,7 +13323,7 @@ focus_tree = {
 				add_resource = {
 					show_state_in_tooltip = no
 					type = chromium
-					amount = 4
+					amount = 40
 				}
 			}
 			every_core_state = {
@@ -13337,7 +13337,7 @@ focus_tree = {
 				add_resource = {
 					show_state_in_tooltip = no
 					type = aluminium
-					amount = 4
+					amount = 40
 				}
 			}
 
@@ -13869,15 +13869,15 @@ focus_tree = {
 					OR = {
 						has_resources_amount = {
 							resource = steel
-							amount > 1
+							amount > 10
 						}
 						has_resources_amount = {
 							resource = tungsten
-							amount  > 1
+							amount  > 10
 						}
 						has_resources_amount = {
 							resource = chromium
-							amount > 1
+							amount > 10
 						}
 					}
 				}
@@ -13896,12 +13896,12 @@ focus_tree = {
 
 				add_resource = {
 					type = steel
-					amount = 2
+					amount = 20
 				}
 				
 				add_resource = {
 					type = tungsten
-					amount = 4
+					amount = 40
 				}
 
 			}

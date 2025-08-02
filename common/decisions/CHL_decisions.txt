@@ -406,7 +406,7 @@ CHL_industrial_decisions = {
 				}
 				add_resource = {
 					type = steel
-					amount = 12
+					amount = 120
 				}
 			}
 		} 

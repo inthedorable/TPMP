@@ -83,7 +83,7 @@ economy_decisions = {
 					100 = {
 						add_resource = {
 							type = oil
-							amount = 4
+							amount = 40
 						}
 					}
 				}
@@ -91,7 +91,7 @@ economy_decisions = {
 					100 = {
 						add_resource = {
 							type = oil
-							amount = 2
+							amount = 20
 						}
 					}
 				}
@@ -99,7 +99,7 @@ economy_decisions = {
 					100 = {
 						add_resource = {
 							type = oil
-							amount = 8
+							amount = 80
 						}
 						custom_effect_tooltip = no_more_oil_tt
 						set_state_flag = no_more_oil_flag

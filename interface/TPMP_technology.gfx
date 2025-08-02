@@ -2139,7 +2139,7 @@ spriteTypes = {
 	}
 	SpriteType = {
 		name = "GFX_tank0_tech_medium"
-		textureFile = "gfx/interface/technologies/tanks/tankupgrade1.dds"
+		textureFile = "gfx/interface/technologies/tankupgrade1.dds"
 	}
 	SpriteType = {
 		name = "GFX_lighttank1_tech_medium"

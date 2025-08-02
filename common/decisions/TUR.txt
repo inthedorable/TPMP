@@ -1669,7 +1669,7 @@ TUR_industrial_projects_category = {
 		remove_effect = {
 			add_resource = {
 				type = steel
-				amount = 4
+				amount = 40
 				state = 347
 			}
 			347 = {

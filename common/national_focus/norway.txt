@@ -8370,7 +8370,7 @@ focus_tree = {
 				random_select_amount = 3 
 				add_resource = {
 					type = aluminium 
-					amount = 10
+					amount = 100
 				}
 				add_extra_state_shared_building_slots = 1 
 				add_building_construction = {
@@ -8466,7 +8466,7 @@ focus_tree = {
 				}	
 				add_resource = {
 					type = aluminium
-					amount = 8
+					amount = 80
 				}
 			}
 			add_tech_bonus = {

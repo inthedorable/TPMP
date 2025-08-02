@@ -1753,7 +1753,7 @@ focus_tree = {
 			43 = {
 				add_resource = {
 					type = aluminium
-					amount = 16
+					amount = 160
 				}
 			}
 		}
@@ -3154,7 +3154,7 @@ focus_tree = {
 				}
 				add_resource = {
 					type = steel
-					amount = 8
+					amount = 80
 				}
 			}
 		}
@@ -3179,7 +3179,7 @@ focus_tree = {
 				set_state_flag = HUN_expand_the_manfred_weiss_steel_works_IC
 				add_resource = {
 					type = steel
-					amount = 12
+					amount = 120
 				}
 			}
 		}
@@ -3216,7 +3216,7 @@ focus_tree = {
 			43 = {
 				add_resource = {
 					type = aluminium
-					amount = 16
+					amount = 160
 				}
 			}
 		}

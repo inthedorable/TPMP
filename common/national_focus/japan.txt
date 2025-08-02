@@ -69,7 +69,7 @@
 			716 = {
 			add_resource = {
 				type = steel
-				amount = 999
+				amount = 9990
 			}
 				
 			}
@@ -183,7 +183,7 @@
 			527 = {
 			add_resource = {
 				type = steel
-				amount = 999
+				amount = 9990
 			}
 				
 			}
@@ -348,7 +348,7 @@
 			623 = {
 				add_resource = {
 				type = rubber
-				amount = 999
+				amount = 9990
 			}
 				
 			}
@@ -385,19 +385,19 @@
 			336 = {
 				add_resource = {
 				type = rubber
-				amount = 999
+				amount = 9990
 			}
 			add_resource = {
 				type = aluminium
-				amount = 999
+				amount = 9990
 			}
 			add_resource = {
 				type = tungsten
-				amount = 999
+				amount = 9990
 			}
 			add_resource = {
 				type = steel
-				amount = 999
+				amount = 9990
 			}
 				
 			}
@@ -434,7 +434,7 @@
 			333 = {
 				add_resource = {
 				type = oil
-				amount = 999
+				amount = 9990
 			}
 				
 			}
@@ -471,7 +471,7 @@
 			334 = {
 				add_resource = {
 				type = oil
-				amount = 999
+				amount = 9990
 			}
 				
 			}
@@ -508,7 +508,7 @@
 			672 = {
 				add_resource = {
 				type = oil
-				amount = 999
+				amount = 9990
 			}
 				
 			}
@@ -1526,7 +1526,7 @@
 			282 = {
 				add_resource = {
 					type = aluminium
-					amount = 12
+					amount = 120
 				}
 			}
 		}
@@ -1869,13 +1869,13 @@
 			605 = {
 				add_resource = {
 					type = aluminium
-					amount = 8
+					amount = 80
 				}
 			}
 			325 = {
 				add_resource = {
 					type = aluminium
-					amount = 12
+					amount = 120
 				}
 			}
 			if = {
@@ -2399,7 +2399,7 @@
 			336 = {
 				add_resource = {
 					type = aluminium
-					amount = 12
+					amount = 120
 				}
 				add_building_construction = {
 					type = infrastructure
@@ -2440,7 +2440,7 @@
 			671 = {
 				add_resource = {
 					type = aluminium
-					amount = 6
+					amount = 60
 				}
 			}
 			if = {
@@ -4059,7 +4059,7 @@
 			564 = {
 				add_resource = {
 					type = aluminium
-					amount = 8
+					amount = 80
 				}
 				add_building_construction = {
 					type = infrastructure
@@ -5093,7 +5093,7 @@
 					}
 					add_resource = {
 						type = steel
-						amount = 16
+						amount = 160
 					}				
 				}
 				add_extra_state_shared_building_slots = 2
@@ -5146,7 +5146,7 @@
 					}
 					add_resource = {
 						type = aluminium
-						amount = 12
+						amount = 120
 					}
 				}
 				add_extra_state_shared_building_slots = 2

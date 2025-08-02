@@ -1,9 +1,9 @@
 mio_policy_general_ruthless_contracts = {
 	icon = GFX_mio_policy_ruthless_contracts
 	allowed = { always = yes  }
-	available = { has_mio_size > 5}
+	# available = { has_mio_size > 5}
 	organization_modifier = {
-		military_industrial_organization_funds_gain = 0.1
+		military_industrial_organization_funds_gain = 0.2
 	}
 }
 
@@ -14,19 +14,25 @@ mio_policy_general_assembly_line_optimisers = {
 			has_mio_equipment_type = small_plane_airframe
 			has_mio_equipment_type = medium_plane_airframe
 			has_mio_equipment_type = large_plane_airframe
+			has_mio_equipment_type = intercontinental_maritime_patrol_plane_airframe
+			has_mio_equipment_type = strat_bomber_intercontinental_equipment
 			has_mio_equipment_type = small_plane_cas_airframe
 			has_mio_equipment_type = small_plane_naval_bomber_airframe
 			has_mio_equipment_type = medium_plane_fighter_airframe
 			has_mio_equipment_type = medium_plane_scout_plane_airframe
 			has_mio_equipment_type = large_plane_maritime_patrol_plane_airframe
+			has_mio_equipment_type = mio_cat_eq_all_light_tank		
+			has_mio_equipment_type = mio_cat_eq_all_medium_tank
+			has_mio_equipment_type = mio_cat_eq_all_main_battle_tank
+			has_mio_equipment_type = mio_cat_eq_all_heavy_tank
+			has_mio_equipment_type = mio_cat_eq_all_super_heavy_tank
 			has_mio_equipment_type = armor
 			has_mio_equipment_type = motorized_equipment
 			has_mio_equipment_type = mechanized_equipment
-			has_mio_equipment_type = anti_tank_equipment
-			has_mio_equipment_type = flame_equipment
-			has_mio_equipment_type = anti_air_equipment
-			has_mio_equipment_type = artillery_equipment
-			has_mio_equipment_type = rocket_equipment
+			has_mio_equipment_type = EoF_cat_eq_all_anti_tank
+			has_mio_equipment_type = EoF_cat_eq_all_anti_air
+			has_mio_equipment_type = EoF_cat_eq_all_artillery
+			has_mio_equipment_type = rocket_artillery_equipment
 			has_mio_equipment_type = infantry_equipment
 			has_mio_equipment_type = railway_gun_equipment
 			has_mio_equipment_type = train_equipment
@@ -56,7 +62,7 @@ mio_policy_general_vertical_integration = {
 mio_policy_general_mechanical_genius  = {
 	icon = GFX_mio_policy_mechanical_genius
 	allowed = { always = yes }
-	available = { has_mio_size > 5}
+	# available = { has_mio_size > 5}
 	equipment_bonus = {
 		same_as_mio = {
 			reliability = 0.1
@@ -67,20 +73,21 @@ mio_policy_general_mechanical_genius  = {
 mio_policy_general_experimental_development_teams = {
 	icon = GFX_mio_policy_experimental_development_teams
 	allowed = { always = yes }
-	available = { has_mio_size > 5}
+	# available = { has_mio_size > 5}
 	organization_modifier = {
-		military_industrial_organization_research_bonus = 0.2
+		military_industrial_organization_research_bonus = 0.1
 	}
 }
 
 mio_policy_NOR_general_permanent_industrial_revolution = {
 	icon = GFX_idea_eng_spirit_of_the_industrial_revolution
 	allowed = { 
-		owner = { NOR_AAT = yes } 	
+		always = no
 	}
 	available = { 
 		has_mio_size > 5
-		owner = { has_completed_focus = NOR_norwegian_engineering } 
+		# put a country specific thing here
+		# STG only maybe?
 	}
 	organization_modifier = {
 		military_industrial_organization_research_bonus = 0.1
@@ -93,19 +100,17 @@ mio_policy_NOR_general_permanent_industrial_revolution = {
 	}
 }
 
+
 mio_policy_RAJ_general_ordnance_factory_board = {
 	icon = GFX_idea_eng_spirit_of_the_industrial_revolution
 	allowed = { 
-		owner = {
-			is_raj_or_raj_inheritor = yes
-
-		} 	
+		always = no
 	}
 	available = { 
 		has_mio_size > 7
-		owner = {
-			has_completed_focus = RAJ_the_ordnance_factories_board
-		} 
+
+		# put a country specific thing here
+		# EQS only maybe?
 	}
 
 
@@ -117,4 +122,3 @@ mio_policy_RAJ_general_ordnance_factory_board = {
 		}
 	}
 }
-

@@ -3019,14 +3019,14 @@
 				limit = { has_state_flag = AST_rationing_and_recycling_alu }
 				add_resource = {
 					type = aluminium
-					amount = 24
+					amount = 240
 				}
 			}
 			random_state = {
 				limit = { has_state_flag = AST_rationing_and_recycling_oil }
 				add_resource = {
 					type = oil
-					amount = 12
+					amount = 120
 				}
 			}
 		}
@@ -3039,7 +3039,7 @@
 				}
 				add_resource = {
 					type = aluminium
-					amount = 24
+					amount = 240
 				}
 				set_state_flag = AST_rationing_and_recycling_alu
 			}
@@ -3050,7 +3050,7 @@
 				}
 				add_resource = {
 					type = oil
-					amount = 12
+					amount = 120
 				}
 				set_state_flag = AST_rationing_and_recycling_oil
 			}

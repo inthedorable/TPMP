@@ -860,7 +860,7 @@ focus_tree = {
 				prioritize = { 946 945 }
 				add_resource = {
 					type = oil
-					amount = 8
+					amount = 80
 				}
 
 				add_extra_state_shared_building_slots = 2

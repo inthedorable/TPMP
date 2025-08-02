@@ -15360,27 +15360,27 @@ GER_middle_eastern_trade_cat = {
 						OR = {
 							has_resources_amount = {
 								resource = oil
-								amount > 14
+								amount > 140
 							}
 							has_resources_amount = {
 								resource = aluminium
-								amount > 14
+								amount > 140
 							}
 							has_resources_amount = {
 								resource = rubber
-								amount > 14
+								amount > 140
 							}
 							has_resources_amount = {
 								resource = tungsten
-								amount > 14
+								amount > 140
 							}
 							has_resources_amount = {
 								resource = steel
-								amount > 14
+								amount > 140
 							}
 							has_resources_amount = {
 								resource = chromium
-								amount > 14
+								amount > 140
 							}
 						}
 					}
@@ -15394,27 +15394,27 @@ GER_middle_eastern_trade_cat = {
 						OR = {
 							has_resources_amount = {
 								resource = oil
-								amount > 24
+								amount > 240
 							}
 							has_resources_amount = {
 								resource = aluminium
-								amount > 24
+								amount > 240
 							}
 							has_resources_amount = {
 								resource = rubber
-								amount > 24
+								amount > 240
 							}
 							has_resources_amount = {
 								resource = tungsten
-								amount > 24
+								amount > 240
 							}
 							has_resources_amount = {
 								resource = steel
-								amount > 24
+								amount > 240
 							}
 							has_resources_amount = {
 								resource = chromium
-								amount > 24
+								amount > 240
 							}
 						}
 					}
@@ -15447,33 +15447,33 @@ GER_middle_eastern_trade_cat = {
 					OR = {
 						has_resources_amount = {
 							resource = oil
-							amount > 9
+							amount > 90
 							delivered = yes
 
 						}
 						has_resources_amount = {
 							resource = aluminium
-							amount > 9
+							amount > 90
 							delivered = yes
 						}
 						has_resources_amount = {
 							resource = rubber
-							amount > 9
+							amount > 90
 							delivered = yes
 						}
 						has_resources_amount = {
 							resource = tungsten
-							amount > 9
+							amount > 90
 							delivered = yes
 						}
 						has_resources_amount = {
 							resource = steel
-							amount > 9
+							amount > 90
 							delivered = yes
 						}
 						has_resources_amount = {
 							resource = chromium
-							amount > 9
+							amount > 90
 							delivered = yes
 						}
 					}
@@ -15544,27 +15544,27 @@ GER_mitteleuropa_allied_trade_cat = {
 						OR = {
 							has_resources_amount = {
 								resource = oil
-								amount > 14
+								amount > 140
 							}
 							has_resources_amount = {
 								resource = aluminium
-								amount > 14
+								amount > 140
 							}
 							has_resources_amount = {
 								resource = rubber
-								amount > 14
+								amount > 140
 							}
 							has_resources_amount = {
 								resource = tungsten
-								amount > 14
+								amount > 140
 							}
 							has_resources_amount = {
 								resource = steel
-								amount > 14
+								amount > 140
 							}
 							has_resources_amount = {
 								resource = chromium
-								amount > 14
+								amount > 140
 							}
 						}
 					}
@@ -15578,27 +15578,27 @@ GER_mitteleuropa_allied_trade_cat = {
 						OR = {
 							has_resources_amount = {
 								resource = oil
-								amount > 24
+								amount > 240
 							}
 							has_resources_amount = {
 								resource = aluminium
-								amount > 24
+								amount > 240
 							}
 							has_resources_amount = {
 								resource = rubber
-								amount > 24
+								amount > 240
 							}
 							has_resources_amount = {
 								resource = tungsten
-								amount > 24
+								amount > 240
 							}
 							has_resources_amount = {
 								resource = steel
-								amount > 24
+								amount > 240
 							}
 							has_resources_amount = {
 								resource = chromium
-								amount > 24
+								amount > 240
 							}
 						}
 					}
@@ -15639,33 +15639,33 @@ GER_mitteleuropa_allied_trade_cat = {
 					OR = {
 						has_resources_amount = {
 							resource = oil
-							amount > 9
+							amount > 90
 							delivered = yes
 
 						}
 						has_resources_amount = {
 							resource = aluminium
-							amount > 9
+							amount > 90
 							delivered = yes
 						}
 						has_resources_amount = {
 							resource = rubber
-							amount > 9
+							amount > 90
 							delivered = yes
 						}
 						has_resources_amount = {
 							resource = tungsten
-							amount > 9
+							amount > 90
 							delivered = yes
 						}
 						has_resources_amount = {
 							resource = steel
-							amount > 9
+							amount > 90
 							delivered = yes
 						}
 						has_resources_amount = {
 							resource = chromium
-							amount > 9
+							amount > 90
 							delivered = yes
 						}
 					}
@@ -21388,33 +21388,33 @@ GER_spreading_the_red_flame_cat = {
 					OR = {
 						has_resources_amount = {
 							resource = oil
-							amount > 9
+							amount > 90
 							delivered = yes
 
 						}
 						has_resources_amount = {
 							resource = aluminium
-							amount > 9
+							amount > 90
 							delivered = yes
 						}
 						has_resources_amount = {
 							resource = rubber
-							amount > 9
+							amount > 90
 							delivered = yes
 						}
 						has_resources_amount = {
 							resource = tungsten
-							amount > 9
+							amount > 90
 							delivered = yes
 						}
 						has_resources_amount = {
 							resource = steel
-							amount > 9
+							amount > 90
 							delivered = yes
 						}
 						has_resources_amount = {
 							resource = chromium
-							amount > 9
+							amount > 90
 							delivered = yes
 						}
 					}

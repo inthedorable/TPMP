@@ -376,7 +376,7 @@ focus_tree = {
 
 				add_resource = {
 					type = steel
-					amount = 8
+					amount = 80
 				}
 			}
 		}
@@ -428,12 +428,12 @@ focus_tree = {
 
 				add_resource = {
 					type = steel
-					amount = 8
+					amount = 80
 				}
 
 				add_resource = {
 					type = rubber
-					amount = 4
+					amount = 40
 				}
 			}
 		}
@@ -465,7 +465,7 @@ focus_tree = {
 			796 = {
 				add_resource = {
 					type = oil
-					amount = 12
+					amount = 120
 				}
 			}
 		}
@@ -508,7 +508,7 @@ focus_tree = {
 				}
 				add_resource = {
 					type = aluminium
-					amount = 6
+					amount = 60
 				}
 			}
 			897 = {
@@ -521,7 +521,7 @@ focus_tree = {
 				}
 				add_resource = {
 					type = aluminium
-					amount = 6
+					amount = 60
 				}
 			}
 		}
@@ -3944,7 +3944,7 @@ focus_tree = {
 				limit = { has_full_control_of_state = 112 }
 				add_resource = {
 				    type = tungsten
-				    amount = 50
+				    amount = 500
 				    state = 112 #Lisbon
 				}
 			}

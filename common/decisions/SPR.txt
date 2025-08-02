@@ -14376,7 +14376,7 @@ SPR_expand_resource_extraction = {
 			792 = {
 				add_resource = {
 					type = steel
-					amount = 8
+					amount = 80
 				}
 			}
 		}
@@ -14439,7 +14439,7 @@ SPR_expand_resource_extraction = {
 			166 = {
 				add_resource = {
 					type = steel
-					amount = 8
+					amount = 80
 				}
 			}
 		}
@@ -14502,7 +14502,7 @@ SPR_expand_resource_extraction = {
 			173 = {
 				add_resource = {
 					type = steel
-					amount = 8
+					amount = 80
 				}
 			}
 		}
@@ -14574,7 +14574,7 @@ SPR_expand_resource_extraction = {
 			788 = {
 				add_resource = {
 					type = tungsten
-					amount = 12
+					amount = 120
 				}
 			}
 		}
@@ -14642,7 +14642,7 @@ SPR_expand_resource_extraction = {
 			791 = {
 				add_resource = {
 					type = tungsten
-					amount = 14
+					amount = 140
 				}
 			}
 		}
@@ -14710,7 +14710,7 @@ SPR_expand_resource_extraction = {
 			171 = {
 				add_resource = {
 					type = tungsten
-					amount = 12
+					amount = 120
 				}
 			}
 		}
@@ -14778,7 +14778,7 @@ SPR_expand_resource_extraction = {
 			170 = {
 				add_resource = {
 					type = tungsten
-					amount = 12
+					amount = 120
 				}
 			}
 		}
@@ -14840,7 +14840,7 @@ SPR_expand_resource_extraction = {
 			41 = {
 				add_resource = {
 					type = aluminium
-					amount = 8
+					amount = 80
 				}
 			}
 		}

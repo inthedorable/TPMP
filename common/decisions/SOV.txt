@@ -6922,11 +6922,11 @@ SOV_diplomacy_asia_decision_category = {
 			619 = { #YARKAND - Minerals and Infra
 				add_resource = {
 					type = aluminium
-					amount = 3
+					amount = 30
 				}
 				add_resource = {
 					type = chromium
-					amount = 3
+					amount = 30
 				}
 				if = {
 					limit = {
@@ -7081,15 +7081,15 @@ SOV_diplomacy_asia_decision_category = {
 			618 = { #DZUNGARIA - Minerals, oil and Infra
 				add_resource = {
 					type = aluminium
-					amount = 3
+					amount = 30
 				}
 				add_resource = {
 					type = tungsten
-					amount = 3
+					amount = 30
 				}
 				add_resource = {
 					type = oil
-					amount = 6
+					amount = 60
 				}
 				if = {
 					limit = {
@@ -7498,7 +7498,7 @@ SOV_diplomacy_asia_decision_category = {
 				}
 				add_resource = {
 					type = oil
-					amount = 12
+					amount = 120
 				}
 			}
 			604 = { #QINGHAI (Golmud) - Infra
@@ -7713,11 +7713,11 @@ SOV_soviet_aid_decision_category = {
 				619 = { #YARKAND - Minerals and Infra
 					add_resource = {
 						type = aluminium
-						amount = 3
+						amount = 30
 					}
 					add_resource = {
 						type = chromium
-						amount = 3
+						amount = 30
 					}
 					if = {
 						limit = {
@@ -7799,15 +7799,15 @@ SOV_soviet_aid_decision_category = {
 				618 = { #DZUNGARIA - Minerals, oil and Infra
 					add_resource = {
 						type = aluminium
-						amount = 3
+						amount = 30
 					}
 					add_resource = {
 						type = tungsten
-						amount = 3
+						amount = 30
 					}
 					add_resource = {
 						type = oil
-						amount = 6
+						amount = 60
 					}
 					if = {
 						limit = {
@@ -8046,7 +8046,7 @@ SOV_soviet_aid_decision_category = {
 					}
 					add_resource = {
 						type = oil
-						amount = 12
+						amount = 120
 					}
 				}
 				604 = { #QINGHAI (Golmud) - Infra
@@ -8186,11 +8186,11 @@ prospect_for_resources = {
 			619 = { #YARKAND - Minerals and Infra
 				add_resource = {
 					type = aluminium
-					amount = 3
+					amount = 30
 				}
 				add_resource = {
 					type = chromium
-					amount = 3
+					amount = 30
 				}
 				if = {
 					limit = {
@@ -8274,15 +8274,15 @@ prospect_for_resources = {
 			618 = { #DZUNGARIA - Minerals, oil and Infra
 				add_resource = {
 					type = aluminium
-					amount = 3
+					amount = 30
 				}
 				add_resource = {
 					type = tungsten
-					amount = 3
+					amount = 30
 				}
 				add_resource = {
 					type = oil
-					amount = 6
+					amount = 60
 				}
 				if = {
 					limit = {
@@ -8397,7 +8397,7 @@ prospect_for_resources = {
 				}
 				add_resource = {
 					type = oil
-					amount = 12
+					amount = 120
 				}
 			}
 			604 = { #QINGHAI (Golmud) - Infra
@@ -9358,7 +9358,7 @@ SOV_merge_designers_dec_cat = {
 
 			add_resource = {
 				type = aluminium
-				amount = 3
+				amount = 30
 				state = 219
 			}
 		}
@@ -11230,7 +11230,7 @@ SOV_industry_relocation = {
 			195 = {
 				add_resource = {
 					type = aluminium
-					amount = -12
+					amount = -120
 				}
 			}
 			custom_effect_tooltip = SOV_industry_relocation_aluminium_plant_trains_tt
@@ -11251,7 +11251,7 @@ SOV_industry_relocation = {
 				569 = {
 					add_resource = {
 						type = aluminium
-						amount = 12
+						amount = 120
 					}
 				}
 			}

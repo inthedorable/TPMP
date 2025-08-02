@@ -1678,7 +1678,7 @@ focus_tree = {
 		completion_reward = {
 			add_resource = {
 				type = oil
-				amount = 8
+				amount = 80
 				state = 662
 			}	
 
@@ -1729,7 +1729,7 @@ focus_tree = {
 		completion_reward = {
 			add_resource = {
 				type = oil
-				amount = 4
+				amount = 40
 				state = 450
 			}
 			450 = {
@@ -2759,7 +2759,7 @@ focus_tree = {
 				}
 				add_resource = {
 					type = steel
-					amount = 8
+					amount = 80
 				}
 			}
 		}
@@ -3220,7 +3220,7 @@ focus_tree = {
 				162 = {
 					add_resource = {
 						type = steel
-						amount = 12
+						amount = 120
 					}
 				}
 			}
@@ -11343,7 +11343,7 @@ focus_tree = {
 				}
 				add_resource = {
 			    	type = oil
-			    	amount = 8
+			    	amount = 80
 			    	state = 448   
 				}
 				448 = { #TRIPOLI
@@ -11410,7 +11410,7 @@ focus_tree = {
 				}	
 				add_resource = {
 				    type = steel
-				    amount = 16
+				    amount = 160
 				    state = 448  
 				}
 				448 = { #TRIPOLI
@@ -12389,7 +12389,7 @@ focus_tree = {
 					}
 					add_resource = {
 						type = steel
-						amount = 8
+						amount = 80
 					}
 				}
 			}
@@ -12417,7 +12417,7 @@ focus_tree = {
 					}
 					add_resource = {
 						type = oil
-						amount = 2
+						amount = 20
 					}
 				}
 			}
@@ -15086,7 +15086,7 @@ focus_tree = {
 				}
 				add_resource = {
 					type = oil
-					amount = 2
+					amount = 20
 				}
 			}
 		}

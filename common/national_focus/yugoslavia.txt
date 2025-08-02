@@ -4469,7 +4469,7 @@ focus_tree = {
 				105 = {
 					add_resource = {
 						type = tungsten
-						amount = 8
+						amount = 80
 					}
 				}
 			}
@@ -4478,7 +4478,7 @@ focus_tree = {
 					prioritize = { 105 802 }
 					add_resource = {
 						type = tungsten
-						amount = 8
+						amount = 80
 					}
 				}
 			}
@@ -4502,7 +4502,7 @@ focus_tree = {
 				109 = {
 					add_resource = {
 						type = chromium
-						amount = 8
+						amount = 80
 					}
 				}
 			}
@@ -4511,7 +4511,7 @@ focus_tree = {
 					prioritize = { 109 103 }
 					add_resource = {
 						type = chromium
-						amount = 8
+						amount = 80
 					}
 				}
 			}
@@ -4577,7 +4577,7 @@ focus_tree = {
 				45 = {
 					add_resource = {
 						type = oil
-						amount = 8
+						amount = 80
 					}
 				}
 			}
@@ -5309,7 +5309,7 @@ focus_tree = {
 			108 = {
 				add_resource = {
 					type = steel
-					amount = 16
+					amount = 160
 				}
 			}
 		}

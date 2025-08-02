@@ -496,7 +496,7 @@ focus_tree = {
 				}
 				add_resource = {
 					type = oil
-					amount = 8
+					amount = 80
 				}
 			}
 			GER = {
@@ -506,7 +506,7 @@ focus_tree = {
 					}
 					add_resource = {
 						type = oil
-						amount = 4
+						amount = 40
 					}
 				}
 			}
@@ -1285,7 +1285,7 @@ focus_tree = {
 				}
 				add_resource = {
 					type = steel
-					amount = 8
+					amount = 80
 				}
 			}
 		}
@@ -1310,7 +1310,7 @@ focus_tree = {
 				set_state_flag = ROM_hunedoara_steel_works_IC
 				add_resource = {
 					type = steel
-					amount = 12
+					amount = 120
 				}
 			}
 		}
@@ -1426,7 +1426,7 @@ focus_tree = {
 			46 = {
 				add_resource = {
 					type = oil
-					amount = 24
+					amount = 240
 				}
 			}
 		}

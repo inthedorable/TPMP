@@ -558,7 +558,7 @@ focus_tree = {
 			48 = {
 				add_resource = {
 					type = aluminium
-					amount = 8 #At least one factory's worth
+					amount = 80 #At least one factory's worth
 				}
 			}
 		}
@@ -590,7 +590,7 @@ focus_tree = {
 			48 = {
 				add_resource = {
 					type = steel
-					amount = 6
+					amount = 60
 				}
 				add_extra_state_shared_building_slots = 1
 				add_building_construction = {

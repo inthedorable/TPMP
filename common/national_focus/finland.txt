@@ -2053,7 +2053,7 @@ focus_tree = {
 					}
 					add_resource = {
 						type = steel
-						amount = 6
+						amount = 60
 						show_state_in_tooltip = no
 					}
 				}
@@ -2066,7 +2066,7 @@ focus_tree = {
 					}
 					add_resource = {
 						type = chromium
-						amount = 6
+						amount = 60
 						show_state_in_tooltip = no
 					}
 				}
@@ -2079,7 +2079,7 @@ focus_tree = {
 					}
 					add_resource = {
 						type = tungsten
-						amount = 6
+						amount = 60
 						show_state_in_tooltip = no
 					}
 				}
@@ -2092,7 +2092,7 @@ focus_tree = {
 					}
 					add_resource = {
 						type = aluminium
-						amount = 6
+						amount = 60
 						show_state_in_tooltip = no
 					}
 				}
@@ -9803,7 +9803,7 @@ focus_tree = {
 				}
 				add_resource = {
 					type = steel
-					amount = 8
+					amount = 80
 				}
 			}
 		}
@@ -10198,7 +10198,7 @@ focus_tree = {
 				}
 				add_resource = {
 					type = steel
-					amount = 4
+					amount = 40
 				}
 			}
 		}
@@ -10270,7 +10270,7 @@ focus_tree = {
 				}
 				add_resource = {
 					type = steel
-					amount = 4
+					amount = 40
 				}
 			}
 		}
@@ -10309,11 +10309,11 @@ focus_tree = {
 
 				add_resource = {
 					type = steel
-					amount = 4
+					amount = 40
 				}
 				add_resource = {
 					type = chromium
-					amount = 2
+					amount = 20
 				}
 			}
 
@@ -10595,11 +10595,11 @@ focus_tree = {
 				}
 				add_resource = {
 					type = steel
-					amount = 4
+					amount = 40
 				}
 				add_resource = {
 					type = chromium
-					amount = 4
+					amount = 40
 				}
 			}
 		}
@@ -10633,7 +10633,7 @@ focus_tree = {
 				add_resource = {
 					show_state_in_tooltip = no
 					type = steel
-					amount = 2 #WARNING No vars supported here so if this changes the custom tooltip above needs to be updated. Tack
+					amount = 20 #WARNING No vars supported here so if this changes the custom tooltip above needs to be updated. Tack
 				}
 			}
 
@@ -10645,7 +10645,7 @@ focus_tree = {
 				722 = {
 					add_resource = {
 						type = chromium
-						amount = 2
+						amount = 20
 					}
 				}
 			}
@@ -10658,7 +10658,7 @@ focus_tree = {
 				929 = {
 					add_resource = {
 						type = chromium
-						amount = 2
+						amount = 20
 					}
 				}
 			}
@@ -10671,7 +10671,7 @@ focus_tree = {
 				926 = {
 					add_resource = {
 						type = chromium
-						amount = 2
+						amount = 20
 					}
 				}
 			}
@@ -10704,11 +10704,11 @@ focus_tree = {
 				}
 				add_resource = {
 					type = steel
-					amount = 4
+					amount = 40
 				}
 				add_resource = {
 					type = chromium
-					amount = 2
+					amount = 20
 				}
 			}
 		}
@@ -10744,11 +10744,11 @@ focus_tree = {
 				}
 				add_resource = {
 					type = steel
-					amount = 6
+					amount = 60
 				}
 				add_resource = {
 					type = chromium
-					amount = 4
+					amount = 40
 				}
 			}
 		}
@@ -10784,7 +10784,7 @@ focus_tree = {
 				}
 				add_resource = {
 					type = steel
-					amount = 6
+					amount = 60
 				}
 			}
 		}

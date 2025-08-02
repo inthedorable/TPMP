@@ -197,7 +197,7 @@ NOR_alt_dem_prep_start = {
 			add_manpower = 250
 			add_resource = {
 				type = aluminium
-				amount = 5 
+				amount = 50 
 			}
 		}
 		else_if = {

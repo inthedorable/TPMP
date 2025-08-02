@@ -2137,7 +2137,7 @@
 					prioritize = { 538 }
 					add_resource = {
 						type = rubber
-						amount = 6
+						amount = 60
 					}	
 				}
 
@@ -2173,7 +2173,7 @@
 					prioritize = { 718 }
 					add_resource = {
 						type = rubber
-						amount = 5
+						amount = 50
 					}	
 				}
 			}
@@ -2252,7 +2252,7 @@
 					prioritize = { 538 }
 					add_resource = {
 						type = rubber
-						amount = 6
+						amount = 60
 					}	
 				}
 
@@ -2288,7 +2288,7 @@
 					prioritize = { 718 }
 					add_resource = {
 						type = rubber
-						amount = 5
+						amount = 50
 					}	
 				}
 			}
@@ -2976,7 +2976,7 @@
 				889 = {
 					add_resource = {
 						type = steel
-						amount = 20
+						amount = 200
 					}		
 				}
 
@@ -2997,7 +2997,7 @@
 				889 = {
 					add_resource = {
 						type = steel
-						amount = 20
+						amount = 200
 					}		
 				}
 			}
@@ -3018,7 +3018,7 @@
 				889 = {
 					add_resource = {
 						type = steel
-						amount = 20
+						amount = 200
 					}		
 				}
 
@@ -3039,7 +3039,7 @@
 				889 = {
 					add_resource = {
 						type = steel
-						amount = 20
+						amount = 200
 					}		
 				}
 			}
@@ -3265,7 +3265,7 @@
 				768 = {
 					add_resource = {
 						type = tungsten
-						amount = 12
+						amount = 120
 					}		
 				}
 
@@ -3287,7 +3287,7 @@
 				768 = {
 					add_resource = {
 						type = tungsten
-						amount = 12
+						amount = 120
 					}		
 				}
 				custom_effect_tooltip = generic_skip_one_line_tt
@@ -3303,7 +3303,7 @@
 				769 = {
 					add_resource = {
 						type = tungsten
-						amount = 6
+						amount = 60
 					}		
 				}
 
@@ -3324,7 +3324,7 @@
 				769 = {
 					add_resource = {
 						type = tungsten
-						amount = 6
+						amount = 60
 					}		
 				}
 			}
@@ -3347,7 +3347,7 @@
 				768 = {
 					add_resource = {
 						type = tungsten
-						amount = 12
+						amount = 120
 					}		
 				}
 
@@ -3369,7 +3369,7 @@
 				768 = {
 					add_resource = {
 						type = tungsten
-						amount = 12
+						amount = 120
 					}		
 				}
 				custom_effect_tooltip = generic_skip_one_line_tt
@@ -3387,7 +3387,7 @@
 				769 = {
 					add_resource = {
 						type = tungsten
-						amount = 6
+						amount = 60
 					}		
 				}
 
@@ -3408,7 +3408,7 @@
 				769 = {
 					add_resource = {
 						type = tungsten
-						amount = 6
+						amount = 60
 					}		
 				}
 			}
@@ -3544,7 +3544,7 @@
 					prioritize = { 890 }
 					add_resource = {
 						type = rubber
-						amount = 7
+						amount = 70
 					}	
 				}
 
@@ -3580,7 +3580,7 @@
 					prioritize = { 718 }
 					add_resource = {
 						type = rubber
-						amount = 8
+						amount = 80
 					}	
 				}
 			}
@@ -3641,7 +3641,7 @@
 					prioritize = { 890 }
 					add_resource = {
 						type = rubber
-						amount = 7
+						amount = 70
 					}	
 				}
 
@@ -3677,7 +3677,7 @@
 					prioritize = { 718 }
 					add_resource = {
 						type = rubber
-						amount = 8
+						amount = 80
 					}	
 				}
 			}
@@ -5183,7 +5183,7 @@
 					prioritize = { 890 }
 					add_resource = {
 						type = rubber
-						amount = 8
+						amount = 80
 					}	
 				}
 
@@ -5219,7 +5219,7 @@
 					prioritize = { 718 }
 					add_resource = {
 						type = rubber
-						amount = 10
+						amount = 100
 					}	
 				}
 
@@ -5255,7 +5255,7 @@
 					prioritize = { 538 }
 					add_resource = {
 						type = rubber
-						amount = 10
+						amount = 100
 					}	
 				}
 			}
@@ -5317,7 +5317,7 @@
 					prioritize = { 890 }
 					add_resource = {
 						type = rubber
-						amount = 8
+						amount = 80
 					}	
 				}
 
@@ -5353,7 +5353,7 @@
 					prioritize = { 718 }
 					add_resource = {
 						type = rubber
-						amount = 10
+						amount = 100
 					}	
 				}
 
@@ -5389,7 +5389,7 @@
 					prioritize = { 538 }
 					add_resource = {
 						type = rubber
-						amount = 10
+						amount = 100
 					}	
 				}
 			}
@@ -7547,7 +7547,7 @@
 					888 = {
 						add_resource = {
 							type = steel
-							amount = 14
+							amount = 140
 						}		
 					}	
 				}
@@ -7566,7 +7566,7 @@
 					977 = {
 						add_resource = {
 							type = steel
-							amount = 12
+							amount = 120
 						}		
 					}	
 				}
@@ -7594,7 +7594,7 @@
 					888 = {
 						add_resource = {
 							type = steel
-							amount = 14
+							amount = 140
 						}		
 					}	
 				}
@@ -7613,7 +7613,7 @@
 					977 = {
 						add_resource = {
 							type = steel
-							amount = 12
+							amount = 120
 						}		
 					}	
 				}
