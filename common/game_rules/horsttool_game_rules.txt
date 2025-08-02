@@ -1,0 +1,41 @@
+horst_host_country = {
+	name = "Select Host"
+	group = "HFU Rules"
+	icon = "GFX_volunteers"
+	default = {
+		name = GER
+		text = "Germany"
+		desc = ""
+	}
+	option = {
+		name = SOV
+		text = "Soviet Union"
+		desc = ""
+	}
+	option = {
+		name = USA
+		text = "United States"
+		desc = ""
+	}
+	option = {
+		name = FRA
+		text = "France"
+		desc = ""
+	}
+	option = {
+		name = JAP
+		text = "Japan"
+		desc = ""
+	}
+	option = {
+		name = ITA
+		text = "Italy"
+		desc = ""
+	}
+	option = {
+		name = ENG
+		text = "United Kingdom"
+		desc = ""
+	}
+}
+

@@ -983,7 +983,6 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.4
 		efficiency = 50
-		industrial_manufacturer = mio:FRA_hotchkiss_organization
 	}
 
 	add_equipment_production = {
@@ -996,5 +995,5 @@ instant_effect = {
 		efficiency = 50
 		industrial_manufacturer = mio:FRA_somua_organization
 	}
-
+}
 ###################

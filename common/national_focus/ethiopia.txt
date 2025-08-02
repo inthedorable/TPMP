@@ -8287,7 +8287,6 @@ focus_tree = {
 				show_mio_tooltip = ITA_caproni_organization
 				show_mio_tooltip = ITA_macchi_organization
 				custom_effect_tooltip = ETH_outsourced_production_army_tt
-				show_mio_tooltip = ITA_fiat_organization
 				show_mio_tooltip = ITA_breda_organization
 				show_mio_tooltip = ITA_beretta_organization
 			}

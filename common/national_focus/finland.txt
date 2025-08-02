@@ -5052,7 +5052,6 @@ focus_tree = {
 					limit = {
 						OR = {
 							is_military_industrial_organization = FIN_crichton_vulcan_organization
-							is_military_industrial_organization = FIN_valtion_panssaritehdas_organization
 							is_military_industrial_organization = FIN_valtion_lentokonetehdas_organization
 							is_military_industrial_organization = FIN_valtion_kivaaritehdas_organization
 							is_military_industrial_organization = FIN_valtion_tykkitehdas_organization
@@ -6362,7 +6361,6 @@ focus_tree = {
 					limit = {
 						OR = {
 							is_military_industrial_organization = FIN_crichton_vulcan_organization
-							is_military_industrial_organization = FIN_valtion_panssaritehdas_organization
 							is_military_industrial_organization = FIN_valtion_lentokonetehdas_organization
 							is_military_industrial_organization = FIN_sisu_auto_organization
 						}
@@ -6563,7 +6561,6 @@ focus_tree = {
 					limit = {
 						OR = {
 							is_military_industrial_organization = FIN_crichton_vulcan_organization
-							is_military_industrial_organization = FIN_valtion_panssaritehdas_organization
 							is_military_industrial_organization = FIN_valtion_lentokonetehdas_organization
 							is_military_industrial_organization = FIN_valtion_kivaaritehdas_organization
 							is_military_industrial_organization = FIN_valtion_tykkitehdas_organization
@@ -7870,9 +7867,6 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH FOCUS_FILTER_INTERNATIONAL_TRADE }
 
 		completion_reward = {
-			mio:FIN_valtion_panssaritehdas_organization = {
-				add_mio_size = 2
-			}
 
 			add_tech_bonus = {
 				name = FIN_bring_foreign_armor_experts
@@ -11282,7 +11276,6 @@ focus_tree = {
 				every_military_industrial_organization = {
 					limit = {
 						OR = {
-							is_military_industrial_organization = FIN_valtion_panssaritehdas_organization
 							is_military_industrial_organization = FIN_valtion_kivaaritehdas_organization
 							is_military_industrial_organization = FIN_valtion_tykkitehdas_organization
 							is_military_industrial_organization = FIN_sisu_auto_organization
@@ -11330,7 +11323,6 @@ focus_tree = {
 							tank_nsb_armor_upgrade = 0
 						}
 						icon = "GFX_FIN_improved_light_art_medium"
-						design_team = mio:FIN_valtion_panssaritehdas_organization
 					}
 				}
 				else = {
@@ -11966,10 +11958,6 @@ focus_tree = {
 				limit = {
 					has_dlc = "Arms Against Tyranny"
 				}
-				mio:FIN_valtion_panssaritehdas_organization = {
-					add_mio_size = 1
-					add_mio_funds_gain_factor = 0.35
-				}
 			}
 			else = {
 				if = {
@@ -12018,7 +12006,6 @@ focus_tree = {
 							tank_nsb_engine_upgrade = 0
 							tank_nsb_armor_upgrade = 0
 						}
-						design_team = mio:FIN_valtion_panssaritehdas_organization
 					}
 					
 					create_equipment_variant = { #Made-up
@@ -12040,7 +12027,6 @@ focus_tree = {
 							tank_nsb_engine_upgrade = 0
 							tank_nsb_armor_upgrade = 0
 						}
-						design_team = mio:FIN_valtion_panssaritehdas_organization
 					}
 				}
 				else = {

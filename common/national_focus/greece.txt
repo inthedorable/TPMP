@@ -4864,16 +4864,6 @@ focus_tree = {
 
 		completion_reward = {
 			unlock_decision_tooltip = GRE_request_italian_assistance_with_industrialisation
-			IF = {
-				limit = {
-					has_dlc = "Arms Against Tyranny"
-				}	
-				custom_effect_tooltip = available_mio_tt
-				show_mio_tooltip = ITA_fiat_organization
-				mio:ITA_fiat_organization = {
-					add_mio_size = 2
-				}
-			}
 		}
 	}	
 

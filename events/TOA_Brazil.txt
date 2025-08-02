@@ -2781,7 +2781,6 @@ country_event = {
 					original_tag = USA
 				}
 				custom_effect_tooltip = JUNO_brazil_events_160_tt
-				show_mio_tooltip = USA_marmon_herrington_organization
 				show_mio_tooltip = USA_north_american_aviation_organization
 				show_mio_tooltip = USA_newport_news_shipbuilding_organization
 			}
@@ -2790,7 +2789,6 @@ country_event = {
 					original_tag = ENG
 				}
 				custom_effect_tooltip = JUNO_brazil_events_160_tt
-				show_mio_tooltip = ENG_vauxhall_organization
 				show_mio_tooltip = ENG_cammell_laird_organization
 				show_mio_tooltip = ENG_avro_organization
 			}
@@ -2801,7 +2799,6 @@ country_event = {
 				custom_effect_tooltip = JUNO_brazil_events_160_tt
 				show_mio_tooltip = FRA_acf_organization
 				show_mio_tooltip = FRA_bloch_organization
-				show_mio_tooltip = FRA_renault_organization
 			}
 			IF = {
 				limit = {
@@ -2859,36 +2856,6 @@ country_event = {
 		IF = {
 			limit = {
 				FROM = {
-					original_tag = USA
-				}
-			}
-			FROM = {
-				set_country_flag = BRA_already_sent_mio
-			}
-			set_country_flag = has_marmon_herrington_mio_flag
-			show_mio_tooltip = USA_marmon_herrington_organization
-			mio:USA_marmon_herrington_organization = {
-				add_mio_size = 2
-			}
-		}
-		IF = {
-			limit = {
-				FROM = {
-					original_tag = ENG
-				}
-			}
-			FROM = {
-				set_country_flag = BRA_already_sent_mio
-			}
-			set_country_flag = has_vauxhall_mio_flag
-			show_mio_tooltip = ENG_vauxhall_organization
-			mio:ENG_vauxhall_organization = {
-				add_mio_size = 2
-			}
-		}
-		IF = {
-			limit = {
-				FROM = {
 					original_tag = FRA
 				}
 			}
@@ -2896,10 +2863,6 @@ country_event = {
 				set_country_flag = BRA_already_sent_mio
 			}
 			set_country_flag = has_renault_mio_flag
-			show_mio_tooltip = FRA_renault_organization
-			mio:FRA_renault_organization = {
-				add_mio_size = 2
-			}
 		}
 		IF ={
 			limit = {

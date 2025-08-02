@@ -12,5 +12,17 @@ ideas = {
 				ai_desired_divisions_factor = -10
 			}
 		}
+		TPMP_ukraine_idea = {
+			removal_cost = -1
+			picture = generic_communist_army
+			modifier = {
+				conscription = 0.05
+				production_factory_max_efficiency_factor = 0.1
+				industrial_capacity_factory = 0.1
+				production_speed_buildings_factor = 0.3
+				industrial_factory_donations = 10
+				military_factory_donations = 10
+			}
+		}
 	}
 }

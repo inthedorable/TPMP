@@ -3091,21 +3091,6 @@ focus_tree = {
 		}
 	
 		completion_reward = {
-			IF = {
-				limit = { has_dlc = "Arms Against Tyranny"}
-				
-				custom_effect_tooltip = available_mio_tt
-				show_mio_tooltip = GER_daimler_benz_organization
-
-				mio:GER_daimler_benz_organization = {
-					add_mio_size = 2
-				}
-			}
-
-			ELSE = {
-				custom_effect_tooltip = available_designer
-				show_ideas_tooltip = BEL_daimler_benz
-			}
 		}
 
 	}
@@ -5031,23 +5016,6 @@ focus = {
 		search_filters = { FOCUS_FILTER_RESEARCH }
 	
 		completion_reward = {
-
-			IF = {
-				limit = { has_dlc = "Arms Against Tyranny"}
-				
-				custom_effect_tooltip = available_mio_tt
-				show_mio_tooltip = SOV_kirov_organization
-
-				mio:SOV_kirov_organization = {
-					add_mio_size = 2
-				}
-			}
-
-			ELSE = {
-				custom_effect_tooltip = available_designer
-				show_ideas_tooltip = BEL_kirov
-			}
-			
 		}
 
 	}

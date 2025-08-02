@@ -4887,7 +4887,6 @@ ITA_replace_designers_by_improved_version_north = {
 		every_military_industrial_organization = {
 			limit = {
 				OR = {
-					is_military_industrial_organization = ITA_fiat_organization
 					is_military_industrial_organization = ITA_crda_organization
 					is_military_industrial_organization = ITA_cantiere_oto_organization
 					is_military_industrial_organization = ITA_macchi_organization

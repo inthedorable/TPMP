@@ -2468,10 +2468,6 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 
 		completion_reward = {
-			unlock_military_industrial_organization_tooltip = mio:SOV_morozov_design_bureau_organization
-			mio:SOV_morozov_design_bureau_organization = {
-				add_mio_size = 3
-			}
 			unlock_military_industrial_organization_tooltip = mio:SOV_rubin_design_bureau_organization
 			mio:SOV_rubin_design_bureau_organization = {
 				add_mio_size = 3
@@ -2595,11 +2591,7 @@ focus_tree = {
 
 		completion_reward = {
 			unlock_military_industrial_organization_tooltip = mio:ENG_de_havilland_organization
-			unlock_military_industrial_organization_tooltip = mio:USA_chrysler_organization
 			mio:ENG_de_havilland_organization = {
-				add_mio_funds = 1000 
-			}
-			mio:USA_chrysler_organization = {
 				add_mio_funds = 1000 
 			}
 		}
@@ -5637,7 +5629,6 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 
 		completion_reward = {
-			unlock_military_industrial_organization_tooltip = mio:GER_porsche_organization
 			unlock_military_industrial_organization_tooltip = mio:GER_messerschmitt_organization
 			unlock_military_industrial_organization_tooltip = mio:GER_heinkel_organization
 		}

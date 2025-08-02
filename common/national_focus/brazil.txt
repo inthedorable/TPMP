@@ -3178,15 +3178,6 @@ focus_tree = {
 			#	category = armor
 			#}	
 
-			IF = {
-				limit = {
-					has_dlc = "Arms Against Tyranny" 
-				}
-				show_mio_tooltip = GER_daimler_benz_organization
-				mio:GER_daimler_benz_organization = {
-					add_mio_size = 2
-				}
-			}
 			random_core_state = {
 				limit = {
 					free_building_slots = {
@@ -4065,12 +4056,6 @@ focus_tree = {
 			IF = {
 				limit = {
 					has_dlc = "Arms Against Tyranny"
-				}
-
-				custom_effect_tooltip = available_mio_tt
-				show_mio_tooltip = ITA_fiat_organization
-				mio:ITA_fiat_organization = {
-					add_mio_size = 2
 				}
 
 				random_core_state = {
@@ -5253,13 +5238,11 @@ focus_tree = {
 			show_mio_tooltip = USA_north_american_aviation_organization
 			show_mio_tooltip = USA_newport_news_shipbuilding_organization
 			# UK
-			show_mio_tooltip = ENG_vauxhall_organization
 			show_mio_tooltip = ENG_cammell_laird_organization
 			show_mio_tooltip = ENG_avro_organization
 			# France
 			show_mio_tooltip = FRA_acf_organization
 			show_mio_tooltip = FRA_bloch_organization
-			show_mio_tooltip = FRA_renault_organization
 			# Sweden
 			show_mio_tooltip = SWE_saab_organization			
 			show_mio_tooltip = SWE_landsverk_organization

@@ -1214,9 +1214,6 @@
 		completion_reward = {
 			IF = {
 				limit = { has_dlc = "Arms Against Tyranny" }
-				mio:FRA_renault_organization = {
-					add_mio_funds = 2000
-				}
 			}
 			ELSE = {
 				custom_effect_tooltip = available_designer
@@ -1562,19 +1559,6 @@
 				cost_reduction = 0.5
 				uses = 2
 				category = land_doctrine
-			}
-			IF = {
-				limit = {
-					has_dlc = "Arms Against Tyranny"
-				}
-				mio:FRA_hotchkiss_organization = {
-					add_mio_funds = 1500
-					add_mio_research_bonus = 0.02
-				}
-			}
-			ELSE = {
-				custom_effect_tooltip = available_designer
-				show_ideas_tooltip = FRA_AMX
 			}
 		}
 	}	
@@ -3096,20 +3080,6 @@
 					level = 2
 					instant_build = yes
 				}
-			}
-			custom_effect_tooltip = generic_skip_one_line_tt
-			IF = {
-				limit = {
-					has_dlc = "Arms Against Tyranny"
-				}
-
-				custom_effect_tooltip = available_mio_tt
-				show_mio_tooltip = FRA_amx_organization
-
-				mio:FRA_amx_organization = {
-					add_mio_size = 1
-				}
-
 			}
 		}
 	}

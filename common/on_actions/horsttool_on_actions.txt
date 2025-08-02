@@ -1,0 +1,39 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			if = {
+				limit = {has_game_rule = { rule = horst_host_country option = GER} }
+				set_variable = { host = GER.id }
+			}
+			else_if = {
+				limit = {has_game_rule = { rule = horst_host_country option = SOV} }
+				set_variable = { host = SOV.id }
+			}
+			else_if = {
+				limit = {has_game_rule = { rule = horst_host_country option = USA} }
+				set_variable = { host = USA.id }
+			}
+			else_if = {
+				limit = {has_game_rule = { rule = horst_host_country option = ENG} }
+				set_variable = { host = ENG.id }
+			}
+			else_if = {
+				limit = {has_game_rule = { rule = horst_host_country option = FRA} }
+				set_variable = { host = FRA.id }
+			}
+			else_if = {
+				limit = {has_game_rule = { rule = horst_host_country option = ITA} }
+				set_variable = { host = ITA.id }
+			}
+			else_if = {
+				limit = {has_game_rule = { rule = horst_host_country option = JAP} }
+				set_variable = { host = JAP.id }
+			}
+			var:host = {
+				set_variable = { marked_states = 0 }
+				set_country_flag = host
+			}
+		}
+	}
+}
+

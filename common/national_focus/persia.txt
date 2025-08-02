@@ -1325,10 +1325,6 @@ focus_tree = {
 					has_dlc = "Arms Against Tyranny"
 				}
 				custom_effect_tooltip = available_mio_tt
-				show_mio_tooltip = GER_henschel_organization
-				mio:GER_henschel_organization = {
-					add_mio_size = 1
-				}
 			}
 			ELSE = {
 				custom_effect_tooltip = available_designer

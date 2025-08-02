@@ -4469,16 +4469,6 @@ focus_tree = {
 				uses = 1
 				category = armor
 			}
-
-			IF = {
-				limit = {
-					has_dlc = "Arms Against Tyranny"
-				}
-				
-				custom_effect_tooltip = available_mio_tt
-				show_mio_tooltip = HUN_hti_turan_organization
-
-			}
 		}
 	}
 
@@ -4512,15 +4502,6 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
 			add_ideas = HUN_assault_gun_focus
-			IF = {
-				limit = {
-					has_dlc = "Arms Against Tyranny"
-				}
-				
-				custom_effect_tooltip = available_mio_tt
-				show_mio_tooltip = HUN_mavag_assault_guns_organization
-
-			}
 		}
 	}
 

@@ -447,7 +447,6 @@ instant_effect = {
 		requested_factories = 2
 		progress = 0.4
 		efficiency = 50
-		industrial_manufacturer = mio:GER_henschel_organization
 	}
 
 	add_equipment_production = {

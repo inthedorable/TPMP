@@ -2,12 +2,12 @@
 state={
 	id=329
 	name="STATE_329"
-	manpower = 85000
+	manpower = 8500000
 	resources={
 		chromium = 20 # was: 2
 	}
 	
-	state_category = rural
+	state_category = megalopolis
 
 	history={
 		owner = UKR

@@ -2941,16 +2941,6 @@ focus_tree = {
 					}
 				}
 			}
-			else = {
-				mio:GER_henschel_organization = {
-					add_mio_size = 1
-					add_mio_funds_gain_factor = 0.25
-					add_mio_research_bonus = 0.05
-
-					#unlock_mio_trait_tooltip = 
-					#unlock_mio_trait_tooltip = 
-				}
-			}
 		}
 	}
 	
@@ -3100,16 +3090,6 @@ focus_tree = {
 					}
 				}
 			}
-			else = {
-				mio:GER_alkett_organization = {
-					add_mio_size = 1
-					add_mio_funds_gain_factor = 0.25
-					add_mio_research_bonus = 0.05
-
-					#unlock_mio_trait_tooltip = 
-					#unlock_mio_trait_tooltip = 
-				}
-			}
 		}
 	}
 
@@ -3223,7 +3203,6 @@ focus_tree = {
 
 				create_equipment_variant = {
 					name = "Sturmpanzer"
-					design_team = mio:GER_alkett_organization #We feed on your tears
 					parent_version = 0
 					type = medium_tank_artillery_chassis_1936
 					modules = {
@@ -3242,7 +3221,6 @@ focus_tree = {
 
 				create_equipment_variant = {
 					name = "Nashorn"
-					design_team = mio:GER_alkett_organization #We feed on your tears
 					parent_version = 0
 					type = medium_tank_destroyer_chassis_1936
 					modules = {
@@ -3909,14 +3887,6 @@ focus_tree = {
 					unlock_mio_trait_tooltip = GER_mio_trait_continental_ag_tires
 					unlock_mio_trait_tooltip = GER_mio_trait_ford_facilities
 				}
-				mio:GER_daimler_benz_organization = {
-					add_mio_size = 1
-					add_mio_funds_gain_factor = 0.25
-					add_mio_research_bonus = 0.05
-
-					#unlock_mio_trait_tooltip = 
-					#unlock_mio_trait_tooltip = 
-				}
 			}
 		}
 	}
@@ -4395,7 +4365,6 @@ focus_tree = {
 				create_equipment_variant = {
 					name = "Panzer III Ausf. A"
 					type = medium_tank_chassis_1936
-					design_team = mio:GER_daimler_benz_organization #We feed on your tears
 					parent_version = 0
 					modules = {
 						main_armament_slot = tank_light_cannon_1
@@ -4415,7 +4384,7 @@ focus_tree = {
 				create_equipment_variant = {
 					name = "Panzer IV"
 					type = medium_tank_chassis_1936
-					design_team = mio:GER_daimler_benz_organization #We feed on your tears
+
 					parent_version = 0
 					modules = {
 						main_armament_slot = tank_light_cannon_1
@@ -4434,7 +4403,6 @@ focus_tree = {
 				}
 				create_equipment_variant = {
 					name = "Sturmgeschütz III"
-					design_team = mio:GER_alkett_organization #We feed on your tears
 					parent_version = 0
 					type = medium_tank_artillery_chassis_1936
 					modules = {
@@ -4499,16 +4467,6 @@ focus_tree = {
 					}
 				}
 			}
-			else = {
-				mio:GER_MAN_organization = {
-					add_mio_size = 1
-					add_mio_funds_gain_factor = 0.25
-					add_mio_research_bonus = 0.05
-
-					#unlock_mio_trait_tooltip = 
-					#unlock_mio_trait_tooltip = 
-				}
-			}
 		}
 	}
 	
@@ -4558,7 +4516,6 @@ focus_tree = {
 				create_equipment_variant = {
 					name = "Panther Ausf. A"
 					type = medium_tank_chassis_1940
-					design_team = mio:GER_man_organization #We feed on your tears
 					modules = {
 						main_armament_slot = tank_light_cannon_1
 						turret_type_slot = tank_medium_turret_1
@@ -4578,7 +4535,6 @@ focus_tree = {
 				create_equipment_variant = {
 					name = "Tiger I Ausf. A"
 					type = heavy_tank_chassis_1938
-					design_team = mio:GER_porsche_organization #We feed on your tears
 					modules = {
 						main_armament_slot = tank_light_cannon_1
 						turret_type_slot = tank_heavy_turret_1
@@ -4641,16 +4597,6 @@ focus_tree = {
 							add_idea = GER_porsche_improved
 						}
 					}
-				}
-			}
-			else = {
-				mio:GER_porsche_organization = {
-					add_mio_size = 1
-					add_mio_funds_gain_factor = 0.25
-					add_mio_research_bonus = 0.05
-
-					#unlock_mio_trait_tooltip = 
-					#unlock_mio_trait_tooltip = 
 				}
 			}
 		}
@@ -14530,7 +14476,6 @@ focus_tree = {
 					create_equipment_variant = {
 						name = "Panzer VII Löwe"
 						type = heavy_tank_chassis_1938
-						design_team = mio:GER_daimler_benz_organization #We feed on your tears
 						parent_version = 0
 						modules = {
 							main_armament_slot = tank_heavy_cannon_2
@@ -14551,7 +14496,6 @@ focus_tree = {
 					create_equipment_variant = {
 						name = "Panzerjäger Elefant"
 						type = heavy_tank_destroyer_chassis_1938
-						design_team = mio:GER_porsche_organization #We feed on your tears
 						parent_version = 0
 						modules = {
 							main_armament_slot = tank_heavy_cannon_2

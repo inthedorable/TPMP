@@ -206,7 +206,6 @@ ideas = {
 				# custom_modifier_tooltip = mass_assault_academy_spirit_tt
 				cat_grand_battle_plan_cost_factor = -0.05
 				trait_infantry_leader_xp_gain_factor = 1.0
-				trait_artillery_specialist_xp_gain_factor = 1.0
 			}
 			ai_will_do = {
 				factor = 1.5

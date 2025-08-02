@@ -10692,28 +10692,6 @@ focus_tree = {
 				}
 			}
 
-			custom_effect_tooltip = generic_skip_one_line_tt
-
-			IF = {
-				limit = {
-					has_dlc = "Arms Against Tyranny"
-				}
-
-				custom_effect_tooltip = available_mio_tt
-				show_mio_tooltip = HUN_henschel_organization
-
-				mio:HUN_henschel_organization = {
-					add_mio_size = 2
-				}
-
-			}
-			ELSE = {
-				custom_effect_tooltip = available_designer
-				show_ideas_tooltip = HUN_henschel
-			}
-
-			custom_effect_tooltip = generic_skip_one_line_tt
-
 			IF = {
 				limit = {
 					has_dlc = "Arms Against Tyranny"
@@ -10816,27 +10794,6 @@ focus_tree = {
 					seller_tags = { ITA }
 				}
 			}
-
-			custom_effect_tooltip = generic_skip_one_line_tt
-
-			IF = {
-				limit = {
-					has_dlc = "Arms Against Tyranny"
-				}
-
-				custom_effect_tooltip = available_mio_tt
-				show_mio_tooltip = HUN_fiat_tankettes_organization
-
-				mio:HUN_fiat_tankettes_organization = {
-					add_mio_size = 1
-				}
-
-			}
-			ELSE = {
-				custom_effect_tooltip = available_designer
-				show_ideas_tooltip = HUN_fiat
-			}
-
 		}
 	}
 
@@ -18419,27 +18376,6 @@ focus_tree = {
 					instant_build = yes
 				}
 			}
-
-			custom_effect_tooltip = generic_skip_one_line_tt
-
-			IF = {
-				limit = {
-					has_dlc = "Arms Against Tyranny"
-				}
-
-				custom_effect_tooltip = available_mio_tt
-				show_mio_tooltip = HUN_mavag_assault_guns_organization
-
-				mio:HUN_mavag_assault_guns_organization = {
-					add_mio_size = 3
-				}
-
-			}
-			ELSE = {
-				custom_effect_tooltip = available_designer
-				show_ideas_tooltip = HUN_mavag_assault_guns
-			}
-
 		}
 	}
 
@@ -19136,25 +19072,6 @@ focus_tree = {
 			}
 
 			custom_effect_tooltip = generic_skip_one_line_tt
-
-			IF = {
-				limit = {
-					has_dlc = "Arms Against Tyranny"
-				}
-
-				custom_effect_tooltip = available_mio_tt
-				show_mio_tooltip = HUN_hti_turan_organization
-
-				mio:HUN_hti_turan_organization = {
-					add_mio_size = 3
-				}
-
-			}
-			ELSE = {
-				custom_effect_tooltip = available_designer
-				show_ideas_tooltip = HUN_hti_turan
-			}
-
 		}
 	}
 

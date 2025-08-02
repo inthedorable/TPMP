@@ -97,5 +97,6 @@ recruit_character = UKR_kost_levytsky
 recruit_character = IA_olga_taratuta 
 recruit_character = UKR_pavlo_shandruk 
 
-
-
+add_ideas = {
+	TPMP_ukraine_idea
+}
