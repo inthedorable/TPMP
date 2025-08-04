@@ -49,7 +49,7 @@ sub_units = {
 		supply_consumption = 0.1
 
 		need = {
-			line_infantry_equipment = 100
+			line_infantry_equipment_1 = 100
 		}
 
 		urban = {
@@ -103,7 +103,7 @@ sub_units = {
 
 
 		need = {
-			line_infantry_equipment = 50
+			line_infantry_equipment_1 = 50
 		}
 
 		urban = {
@@ -159,7 +159,7 @@ sub_units = {
 		supply_consumption = 0.2
 
 		need = {
-			mobile_infantry_equipment = 120
+			mobile_infantry_equipment_1 = 120
 		}
 
 		urban = {
@@ -218,7 +218,7 @@ sub_units = {
 
 		need = {
 			motorized_equipment = 50
-			mobile_infantry_equipment = 100
+			mobile_infantry_equipment_1 = 100
 		}
 
 		forest = {
@@ -299,7 +299,7 @@ sub_units = {
 		supply_consumption = 0
 
 		need = {
-			line_infantry_equipment = 1
+			line_infantry_equipment_1 = 1
 		}
 	}
 }

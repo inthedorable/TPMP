@@ -19,7 +19,7 @@ division_template = {
 instant_effect = {
 	add_equipment_production = {
 		equipment = {
-			type = line_infantry_equipment
+			type = line_infantry_equipment_1
 			creator = "ICE"
 		}
 		requested_factories = 1

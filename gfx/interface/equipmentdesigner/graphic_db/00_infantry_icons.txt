@@ -1,5 +1,5 @@
 default = {
-	line_infantry_equipment = {
+	line_infantry_equipment_1 = {
 		pool = {
 			weight = 1
 			icons = {
@@ -10,7 +10,7 @@ default = {
 			}
 		}
 	}
-	mobile_infantry_equipment = {
+	mobile_infantry_equipment_1 = {
 		pool = {
 			weight = 1
 			icons = {
@@ -21,7 +21,7 @@ default = {
 			}
 		}
 	}
-	special_infantry_equipment = {
+	special_infantry_equipment_1 = {
 		pool = {
 			weight = 1
 			icons = {
@@ -35,7 +35,7 @@ default = {
 }
 
 GER = {
-	line_infantry_equipment = {
+	line_infantry_equipment_1 = {
 		pool = {
 			weight = 2
 			icons = { 
@@ -45,7 +45,7 @@ GER = {
 			}
 		}
 	}
-	mobile_infantry_equipment = {
+	mobile_infantry_equipment_1 = {
 		pool = {
 			weight = 2
 			icons = { 
@@ -55,7 +55,7 @@ GER = {
 			}
 		}
 	}
-	special_infantry_equipment = {
+	special_infantry_equipment_1 = {
 		pool = {
 			weight = 2
 			icons = { 
@@ -68,7 +68,7 @@ GER = {
 }
 
 SOV = {
-	line_infantry_equipment = {
+	line_infantry_equipment_1 = {
 		pool = {
 			weight = 2
 			icons = { 
@@ -79,7 +79,7 @@ SOV = {
 			}
 		}
 	}
-	mobile_infantry_equipment = {
+	mobile_infantry_equipment_1 = {
 		pool = {
 			weight = 2
 			icons = { 
@@ -90,7 +90,7 @@ SOV = {
 			}
 		}
 	}
-	special_infantry_equipment = {
+	special_infantry_equipment_1 = {
 		pool = {
 			weight = 2
 			icons = { 
@@ -104,7 +104,7 @@ SOV = {
 }
 
 USA = {
-	line_infantry_equipment = {
+	line_infantry_equipment_1 = {
 		pool = {
 			weight = 2
 			icons = { 
@@ -115,7 +115,7 @@ USA = {
 			}
 		}
 	}
-	mobile_infantry_equipment = {
+	mobile_infantry_equipment_1 = {
 		pool = {
 			weight = 2
 			icons = { 
@@ -126,7 +126,7 @@ USA = {
 			}
 		}
 	}
-	special_infantry_equipment = {
+	special_infantry_equipment_1 = {
 		pool = {
 			weight = 2
 			icons = { 
@@ -140,7 +140,7 @@ USA = {
 }
 
 ENG = {
-	line_infantry_equipment = {
+	line_infantry_equipment_1 = {
 		pool = {
 			weight = 2
 			icons = { 
@@ -150,7 +150,7 @@ ENG = {
 			}
 		}
 	}
-	mobile_infantry_equipment = {
+	mobile_infantry_equipment_1 = {
 		pool = {
 			weight = 2
 			icons = { 
@@ -160,7 +160,7 @@ ENG = {
 			}
 		}
 	}
-	special_infantry_equipment = {
+	special_infantry_equipment_1 = {
 		pool = {
 			weight = 2
 			icons = { 
@@ -173,7 +173,7 @@ ENG = {
 }
 
 FRA = {
-	line_infantry_equipment = {
+	line_infantry_equipment_1 = {
 		pool = {
 			weight = 2
 			icons = { 
@@ -184,7 +184,7 @@ FRA = {
 			}
 		}
 	}
-	mobile_infantry_equipment = {
+	mobile_infantry_equipment_1 = {
 		pool = {
 			weight = 2
 			icons = { 
@@ -195,7 +195,7 @@ FRA = {
 			}
 		}
 	}
-	special_infantry_equipment = {
+	special_infantry_equipment_1 = {
 		pool = {
 			weight = 2
 			icons = { 
@@ -209,7 +209,7 @@ FRA = {
 }
 
 JAP = {
-	line_infantry_equipment = {
+	line_infantry_equipment_1 = {
 		pool = {
 			weight = 2
 			icons = { 
@@ -218,7 +218,7 @@ JAP = {
 			}
 		}
 	}
-	mobile_infantry_equipment = {
+	mobile_infantry_equipment_1 = {
 		pool = {
 			weight = 2
 			icons = { 
@@ -227,7 +227,7 @@ JAP = {
 			}
 		}
 	}
-	special_infantry_equipment = {
+	special_infantry_equipment_1 = {
 		pool = {
 			weight = 2
 			icons = { 
@@ -239,7 +239,7 @@ JAP = {
 }
 
 ITA = {
-	line_infantry_equipment = {
+	line_infantry_equipment_1 = {
 		pool = {
 			weight = 2
 			icons = { 
@@ -250,7 +250,7 @@ ITA = {
 			}
 		}
 	}
-	mobile_infantry_equipment = {
+	mobile_infantry_equipment_1 = {
 		pool = {
 			weight = 2
 			icons = { 
@@ -261,7 +261,7 @@ ITA = {
 			}
 		}
 	}
-	special_infantry_equipment = {
+	special_infantry_equipment_1 = {
 		pool = {
 			weight = 2
 			icons = {

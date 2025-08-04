@@ -330,7 +330,7 @@ FIN_pact_for_continuation_war_start = { #To be used on FIN's scope - Used immedi
 
 FIN_purchase_soviet_equipment_for_cw = {
 	add_equipment_to_stockpile = { 
-		type = line_infantry_equipment
+		type = line_infantry_equipment_1
 		amount = 6000 
 		producer = SOV
 	}
@@ -514,7 +514,7 @@ FIN_form_finnish_democratic_republic = {
 
 FIN_purchase_german_equipment_for_cw = {
 	add_equipment_to_stockpile = { 
-		type = line_infantry_equipment
+		type = line_infantry_equipment_1
 		amount = 6000 
 		producer = GER
 	}

@@ -926,7 +926,7 @@
 			}
 
 			add_equipment_to_stockpile = { 
-				type = line_infantry_equipment
+				type = line_infantry_equipment_1
 				amount = 2150
 				producer = ROOT
 			}

@@ -41,8 +41,8 @@ idea_categories = {
 		slot = mobilization_laws
 		slot = trade_laws
 		slot = economy
-		# slot = procurement
-		# slot = army_professionalism
+		slot = procurement
+		slot = army_professionalism
 		# slot = edicts
 		
 		ledger = civilian

@@ -1362,7 +1362,7 @@ country_event = {
 		name = BBA_italo_ethiopian_war_events.202.a
 		add_manpower = 15000
 		add_equipment_to_stockpile = { 
-			type = line_infantry_equipment
+			type = line_infantry_equipment_1
 			amount = 1200
 			producer = ITA
 		}

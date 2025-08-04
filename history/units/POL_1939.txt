@@ -166,7 +166,7 @@ units = {
 		}
 		location = 9263
 		division_template = "Brygada Kawalerii" 
-		force_equipment_variants = { line_infantry_equipment = { owner = "POL" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "POL" } }
 		start_experience_factor = 0.2
 	}
 	division= {	# "Czersk Grupa KOP"
@@ -176,7 +176,7 @@ units = {
 		}
 		location = 334
 		division_template = "Brygada Ochrony Pogranicza"
-		force_equipment_variants = { line_infantry_equipment = { owner = "POL" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "POL" } }
 		start_experience_factor = 0.2
 	}
 
@@ -226,7 +226,7 @@ units = {
 		}
 		location = 388
 		division_template = "Brygada Kawalerii" 
-		force_equipment_variants = { line_infantry_equipment = { owner = "POL" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "POL" } }
 		start_experience_factor = 0.2
 	}
 	division= {	# "Wielkopolska B.K."
@@ -236,7 +236,7 @@ units = {
 		}
 		location = 3460
 		division_template = "Brygada Kawalerii" 
-		force_equipment_variants = { line_infantry_equipment = { owner = "POL" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "POL" } }
 		start_experience_factor = 0.2
 	}
 	division= {	# "Poznan Grupa KOP"
@@ -246,7 +246,7 @@ units = {
 		}
 		location = 6558
 		division_template = "Brygada Ochrony Pogranicza"
-		force_equipment_variants = { line_infantry_equipment = { owner = "POL" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "POL" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 
@@ -287,7 +287,7 @@ units = {
 		}
 		location = 11558
 		division_template = "Brygada Kawalerii" 
-		force_equipment_variants = { line_infantry_equipment = { owner = "POL" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "POL" } }
 		start_experience_factor = 0.2
 	}
 	# Grupa Operacyjna Piotrkrow (CO: Thomnee) #
@@ -307,7 +307,7 @@ units = {
 		}
 		location = 584
 		division_template = "Brygada Kawalerii" 
-		force_equipment_variants = { line_infantry_equipment = { owner = "POL" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "POL" } }
 		start_experience_factor = 0.2
 	}
 
@@ -352,7 +352,7 @@ units = {
 		}
 		location = 506
 		division_template = "Brygada Kawalerii" 
-		force_equipment_variants = { line_infantry_equipment = { owner = "POL" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "POL" } }
 		start_experience_factor = 0.2
 	}
 	# Grupa Operacyjna Slask (CO: Sadowski) #
@@ -419,7 +419,7 @@ units = {
 		}
 		location = 466
 		division_template = "Brygada Ochrony Pogranicza"
-		force_equipment_variants = { line_infantry_equipment = { owner = "POL" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "POL" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 
@@ -451,7 +451,7 @@ units = {
 		}
 		location = 9316
 		division_template = "Brygada Kawalerii" 
-		force_equipment_variants = { line_infantry_equipment = { owner = "POL" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "POL" } }
 		start_experience_factor = 0.2
 	}
 	division= {	# "Mazowiecka B.K."
@@ -461,7 +461,7 @@ units = {
 		}
 		location = 6347
 		division_template = "Brygada Kawalerii" 
-		force_equipment_variants = { line_infantry_equipment = { owner = "POL" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "POL" } }
 		start_experience_factor = 0.2
 	}
 	division= {	# "Modlin Grupa KOP"
@@ -471,7 +471,7 @@ units = {
 		}
 		location = 9290
 		division_template = "Brygada Ochrony Pogranicza"
-		force_equipment_variants = { line_infantry_equipment = { owner = "POL" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "POL" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 
@@ -494,7 +494,7 @@ units = {
 		}
 		location = 11357								# Mobilized using KOP troops, equipment (even lower than normal levels)
 		division_template = "Dywizja Piechoty"		
-		force_equipment_variants = { line_infantry_equipment = { owner = "POL" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "POL" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.2
 
@@ -506,7 +506,7 @@ units = {
 		}
 		location = 400
 		division_template = "Brygada Kawalerii" 
-		force_equipment_variants = { line_infantry_equipment = { owner = "POL" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "POL" } }
 		start_experience_factor = 0.2
 	}
 	division= {	# "Podalska B.K."
@@ -516,7 +516,7 @@ units = {
 		}
 		location = 3254
 		division_template = "Brygada Kawalerii" 
-		force_equipment_variants = { line_infantry_equipment = { owner = "POL" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "POL" } }
 		start_experience_factor = 0.2
 	}
 
@@ -575,7 +575,7 @@ units = {
 		}
 		location = 11532
 		division_template = "Brygada Kawalerii" 
-		force_equipment_variants = { line_infantry_equipment = { owner = "POL" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "POL" } }
 		start_experience_factor = 0.2
 	}
 	# Grupa Operacyjna Poludniowa (CO: Sadowski) #
@@ -712,7 +712,7 @@ units = {
 		}
 		location = 438
 		division_template = "Brygada Ochrony Pogranicza"
-		force_equipment_variants = { line_infantry_equipment = { owner = "POL" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "POL" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 
@@ -724,7 +724,7 @@ units = {
 		}
 		location = 6435
 		division_template = "Brygada Ochrony Pogranicza"
-		force_equipment_variants = { line_infantry_equipment = { owner = "POL" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "POL" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 
@@ -736,7 +736,7 @@ units = {
 		}
 		location = 9304
 		division_template = "Brygada Ochrony Pogranicza"
-		force_equipment_variants = { line_infantry_equipment = { owner = "POL" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "POL" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 
@@ -748,7 +748,7 @@ units = {
 		}
 		location = 3320
 		division_template = "Brygada Ochrony Pogranicza"
-		force_equipment_variants = { line_infantry_equipment = { owner = "POL" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "POL" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 
@@ -762,7 +762,7 @@ units = {
 instant_effect = {
 	add_equipment_production = {
 		equipment = {
-			type = line_infantry_equipment
+			type = line_infantry_equipment_1
 			creator = POL
 		}
 		requested_factories = 3

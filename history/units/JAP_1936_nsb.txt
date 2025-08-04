@@ -521,7 +521,7 @@ units = {
 		}
 		location = 12469
 		division_template = "Kihei Shidan"
-		force_equipment_variants = { line_infantry_equipment = { owner = "JAP" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "JAP" } }
 		start_experience_factor = 0.2
 	}
 	division = { # "2 Mouko Kiheishidan"
@@ -531,7 +531,7 @@ units = {
 		}
 		location = 12469
 		division_template = "Kihei Shidan"
-		force_equipment_variants = { line_infantry_equipment = { owner = "JAP" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "JAP" } }
 		start_experience_factor = 0.2
 	}
 	division = { # "3 Mouko Kiheishidan"
@@ -541,7 +541,7 @@ units = {
 		}
 		location = 7812
 		division_template = "Kihei Shidan"
-		force_equipment_variants = { line_infantry_equipment = { owner = "JAP" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "JAP" } }
 		start_experience_factor = 0.2
 	}
 	division = { # "4 Mouko Kiheishidan"
@@ -551,7 +551,7 @@ units = {
 		}
 		location = 7812
 		division_template = "Kihei Shidan"
-		force_equipment_variants = { line_infantry_equipment = { owner = "JAP" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "JAP" } }
 		start_experience_factor = 0.2
 	}
 	division = { # "5 Mouko Kiheishidan"
@@ -561,7 +561,7 @@ units = {
 		}
 		location = 10429
 		division_template = "Kihei Shidan"
-		force_equipment_variants = { line_infantry_equipment = { owner = "JAP" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "JAP" } }
 		start_experience_factor = 0.2
 	}
 	division = { # "6 Mouko Kiheishidan"
@@ -571,7 +571,7 @@ units = {
 		}
 		location = 10429
 		division_template = "Kihei Shidan"
-		force_equipment_variants = { line_infantry_equipment = { owner = "JAP" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "JAP" } }
 		start_experience_factor = 0.2
 	}
 	division = { # "7 Mouko Kiheishidan"
@@ -581,7 +581,7 @@ units = {
 		}
 		location = 3978
 		division_template = "Kihei Shidan"
-		force_equipment_variants = { line_infantry_equipment = { owner = "JAP" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "JAP" } }
 		start_experience_factor = 0.2
 	}
 	division = { # "8 Mouko Kiheishidan"
@@ -591,7 +591,7 @@ units = {
 		}
 		location = 3978
 		division_template = "Kihei Shidan"
-		force_equipment_variants = { line_infantry_equipment = { owner = "JAP" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "JAP" } }
 		start_experience_factor = 0.2
 	}
 
@@ -658,7 +658,7 @@ instant_effect =
 {
 	add_equipment_production = {
 		equipment = {
-			type = line_infantry_equipment
+			type = line_infantry_equipment_1
 			creator = "JAP"
 		}
 		requested_factories = 3

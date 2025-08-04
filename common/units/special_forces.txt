@@ -53,7 +53,7 @@ sub_units = {
 
 		need = {
 			special_equipment = 50
-			special_infantry_equipment = 100
+			special_infantry_equipment_1 = 100
 		}
 
 		marsh = {
@@ -124,7 +124,7 @@ sub_units = {
 
 		need = {
 			special_equipment = 50
-			special_infantry_equipment = 100
+			special_infantry_equipment_1 = 100
 		}
 
 		hills = {
@@ -193,7 +193,7 @@ sub_units = {
 
 		need = {
 			special_equipment = 50
-			special_infantry_equipment = 100
+			special_infantry_equipment_1 = 100
 		}
 
 		forest = {
@@ -263,7 +263,7 @@ sub_units = {
 
 		need = {
 			special_equipment = 100
-			special_infantry_equipment = 100
+			special_infantry_equipment_1 = 100
 		}
 
 		urban = {

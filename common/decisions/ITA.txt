@@ -5107,17 +5107,17 @@ ITA_colonial_management_dec_cat = {
 			OR = {
 				ITA = {
 					has_equipment = {
-					    line_infantry_equipment > 2000
+					    line_infantry_equipment_1 > 2000
 					}
 				}
 				ITA = {
 					has_equipment = {
-					    line_infantry_equipment > 2000
+					    line_infantry_equipment_1 > 2000
 					}
 				}
 				ITA = {
 					has_equipment = {
-					    line_infantry_equipment > 2000
+					    line_infantry_equipment_1 > 2000
 					}
 				}
 			}
@@ -5158,17 +5158,17 @@ ITA_colonial_management_dec_cat = {
 				OR = {
 					ITA = {
 						has_equipment = {
-						    line_infantry_equipment > 5000
+						    line_infantry_equipment_1 > 5000
 						}
 					}
 					ITA = {
 						has_equipment = {
-						    line_infantry_equipment > 5000
+						    line_infantry_equipment_1 > 5000
 						}
 					}
 					ITA = {
 						has_equipment = {
-						    line_infantry_equipment > 5000
+						    line_infantry_equipment_1 > 5000
 						}
 					}
 				}

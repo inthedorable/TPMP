@@ -2488,7 +2488,7 @@ country_event = { #Denmark asks for weapons
 		effect_tooltip = {
 			DEN = {
 				add_equipment_to_stockpile = {
-					type = line_infantry_equipment
+					type = line_infantry_equipment_1
 					amount = 1000
 					producer = DEN.supporting_nation
 				}
@@ -2544,7 +2544,7 @@ country_event = { #Denmark gets weapons
 		add_war_support = 0.025
 		DEN = {
 			add_equipment_to_stockpile = {
-				type = line_infantry_equipment
+				type = line_infantry_equipment_1
 				amount = 1000
 				producer = DEN.supporting_nation
 			}

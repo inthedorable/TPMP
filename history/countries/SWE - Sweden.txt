@@ -642,19 +642,19 @@ if = {
 }
 
 add_equipment_to_stockpile = {
-	type = line_infantry_equipment
+	type = line_infantry_equipment_1
 	amount = 1500
 	producer = GER
 }
 
 add_equipment_to_stockpile = {
-	type = line_infantry_equipment
+	type = line_infantry_equipment_1
 	amount = 500
 	producer = FIN
 }
 
 add_equipment_to_stockpile = {
-	type = line_infantry_equipment
+	type = line_infantry_equipment_1
 	amount = 200
 	producer = CZE
 }

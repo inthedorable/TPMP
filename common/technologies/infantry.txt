@@ -200,9 +200,9 @@ technologies = {
 
 	infantrygun1_tech = {
 		enable_equipments = {
-			line_infantry_equipment
-			mobile_infantry_equipment
-			special_infantry_equipment
+			line_infantry_equipment_1
+			mobile_infantry_equipment_1
+			special_infantry_equipment_1
 		}
 
 		enable_equipment_modules = {

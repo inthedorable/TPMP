@@ -18,6 +18,8 @@ NDefines.NCountry.MAX_STABILITY = 1.5
 NDefines.NCountry.MIN_WAR_SUPPORT = 0.0
 NDefines.NCountry.MAX_WAR_SUPPORT = 1.5
 
+NDefines.NCountry.BASE_RESEARCH_SLOTS = 4
+
 NDefines.NMilitary.VPS_FOR_HISTORY_ENTRY = 1			-- Minimum VPs required to receive an entry in divisional history
 NDefines.NMilitary.VPS_FOR_HIGH_HISTORY_ENTRY = 5		-- VPs required for high-level history entry
 NDefines.NMilitary.COST_INCREASE_PER_ACTIVE_MEDAL = 1		-- Additional cost factor per active medal
@@ -392,3 +394,7 @@ NDefines.NProject.BREAKTHROUGH_DAILY_SCIENTIST_SKILL_GAIN = 20	-- Amount in 1/10
 
 NDefines.NTechnology.BASE_TECH_COST = 120			-- Base cost for a tech. multiplied with tech cost and ahead of time penalties. 100 in vanilla
 NDefines.NTechnology.BASE_YEAR_AHEAD_PENALTY_FACTOR = 4.0	-- Base year ahead penalty. Vanilla is 2
+
+
+NDefines.NIndustrialOrganisation.ENABLE_TASK_CAPACITY = true					-- Enable limited task capacity for MIOs
+NDefines.NIndustrialOrganisation.DEFAULT_INITIAL_TASK_CAPACITY = 2

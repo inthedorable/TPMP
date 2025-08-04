@@ -216,7 +216,7 @@ units = {
 		}
 		location = 9793  #Mallorca
 		division_template = "Brigada de Infantería"		# garrison division, lower equipment, experience
-		force_equipment_variants = { line_infantry_equipment = { owner = "SPR" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "SPR" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -228,7 +228,7 @@ units = {
 		}
 		location = 13071  # Canary Islands
 		division_template = "Brigada de Infantería"		# garrison division, lower equipment, experience
-		force_equipment_variants = { line_infantry_equipment = { owner = "SPR" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "SPR" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -258,7 +258,7 @@ units = {
 instant_effect = {
 	add_equipment_production = {
 		equipment = {
-			type = line_infantry_equipment
+			type = line_infantry_equipment_1
 			creator = "SPR"
 		}
 		requested_factories = 2

@@ -967,7 +967,7 @@ units = {
 		name = "I Battaglione Sahariano"
 		location = 1130
 		division_template = "Divisione Ascari Libica"				# Colonial militia, lower training and equipment		
-		force_equipment_variants = { line_infantry_equipment = { owner = "ITA" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "ITA" } }
 		start_equipment_factor = 0.7
 
 	}
@@ -979,7 +979,7 @@ units = {
 		} # "2a Divisione Coloniale 'Libia'"
 		location = 1149
 		division_template = "Divisione Ascari Libica"				# Colonial militia, lower training and equipment
-		force_equipment_variants = { line_infantry_equipment = { owner = "ITA" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "ITA" } }
 		start_equipment_factor = 0.7
 
 	}
@@ -990,7 +990,7 @@ units = {
 		} # "Piazzafotre di Tripoli"
 		location = 1149
 		division_template = "Divisione Ascari Libica"				# Colonial militia, lower training and equipment		
-		force_equipment_variants = { line_infantry_equipment = { owner = "ITA" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "ITA" } }
 		start_equipment_factor = 0.7
 
 	}
@@ -1090,7 +1090,7 @@ units = {
 		} # "1a Divisione Libia"
 		location = 1130
 		division_template = "Divisione Ascari Libica"				# Colonial militia, lower training and equipment
-		force_equipment_variants = { line_infantry_equipment = { owner = "ITA" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "ITA" } }
 		start_equipment_factor = 0.7
 
 	}
@@ -1098,7 +1098,7 @@ units = {
 		name = "Piazzafotre di Tobruch"
 		location = 1130
 		division_template = "Divisione Ascari Libica"				# Colonial militia, lower training and equipment	
-		force_equipment_variants = { line_infantry_equipment = { owner = "ITA" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "ITA" } }
 		start_equipment_factor = 0.7
 
 	}
@@ -1156,7 +1156,7 @@ units = {
 		} # "1a Gruppa Coloniale dell'Eritrea"
 		location = 5017
 		division_template = "Divisione Ascari Eritrea"	
-		force_equipment_variants = { line_infantry_equipment = { owner = "ITA" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "ITA" } }
 		start_equipment_factor = 0.3
 
 	}
@@ -1167,7 +1167,7 @@ units = {
 		} # "2a Gruppa Coloniale dell'Eritrea"
 		location = 5017
 		division_template = "Divisione Ascari Eritrea"	
-		force_equipment_variants = { line_infantry_equipment = { owner = "ITA" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "ITA" } }
 		start_equipment_factor = 0.3
 
 	}
@@ -1175,7 +1175,7 @@ units = {
 		name = "Gruppa Coloniale dell'Amhara"
 		location = 1984
 		division_template = "Divisione Coloniale"	
-		force_equipment_variants = { line_infantry_equipment = { owner = "ITA" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "ITA" } }
 		start_equipment_factor = 0.3
 
 	}
@@ -1206,7 +1206,7 @@ units = {
 		name = "Gruppa Coloniale dello Scoia"
 		location = 5010
 		division_template = "Divisione Coloniale"	
-		force_equipment_variants = { line_infantry_equipment = { owner = "ITA" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "ITA" } }
 		start_equipment_factor = 0.3
 
 	}
@@ -1215,7 +1215,7 @@ units = {
 		name = "Gruppa Coloniale dell'Gimma"
 		location = 8062
 		division_template = "Divisione Coloniale"	
-		force_equipment_variants = { line_infantry_equipment = { owner = "ITA" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "ITA" } }
 		start_equipment_factor = 0.3
 
 	}
@@ -1223,7 +1223,7 @@ units = {
 		name = "1a Gruppa Coloniale dell'Mogadiscio"
 		location = 12991
 		division_template = "Divisione Ascari Somala"	
-		force_equipment_variants = { line_infantry_equipment = { owner = "ITA" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "ITA" } }
 		start_equipment_factor = 0.3
 
 	}
@@ -1231,7 +1231,7 @@ units = {
 		name = "2a Gruppa Coloniale dell'Mogadiscio"
 		location = 12991
 		division_template = "Divisione Ascari Somala"	
-		force_equipment_variants = { line_infantry_equipment = { owner = "ITA" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "ITA" } }
 		start_equipment_factor = 0.3
 
 	}
@@ -1251,7 +1251,7 @@ units = {
 		division_template = "Banda Irregolare Libica"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.7
-		force_equipment_variants = { line_infantry_equipment = { owner = "ITA" }} 
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "ITA" }} 
 	}
 
 	division = { #Libyan Spahi
@@ -1263,7 +1263,7 @@ units = {
 		division_template = "Truppe Irregolari a Cavallo"
 		start_experience_factor = 0.1 
 		start_equipment_factor = 0.7
-		force_equipment_variants = { line_infantry_equipment = { owner = "ITA" }}
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "ITA" }}
 	}
 
 	#ERITREAN IRREGULAR TROOPS
@@ -1276,7 +1276,7 @@ units = {
 		division_template = "Banda Irregolare Eritrea"
 		start_experience_factor = 0.05 
 		start_equipment_factor = 0.7
-		force_equipment_variants = { line_infantry_equipment = { owner = "ITA" }} 
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "ITA" }} 
 	}
 
 	division = { #Massaua Irregulars Band (Eritrean Irregular Infantry)
@@ -1288,7 +1288,7 @@ units = {
 		division_template = "Banda Irregolare Eritrea"
 		start_experience_factor = 0.05
 		start_equipment_factor = 0.7
-		force_equipment_variants = { line_infantry_equipment = { owner = "ITA" }} 
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "ITA" }} 
 	}
 
 	#SOMALI IRREGULAR TROOPS
@@ -1301,7 +1301,7 @@ units = {
 		division_template = "Truppe Irregolari a Cavallo"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
-		force_equipment_variants = { line_infantry_equipment = { owner = "ITA" }} 
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "ITA" }} 
 	}
 
 	division = { #Somlia Dubats (Somali Irregular Infantry)
@@ -1313,7 +1313,7 @@ units = {
 		division_template = "Banda Irregolare Somala"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
-		force_equipment_variants = { line_infantry_equipment = { owner = "ITA" }}
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "ITA" }}
 	}
 
 	division = { #Somlia Dubats (Somali Irregular Infantry)
@@ -1325,7 +1325,7 @@ units = {
 		division_template = "Banda Irregolare Somala"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
-		force_equipment_variants = { line_infantry_equipment = { owner = "ITA" }}
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "ITA" }}
 	}
 
 }
@@ -1340,7 +1340,7 @@ instant_effect = {
 
 	add_equipment_production = {
 		equipment = {
-			type = line_infantry_equipment
+			type = line_infantry_equipment_1
 			creator = "ITA"
 		}
 		requested_factories = 10

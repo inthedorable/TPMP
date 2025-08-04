@@ -506,7 +506,7 @@ units = {
 		}#  "2a Divisione Fanteria Coloniale Libica" 
 		location = 1149 
 		division_template = "Divisione Ascari Libica" # Colonial militia, lower training and equipment
-		force_equipment_variants = { line_infantry_equipment = { owner = "ITA" }}
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "ITA" }}
 		start_equipment_factor = 0.3
 	}
 
@@ -620,7 +620,7 @@ units = {
 		}#  "1a Divisione Fanteria Coloniale Eritrea" 
 		location = 13250
 		division_template = "Divisione Ascari Eritrea" # Colonial militia, lower training and equipment
-		force_equipment_variants = { line_infantry_equipment = { owner = "ITA" }}
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "ITA" }}
 	}
 	division = { # 
 		division_name = {
@@ -629,7 +629,7 @@ units = {
 		}#  "2a Divisione Fanteria Coloniale Eritrea" 
 		location = 12766 
 		division_template = "Divisione Ascari Eritrea" # Colonial militia, lower training and equipment
-		force_equipment_variants = { line_infantry_equipment = { owner = "ITA" }}
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "ITA" }}
 	}
 
 	# Corpo d'Armata Libico #
@@ -649,7 +649,7 @@ units = {
 		}#  "1a Divisione Fanteria Coloniale Libica" 
 		location = 2063 
 		division_template = "Divisione Ascari Libica" # Colonial militia, lower training and equipment
-		force_equipment_variants = { line_infantry_equipment = { owner = "ITA" }}
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "ITA" }}
 	}
 	division = {
 		name = "Divisione F. Coloniale Arabo-Somala"
@@ -659,7 +659,7 @@ units = {
 		#}#  "101a Divisione Fanteria Coloniale Somala" 
 		location = 2020 
 		division_template = "Divisione Ascari Somala" # Colonial militia, lower training and equipment
-		force_equipment_variants = { line_infantry_equipment = { owner = "ITA" }}
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "ITA" }}
 	}
 	division = { # 
 		name = "6a Divisione CC.NN. 'Tevere'" 
@@ -682,7 +682,7 @@ units = {
 		division_template = "Banda Irregolare Libica"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.7
-		force_equipment_variants = { line_infantry_equipment = { owner = "ITA" }} 
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "ITA" }} 
 	}
 
 	division = { #Libyan Spahi
@@ -694,7 +694,7 @@ units = {
 		division_template = "Truppe Irregolari a Cavallo"
 		start_experience_factor = 0.1 
 		start_equipment_factor = 0.7
-		force_equipment_variants = { line_infantry_equipment = { owner = "ITA" }}
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "ITA" }}
 	}
 
 	#ERITREAN IRREGULAR TROOPS
@@ -707,7 +707,7 @@ units = {
 		division_template = "Banda Irregolare Eritrea"
 		start_experience_factor = 0.05 
 		start_equipment_factor = 0.7
-		force_equipment_variants = { line_infantry_equipment = { owner = "ITA" }} 
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "ITA" }} 
 	}
 
 	division = { #Massaua Irregulars Band (Eritrean Irregular Infantry)
@@ -719,7 +719,7 @@ units = {
 		division_template = "Banda Irregolare Eritrea"
 		start_experience_factor = 0.05
 		start_equipment_factor = 0.7
-		force_equipment_variants = { line_infantry_equipment = { owner = "ITA" }} 
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "ITA" }} 
 	}
 
 	#SOMALI IRREGULAR TROOPS
@@ -732,7 +732,7 @@ units = {
 		division_template = "Truppe Irregolari a Cavallo"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
-		force_equipment_variants = { line_infantry_equipment = { owner = "ITA" }} 
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "ITA" }} 
 	}
 
 	division = { #Somlia Dubats (Somali Irregular Infantry)
@@ -744,7 +744,7 @@ units = {
 		division_template = "Banda Irregolare Somala"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
-		force_equipment_variants = { line_infantry_equipment = { owner = "ITA" }}
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "ITA" }}
 	}
 
 	division = { #Somlia Dubats (Somali Irregular Infantry)
@@ -756,7 +756,7 @@ units = {
 		division_template = "Banda Irregolare Somala"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7
-		force_equipment_variants = { line_infantry_equipment = { owner = "ITA" }}
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "ITA" }}
 	}
 }
 
@@ -773,7 +773,7 @@ instant_effect = {
 		##### Equipments #####
 		add_equipment_production = { 
 			equipment = { 
-				type = line_infantry_equipment 
+				type = line_infantry_equipment_1 
 				creator = "ITA" 
 			} 
 

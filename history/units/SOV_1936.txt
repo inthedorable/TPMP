@@ -232,7 +232,7 @@ units = {
 		}
 		location = 6174
 		division_template = "NKVD Pogranichnaya Diviziya"		# NKVD -- older equipment, training
-		force_equipment_variants = { line_infantry_equipment = { owner = "SOV" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "SOV" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -244,7 +244,7 @@ units = {
 		}
 		location = 6174
 		division_template = "NKVD Pogranichnaya Diviziya"		# NKVD -- older equipment, training
-		force_equipment_variants = { line_infantry_equipment = { owner = "SOV" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "SOV" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -442,7 +442,7 @@ units = {
 		}
 	location = 11370
 		division_template = "NKVD Pogranichnaya Diviziya"		# NKVD -- older equipment, training
-		force_equipment_variants = { line_infantry_equipment = { owner = "SOV" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "SOV" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -454,7 +454,7 @@ units = {
 		}
 		location = 11202
 		division_template = "NKVD Pogranichnaya Diviziya"		# NKVD -- older equipment, training
-		force_equipment_variants = { line_infantry_equipment = { owner = "SOV" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "SOV" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -466,7 +466,7 @@ units = {
 		}
 		location = 306
 		division_template = "NKVD Pogranichnaya Diviziya"		# NKVD -- older equipment, training
-		force_equipment_variants = { line_infantry_equipment = { owner = "SOV" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "SOV" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -560,7 +560,7 @@ units = {
 		}
 		location = 6380
 		division_template = "NKVD Pogranichnaya Diviziya"		# NKVD -- older equipment, training
-		force_equipment_variants = { line_infantry_equipment = { owner = "SOV" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "SOV" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -572,7 +572,7 @@ units = {
 		}
 		location = 6380
 		division_template = "NKVD Pogranichnaya Diviziya"		# NKVD -- older equipment, training
-		force_equipment_variants = { line_infantry_equipment = { owner = "SOV" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "SOV" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -760,7 +760,7 @@ units = {
 		}
 		location = 9288
 		division_template = "NKVD Pogranichnaya Diviziya"		# NKVD -- older equipment, training
-		force_equipment_variants = { line_infantry_equipment = { owner = "SOV" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "SOV" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -906,7 +906,7 @@ units = {
 		}
 		location = 525
 		division_template = "NKVD Pogranichnaya Diviziya"		# NKVD -- older equipment, training
-		force_equipment_variants = { line_infantry_equipment = { owner = "SOV" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "SOV" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -918,7 +918,7 @@ units = {
 		}
 		location = 11561
 		division_template = "NKVD Pogranichnaya Diviziya"		# NKVD -- older equipment, training
-		force_equipment_variants = { line_infantry_equipment = { owner = "SOV" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "SOV" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -930,7 +930,7 @@ units = {
 		}
 		location = 11437
 		division_template = "NKVD Pogranichnaya Diviziya"		# NKVD -- older equipment, training
-		force_equipment_variants = { line_infantry_equipment = { owner = "SOV" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "SOV" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -1147,7 +1147,7 @@ units = {
 		}
 		location = 418
 		division_template = "NKVD Pogranichnaya Diviziya"		# NKVD -- older equipment, training
-		force_equipment_variants = { line_infantry_equipment = { owner = "SOV" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "SOV" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -1165,7 +1165,7 @@ units = {
 		}
 		location = 3653
 		division_template = "Kavaleriyskaya Diviziya"
-		force_equipment_variants = { line_infantry_equipment = { owner = "SOV" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "SOV" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.85
 
@@ -1177,7 +1177,7 @@ units = {
 		}
 		location = 3653
 		division_template = "Kavaleriyskaya Diviziya"
-		force_equipment_variants = { line_infantry_equipment = { owner = "SOV" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "SOV" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.85
 
@@ -1227,7 +1227,7 @@ units = {
 		}
 		location = 3564
 		division_template = "Gornostrelkovaya Diviziya"
-		force_equipment_variants = { line_infantry_equipment = { owner = "SOV" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "SOV" } }
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
 
@@ -1239,7 +1239,7 @@ units = {
 		}
 		location = 6997
 		division_template = "Gornostrelkovaya Diviziya"
-		force_equipment_variants = { line_infantry_equipment = { owner = "SOV" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "SOV" } }
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
 
@@ -1251,7 +1251,7 @@ units = {
 		}
 		location = 4660
 		division_template = "Gornostrelkovaya Diviziya"
-		force_equipment_variants = { line_infantry_equipment = { owner = "SOV" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "SOV" } }
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
 
@@ -1265,7 +1265,7 @@ units = {
 		}
 		location = 1599
 		division_template = "NKVD Pogranichnaya Diviziya"		# NKVD -- older equipment, training
-		force_equipment_variants = { line_infantry_equipment = { owner = "SOV" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "SOV" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -1313,7 +1313,7 @@ units = {
 		}
 		location = 3734
 		division_template = "Strelkovaya Diviziya"
-		force_equipment_variants = { line_infantry_equipment = { owner = "SOV" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "SOV" } }
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
 
@@ -1338,7 +1338,7 @@ units = {
 		}
 		location = 6474
 		division_template = "Kavaleriyskaya Diviziya"
-		force_equipment_variants = { line_infantry_equipment = { owner = "SOV" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "SOV" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.85
 
@@ -1350,7 +1350,7 @@ units = {
 		}
 		location = 6474
 		division_template = "Kavaleriyskaya Diviziya"
-		force_equipment_variants = { line_infantry_equipment = { owner = "SOV" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "SOV" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.85
 
@@ -1362,7 +1362,7 @@ units = {
 		}
 		location = 6474
 		division_template = "Kavaleriyskaya Diviziya"
-		force_equipment_variants = { line_infantry_equipment = { owner = "SOV" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "SOV" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.85
 
@@ -1374,7 +1374,7 @@ units = {
 		}
 		location = 6474
 		division_template = "Kavaleriyskaya Diviziya"
-		force_equipment_variants = { line_infantry_equipment = { owner = "SOV" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "SOV" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.85
 
@@ -1399,7 +1399,7 @@ units = {
 		}
 		location = 9417
 		division_template = "NKVD Pogranichnaya Diviziya"		# NKVD -- older equipment, training
-		force_equipment_variants = { line_infantry_equipment = { owner = "SOV" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "SOV" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -1414,7 +1414,7 @@ units = {
 		}
 		location = 12370
 		division_template = "Kavaleriyskaya Diviziya"
-		force_equipment_variants = { line_infantry_equipment = { owner = "SOV" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "SOV" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -1426,7 +1426,7 @@ units = {
 		}
 		location = 5062
 		division_template = "Kavaleriyskaya Diviziya"
-		force_equipment_variants = { line_infantry_equipment = { owner = "SOV" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "SOV" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -1438,7 +1438,7 @@ units = {
 		}
 		location = 4768
 		division_template = "Kavaleriyskaya Diviziya"
-		force_equipment_variants = { line_infantry_equipment = { owner = "SOV" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "SOV" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -1452,7 +1452,7 @@ units = {
 		}
 		location = 1459
 		division_template = "Kavaleriyskaya Diviziya"
-		force_equipment_variants = { line_infantry_equipment = { owner = "SOV" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "SOV" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -1464,7 +1464,7 @@ units = {
 		}
 		location = 4923
 		division_template = "Gornostrelkovaya Diviziya"
-		force_equipment_variants = { line_infantry_equipment = { owner = "SOV" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "SOV" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -1476,7 +1476,7 @@ units = {
 		}
 		location = 12805
 		division_template = "Gornostrelkovaya Diviziya"
-		force_equipment_variants = { line_infantry_equipment = { owner = "SOV" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "SOV" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -1490,7 +1490,7 @@ units = {
 		}
 		location = 1459
 		division_template = "NKVD Pogranichnaya Diviziya"		# NKVD -- older equipment, training
-		force_equipment_variants = { line_infantry_equipment = { owner = "SOV" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "SOV" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -1564,7 +1564,7 @@ units = {
 		}
 		location = 6838
 		division_template = "Strelkovaya Diviziya"
-		force_equipment_variants = { line_infantry_equipment = { owner = "SOV" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "SOV" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -1576,7 +1576,7 @@ units = {
 		}
 		location = 3977
 		division_template = "Strelkovaya Diviziya"
-		force_equipment_variants = { line_infantry_equipment = { owner = "SOV" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "SOV" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -1588,7 +1588,7 @@ units = {
 		}
 		location = 11879
 		division_template = "Strelkovaya Diviziya"
-		force_equipment_variants = { line_infantry_equipment = { owner = "SOV" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "SOV" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -1603,7 +1603,7 @@ units = {
 		}
 		location = 12189
 		division_template = "Strelkovaya Diviziya"
-		force_equipment_variants = { line_infantry_equipment = { owner = "SOV" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "SOV" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -1615,7 +1615,7 @@ units = {
 		}
 		location = 10466
 		division_template = "Strelkovaya Diviziya"
-		force_equipment_variants = { line_infantry_equipment = { owner = "SOV" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "SOV" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -1627,7 +1627,7 @@ units = {
 		}
 		location = 11643
 		division_template = "Strelkovaya Diviziya"
-		force_equipment_variants = { line_infantry_equipment = { owner = "SOV" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "SOV" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -1639,7 +1639,7 @@ units = {
 		}
 		location = 6686
 		division_template = "Kavaleriyskaya Diviziya"
-		force_equipment_variants = { line_infantry_equipment = { owner = "SOV" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "SOV" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -1661,7 +1661,7 @@ units = {
 		}
 		location = 957
 		division_template = "NKVD Pogranichnaya Diviziya"		# NKVD -- older equipment, training
-		force_equipment_variants = { line_infantry_equipment = { owner = "SOV" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "SOV" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -1677,7 +1677,7 @@ units = {
 		}
 		location = 4719
 		division_template = "Strelkovaya Diviziya"
-		force_equipment_variants = { line_infantry_equipment = { owner = "SOV" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "SOV" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -1689,7 +1689,7 @@ units = {
 		}
 		location = 12622
 		division_template = "Strelkovaya Diviziya"
-		force_equipment_variants = { line_infantry_equipment = { owner = "SOV" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "SOV" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -1701,7 +1701,7 @@ units = {
 		}
 		location = 10559
 		division_template = "Strelkovaya Diviziya"
-		force_equipment_variants = { line_infantry_equipment = { owner = "SOV" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "SOV" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -1715,7 +1715,7 @@ units = {
 		}
 		location = 12641
 		division_template = "NKVD Pogranichnaya Diviziya"		# NKVD -- older equipment, training
-		force_equipment_variants = { line_infantry_equipment = { owner = "SOV" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "SOV" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -1730,7 +1730,7 @@ units = {
 		}
 		location = 10610
 		division_template = "Strelkovaya Diviziya"
-		force_equipment_variants = { line_infantry_equipment = { owner = "SOV" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "SOV" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -1742,7 +1742,7 @@ units = {
 		}
 		location = 1749
 		division_template = "Strelkovaya Diviziya"
-		force_equipment_variants = { line_infantry_equipment = { owner = "SOV" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "SOV" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -1754,7 +1754,7 @@ units = {
 		}
 		location = 12529
 		division_template = "Strelkovaya Diviziya"
-		force_equipment_variants = { line_infantry_equipment = { owner = "SOV" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "SOV" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -1766,7 +1766,7 @@ units = {
 		}
 		location = 12662
 		division_template = "Strelkovaya Diviziya"
-		force_equipment_variants = { line_infantry_equipment = { owner = "SOV" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "SOV" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -1778,7 +1778,7 @@ units = {
 		}
 		location = 1287
 		division_template = "NKVD Pogranichnaya Diviziya"		# NKVD -- older equipment, training
-		force_equipment_variants = { line_infantry_equipment = { owner = "SOV" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "SOV" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -1795,7 +1795,7 @@ instant_effect = {
 
 	add_equipment_production = {
 		equipment = {
-			type = line_infantry_equipment
+			type = line_infantry_equipment_1
 			creator = "SOV"
 		}
 		requested_factories = 7

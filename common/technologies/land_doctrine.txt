@@ -1003,7 +1003,7 @@ technologies = {
 	}
 	army_doctrine_3b = {
 		max_planning = 0.15
-		custom_effect_tooltip = army_doctrine_3b_tt
+		custom_modifier_tooltip = army_doctrine_3b_tt
 
 		path = {
 			leads_to_tech = army_doctrine_4a

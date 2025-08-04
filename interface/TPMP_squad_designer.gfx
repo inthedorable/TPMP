@@ -54,6 +54,26 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/infantry/squad_highlight_9.dds"
 		legacy_lazy_load = no
 	}
+	spriteType = {
+		name = "GFX_TM_squad_highlight_10"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/squad_highlight_10.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_TM_squad_highlight_11"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/squad_highlight_11.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_TM_squad_highlight_12"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/squad_highlight_12.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_TM_squad_highlight_13"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/squad_highlight_13.dds"
+		legacy_lazy_load = no
+	}
 	#Modules
 	spriteType = {
 		name = "GFX_EMI_infantry_rifle_weapon"

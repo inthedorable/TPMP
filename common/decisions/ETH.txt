@@ -519,7 +519,7 @@ governments_in_exile = {
 			clr_country_flag = ETH_securing_arms_deals_flag
 			ETH = {
 				add_equipment_to_stockpile = {
-					type = line_infantry_equipment
+					type = line_infantry_equipment_1
 					amount = 1000
 					producer = ETH.host_nation
 				}
@@ -796,7 +796,7 @@ ETH_second_italo_ethiopian_war_category = {
 
 		remove_effect = {
 			add_equipment_to_stockpile = {
-				type = line_infantry_equipment
+				type = line_infantry_equipment_1
 				amount = 2000
 				producer = FRA
 			}

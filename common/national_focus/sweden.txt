@@ -3514,7 +3514,7 @@ focus_tree = {
 				FIN = {
 
 					add_equipment_to_stockpile = { 
-						type = line_infantry_equipment
+						type = line_infantry_equipment_1
 						amount = 2000 
 						producer = PREV
 					}
@@ -4681,7 +4681,7 @@ focus_tree = {
 
 			FIN = {
 				add_equipment_to_stockpile = { 
-					type = line_infantry_equipment
+					type = line_infantry_equipment_1
 					amount = 3500 
 					producer = SWE
 				}
@@ -7212,7 +7212,7 @@ focus_tree = {
 						limit = { check_variable = { SWE_shooting_movement_var > 0 } }
 						ROOT = {
 							add_equipment_to_stockpile = { 
-								type = line_infantry_equipment
+								type = line_infantry_equipment_1
 								amount = 100 
 								producer = SWE
 							}

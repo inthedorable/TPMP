@@ -49,12 +49,12 @@ sub_units = {
 
 		essential = {
 			special_equipment
-			special_infantry_equipment
+			special_infantry_equipment_1
 		}
 		
 		need = {
 			special_equipment = 200
-			special_infantry_equipment = 100
+			special_infantry_equipment_1 = 100
 		}
 
 		urban = {
@@ -123,12 +123,12 @@ sub_units = {
 
 		essential = {
 			support_equipment
-			line_infantry_equipment
+			line_infantry_equipment_1
 		}
 		
 		need = {
 			support_equipment = 30
-			line_infantry_equipment = 30
+			line_infantry_equipment_1 = 30
 		}
 
 		forest = {
@@ -214,12 +214,12 @@ sub_units = {
 
 		essential = {
 			support_equipment
-			line_infantry_equipment
+			line_infantry_equipment_1
 		}
 		
 		need = {
 			support_equipment = 50
-			line_infantry_equipment = 50
+			line_infantry_equipment_1 = 50
 		}
 
 		forest = {
@@ -311,13 +311,13 @@ sub_units = {
 		essential = {
 			armored_support_vehicle
 			support_equipment
-			line_infantry_equipment
+			line_infantry_equipment_1
 		}
 		
 		need = {
 			armored_support_vehicle = 20
 			support_equipment = 30
-			line_infantry_equipment = 30
+			line_infantry_equipment_1 = 30
 		}
 
 		plains = {
@@ -934,11 +934,11 @@ sub_units = {
 		suppression_factor = 0.2
 
 		essential = {
-			line_infantry_equipment
+			line_infantry_equipment_1
 		}
 		
 		need = {
-			line_infantry_equipment = 50
+			line_infantry_equipment_1 = 50
 		}
 		
 		battalion_mult = {

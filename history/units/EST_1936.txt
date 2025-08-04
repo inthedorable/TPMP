@@ -38,7 +38,7 @@ units = {
 		}
 		location = 3152
 		division_template = "Jalaväediviisi"
-		force_equipment_variants = { line_infantry_equipment = { owner = "EST" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "EST" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.2
 
@@ -50,7 +50,7 @@ units = {
 		}
 		location = 4640
 		division_template = "Jalaväediviisi"
-		force_equipment_variants = { line_infantry_equipment = { owner = "EST" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "EST" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.2
 
@@ -62,7 +62,7 @@ units = {
 		}
 		location = 6099
 		division_template = "Jalaväediviisi"
-		force_equipment_variants = { line_infantry_equipment = { owner = "EST" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "EST" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.2
 
@@ -75,7 +75,7 @@ units = {
 		}
 		location = 11127
 		division_template = "Ratsavägi"
-		force_equipment_variants = { line_infantry_equipment = { owner = "EST" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "EST" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.4
 
@@ -88,7 +88,7 @@ units = {
 		}
 		location = 592
 		division_template = "Ratsavägi"
-		force_equipment_variants = { line_infantry_equipment = { owner = "EST" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "EST" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.4
 
@@ -101,7 +101,7 @@ units = {
 		}
 		location = 308
 		division_template = "Ratsavägi"
-		force_equipment_variants = { line_infantry_equipment = { owner = "EST" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "EST" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.4
 
@@ -114,7 +114,7 @@ units = {
 		}
 		location = 185
 		division_template = "Ratsavägi"
-		force_equipment_variants = { line_infantry_equipment = { owner = "EST" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "EST" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.4
 
@@ -127,7 +127,7 @@ units = {
 		}
 		location = 496
 		division_template = "Ratsavägi"
-		force_equipment_variants = { line_infantry_equipment = { owner = "EST" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "EST" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.4
 
@@ -140,7 +140,7 @@ units = {
 		}
 		location = 496
 		division_template = "Ratsavägi"
-		force_equipment_variants = { line_infantry_equipment = { owner = "EST" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "EST" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.2
 
@@ -153,7 +153,7 @@ units = {
 instant_effect = {
 	add_equipment_production = {
 		equipment = {
-			type = line_infantry_equipment
+			type = line_infantry_equipment_1
 			creator = "EST"
 		}
 		requested_factories = 1

@@ -3268,7 +3268,7 @@ country_event = {
 					producer = ROOT
 				}
 				add_equipment_to_stockpile = { 
-					type = line_infantry_equipment
+					type = line_infantry_equipment_1
 					amount = 3000
 					producer = ROOT
 				}
@@ -3432,7 +3432,7 @@ country_event = {
 				producer = FROM
 			}
 			add_equipment_to_stockpile = { 
-				type = line_infantry_equipment
+				type = line_infantry_equipment_1
 				amount = 3000
 				producer = FROM
 			}
@@ -4667,7 +4667,7 @@ country_event = {
 
 				#Add some equipment to Stockpile (Finland sent equipment for the uprising)
 				add_equipment_to_stockpile = { 
-					type = line_infantry_equipment
+					type = line_infantry_equipment_1
 					amount = 2000
 					producer = ROOT
 				}
@@ -4963,7 +4963,7 @@ country_event = {
 
 				#Add some equipment to Stockpile (Finland sent equipment for the uprising)
 				add_equipment_to_stockpile = { 
-					type = line_infantry_equipment
+					type = line_infantry_equipment_1
 					amount = 2000
 					producer = ROOT
 				}
@@ -5395,7 +5395,7 @@ country_event = {
 			add_manpower = 1000
 			#Add some equipment to Stockpile (Finland sent equipment for the uprising)
 			add_equipment_to_stockpile = { 
-				type = line_infantry_equipment
+				type = line_infantry_equipment_1
 				amount = 2000
 				producer = FIN
 			}

@@ -25,7 +25,7 @@ units = {
 		}
 		location = 9340
 		division_template = "Kajnieku Divizija"
-		force_equipment_variants = { line_infantry_equipment = { owner = "LAT" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "LAT" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -37,7 +37,7 @@ units = {
 		}
 		location = 9340
 		division_template = "Kajnieku Divizija"
-		force_equipment_variants = { line_infantry_equipment = { owner = "LAT" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "LAT" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -49,7 +49,7 @@ units = {
 		}
 		location = 310
 		division_template = "Kajnieku Divizija"
-		force_equipment_variants = { line_infantry_equipment = { owner = "LAT" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "LAT" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -61,7 +61,7 @@ units = {
 		}
 		location = 265
 		division_template = "Kajnieku Divizija"
-		force_equipment_variants = { line_infantry_equipment = { owner = "LAT" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "LAT" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -72,7 +72,7 @@ units = {
 instant_effect = {
 	add_equipment_production = {
 		equipment = {
-			type = line_infantry_equipment
+			type = line_infantry_equipment_1
 			creator = "LAT"
 		}
 		requested_factories = 1

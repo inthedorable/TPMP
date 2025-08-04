@@ -565,7 +565,7 @@ MEX_category_military_issues = {
 				amount = -3
 			}
 			add_equipment_to_stockpile = {
-				type = line_infantry_equipment
+				type = line_infantry_equipment_1
 				amount = -250
 			}			
 		}
@@ -685,7 +685,7 @@ MEX_category_military_issues = {
 				amount = -3
 			}
 			add_equipment_to_stockpile = {
-				type = line_infantry_equipment
+				type = line_infantry_equipment_1
 				amount = -250
 			}			
 		}

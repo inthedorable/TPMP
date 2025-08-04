@@ -260,7 +260,7 @@ units = {
 		name = "Sudan Defense Force"
 		location = 12806
 		division_template = "Colonial Garrison"
-		force_equipment_variants = { line_infantry_equipment = { owner = "ENG" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "ENG" } }
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.4
 
@@ -270,7 +270,7 @@ units = {
 		name = "Jerusalem & Lydda Area"
 		location = 4206
 		division_template = "Colonial Garrison"
-		force_equipment_variants = { line_infantry_equipment = { owner = "ENG" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "ENG" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 
@@ -280,7 +280,7 @@ units = {
 		name = "Aden Defense Force"
 		location = 12821
 		division_template = "Colonial Garrison"
-		force_equipment_variants = { line_infantry_equipment = { owner = "ENG" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "ENG" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 
@@ -351,7 +351,7 @@ units = {
 		name = "Northern Rhodesia Groups"
 		location = 1939
 		division_template = "Colonial Garrison"			# Colonial militia (lowest equipment and experience)
-		force_equipment_variants = { line_infantry_equipment = { owner = "ENG" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "ENG" } }
 		start_equipment_factor = 0.3
 
 	}
@@ -361,7 +361,7 @@ units = {
 		name = "1 West African Force"
 		location = 2050
 		division_template = "Colonial Garrison"			# Colonial militia (lowest equipment and experience)
-		force_equipment_variants = { line_infantry_equipment = { owner = "ENG" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "ENG" } }
 		start_equipment_factor = 0.15
 
 	}
@@ -369,7 +369,7 @@ units = {
 		name = "2 West African Force"
 		location = 10862 
 		division_template = "Colonial Garrison"			# Colonial militia (lowest equipment and experience)
-		force_equipment_variants = { line_infantry_equipment = { owner = "ENG" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "ENG" } }
 		start_equipment_factor = 0.15
 
 	}
@@ -406,7 +406,7 @@ units = {
 		name = "Ceylon Defense Force"
 		location = 7260
 		division_template = "Colonial Garrison"
-		force_equipment_variants = { line_infantry_equipment = { owner = "ENG" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "ENG" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.15
 
@@ -424,7 +424,7 @@ instant_effect = {
 
 	add_equipment_production = {
 		equipment = {
-			type = line_infantry_equipment
+			type = line_infantry_equipment_1
 			creator = "ENG"
 		}
 		requested_factories = 3

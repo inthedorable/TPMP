@@ -660,7 +660,7 @@ country_event = {
 		}
 		#TODO_ASD: Should probably use IM system for this, for fallback we can just add equipment the old way
 		add_equipment_to_stockpile = {
-			type = line_infantry_equipment
+			type = line_infantry_equipment_1
 			amount = 500
 			producer = SWE
 		}
@@ -5066,7 +5066,7 @@ country_event = {
 				}
 
 				add_equipment_to_stockpile = { 
-					type = line_infantry_equipment
+					type = line_infantry_equipment_1
 					amount = 3000 
 					producer = THIS
 				}

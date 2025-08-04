@@ -562,7 +562,7 @@ units = {
 		name = "Cairo Area"
 		location = 7011
 		division_template = "Colonial Garrison"			# Garrison force (older equipment, low experience)
-		force_equipment_variants = { line_infantry_equipment = { owner = "ENG" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "ENG" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 
@@ -571,7 +571,7 @@ units = {
 		name = "Canal Area"
 		location = 1155
 		division_template = "Colonial Garrison"			# Garrison force (older equipment, low experience)
-		force_equipment_variants = { line_infantry_equipment = { owner = "ENG" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "ENG" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 
@@ -593,7 +593,7 @@ units = {
 		name = "Jerusalem & Lydda Area"
 		location = 4206
 		division_template = "Colonial Garrison"			# Garrison force (older equipment, low experience)
-		force_equipment_variants = { line_infantry_equipment = { owner = "ENG" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "ENG" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 
@@ -604,7 +604,7 @@ units = {
 		name = "Aden Defense Force"
 		location = 12821
 		division_template = "Colonial Garrison"			# Militia (oldest equipment, little experience)
-		force_equipment_variants = { line_infantry_equipment = { owner = "ENG" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "ENG" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 
@@ -615,7 +615,7 @@ units = {
 		name = "British Troops in Sudan"
 		location = 12806
 		division_template = "Colonial Garrison"			# Garrison force (older equipment, low experience)
-		force_equipment_variants = { line_infantry_equipment = { owner = "ENG" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "ENG" } }
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -626,7 +626,7 @@ units = {
 		name = "East Africa Force"
 		location = 1939
 		division_template = "Colonial Garrison"			# Militia (oldest equipment, little experience)
-		force_equipment_variants = { line_infantry_equipment = { owner = "ENG" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "ENG" } }
 		start_equipment_factor = 0.5
 
 	}
@@ -634,7 +634,7 @@ units = {
 		name = "Northern Rhodesia Force"
 		location = 10929
 		division_template = "Colonial Garrison"			# Militia (oldest equipment, little experience)
-		force_equipment_variants = { line_infantry_equipment = { owner = "ENG" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "ENG" } }
 		start_equipment_factor = 0.3
 
 	}
@@ -644,7 +644,7 @@ units = {
 		name = "1 West African Force"
 		location = 2050
 		division_template = "Colonial Garrison"			# Militia (oldest equipment, little experience)
-		force_equipment_variants = { line_infantry_equipment = { owner = "ENG" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "ENG" } }
 		start_equipment_factor = 0.15
 
 	}
@@ -652,7 +652,7 @@ units = {
 		name = "2 West African Force"
 		location = 10862 
 		division_template = "Colonial Garrison"			# Garrison force (older equipment, low experience)
-		force_equipment_variants = { line_infantry_equipment = { owner = "ENG" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "ENG" } }
 		start_equipment_factor = 0.15
 
 	}
@@ -663,7 +663,7 @@ units = {
 		name = "Ceylon Command"
 		location = 7260
 		division_template = "Colonial Garrison"			# Garrison force (older equipment, low experience)
-		force_equipment_variants = { line_infantry_equipment = { owner = "ENG" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "ENG" } }
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.15
 
@@ -706,7 +706,7 @@ units = {
 instant_effect = {
 	add_equipment_production = {
 		equipment = {
-			type = line_infantry_equipment
+			type = line_infantry_equipment_1
 			creator = "ENG"
 		}
 		requested_factories = 7

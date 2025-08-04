@@ -1161,7 +1161,7 @@ units = {
 		name = "Front Est Saharien"
 		location = 7132
 		division_template = "Brigade Coloniale" 				# Colonial garrison unit (low experience, reserve equipment)
-		force_equipment_variants = { line_infantry_equipment = { owner = "FRA" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "FRA" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 
@@ -1170,7 +1170,7 @@ units = {
 		name = "Front Sud-Est Saharien"
 		location = 1145
 		division_template = "Brigade Coloniale" 				# Colonial garrison unit (low experience, reserve equipment)
-		force_equipment_variants = { line_infantry_equipment = { owner = "FRA" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "FRA" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 
@@ -1194,7 +1194,7 @@ units = {
 #		}
 #		location = 7132
 #		division_template = "Division d'Infanterie" 				# Colonial unit (low #experience, reserve equipment)
-#		force_equipment_variants = { line_infantry_equipment = { owner = "FRA" } }
+#		force_equipment_variants = { line_infantry_equipment_1 = { owner = "FRA" } }
 #		start_experience_factor = 0.1
 #		start_equipment_factor = 0.3
 #	}
@@ -1205,7 +1205,7 @@ units = {
 		}
 		location = 1145
 		division_template = "Division d'Infanterie" 				# Colonial unit (low experience, reserve equipment)
-		force_equipment_variants = { line_infantry_equipment = { owner = "FRA" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "FRA" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 
@@ -1217,7 +1217,7 @@ units = {
 		}
 		location = 1145
 		division_template = "Division d'Infanterie" 				# Colonial unit (low experience, reserve equipment)
-		force_equipment_variants = { line_infantry_equipment = { owner = "FRA" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "FRA" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 
@@ -1226,7 +1226,7 @@ units = {
 		name = "1e Grpmt. de Cavalerie d'Afrique"
 		location = 1145
 		division_template = "Division de Cavalerie" 			# Represents, 1e, 2e, 3e Bges; Colonial unit (low experience, reserve equipment)
-		force_equipment_variants = { line_infantry_equipment = { owner = "FRA" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "FRA" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.5
 
@@ -1271,7 +1271,7 @@ units = {
 		name = "2e Grmpt. de Cavalerie d'Afrique"
 		location = 11969
 		division_template = "Division de Cavalerie" 				# Represents 4e, 5e Bges; Colonial unit (low experience, reserve equipment)
-		force_equipment_variants = { line_infantry_equipment = { owner = "FRA" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "FRA" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 
@@ -1284,7 +1284,7 @@ units = {
 		}
 		location = 11957
 		division_template = "Division d'Infanterie" 				# Colonial unit (low experience, reserve equipment)
-		force_equipment_variants = { line_infantry_equipment = { owner = "FRA" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "FRA" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 
@@ -1296,7 +1296,7 @@ units = {
 		}
 		location = 1105
 		division_template = "Division d'Infanterie" 				# Colonial unit (low experience, reserve equipment)
-		force_equipment_variants = { line_infantry_equipment = { owner = "FRA" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "FRA" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 
@@ -1305,7 +1305,7 @@ units = {
 		name = "Front Sud-Tunisien"
 		location = 11957
 		division_template = "Brigade Coloniale" 				# Colonial garrison unit (low experience, reserve equipment)
-		force_equipment_variants = { line_infantry_equipment = { owner = "FRA" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "FRA" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 
@@ -1319,7 +1319,7 @@ units = {
 		}
 		location = 7069
 		division_template = "Division Coloniale" 					# Colonial division (low experience, reserve equipment)
-		force_equipment_variants = { line_infantry_equipment = { owner = "FRA" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "FRA" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 
@@ -1331,7 +1331,7 @@ units = {
 		}
 		location = 7069
 		division_template = "Division Coloniale"	 				# Colonial division (low experience, reserve equipment)
-		force_equipment_variants = { line_infantry_equipment = { owner = "FRA" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "FRA" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 
@@ -1357,7 +1357,7 @@ units = {
 		}
 		location = 792
 		division_template = "Division d'Infanterie" 				# Colonial division (essentially militia, reserve equip)
-		force_equipment_variants = { line_infantry_equipment = { owner = "FRA" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "FRA" } }
 		start_equipment_factor = 0.3
 
 	}
@@ -1366,7 +1366,7 @@ units = {
 		name = "Troupes de Madagascar"	
 		location = 5222
 		division_template = "Brigade Coloniale"				# Miltia unit, reserve equipment
-		force_equipment_variants = { line_infantry_equipment = { owner = "FRA" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "FRA" } }
 		start_equipment_factor = 0.15
 
 	}
@@ -1376,7 +1376,7 @@ units = {
 		name = "Troupes de Sénégalais"
 		location = 4948
 		division_template = "Brigade Coloniale"  			# Miltia unit, reserve equipment
-		force_equipment_variants = { line_infantry_equipment = { owner = "FRA" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "FRA" } }
 		start_equipment_factor = 0.3
 
 	}
@@ -1385,7 +1385,7 @@ units = {
 		name = "Troupes de Afrique Equatoriale Française"	
 		location = 5139
 		division_template = "Brigade Coloniale"			 	# Miltia unit, reserve equipment
-		force_equipment_variants = { line_infantry_equipment = { owner = "FRA" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "FRA" } }
 		start_equipment_factor = 0.15
 
 	}
@@ -1398,7 +1398,7 @@ units = {
 		}
 		location = 4075
 		division_template = "Division Coloniale" 			# Reserve Division (low experience, reserve equip)
-		force_equipment_variants = { line_infantry_equipment = { owner = "FRA" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "FRA" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 
@@ -1410,7 +1410,7 @@ units = {
 		}
 		location = 4401
 		division_template = "Division Coloniale" 			# Reserve Division (low experience, reserve equip)
-		force_equipment_variants = { line_infantry_equipment = { owner = "FRA" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "FRA" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 
@@ -1419,7 +1419,7 @@ units = {
 		name = "Brigade d'Annam-Laos"	
 		location = 7376
 		division_template = "Brigade Coloniale"				# Reserve Brigade (low experience, reserve equip)
-		force_equipment_variants = { line_infantry_equipment = { owner = "FRA" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "FRA" } }
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 
@@ -1438,7 +1438,7 @@ instant_effect = {
 
 	add_equipment_production = {
 		equipment = {
-			type = line_infantry_equipment
+			type = line_infantry_equipment_1
 			creator = "FRA"
 		}
 		requested_factories = 2

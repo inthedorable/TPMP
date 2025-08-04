@@ -486,7 +486,7 @@ if = {
 	}
 
 	add_equipment_to_stockpile = { 
-		type = line_infantry_equipment #for Garrison aid
+		type = line_infantry_equipment_1 #for Garrison aid
 		amount = 5500
 		producer = RAJ
 	}

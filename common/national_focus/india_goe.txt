@@ -3753,7 +3753,7 @@ focus_tree = {
 #            }
 #            activate_mission = RAJ_GOE_provide_working_opportunities
 #            add_equipment_to_stockpile = { 
-#                type = line_infantry_equipment
+#                type = line_infantry_equipment_1
 #                amount = 12000
 #                producer = ENG
 #            }

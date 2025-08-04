@@ -507,7 +507,7 @@ country_event = {
 				is_ai = yes
 				AND = {
 					has_equipment = {
-						line_infantry_equipment > 199
+						line_infantry_equipment_1 > 199
 					}
 					has_equipment = {
 						artillery_equipment_0 > 9
@@ -556,7 +556,7 @@ country_event = {
 							artillery_equipment_0 > 9
 						}
 						has_equipment = {
-							line_infantry_equipment > 199
+							line_infantry_equipment_1 > 199
 						}
 					}
 					has_equipment = {
@@ -688,7 +688,7 @@ country_event = {
 				is_ai = yes
 				AND = {
 					has_equipment = {
-						line_infantry_equipment > 199
+						line_infantry_equipment_1 > 199
 					}
 					has_equipment = {
 						artillery_equipment_0 > 9
@@ -738,7 +738,7 @@ country_event = {
 							artillery_equipment_0 > 9
 						}
 						has_equipment = {
-							line_infantry_equipment > 199
+							line_infantry_equipment_1 > 199
 						}
 					}
 					has_equipment = {

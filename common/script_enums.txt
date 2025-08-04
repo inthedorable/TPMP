@@ -210,6 +210,8 @@ script_enum_equipment_bonus_type = {
 	land_cruiser_equipment_1 #(No-NSB version)
 	destroyer
 	infantry_equipment
+	mobile_infantry_equipment
+	special_infantry_equipment
 	artillery_equipment
 	amphibious_mechanized_equipment
 	amphibious_mechanized_equipment_1
@@ -267,9 +269,9 @@ script_enum_equipment_bonus_type = {
 	nuclear_missile_equipment_2
 	sam_missile_equipment
 	sam_missile_equipment_1
-	line_infantry_equipment
-	mobile_infantry_equipment
-	special_infantry_equipment
+	line_infantry_equipment_1
+	mobile_infantry_equipment_1
+	special_infantry_equipment_1
 	mechanized_equipment
 	mechanized_equipment_1
 	mechanized_equipment_2
@@ -689,4 +691,6 @@ script_enum_equipment_bonus_type = {
 	amphibious_tank_equipment_1
 	amphibious_tank_equipment_2
 	supersonic_fighter_equipment_1
+
+	TPMP_cat_eq_all_equipment
 }

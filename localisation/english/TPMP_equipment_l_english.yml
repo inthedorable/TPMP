@@ -1,5 +1,18 @@
 ﻿l_english:
+ special_equipment: "Special Eq."
+ special_equipment_: "Special Equipment"
+ 
+ line_infantry_equipment_1: "Line Infantry Equipment"
+
+ mobile_infantry_equipment: "Mobile Infantry Eq."
+ mobile_infantry_equipment_desc: ""
+ mobile_infantry_equipment_1: "Mobile Infantry Equipment"
+
+ special_infantry_equipment: "Special Infantry Eq."
+ special_infantry_equipment_desc: ""
+ special_infantry_equipment_1: "Special Infantry Equipment"
  anti_tank_mechanized_equipment: "Anti-Tank Mechanized"
+
  anti_tank_mechanized_equipment_1: "Basic Anti-Tank Mechanized"
  anti_tank_mechanized_equipment_2: "Improved Anti-Tank Mechanized"
  anti_tank_mechanized_equipment_3: "Advanced Anti-Tank Mechanized"

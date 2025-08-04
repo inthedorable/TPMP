@@ -781,13 +781,13 @@ baltic_give_allied_equipment = {
 		create_production_license = {
 			target = ROOT
 			equipment = {
-				type = line_infantry_equipment
+				type = line_infantry_equipment_1
 			}
 			cost_factor = 0
 		}
 		ROOT = {
 			add_equipment_to_stockpile = {
-				type = line_infantry_equipment
+				type = line_infantry_equipment_1
 				amount = 2500
 				producer = PREV
 			}
@@ -800,13 +800,13 @@ baltic_give_allied_equipment = {
 		create_production_license = {
 			target = ROOT
 			equipment = {
-				type = line_infantry_equipment
+				type = line_infantry_equipment_1
 			}
 			cost_factor = 0
 		}
 		ROOT = {
 			add_equipment_to_stockpile = {
-				type = line_infantry_equipment
+				type = line_infantry_equipment_1
 				amount = 2500
 				producer = PREV
 			}
@@ -819,13 +819,13 @@ baltic_give_allied_equipment = {
 		create_production_license = {
 			target = ROOT
 			equipment = {
-				type = line_infantry_equipment
+				type = line_infantry_equipment_1
 			}
 			cost_factor = 0
 		}
 		ROOT = {
 			add_equipment_to_stockpile = {
-				type = line_infantry_equipment
+				type = line_infantry_equipment_1
 				amount = 2500
 				producer = PREV
 			}
@@ -835,13 +835,13 @@ baltic_give_allied_equipment = {
 		create_production_license = {
 			target = ROOT
 			equipment = {
-				type = line_infantry_equipment
+				type = line_infantry_equipment_1
 			}
 			cost_factor = 0
 		}
 		ROOT = {
 			add_equipment_to_stockpile = {
-				type = line_infantry_equipment
+				type = line_infantry_equipment_1
 				amount = 2500
 				producer = PREV
 			}

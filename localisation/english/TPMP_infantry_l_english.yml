@@ -1,8 +1,4 @@
 ﻿l_english:
- line_infantry_equipment: "Line Infantry Equipment"
- mobile_infantry_equipment: "Mobile Infantry Equipment"
- special_infantry_equipment: "Special Infantry Equipment"
-
  EQ_MOD_CAT_infantry_rifle_weapon_TITLE: "Standard Weapons"
  EQ_MOD_CAT_infantry_cqc_weapon_TITLE: "Close Quarters Weapons"
  EQ_MOD_CAT_infantry_flamethrower_weapon_TITLE: "Flamethrowers"

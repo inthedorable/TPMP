@@ -5769,7 +5769,7 @@ focus_tree = {
 								producer = PREV
 							}
 							add_equipment_to_stockpile = { 
-								type = line_infantry_equipment
+								type = line_infantry_equipment_1
 								amount = 3000
 								producer = PREV
 							}
@@ -5834,7 +5834,7 @@ focus_tree = {
 							producer = PREV
 						}
 						add_equipment_to_stockpile = { 
-							type = line_infantry_equipment
+							type = line_infantry_equipment_1
 							amount = 1500
 							producer = PREV
 						}
@@ -6303,7 +6303,7 @@ focus_tree = {
 					producer = GER
 				}
 				add_equipment_to_stockpile = { 
-					type = line_infantry_equipment
+					type = line_infantry_equipment_1
 					amount = 3000
 					producer = GER
 				}

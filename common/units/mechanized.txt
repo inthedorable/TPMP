@@ -51,7 +51,7 @@ sub_units = {
 
 		need = {
 			mechanized_equipment = 50
-			mobile_infantry_equipment = 100
+			mobile_infantry_equipment_1 = 100
 		}
 
 		forest = {
@@ -136,7 +136,7 @@ sub_units = {
 
 		need = {
 			artillery_mechanized_equipment = 50
-			mobile_infantry_equipment = 100
+			mobile_infantry_equipment_1 = 100
 		}
 
 		forest = {
@@ -221,7 +221,7 @@ sub_units = {
 
 		need = {
 			anti_tank_mechanized_equipment = 50
-			mobile_infantry_equipment = 100
+			mobile_infantry_equipment_1 = 100
 		}
 
 		forest = {
@@ -306,7 +306,7 @@ sub_units = {
 
 		need = {
 			anti_air_mechanized_equipment = 50
-			mobile_infantry_equipment = 100
+			mobile_infantry_equipment_1 = 100
 		}
 
 		forest = {
@@ -396,7 +396,7 @@ sub_units = {
 		need = {
 			amphibious_mechanized_equipment = 50
 			special_equipment = 50
-			mobile_infantry_equipment = 100
+			mobile_infantry_equipment_1 = 100
 		}
 
 		forest = {

@@ -30,3 +30,44 @@ TPMP_cat_eq_all_TD = {
 		super_heavy_tank_destroyer_chassis
 	}	
 }
+TPMP_cat_eq_all_equipment = {
+	equipment_type = {
+		convoy
+		train
+		floating_harbor
+		railway_gun
+		armor
+		motorized
+		mechanized
+		infantry
+		capital_ship
+		submarine
+		screen_ship
+		fighter
+		heavy_fighter
+		interceptor
+		tactical_bomber
+		strategic_bomber
+		cas
+		naval_bomber
+		missile
+		emplacement_gun_ammo
+		ballistic_missile
+		nuclear_missile
+		sam_missile
+		suicide
+		scout_plane
+		maritime_patrol_plane
+		air_transport
+		carrier
+		missile_launcher
+		support
+		amphibious
+		anti_air
+		artillery
+		anti_tank
+		rocket
+		flame
+		land_cruiser
+	}
+}

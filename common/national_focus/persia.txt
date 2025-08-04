@@ -5535,7 +5535,7 @@ focus_tree = {
 			}
 			ELSE = {
 				add_equipment_to_stockpile = { 
-					type = line_infantry_equipment 
+					type = line_infantry_equipment_1 
 					amount = 2500  
 					producer = PER
 				}

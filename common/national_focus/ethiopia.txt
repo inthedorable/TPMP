@@ -4041,22 +4041,22 @@ focus_tree = {
 		completion_reward = {
 			add_manpower = 20000
 			add_equipment_to_stockpile = {
-				type = line_infantry_equipment
+				type = line_infantry_equipment_1
 				amount = 550
 				producer = ETH
 			}
 			add_equipment_to_stockpile = {
-				type = line_infantry_equipment
+				type = line_infantry_equipment_1
 				amount = 600
 				producer = BEL
 			}
 			add_equipment_to_stockpile = {
-				type = line_infantry_equipment
+				type = line_infantry_equipment_1
 				amount = 400
 				producer = ENG
 			}
 			add_equipment_to_stockpile = {
-				type = line_infantry_equipment
+				type = line_infantry_equipment_1
 				amount = 450
 				producer = FRA 
 			}
@@ -8224,17 +8224,17 @@ focus_tree = {
 				days = 365
 			}
 			add_equipment_to_stockpile = {
-				type = line_infantry_equipment
+				type = line_infantry_equipment_1
 				amount = 450
 				producer = ETH
 			}
 			add_equipment_to_stockpile = {
-				type = line_infantry_equipment
+				type = line_infantry_equipment_1
 				amount = 200
 				producer = ITA
 			}
 			add_equipment_to_stockpile = {
-				type = line_infantry_equipment
+				type = line_infantry_equipment_1
 				amount = 350
 				producer = ENG
 			}
@@ -8414,7 +8414,7 @@ focus_tree = {
 				}
 			}
 			add_equipment_to_stockpile = {
-				type = line_infantry_equipment
+				type = line_infantry_equipment_1
 				amount = 1000
 				producer = ITA
 			}

@@ -10725,7 +10725,7 @@ country_event = {
 				ELSE = { 
 					SOV = { add_equipment_to_stockpile = { type = light_tank_chassis_1938 amount = 100 producer = GER variant_name = "Panzer II Ausf. a" } }
 				}
-				SOV = { add_equipment_to_stockpile = { type = line_infantry_equipment amount = 200 producer = GER } }
+				SOV = { add_equipment_to_stockpile = { type = line_infantry_equipment_1 amount = 200 producer = GER } }
 			}
 		}	
 	}

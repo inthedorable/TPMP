@@ -140,7 +140,7 @@ SAF_german_coup_inf_GER_equipment_200 = {
 		effect_tooltip = {
 			send_equipment = {
 				target = SAF
-				type = line_infantry_equipment
+				type = line_infantry_equipment_1
 				amount = 200
 			}
 			send_equipment = {
@@ -167,7 +167,7 @@ SAF_german_coup_inf_GER_equipment_200 = {
 		hidden_effect = {
 			add_manpower = -1000
 			add_equipment_to_stockpile = {
-				type = line_infantry_equipment
+				type = line_infantry_equipment_1
 				amount = -200
 			}
 			add_equipment_to_stockpile = {
@@ -178,7 +178,7 @@ SAF_german_coup_inf_GER_equipment_200 = {
 			SAF = {
 				add_manpower = 1000
 				add_equipment_to_stockpile = {
-					type = line_infantry_equipment
+					type = line_infantry_equipment_1
 					amount = 200
 					producer = GER
 				}
@@ -205,7 +205,7 @@ SAF_german_coup_inf_GER_equipment_200 = {
 		else = {
 			send_equipment = {
 				target = SAF
-				type = line_infantry_equipment
+				type = line_infantry_equipment_1
 				amount = 200
 			}
 			send_equipment = {
@@ -322,7 +322,7 @@ SAF_german_coup_inf_HOL_equipment_200 = {
 		effect_tooltip = {
 			send_equipment = {
 				target = SAF
-				type = line_infantry_equipment
+				type = line_infantry_equipment_1
 				amount = 200
 			}
 			send_equipment = {
@@ -349,7 +349,7 @@ SAF_german_coup_inf_HOL_equipment_200 = {
 		hidden_effect = {
 			add_manpower = -1000
 			add_equipment_to_stockpile = {
-				type = line_infantry_equipment
+				type = line_infantry_equipment_1
 				amount = -200
 			}
 			add_equipment_to_stockpile = {
@@ -360,7 +360,7 @@ SAF_german_coup_inf_HOL_equipment_200 = {
 			SAF = {
 				add_manpower = 1000
 				add_equipment_to_stockpile = {
-					type = line_infantry_equipment
+					type = line_infantry_equipment_1
 					amount = 200
 					producer = HOL
 				}
@@ -387,7 +387,7 @@ SAF_german_coup_inf_HOL_equipment_200 = {
 		else = {
 			send_equipment = {
 				target = SAF
-				type = line_infantry_equipment
+				type = line_infantry_equipment_1
 				amount = 200
 			}
 			send_equipment = {

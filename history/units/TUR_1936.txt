@@ -282,7 +282,7 @@ units = {
 		}
 		location = 4112
 		division_template = "Bogazi Tugay"
-		force_equipment_variants = { line_infantry_equipment = { owner = "TUR" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "TUR" } }
 		start_experience_factor = 0.5
 		start_equipment_factor = 0.3
 
@@ -345,7 +345,7 @@ units = {
 		}
 		location = 12476
 		division_template = "Bogazi Tugay"
-		force_equipment_variants = { line_infantry_equipment = { owner = "TUR" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "TUR" } }
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 
@@ -358,7 +358,7 @@ units = {
 		}
 		location = 6935
 		division_template = "Bogazi Tugay"
-		force_equipment_variants = { line_infantry_equipment = { owner = "TUR" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "TUR" } }
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 
@@ -371,7 +371,7 @@ units = {
 		}
 		location = 4512
 		division_template = "Bogazi Tugay"
-		force_equipment_variants = { line_infantry_equipment = { owner = "TUR" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "TUR" } }
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 
@@ -384,7 +384,7 @@ units = {
 		}
 		location = 11853
 		division_template = "Bogazi Tugay"
-		force_equipment_variants = { line_infantry_equipment = { owner = "TUR" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "TUR" } }
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.1
 
@@ -486,7 +486,7 @@ units = {
 instant_effect = {
 	add_equipment_production = {
 		equipment = {
-			type = line_infantry_equipment
+			type = line_infantry_equipment_1
 			creator = "TUR"
 		}
 		requested_factories = 1

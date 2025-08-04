@@ -1,0 +1,42 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_idea_procurement_1"
+		texturefile = "gfx/interface/ideas/idea_procurement_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_procurement_2"
+		texturefile = "gfx/interface/ideas/idea_procurement_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_procurement_3"
+		texturefile = "gfx/interface/ideas/idea_procurement_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_procurement_4"
+		texturefile = "gfx/interface/ideas/idea_procurement_4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_procurement_5"
+		texturefile = "gfx/interface/ideas/idea_procurement_5.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_professionalism_1"
+		texturefile = "gfx/interface/ideas/idea_professionalism_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_professionalism_2"
+		texturefile = "gfx/interface/ideas/idea_professionalism_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_professionalism_3"
+		texturefile = "gfx/interface/ideas/idea_professionalism_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_professionalism_4"
+		texturefile = "gfx/interface/ideas/idea_professionalism_4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_professionalism_5"
+		texturefile = "gfx/interface/ideas/idea_professionalism_5.dds"
+	}
+}

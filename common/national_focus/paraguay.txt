@@ -361,7 +361,7 @@ focus_tree = {
 		search_filters = {  }
 		completion_reward = {
 			add_equipment_to_stockpile = { 
-				type = line_infantry_equipment
+				type = line_infantry_equipment_1
 				amount = 2000 
 				producer = USA
 			}
@@ -1071,7 +1071,7 @@ focus_tree = {
 			}
 
 			add_equipment_to_stockpile = { 
-				type = line_infantry_equipment
+				type = line_infantry_equipment_1
 				amount = 2150
 				producer = ROOT
 			}

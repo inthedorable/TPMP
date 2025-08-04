@@ -1,0 +1,115 @@
+ideas = {
+	procurement = {
+		law = yes
+		use_list_view = yes
+		
+		nationalized_military_industry = {
+			picture = procurement_5
+
+			cost = 100
+			removal_cost = -1
+			level = 1
+
+			modifier = {
+				consumer_goods_factor = -0.1
+				production_cost_arms_factory_factor = 0.05
+				production_cost_dockyard_factor = 0.05
+				research_speed_factor = -0.05
+			}
+			equipment_bonus = {
+				TPMP_cat_eq_all_equipment = {
+					instant = yes
+					build_cost_ic = -0.03
+				}
+			}
+		}
+		national_arms_enterprises = {
+			picture = procurement_4
+
+			cost = 100
+			removal_cost = -1
+			level = 2
+
+			modifier = {
+				consumer_goods_factor = -0.05
+				production_cost_arms_factory_factor = 0.025
+				production_cost_dockyard_factor = 0.025
+				research_speed_factor = -0.025
+			}
+			equipment_bonus = {
+				TPMP_cat_eq_all_equipment = {
+					instant = yes
+					build_cost_ic = -0.01
+				}
+			}
+		}
+		corporate_arms_partnerships = {
+			picture = procurement_3
+
+			cost = 100
+			removal_cost = -1
+			level = 3
+
+			modifier = {
+				consumer_goods_factor = 0.15
+				production_cost_arms_factory_factor = -0.075
+				production_cost_dockyard_factor = -0.075
+				research_speed_factor = 0.025
+			}
+			equipment_bonus = {
+				TPMP_cat_eq_all_equipment = {
+					instant = yes
+					build_cost_ic = 0.01
+				}
+			}
+		}
+		subsidized_defence_contracts = {
+			picture = procurement_2
+			
+			cost = 100
+			removal_cost = -1
+			level = 4
+
+			modifier = {
+				consumer_goods_factor = 0.1
+				production_cost_arms_factory_factor = -0.025
+				production_cost_dockyard_factor = -0.025
+				research_speed_factor = 0.075
+			}
+			equipment_bonus = {
+				TPMP_cat_eq_all_equipment = {
+					instant = yes
+					build_cost_ic = 0.01
+				}
+			}
+		}
+		defence_contracts = {
+			picture = procurement_1
+
+			cost = 100
+			removal_cost = -1
+			level = 5
+
+			available = {
+				NOT = {
+					has_government = communism
+				}
+			}
+
+			modifier = {
+				production_cost_arms_factory_factor = -0.025
+				production_cost_dockyard_factor = -0.025
+				research_speed_factor = 0.05
+				special_project_speed_factor = 0
+				military_industrial_organization_task_capacity = 2
+			}
+			equipment_bonus = {
+				TPMP_cat_eq_all_equipment = {
+					instant = yes
+					build_cost_ic = 0.03
+					reliability = 0.05
+				}
+			}
+		}
+	}
+}

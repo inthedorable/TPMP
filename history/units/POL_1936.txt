@@ -132,7 +132,7 @@ units = {
 		officer = {
 			name = POL_leon_strzelecki
 		}
-		force_equipment_variants = { line_infantry_equipment = { owner = "POL" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "POL" } }
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -147,7 +147,7 @@ units = {
 		officer = {
 			name = POL_sergiusz_zahorski
 		}
-		force_equipment_variants = { line_infantry_equipment = { owner = "POL" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "POL" } }
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -197,7 +197,7 @@ units = {
 		officer = {
 			name = POL_jerzy_grobicki
 		}
-		force_equipment_variants = { line_infantry_equipment = { owner = "POL" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "POL" } }
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -212,7 +212,7 @@ units = {
 		officer = {
 			name = POL_julian_filipowicz
 		}
-		force_equipment_variants = { line_infantry_equipment = { owner = "POL" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "POL" } }
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -262,7 +262,7 @@ units = {
 		officer = {
 			name = POL_zygmunt_piasecki
 		}
-		force_equipment_variants = { line_infantry_equipment = { owner = "POL" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "POL" } }
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -312,7 +312,7 @@ units = {
 		officer = {
 			name = POL_konstanty_plisowski
 		}
-		force_equipment_variants = { line_infantry_equipment = { owner = "POL" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "POL" } }
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -327,7 +327,7 @@ units = {
 		officer = {
 			name = POL_jan_karcz
 		}
-		force_equipment_variants = { line_infantry_equipment = { owner = "POL" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "POL" } }
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -377,7 +377,7 @@ units = {
 		officer = {
 			name = POL_konstanty_drucki_lubecki
 		}
-		force_equipment_variants = { line_infantry_equipment = { owner = "POL" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "POL" } }
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -486,7 +486,7 @@ units = {
 		officer = {
 			name = POL_zygmunt_podhorski
 		}
-		force_equipment_variants = { line_infantry_equipment = { owner = "POL" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "POL" } }
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -501,7 +501,7 @@ units = {
 		officer = {
 			name = POL_adam_zakrzewski
 		}
-		force_equipment_variants = { line_infantry_equipment = { owner = "POL" } }
+		force_equipment_variants = { line_infantry_equipment_1 = { owner = "POL" } }
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.3
 
@@ -564,7 +564,7 @@ units = {
 instant_effect = {
 	add_equipment_production = {
 		equipment = {
-			type = line_infantry_equipment
+			type = line_infantry_equipment_1
 			creator = POL
 		}
 		requested_factories = 2
