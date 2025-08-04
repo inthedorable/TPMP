@@ -195,6 +195,7 @@ if = { #DLC
 		communism = 5
 	}
 
+	recruit_character = TPMP_BUL_reserve_fleet
 	recruit_character = BUL_boris_iii
 	recruit_character = BUL_georgi_dimitrov
 	recruit_character = BUL_nikola_mushanov

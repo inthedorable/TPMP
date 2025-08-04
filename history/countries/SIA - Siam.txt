@@ -20,6 +20,7 @@ if = {
 	}
 }
 
+recruit_character = TPMP_SIA_reserve_fleet
 recruit_character = SIA_phraya_phahon
 recruit_character = SIA_nangklao_chichalerm
 recruit_character = SIA_chao_phonphayuhasena

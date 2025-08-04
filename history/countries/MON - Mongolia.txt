@@ -11,6 +11,7 @@ add_ideas = {
 	limited_conscription
 }
 
+recruit_character = TPMP_MON_reserve_fleet
 recruit_character = MON_anandyn_amar
 recruit_character = MON_mingzhu_zhanshan
 recruit_character = MON_fu_shangzhi

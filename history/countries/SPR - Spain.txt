@@ -146,6 +146,7 @@ if = {
 		SPR_political_violence
 		SPR_national_strikes_3
 	}
+	recruit_character = TPMP_SPR_reserve_fleet
 	recruit_character = SPR_niceto_alcala_zamora
 	recruit_character = SPR_jose_diaz
 	recruit_character = SPA_jose_antonio_primo_de_rivera

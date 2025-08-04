@@ -383,6 +383,7 @@ IF = {
 	limit = {
 		has_dlc = "Gotterdammerung"
 	}
+	recruit_character = TPMP_HUN_reserve_fleet
 	recruit_character = HUN_miklos_horthy
 	recruit_character = HUN_matyas_rakosi
 	recruit_character = HUN_arpad_szakasits

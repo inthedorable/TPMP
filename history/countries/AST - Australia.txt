@@ -88,6 +88,7 @@ if = {
 	}
 }
 
+recruit_character = TPMP_AST_reserve_fleet
 recruit_character = AST_john_curtin
 recruit_character = AST_eric_campbell
 recruit_character = AST_richard_dixon

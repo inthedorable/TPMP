@@ -486,6 +486,7 @@ set_popularities = {
 }
 
 # Recruiting Characters
+recruit_character = TPMP_JAP_reserve_fleet
 recruit_character = JAP_tetsu_katayama
 recruit_character = JAP_kyuichi_tokuda
 recruit_character = JAP_emperor_hirohito

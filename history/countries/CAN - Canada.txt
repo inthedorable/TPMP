@@ -41,6 +41,7 @@ set_country_flag = monroe_doctrine
 set_stability = 0.8
 set_war_support = 0.1
 
+recruit_character = TPMP_CAN_reserve_fleet
 recruit_character = CAN_mackenzie_king
 recruit_character = CAN_adrien_arcand
 recruit_character = CAN_tim_buck

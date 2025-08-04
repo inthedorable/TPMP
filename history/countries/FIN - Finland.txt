@@ -180,6 +180,7 @@ set_party_name = {
 	long_name = FIN_neutrality_party_kokoomus_long
 }
 
+recruit_character = TPMP_FIN_reserve_fleet
 recruit_character = FIN_pehr_evind_svinhufvud
 recruit_character = FIN_kyosti_kallio
 recruit_character = FIN_risto_ryti

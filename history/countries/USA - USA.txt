@@ -401,6 +401,7 @@ set_autonomy = {
 	}
 }
 
+recruit_character = TPMP_USA_reserve_fleet
 recruit_character = USA_earl_browder
 recruit_character = USA_william_dudley_pelley
 recruit_character = USA_franklin_delano_roosevelt

@@ -433,6 +433,7 @@ give_guarantee = CZE
 give_guarantee = YUG
 give_guarantee = ROM
 
+recruit_character = TPMP_FRA_reserve_fleet
 recruit_character = FRA_philippe_petain
 recruit_character = FRA_maurice_thorez
 recruit_character = FRA_pierre_laval

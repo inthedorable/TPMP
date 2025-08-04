@@ -741,6 +741,7 @@ set_popularities = {
 	neutrality = 5
 }
 
+recruit_character = TPMP_ITA_reserve_fleet
 recruit_character = ITA_benito_mussolini
 recruit_character = ITA_grand_council
 recruit_character = ITA_vittorio_emanuele_iii

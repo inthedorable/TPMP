@@ -48,6 +48,7 @@ set_technology = {
 	artillery0_tech = 1
 }
 
+recruit_character = TPMP_RAJ_reserve_fleet
 recruit_character = RAJ_lord_linlithgow
 recruit_character = RAJ_v_d_savarkar
 recruit_character = RAJ_p_krishna_pillai

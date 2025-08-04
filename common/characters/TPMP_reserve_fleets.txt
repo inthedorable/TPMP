@@ -1,0 +1,501 @@
+characters={
+	TPMP_GER_reserve_fleet = {
+		name = TPMP_GER_reserve_fleet
+		portraits = {
+			army = {
+				large="gfx/leaders/Reserve_Fleet.tga"
+			}
+		}
+		navy_leader={
+			traits={ TPMP_reserve_fleet_trait }
+			skill=10
+			attack_skill=0
+			defense_skill=0
+			maneuvering_skill=0
+			coordination_skill=0
+		}
+		advisor = {
+			slot = high_command
+			ledger = navy
+			allowed = {
+				always = no
+			}
+			traits = { TPMP_reserve_fleet_advisor }
+		}
+	}
+
+	TPMP_ITA_reserve_fleet = {
+		name = TPMP_ITA_reserve_fleet
+		portraits = {
+			army = {
+				large="gfx/leaders/Reserve_Fleet.tga"
+			}
+		}
+		navy_leader={
+			traits={ TPMP_reserve_fleet_trait }
+			skill=10
+			attack_skill=0
+			defense_skill=0
+			maneuvering_skill=0
+			coordination_skill=0
+		}
+		advisor = {
+			slot = high_command
+			ledger = navy
+			allowed = {
+				always = no
+			}
+			traits = { TPMP_reserve_fleet_advisor }
+		}
+	}
+
+	TPMP_HUN_reserve_fleet = {
+		name = TPMP_HUN_reserve_fleet
+		portraits = {
+			army = {
+				large="gfx/leaders/Reserve_Fleet.tga"
+			}
+		}
+		navy_leader={
+			traits={ TPMP_reserve_fleet_trait }
+			skill=10
+			attack_skill=0
+			defense_skill=0
+			maneuvering_skill=0
+			coordination_skill=0
+		}
+		advisor = {
+			slot = high_command
+			ledger = navy
+			allowed = {
+				always = no
+			}
+			traits = { TPMP_reserve_fleet_advisor }
+		}
+	}
+
+	TPMP_ROM_reserve_fleet = {
+		name = TPMP_ROM_reserve_fleet
+		portraits = {
+			army = {
+				large="gfx/leaders/Reserve_Fleet.tga"
+			}
+		}
+		navy_leader={
+			traits={ TPMP_reserve_fleet_trait }
+			skill=10
+			attack_skill=0
+			defense_skill=0
+			maneuvering_skill=0
+			coordination_skill=0
+		}
+		advisor = {
+			slot = high_command
+			ledger = navy
+			allowed = {
+				always = no
+			}
+			traits = { TPMP_reserve_fleet_advisor }
+		}
+	}
+
+	TPMP_SPR_reserve_fleet = {
+		name = TPMP_SPR_reserve_fleet
+		portraits = {
+			army = {
+				large="gfx/leaders/Reserve_Fleet.tga"
+			}
+		}
+		navy_leader={
+			traits={ TPMP_reserve_fleet_trait }
+			skill=10
+			attack_skill=0
+			defense_skill=0
+			maneuvering_skill=0
+			coordination_skill=0
+		}
+		advisor = {
+			slot = high_command
+			ledger = navy
+			allowed = {
+				always = no
+			}
+			traits = { TPMP_reserve_fleet_advisor }
+		}
+	}
+
+	TPMP_FIN_reserve_fleet = {
+		name = TPMP_FIN_reserve_fleet
+		portraits = {
+			army = {
+				large="gfx/leaders/Reserve_Fleet.tga"
+			}
+		}
+		navy_leader={
+			traits={ TPMP_reserve_fleet_trait }
+			skill=10
+			attack_skill=0
+			defense_skill=0
+			maneuvering_skill=0
+			coordination_skill=0
+		}
+		advisor = {
+			slot = high_command
+			ledger = navy
+			allowed = {
+				always = no
+			}
+			traits = { TPMP_reserve_fleet_advisor }
+		}
+	}
+
+	TPMP_BUL_reserve_fleet = {
+		name = TPMP_BUL_reserve_fleet
+		portraits = {
+			army = {
+				large="gfx/leaders/Reserve_Fleet.tga"
+			}
+		}
+		navy_leader={
+			traits={ TPMP_reserve_fleet_trait }
+			skill=10
+			attack_skill=0
+			defense_skill=0
+			maneuvering_skill=0
+			coordination_skill=0
+		}
+		advisor = {
+			slot = high_command
+			ledger = navy
+			allowed = {
+				always = no
+			}
+			traits = { TPMP_reserve_fleet_advisor }
+		}
+	}
+
+	TPMP_JAP_reserve_fleet = {
+		name = TPMP_JAP_reserve_fleet
+		portraits = {
+			army = {
+				large="gfx/leaders/Reserve_Fleet.tga"
+			}
+		}
+		navy_leader={
+			traits={ TPMP_reserve_fleet_trait }
+			skill=10
+			attack_skill=0
+			defense_skill=0
+			maneuvering_skill=0
+			coordination_skill=0
+		}
+		advisor = {
+			slot = high_command
+			ledger = navy
+			allowed = {
+				always = no
+			}
+			traits = { TPMP_reserve_fleet_advisor }
+		}
+	}
+
+	TPMP_MAN_reserve_fleet = {
+		name = TPMP_MAN_reserve_fleet
+		portraits = {
+			army = {
+				large="gfx/leaders/Reserve_Fleet.tga"
+			}
+		}
+		navy_leader={
+			traits={ TPMP_reserve_fleet_trait }
+			skill=10
+			attack_skill=0
+			defense_skill=0
+			maneuvering_skill=0
+			coordination_skill=0
+		}
+		advisor = {
+			slot = high_command
+			ledger = navy
+			allowed = {
+				always = no
+			}
+			traits = { TPMP_reserve_fleet_advisor }
+		}
+	}
+
+	TPMP_SIA_reserve_fleet = {
+		name = TPMP_SIA_reserve_fleet
+		portraits = {
+			army = {
+				large="gfx/leaders/Reserve_Fleet.tga"
+			}
+		}
+		navy_leader={
+			traits={ TPMP_reserve_fleet_trait }
+			skill=10
+			attack_skill=0
+			defense_skill=0
+			maneuvering_skill=0
+			coordination_skill=0
+		}
+		advisor = {
+			slot = high_command
+			ledger = navy
+			allowed = {
+				always = no
+			}
+			traits = { TPMP_reserve_fleet_advisor }
+		}
+	}
+
+	TPMP_USA_reserve_fleet = {
+		name = TPMP_USA_reserve_fleet
+		portraits = {
+			army = {
+				large="gfx/leaders/Reserve_Fleet.tga"
+			}
+		}
+		navy_leader={
+			traits={ TPMP_reserve_fleet_trait }
+			skill=10
+			attack_skill=0
+			defense_skill=0
+			maneuvering_skill=0
+			coordination_skill=0
+		}
+		advisor = {
+			slot = high_command
+			ledger = navy
+			allowed = {
+				always = no
+			}
+			traits = { TPMP_reserve_fleet_advisor }
+		}
+	}
+
+	TPMP_ENG_reserve_fleet = {
+		name = TPMP_ENG_reserve_fleet
+		portraits = {
+			army = {
+				large="gfx/leaders/Reserve_Fleet.tga"
+			}
+		}
+		navy_leader={
+			traits={ TPMP_reserve_fleet_trait }
+			skill=10
+			attack_skill=0
+			defense_skill=0
+			maneuvering_skill=0
+			coordination_skill=0
+		}
+		advisor = {
+			slot = high_command
+			ledger = navy
+			allowed = {
+				always = no
+			}
+			traits = { TPMP_reserve_fleet_advisor }
+		}
+	}
+
+	TPMP_FRA_reserve_fleet = {
+		name = TPMP_FRA_reserve_fleet
+		portraits = {
+			army = {
+				large="gfx/leaders/Reserve_Fleet.tga"
+			}
+		}
+		navy_leader={
+			traits={ TPMP_reserve_fleet_trait }
+			skill=10
+			attack_skill=0
+			defense_skill=0
+			maneuvering_skill=0
+			coordination_skill=0
+		}
+		advisor = {
+			slot = high_command
+			ledger = navy
+			allowed = {
+				always = no
+			}
+			traits = { TPMP_reserve_fleet_advisor }
+		}
+	}
+
+	TPMP_CAN_reserve_fleet = {
+		name = TPMP_CAN_reserve_fleet
+		portraits = {
+			army = {
+				large="gfx/leaders/Reserve_Fleet.tga"
+			}
+		}
+		navy_leader={
+			traits={ TPMP_reserve_fleet_trait }
+			skill=10
+			attack_skill=0
+			defense_skill=0
+			maneuvering_skill=0
+			coordination_skill=0
+		}
+		advisor = {
+			slot = high_command
+			ledger = navy
+			allowed = {
+				always = no
+			}
+			traits = { TPMP_reserve_fleet_advisor }
+		}
+	}
+
+	TPMP_RAJ_reserve_fleet = {
+		name = TPMP_RAJ_reserve_fleet
+		portraits = {
+			army = {
+				large="gfx/leaders/Reserve_Fleet.tga"
+			}
+		}
+		navy_leader={
+			traits={ TPMP_reserve_fleet_trait }
+			skill=10
+			attack_skill=0
+			defense_skill=0
+			maneuvering_skill=0
+			coordination_skill=0
+		}
+		advisor = {
+			slot = high_command
+			ledger = navy
+			allowed = {
+				always = no
+			}
+			traits = { TPMP_reserve_fleet_advisor }
+		}
+	}
+
+	TPMP_AST_reserve_fleet = {
+		name = TPMP_AST_reserve_fleet
+		portraits = {
+			army = {
+				large="gfx/leaders/Reserve_Fleet.tga"
+			}
+		}
+		navy_leader={
+			traits={ TPMP_reserve_fleet_trait }
+			skill=10
+			attack_skill=0
+			defense_skill=0
+			maneuvering_skill=0
+			coordination_skill=0
+		}
+		advisor = {
+			slot = high_command
+			ledger = navy
+			allowed = {
+				always = no
+			}
+			traits = { TPMP_reserve_fleet_advisor }
+		}
+	}
+
+	TPMP_SAF_reserve_fleet = {
+		name = TPMP_SAF_reserve_fleet
+		portraits = {
+			army = {
+				large="gfx/leaders/Reserve_Fleet.tga"
+			}
+		}
+		navy_leader={
+			traits={ TPMP_reserve_fleet_trait }
+			skill=10
+			attack_skill=0
+			defense_skill=0
+			maneuvering_skill=0
+			coordination_skill=0
+		}
+		advisor = {
+			slot = high_command
+			ledger = navy
+			allowed = {
+				always = no
+			}
+			traits = { TPMP_reserve_fleet_advisor }
+		}
+	}
+
+	TPMP_SOV_reserve_fleet = {
+		name = TPMP_SOV_reserve_fleet
+		portraits = {
+			army = {
+				large="gfx/leaders/Reserve_Fleet.tga"
+			}
+		}
+		navy_leader={
+			traits={ TPMP_reserve_fleet_trait }
+			skill=10
+			attack_skill=0
+			defense_skill=0
+			maneuvering_skill=0
+			coordination_skill=0
+		}
+		advisor = {
+			slot = high_command
+			ledger = navy
+			allowed = {
+				always = no
+			}
+			traits = { TPMP_reserve_fleet_advisor }
+		}
+	}
+
+	TPMP_UKR_reserve_fleet = {
+		name = TPMP_UKR_reserve_fleet
+		portraits = {
+			army = {
+				large="gfx/leaders/Reserve_Fleet.tga"
+			}
+		}
+		navy_leader={
+			traits={ TPMP_reserve_fleet_trait }
+			skill=10
+			attack_skill=0
+			defense_skill=0
+			maneuvering_skill=0
+			coordination_skill=0
+		}
+		advisor = {
+			slot = high_command
+			ledger = navy
+			allowed = {
+				always = no
+			}
+			traits = { TPMP_reserve_fleet_advisor }
+		}
+	}
+
+	TPMP_MON_reserve_fleet = {
+		name = TPMP_MON_reserve_fleet
+		portraits = {
+			army = {
+				large="gfx/leaders/Reserve_Fleet.tga"
+			}
+		}
+		navy_leader={
+			traits={ TPMP_reserve_fleet_trait }
+			skill=10
+			attack_skill=0
+			defense_skill=0
+			maneuvering_skill=0
+			coordination_skill=0
+		}
+		advisor = {
+			slot = high_command
+			ledger = navy
+			allowed = {
+				always = no
+			}
+			traits = { TPMP_reserve_fleet_advisor }
+		}
+	}
+}
